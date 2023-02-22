@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PURCHASE_ORDER" targetNamespace="http://tempuri.org/PURCHASE_ORDER.xsd" xmlns:mstns="http://tempuri.org/PURCHASE_ORDER.xsd" xmlns="http://tempuri.org/PURCHASE_ORDER.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SIPDB1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SIPDB1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.POS.Properties.Settings.GlobalReference.Default.SIPDB1ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_PurchaseOrder_PrintTableAdapter" GeneratorDataComponentClassName="V_PurchaseOrder_PrintTableAdapter" Name="V_PurchaseOrder_Print" UserDataComponentName="V_PurchaseOrder_PrintTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SIPDB1ConnectionString (Settings)" DbObjectName="SIPDB1.dbo.V_PurchaseOrder_Print" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT [Order Code], [Order Date], [Order Comment], [Supplier Code], [Delivery Code], [Invoice Total], [Invoice Discount], [Total After Discount], [ Discount Percent], [ Discount Amount], [ Total After Invoice], [Invoice VAT], [Grand Total], [User Code], [Order Line], [Location Code], [Item Code], Unit, [Order Type], Quantity, [Stock Quantity], Cost, [Sub Total], [Discount Percent], [Discount Amount], [Item Total], [Supplier Name], [Sup. Address 1], [Supplier Address 2], [Supplier Address 3], [Supplier Address 4], [Supplier Address 5], [Delivery Name], [Delivery Address 1], [Delivery Address 2], [Delivery Address 3], [Delivery Address 4], [Delivery Address 5], [Item Description] FROM dbo.V_PurchaseOrder_Print</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Order Code" DataSetColumn="Order Code" />
+              <Mapping SourceColumn="Order Date" DataSetColumn="Order Date" />
+              <Mapping SourceColumn="Order Comment" DataSetColumn="Order Comment" />
+              <Mapping SourceColumn="Supplier Code" DataSetColumn="Supplier Code" />
+              <Mapping SourceColumn="Delivery Code" DataSetColumn="Delivery Code" />
+              <Mapping SourceColumn="Invoice Total" DataSetColumn="Invoice Total" />
+              <Mapping SourceColumn="Invoice Discount" DataSetColumn="Invoice Discount" />
+              <Mapping SourceColumn="Total After Discount" DataSetColumn="Total After Discount" />
+              <Mapping SourceColumn=" Discount Percent" DataSetColumn=" Discount Percent" />
+              <Mapping SourceColumn=" Discount Amount" DataSetColumn=" Discount Amount" />
+              <Mapping SourceColumn=" Total After Invoice" DataSetColumn=" Total After Invoice" />
+              <Mapping SourceColumn="Invoice VAT" DataSetColumn="Invoice VAT" />
+              <Mapping SourceColumn="Grand Total" DataSetColumn="Grand Total" />
+              <Mapping SourceColumn="User Code" DataSetColumn="User Code" />
+              <Mapping SourceColumn="Order Line" DataSetColumn="Order Line" />
+              <Mapping SourceColumn="Location Code" DataSetColumn="Location Code" />
+              <Mapping SourceColumn="Item Code" DataSetColumn="Item Code" />
+              <Mapping SourceColumn="Unit" DataSetColumn="Unit" />
+              <Mapping SourceColumn="Order Type" DataSetColumn="Order Type" />
+              <Mapping SourceColumn="Quantity" DataSetColumn="Quantity" />
+              <Mapping SourceColumn="Stock Quantity" DataSetColumn="Stock Quantity" />
+              <Mapping SourceColumn="Cost" DataSetColumn="Cost" />
+              <Mapping SourceColumn="Sub Total" DataSetColumn="Sub Total" />
+              <Mapping SourceColumn="Discount Percent" DataSetColumn="Discount Percent" />
+              <Mapping SourceColumn="Discount Amount" DataSetColumn="Discount Amount" />
+              <Mapping SourceColumn="Item Total" DataSetColumn="Item Total" />
+              <Mapping SourceColumn="Supplier Name" DataSetColumn="Supplier Name" />
+              <Mapping SourceColumn="Sup. Address 1" DataSetColumn="Sup_ Address 1" />
+              <Mapping SourceColumn="Supplier Address 2" DataSetColumn="Supplier Address 2" />
+              <Mapping SourceColumn="Supplier Address 3" DataSetColumn="Supplier Address 3" />
+              <Mapping SourceColumn="Supplier Address 4" DataSetColumn="Supplier Address 4" />
+              <Mapping SourceColumn="Supplier Address 5" DataSetColumn="Supplier Address 5" />
+              <Mapping SourceColumn="Delivery Name" DataSetColumn="Delivery Name" />
+              <Mapping SourceColumn="Delivery Address 1" DataSetColumn="Delivery Address 1" />
+              <Mapping SourceColumn="Delivery Address 2" DataSetColumn="Delivery Address 2" />
+              <Mapping SourceColumn="Delivery Address 3" DataSetColumn="Delivery Address 3" />
+              <Mapping SourceColumn="Delivery Address 4" DataSetColumn="Delivery Address 4" />
+              <Mapping SourceColumn="Delivery Address 5" DataSetColumn="Delivery Address 5" />
+              <Mapping SourceColumn="Item Description" DataSetColumn="Item Description" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PURCHASE_ORDER" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PURCHASE_ORDER" msprop:Generator_DataSetName="PURCHASE_ORDER" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_PurchaseOrder_Print" msprop:Generator_UserTableName="V_PurchaseOrder_Print" msprop:Generator_RowDeletedName="V_PurchaseOrder_PrintRowDeleted" msprop:Generator_RowChangedName="V_PurchaseOrder_PrintRowChanged" msprop:Generator_RowClassName="V_PurchaseOrder_PrintRow" msprop:Generator_RowChangingName="V_PurchaseOrder_PrintRowChanging" msprop:Generator_RowEvArgName="V_PurchaseOrder_PrintRowChangeEvent" msprop:Generator_RowEvHandlerName="V_PurchaseOrder_PrintRowChangeEventHandler" msprop:Generator_TableClassName="V_PurchaseOrder_PrintDataTable" msprop:Generator_TableVarName="tableV_PurchaseOrder_Print" msprop:Generator_RowDeletingName="V_PurchaseOrder_PrintRowDeleting" msprop:Generator_TablePropName="V_PurchaseOrder_Print">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Order_x0020_Code" msprop:Generator_UserColumnName="Order Code" msprop:Generator_ColumnVarNameInTable="columnOrder_Code" msprop:Generator_ColumnPropNameInRow="Order_Code" msprop:Generator_ColumnPropNameInTable="Order_CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Order_x0020_Date" msprop:Generator_UserColumnName="Order Date" msprop:Generator_ColumnVarNameInTable="columnOrder_Date" msprop:Generator_ColumnPropNameInRow="Order_Date" msprop:Generator_ColumnPropNameInTable="Order_DateColumn" type="xs:dateTime" />
+              <xs:element name="Order_x0020_Comment" msprop:Generator_UserColumnName="Order Comment" msprop:Generator_ColumnVarNameInTable="columnOrder_Comment" msprop:Generator_ColumnPropNameInRow="Order_Comment" msprop:Generator_ColumnPropNameInTable="Order_CommentColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Supplier_x0020_Code" msprop:Generator_UserColumnName="Supplier Code" msprop:Generator_ColumnVarNameInTable="columnSupplier_Code" msprop:Generator_ColumnPropNameInRow="Supplier_Code" msprop:Generator_ColumnPropNameInTable="Supplier_CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Delivery_x0020_Code" msprop:Generator_UserColumnName="Delivery Code" msprop:Generator_ColumnVarNameInTable="columnDelivery_Code" msprop:Generator_ColumnPropNameInRow="Delivery_Code" msprop:Generator_ColumnPropNameInTable="Delivery_CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Invoice_x0020_Total" msprop:Generator_UserColumnName="Invoice Total" msprop:Generator_ColumnVarNameInTable="columnInvoice_Total" msprop:Generator_ColumnPropNameInRow="Invoice_Total" msprop:Generator_ColumnPropNameInTable="Invoice_TotalColumn" type="xs:decimal" />
+              <xs:element name="Invoice_x0020_Discount" msprop:Generator_UserColumnName="Invoice Discount" msprop:Generator_ColumnVarNameInTable="columnInvoice_Discount" msprop:Generator_ColumnPropNameInRow="Invoice_Discount" msprop:Generator_ColumnPropNameInTable="Invoice_DiscountColumn" type="xs:decimal" />
+              <xs:element name="Total_x0020_After_x0020_Discount" msprop:Generator_UserColumnName="Total After Discount" msprop:Generator_ColumnVarNameInTable="columnTotal_After_Discount" msprop:Generator_ColumnPropNameInRow="Total_After_Discount" msprop:Generator_ColumnPropNameInTable="Total_After_DiscountColumn" type="xs:decimal" />
+              <xs:element name="_x0020_Discount_x0020_Percent" msprop:Generator_UserColumnName=" Discount Percent" msprop:Generator_ColumnVarNameInTable="column_Discount_Percent" msprop:Generator_ColumnPropNameInRow="_Discount_Percent" msprop:Generator_ColumnPropNameInTable="_Discount_PercentColumn" type="xs:decimal" />
+              <xs:element name="_x0020_Discount_x0020_Amount" msprop:Generator_UserColumnName=" Discount Amount" msprop:Generator_ColumnVarNameInTable="column_Discount_Amount" msprop:Generator_ColumnPropNameInRow="_Discount_Amount" msprop:Generator_ColumnPropNameInTable="_Discount_AmountColumn" type="xs:decimal" />
+              <xs:element name="_x0020_Total_x0020_After_x0020_Invoice" msprop:Generator_UserColumnName=" Total After Invoice" msprop:Generator_ColumnVarNameInTable="column_Total_After_Invoice" msprop:Generator_ColumnPropNameInRow="_Total_After_Invoice" msprop:Generator_ColumnPropNameInTable="_Total_After_InvoiceColumn" type="xs:decimal" />
+              <xs:element name="Invoice_x0020_VAT" msprop:Generator_UserColumnName="Invoice VAT" msprop:Generator_ColumnVarNameInTable="columnInvoice_VAT" msprop:Generator_ColumnPropNameInRow="Invoice_VAT" msprop:Generator_ColumnPropNameInTable="Invoice_VATColumn" type="xs:decimal" />
+              <xs:element name="Grand_x0020_Total" msprop:Generator_UserColumnName="Grand Total" msprop:Generator_ColumnVarNameInTable="columnGrand_Total" msprop:Generator_ColumnPropNameInRow="Grand_Total" msprop:Generator_ColumnPropNameInTable="Grand_TotalColumn" type="xs:decimal" />
+              <xs:element name="User_x0020_Code" msprop:Generator_UserColumnName="User Code" msprop:Generator_ColumnVarNameInTable="columnUser_Code" msprop:Generator_ColumnPropNameInRow="User_Code" msprop:Generator_ColumnPropNameInTable="User_CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Order_x0020_Line" msprop:Generator_UserColumnName="Order Line" msprop:Generator_ColumnVarNameInTable="columnOrder_Line" msprop:Generator_ColumnPropNameInRow="Order_Line" msprop:Generator_ColumnPropNameInTable="Order_LineColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Location_x0020_Code" msprop:Generator_UserColumnName="Location Code" msprop:Generator_ColumnVarNameInTable="columnLocation_Code" msprop:Generator_ColumnPropNameInRow="Location_Code" msprop:Generator_ColumnPropNameInTable="Location_CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item_x0020_Code" msprop:Generator_UserColumnName="Item Code" msprop:Generator_ColumnVarNameInTable="columnItem_Code" msprop:Generator_ColumnPropNameInRow="Item_Code" msprop:Generator_ColumnPropNameInTable="Item_CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unit" msprop:Generator_UserColumnName="Unit" msprop:Generator_ColumnVarNameInTable="columnUnit" msprop:Generator_ColumnPropNameInRow="Unit" msprop:Generator_ColumnPropNameInTable="UnitColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Order_x0020_Type" msprop:Generator_UserColumnName="Order Type" msprop:Generator_ColumnVarNameInTable="columnOrder_Type" msprop:Generator_ColumnPropNameInRow="Order_Type" msprop:Generator_ColumnPropNameInTable="Order_TypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msprop:Generator_UserColumnName="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" type="xs:decimal" />
+              <xs:element name="Stock_x0020_Quantity" msprop:Generator_UserColumnName="Stock Quantity" msprop:Generator_ColumnVarNameInTable="columnStock_Quantity" msprop:Generator_ColumnPropNameInRow="Stock_Quantity" msprop:Generator_ColumnPropNameInTable="Stock_QuantityColumn" type="xs:decimal" />
+              <xs:element name="Cost" msprop:Generator_UserColumnName="Cost" msprop:Generator_ColumnVarNameInTable="columnCost" msprop:Generator_ColumnPropNameInRow="Cost" msprop:Generator_ColumnPropNameInTable="CostColumn" type="xs:decimal" />
+              <xs:element name="Sub_x0020_Total" msprop:Generator_UserColumnName="Sub Total" msprop:Generator_ColumnVarNameInTable="columnSub_Total" msprop:Generator_ColumnPropNameInRow="Sub_Total" msprop:Generator_ColumnPropNameInTable="Sub_TotalColumn" type="xs:decimal" />
+              <xs:element name="Discount_x0020_Percent" msprop:Generator_UserColumnName="Discount Percent" msprop:Generator_ColumnVarNameInTable="columnDiscount_Percent" msprop:Generator_ColumnPropNameInRow="Discount_Percent" msprop:Generator_ColumnPropNameInTable="Discount_PercentColumn" type="xs:decimal" />
+              <xs:element name="Discount_x0020_Amount" msprop:Generator_UserColumnName="Discount Amount" msprop:Generator_ColumnVarNameInTable="columnDiscount_Amount" msprop:Generator_ColumnPropNameInRow="Discount_Amount" msprop:Generator_ColumnPropNameInTable="Discount_AmountColumn" type="xs:decimal" />
+              <xs:element name="Item_x0020_Total" msprop:Generator_UserColumnName="Item Total" msprop:Generator_ColumnVarNameInTable="columnItem_Total" msprop:Generator_ColumnPropNameInRow="Item_Total" msprop:Generator_ColumnPropNameInTable="Item_TotalColumn" type="xs:decimal" />
+              <xs:element name="Supplier_x0020_Name" msprop:Generator_UserColumnName="Supplier Name" msprop:Generator_ColumnVarNameInTable="columnSupplier_Name" msprop:Generator_ColumnPropNameInRow="Supplier_Name" msprop:Generator_ColumnPropNameInTable="Supplier_NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sup__x0020_Address_x0020_1" msprop:Generator_UserColumnName="Sup_ Address 1" msprop:Generator_ColumnVarNameInTable="columnSup__Address_1" msprop:Generator_ColumnPropNameInRow="Sup__Address_1" msprop:Generator_ColumnPropNameInTable="Sup__Address_1Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Supplier_x0020_Address_x0020_2" msprop:Generator_UserColumnName="Supplier Address 2" msprop:Generator_ColumnVarNameInTable="columnSupplier_Address_2" msprop:Generator_ColumnPropNameInRow="Supplier_Address_2" msprop:Generator_ColumnPropNameInTable="Supplier_Address_2Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Supplier_x0020_Address_x0020_3" msprop:Generator_UserColumnName="Supplier Address 3" msprop:Generator_ColumnVarNameInTable="columnSupplier_Address_3" msprop:Generator_ColumnPropNameInRow="Supplier_Address_3" msprop:Generator_ColumnPropNameInTable="Supplier_Address_3Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Supplier_x0020_Address_x0020_4" msprop:Generator_UserColumnName="Supplier Address 4" msprop:Generator_ColumnVarNameInTable="columnSupplier_Address_4" msprop:Generator_ColumnPropNameInRow="Supplier_Address_4" msprop:Generator_ColumnPropNameInTable="Supplier_Address_4Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Supplier_x0020_Address_x0020_5" msprop:Generator_UserColumnName="Supplier Address 5" msprop:Generator_ColumnVarNameInTable="columnSupplier_Address_5" msprop:Generator_ColumnPropNameInRow="Supplier_Address_5" msprop:Generator_ColumnPropNameInTable="Supplier_Address_5Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Delivery_x0020_Name" msprop:Generator_UserColumnName="Delivery Name" msprop:Generator_ColumnVarNameInTable="columnDelivery_Name" msprop:Generator_ColumnPropNameInRow="Delivery_Name" msprop:Generator_ColumnPropNameInTable="Delivery_NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Delivery_x0020_Address_x0020_1" msprop:Generator_UserColumnName="Delivery Address 1" msprop:Generator_ColumnVarNameInTable="columnDelivery_Address_1" msprop:Generator_ColumnPropNameInRow="Delivery_Address_1" msprop:Generator_ColumnPropNameInTable="Delivery_Address_1Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Delivery_x0020_Address_x0020_2" msprop:Generator_UserColumnName="Delivery Address 2" msprop:Generator_ColumnVarNameInTable="columnDelivery_Address_2" msprop:Generator_ColumnPropNameInRow="Delivery_Address_2" msprop:Generator_ColumnPropNameInTable="Delivery_Address_2Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Delivery_x0020_Address_x0020_3" msprop:Generator_UserColumnName="Delivery Address 3" msprop:Generator_ColumnVarNameInTable="columnDelivery_Address_3" msprop:Generator_ColumnPropNameInRow="Delivery_Address_3" msprop:Generator_ColumnPropNameInTable="Delivery_Address_3Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Delivery_x0020_Address_x0020_4" msprop:Generator_UserColumnName="Delivery Address 4" msprop:Generator_ColumnVarNameInTable="columnDelivery_Address_4" msprop:Generator_ColumnPropNameInRow="Delivery_Address_4" msprop:Generator_ColumnPropNameInTable="Delivery_Address_4Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Delivery_x0020_Address_x0020_5" msprop:Generator_UserColumnName="Delivery Address 5" msprop:Generator_ColumnVarNameInTable="columnDelivery_Address_5" msprop:Generator_ColumnPropNameInRow="Delivery_Address_5" msprop:Generator_ColumnPropNameInTable="Delivery_Address_5Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item_x0020_Description" msprop:Generator_UserColumnName="Item Description" msprop:Generator_ColumnVarNameInTable="columnItem_Description" msprop:Generator_ColumnPropNameInRow="Item_Description" msprop:Generator_ColumnPropNameInTable="Item_DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
