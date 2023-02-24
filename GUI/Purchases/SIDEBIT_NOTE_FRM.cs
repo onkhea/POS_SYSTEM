@@ -770,5 +770,9 @@ namespace POS.GUI.Purchases
 
         }
 
+        private void txtSupAdd1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

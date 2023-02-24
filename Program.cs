@@ -27,9 +27,9 @@ namespace POS
             Application.SetCompatibleTextRenderingDefault(false);
             //            var progressbar_FRM = new PROGRESSBAR_FRM();
             //            Application.Run(new SICAT_FRM(progressbar_FRM));
-            Application.Run(new LOGIN_FRM());
-            //Application.Run(new MAIN_FRM_SI());
-            //Application.Run(new Testing());
+            var mainForm = new LOGIN_FRM();
+            // mainForm.SetUpContainer();
+            Application.Run(mainForm);
         }
     }
 }

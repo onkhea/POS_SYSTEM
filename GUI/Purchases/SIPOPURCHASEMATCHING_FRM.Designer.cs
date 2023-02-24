@@ -96,12 +96,24 @@
             this.txtDelName = new System.Windows.Forms.TextBox();
             this.ToolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.Panel5 = new System.Windows.Forms.Panel();
-            this.ToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.chkCheckAll = new System.Windows.Forms.CheckBox();
-            this.DeleteToolStripButton2 = new System.Windows.Forms.ToolStripMenuItem();
             this.Panel3 = new System.Windows.Forms.Panel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.dataGridViewX1 = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.Panel2 = new System.Windows.Forms.Panel();
+            this.LBLHEADER = new System.Windows.Forms.Label();
+            this.ToolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.StartToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.ToolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.PurchaseOrdToolStripButton = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.SplitToolStripButton1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.DeleteToolStripButton2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.CloseToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.Check = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Line_No = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LocationCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -116,18 +128,6 @@
             this.TotalDisc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TotalAItemDiscount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.OriginalLineNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Panel2 = new System.Windows.Forms.Panel();
-            this.LBLHEADER = new System.Windows.Forms.Label();
-            this.ToolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.SplitToolStripButton1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
-            this.PurchaseOrdToolStripButton = new System.Windows.Forms.ToolStripMenuItem();
-            this.StartToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.ToolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.CloseToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.PanelTotalAmt.SuspendLayout();
             this.Panel1.SuspendLayout();
@@ -147,6 +147,7 @@
             // 
             // DataGridView1
             // 
+            resources.ApplyResources(this.DataGridView1, "DataGridView1");
             this.DataGridView1.AllowUserToAddRows = false;
             this.DataGridView1.AllowUserToDeleteRows = false;
             this.DataGridView1.AllowUserToResizeColumns = false;
@@ -178,44 +179,37 @@
             dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DataGridView1.DefaultCellStyle = dataGridViewCellStyle14;
             this.DataGridView1.GridColor = System.Drawing.Color.Silver;
-            this.DataGridView1.Location = new System.Drawing.Point(0, 206);
             this.DataGridView1.MultiSelect = false;
             this.DataGridView1.Name = "DataGridView1";
             this.DataGridView1.RowHeadersVisible = false;
-            this.DataGridView1.RowHeadersWidth = 40;
             this.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DataGridView1.Size = new System.Drawing.Size(691, 300);
             this.DataGridView1.StandardTab = true;
-            this.DataGridView1.TabIndex = 27;
             // 
             // Column51
             // 
             this.Column51.FalseValue = "False";
             this.Column51.Frozen = true;
-            this.Column51.HeaderText = "<>";
+            resources.ApplyResources(this.Column51, "Column51");
             this.Column51.Name = "Column51";
             this.Column51.TrueValue = "True";
-            this.Column51.Width = 25;
             // 
             // Col2Barcode
             // 
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.Col2Barcode.DefaultCellStyle = dataGridViewCellStyle1;
             this.Col2Barcode.Frozen = true;
-            this.Col2Barcode.HeaderText = "Line_No";
-            this.Col2Barcode.MinimumWidth = 2;
+            resources.ApplyResources(this.Col2Barcode, "Col2Barcode");
             this.Col2Barcode.Name = "Col2Barcode";
             this.Col2Barcode.ReadOnly = true;
             this.Col2Barcode.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Col2Barcode.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Col2Barcode.Width = 70;
             // 
             // Column3
             // 
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.Column3.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column3.Frozen = true;
-            this.Column3.HeaderText = "Location Code";
+            resources.ApplyResources(this.Column3, "Column3");
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             this.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -225,7 +219,7 @@
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column1.Frozen = true;
-            this.Column1.HeaderText = "Item Code";
+            resources.ApplyResources(this.Column1, "Column1");
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             this.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -235,23 +229,21 @@
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             this.Column2.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column2.Frozen = true;
-            this.Column2.HeaderText = "Item Description";
+            resources.ApplyResources(this.Column2, "Column2");
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Column2.Width = 250;
             // 
             // Column53
             // 
-            this.Column53.HeaderText = "ORD_REF";
+            resources.ApplyResources(this.Column53, "Column53");
             this.Column53.Name = "Column53";
-            this.Column53.Visible = false;
             // 
             // Column37
             // 
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             this.Column37.DefaultCellStyle = dataGridViewCellStyle5;
-            this.Column37.HeaderText = "Unit_Purchase";
+            resources.ApplyResources(this.Column37, "Column37");
             this.Column37.Name = "Column37";
             this.Column37.ReadOnly = true;
             // 
@@ -259,7 +251,7 @@
             // 
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
             this.Column32.DefaultCellStyle = dataGridViewCellStyle6;
-            this.Column32.HeaderText = "Puchase QTY";
+            resources.ApplyResources(this.Column32, "Column32");
             this.Column32.Name = "Column32";
             this.Column32.ReadOnly = true;
             this.Column32.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -268,7 +260,7 @@
             // 
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
             this.Column33.DefaultCellStyle = dataGridViewCellStyle7;
-            this.Column33.HeaderText = "Stock QTY";
+            resources.ApplyResources(this.Column33, "Column33");
             this.Column33.Name = "Column33";
             this.Column33.ReadOnly = true;
             this.Column33.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -277,7 +269,7 @@
             // 
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
             this.Column34.DefaultCellStyle = dataGridViewCellStyle8;
-            this.Column34.HeaderText = "Purchase Cost";
+            resources.ApplyResources(this.Column34, "Column34");
             this.Column34.Name = "Column34";
             this.Column34.ReadOnly = true;
             this.Column34.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -286,156 +278,113 @@
             // 
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
             this.Column4.DefaultCellStyle = dataGridViewCellStyle9;
-            this.Column4.HeaderText = "Sub-Total";
+            resources.ApplyResources(this.Column4, "Column4");
             this.Column4.Name = "Column4";
             // 
             // Column6
             // 
             dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
             this.Column6.DefaultCellStyle = dataGridViewCellStyle10;
-            this.Column6.HeaderText = "Total DisAmt";
+            resources.ApplyResources(this.Column6, "Column6");
             this.Column6.Name = "Column6";
             // 
             // Column5
             // 
             dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
             this.Column5.DefaultCellStyle = dataGridViewCellStyle11;
-            this.Column5.HeaderText = "Total A-ItemDis";
+            resources.ApplyResources(this.Column5, "Column5");
             this.Column5.Name = "Column5";
-            this.Column5.Width = 120;
             // 
             // Column36
             // 
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             this.Column36.DefaultCellStyle = dataGridViewCellStyle12;
-            this.Column36.HeaderText = "Line Ref";
+            resources.ApplyResources(this.Column36, "Column36");
             this.Column36.Name = "Column36";
             this.Column36.ReadOnly = true;
-            this.Column36.Visible = false;
             // 
             // Column52
             // 
             dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.Column52.DefaultCellStyle = dataGridViewCellStyle13;
-            this.Column52.HeaderText = "Original Line No";
+            resources.ApplyResources(this.Column52, "Column52");
             this.Column52.Name = "Column52";
             this.Column52.ReadOnly = true;
-            this.Column52.Visible = false;
-            this.Column52.Width = 150;
             // 
             // Label9
             // 
-            this.Label9.AutoSize = true;
-            this.Label9.Location = new System.Drawing.Point(7, 38);
+            resources.ApplyResources(this.Label9, "Label9");
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(71, 13);
-            this.Label9.TabIndex = 8;
-            this.Label9.Text = "&Matching Ref";
             // 
             // dtpDelDate
             // 
-            this.dtpDelDate.Enabled = false;
+            resources.ApplyResources(this.dtpDelDate, "dtpDelDate");
             this.dtpDelDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDelDate.Location = new System.Drawing.Point(342, 59);
             this.dtpDelDate.Name = "dtpDelDate";
-            this.dtpDelDate.Size = new System.Drawing.Size(149, 20);
-            this.dtpDelDate.TabIndex = 7;
             this.dtpDelDate.Tag = "Order Date";
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(25, 32);
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(42, 13);
-            this.Label2.TabIndex = 6;
-            this.Label2.Text = "Name *";
             // 
             // txtDelCode
             // 
-            this.txtDelCode.Location = new System.Drawing.Point(615, 3);
-            this.txtDelCode.MaxLength = 15;
+            resources.ApplyResources(this.txtDelCode, "txtDelCode");
             this.txtDelCode.Name = "txtDelCode";
-            this.txtDelCode.Size = new System.Drawing.Size(166, 20);
-            this.txtDelCode.TabIndex = 4;
             this.txtDelCode.Tag = "Delivery Code";
             // 
             // dtpOrder_Date
             // 
-            this.dtpOrder_Date.Enabled = false;
+            resources.ApplyResources(this.dtpOrder_Date, "dtpOrder_Date");
             this.dtpOrder_Date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpOrder_Date.Location = new System.Drawing.Point(342, 6);
             this.dtpOrder_Date.Name = "dtpOrder_Date";
-            this.dtpOrder_Date.Size = new System.Drawing.Size(149, 20);
-            this.dtpOrder_Date.TabIndex = 7;
             this.dtpOrder_Date.Tag = "Order Date";
             // 
             // Label7
             // 
-            this.Label7.AutoSize = true;
-            this.Label7.Location = new System.Drawing.Point(483, 7);
+            resources.ApplyResources(this.Label7, "Label7");
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(73, 13);
-            this.Label7.TabIndex = 3;
-            this.Label7.Text = "Delivery Code";
             // 
             // txtRef
             // 
-            this.txtRef.Location = new System.Drawing.Point(93, 33);
-            this.txtRef.MaxLength = 15;
+            resources.ApplyResources(this.txtRef, "txtRef");
             this.txtRef.Name = "txtRef";
-            this.txtRef.Size = new System.Drawing.Size(160, 20);
-            this.txtRef.TabIndex = 9;
             this.txtRef.Tag = "Matching Reference";
             // 
             // txtSupCode
             // 
-            this.txtSupCode.Location = new System.Drawing.Point(271, 3);
-            this.txtSupCode.MaxLength = 15;
+            resources.ApplyResources(this.txtSupCode, "txtSupCode");
             this.txtSupCode.Name = "txtSupCode";
-            this.txtSupCode.Size = new System.Drawing.Size(203, 20);
-            this.txtSupCode.TabIndex = 1;
             this.txtSupCode.Tag = "Supplier Code";
             // 
             // Label5
             // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(268, 37);
+            resources.ApplyResources(this.Label5, "Label5");
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(51, 13);
-            this.Label5.TabIndex = 10;
-            this.Label5.Text = "Pay Date";
             // 
             // txtSupName
             // 
-            this.txtSupName.Location = new System.Drawing.Point(9, 5);
-            this.txtSupName.MaxLength = 50;
+            resources.ApplyResources(this.txtSupName, "txtSupName");
             this.txtSupName.Name = "txtSupName";
-            this.txtSupName.Size = new System.Drawing.Size(372, 20);
-            this.txtSupName.TabIndex = 0;
             this.txtSupName.Tag = "Customer Name";
             // 
             // dtpPayDate
             // 
+            resources.ApplyResources(this.dtpPayDate, "dtpPayDate");
             this.dtpPayDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpPayDate.Location = new System.Drawing.Point(342, 32);
             this.dtpPayDate.Name = "dtpPayDate";
             this.dtpPayDate.ShowCheckBox = true;
-            this.dtpPayDate.Size = new System.Drawing.Size(149, 20);
-            this.dtpPayDate.TabIndex = 11;
             this.dtpPayDate.Tag = "Pay Date";
             // 
             // Label6
             // 
-            this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(143, 7);
+            resources.ApplyResources(this.Label6, "Label6");
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(73, 13);
-            this.Label6.TabIndex = 0;
-            this.Label6.Text = "Supplier Code";
             // 
             // PanelTotalAmt
             // 
+            resources.ApplyResources(this.PanelTotalAmt, "PanelTotalAmt");
             this.PanelTotalAmt.Controls.Add(this.Label1);
             this.PanelTotalAmt.Controls.Add(this.LBVAT);
             this.PanelTotalAmt.Controls.Add(this.Label4);
@@ -446,129 +395,66 @@
             this.PanelTotalAmt.Controls.Add(this.lblorderQty);
             this.PanelTotalAmt.Controls.Add(this.Label14);
             this.PanelTotalAmt.Controls.Add(this.lblOrderValue);
-            this.PanelTotalAmt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PanelTotalAmt.Location = new System.Drawing.Point(497, 3);
             this.PanelTotalAmt.Name = "PanelTotalAmt";
-            this.PanelTotalAmt.Size = new System.Drawing.Size(288, 142);
-            this.PanelTotalAmt.TabIndex = 23;
             // 
             // Label1
             // 
-            this.Label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(13, 7);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(57, 13);
-            this.Label1.TabIndex = 12;
-            this.Label1.Text = "Order VAT";
             // 
             // LBVAT
             // 
-            this.LBVAT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.LBVAT, "LBVAT");
             this.LBVAT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LBVAT.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBVAT.Location = new System.Drawing.Point(118, 5);
             this.LBVAT.Name = "LBVAT";
-            this.LBVAT.Size = new System.Drawing.Size(166, 21);
-            this.LBVAT.TabIndex = 13;
-            this.LBVAT.Text = "0.00";
-            this.LBVAT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Label4
             // 
-            this.Label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label4.AutoSize = true;
-            this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(13, 84);
+            resources.ApplyResources(this.Label4, "Label4");
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(84, 13);
-            this.Label4.TabIndex = 8;
-            this.Label4.Text = "Matching Value:";
             // 
             // lblMatchQty
             // 
-            this.lblMatchQty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.lblMatchQty, "lblMatchQty");
             this.lblMatchQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMatchQty.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMatchQty.Location = new System.Drawing.Point(118, 107);
             this.lblMatchQty.Name = "lblMatchQty";
-            this.lblMatchQty.Size = new System.Drawing.Size(166, 21);
-            this.lblMatchQty.TabIndex = 11;
-            this.lblMatchQty.Text = "0.00";
-            this.lblMatchQty.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Label11
             // 
-            this.Label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label11.AutoSize = true;
-            this.Label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label11.Location = new System.Drawing.Point(13, 109);
+            resources.ApplyResources(this.Label11, "Label11");
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(96, 13);
-            this.Label11.TabIndex = 10;
-            this.Label11.Text = "Matching Quantity:";
             // 
             // lblMatchVal
             // 
-            this.lblMatchVal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.lblMatchVal, "lblMatchVal");
             this.lblMatchVal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMatchVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMatchVal.Location = new System.Drawing.Point(118, 82);
             this.lblMatchVal.Name = "lblMatchVal";
-            this.lblMatchVal.Size = new System.Drawing.Size(166, 21);
-            this.lblMatchVal.TabIndex = 9;
-            this.lblMatchVal.Text = "0.00";
-            this.lblMatchVal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Label16
             // 
-            this.Label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label16.AutoSize = true;
-            this.Label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label16.Location = new System.Drawing.Point(13, 34);
+            resources.ApplyResources(this.Label16, "Label16");
             this.Label16.Name = "Label16";
-            this.Label16.Size = new System.Drawing.Size(66, 13);
-            this.Label16.TabIndex = 4;
-            this.Label16.Text = "Order Value:";
             // 
             // lblorderQty
             // 
-            this.lblorderQty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.lblorderQty, "lblorderQty");
             this.lblorderQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblorderQty.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblorderQty.Location = new System.Drawing.Point(118, 57);
             this.lblorderQty.Name = "lblorderQty";
-            this.lblorderQty.Size = new System.Drawing.Size(166, 21);
-            this.lblorderQty.TabIndex = 7;
-            this.lblorderQty.Text = "0.00";
-            this.lblorderQty.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Label14
             // 
-            this.Label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label14.AutoSize = true;
-            this.Label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label14.Location = new System.Drawing.Point(13, 59);
+            resources.ApplyResources(this.Label14, "Label14");
             this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(78, 13);
-            this.Label14.TabIndex = 6;
-            this.Label14.Text = "Order Quantity:";
             // 
             // lblOrderValue
             // 
-            this.lblOrderValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.lblOrderValue, "lblOrderValue");
             this.lblOrderValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblOrderValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrderValue.Location = new System.Drawing.Point(118, 32);
             this.lblOrderValue.Name = "lblOrderValue";
-            this.lblOrderValue.Size = new System.Drawing.Size(166, 21);
-            this.lblOrderValue.TabIndex = 5;
-            this.lblOrderValue.Text = "0.00";
-            this.lblOrderValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Panel1
             // 
+            resources.ApplyResources(this.Panel1, "Panel1");
             this.Panel1.Controls.Add(this.dtpPayDate);
             this.Panel1.Controls.Add(this.Label5);
             this.Panel1.Controls.Add(this.txtRef);
@@ -582,134 +468,72 @@
             this.Panel1.Controls.Add(this.Label10);
             this.Panel1.Controls.Add(this.Label8);
             this.Panel1.Controls.Add(this.Label3);
-            this.Panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel1.Location = new System.Drawing.Point(0, 8);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(931, 142);
-            this.Panel1.TabIndex = 1;
             // 
             // txtCom
             // 
-            this.txtCom.Location = new System.Drawing.Point(93, 59);
-            this.txtCom.MaxLength = 25;
+            resources.ApplyResources(this.txtCom, "txtCom");
             this.txtCom.Name = "txtCom";
-            this.txtCom.Size = new System.Drawing.Size(160, 20);
-            this.txtCom.TabIndex = 13;
             this.txtCom.Tag = "Comments";
             // 
             // txtOrder_Ref
             // 
-            this.txtOrder_Ref.Enabled = false;
-            this.txtOrder_Ref.Location = new System.Drawing.Point(93, 7);
-            this.txtOrder_Ref.MaxLength = 15;
+            resources.ApplyResources(this.txtOrder_Ref, "txtOrder_Ref");
             this.txtOrder_Ref.Name = "txtOrder_Ref";
-            this.txtOrder_Ref.Size = new System.Drawing.Size(160, 20);
-            this.txtOrder_Ref.TabIndex = 5;
             this.txtOrder_Ref.Tag = "Order Reference";
             // 
             // Label12
             // 
-            this.Label12.AutoSize = true;
-            this.Label12.Location = new System.Drawing.Point(7, 64);
+            resources.ApplyResources(this.Label12, "Label12");
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(56, 13);
-            this.Label12.TabIndex = 12;
-            this.Label12.Text = "&Comments";
             // 
             // Label10
             // 
-            this.Label10.AutoSize = true;
-            this.Label10.Location = new System.Drawing.Point(268, 64);
+            resources.ApplyResources(this.Label10, "Label10");
             this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(49, 13);
-            this.Label10.TabIndex = 6;
-            this.Label10.Text = "Del Date";
             // 
             // Label8
             // 
-            this.Label8.AutoSize = true;
-            this.Label8.Location = new System.Drawing.Point(268, 11);
+            resources.ApplyResources(this.Label8, "Label8");
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(59, 13);
-            this.Label8.TabIndex = 6;
-            this.Label8.Text = "Order Date";
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(7, 12);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(53, 13);
-            this.Label3.TabIndex = 4;
-            this.Label3.Text = "Order Ref";
             // 
             // Panel4
             // 
+            resources.ApplyResources(this.Panel4, "Panel4");
             this.Panel4.Controls.Add(this.txtSupName);
-            this.Panel4.Enabled = false;
-            this.Panel4.Location = new System.Drawing.Point(93, 24);
             this.Panel4.Name = "Panel4";
-            this.Panel4.Size = new System.Drawing.Size(387, 30);
-            this.Panel4.TabIndex = 7;
             // 
             // txtDelName
             // 
-            this.txtDelName.Location = new System.Drawing.Point(3, 5);
-            this.txtDelName.MaxLength = 50;
+            resources.ApplyResources(this.txtDelName, "txtDelName");
             this.txtDelName.Name = "txtDelName";
-            this.txtDelName.Size = new System.Drawing.Size(295, 20);
-            this.txtDelName.TabIndex = 0;
             this.txtDelName.Tag = "Delivery Name";
             // 
             // ToolStripSeparator4
             // 
+            resources.ApplyResources(this.ToolStripSeparator4, "ToolStripSeparator4");
             this.ToolStripSeparator4.Name = "ToolStripSeparator4";
-            this.ToolStripSeparator4.Size = new System.Drawing.Size(6, 25);
             // 
             // Panel5
             // 
+            resources.ApplyResources(this.Panel5, "Panel5");
             this.Panel5.Controls.Add(this.txtDelName);
-            this.Panel5.Enabled = false;
-            this.Panel5.Location = new System.Drawing.Point(483, 24);
             this.Panel5.Name = "Panel5";
-            this.Panel5.Size = new System.Drawing.Size(304, 29);
-            this.Panel5.TabIndex = 8;
-            // 
-            // ToolStripButton1
-            // 
-            this.ToolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("ToolStripButton1.Image")));
-            this.ToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ToolStripButton1.Name = "ToolStripButton1";
-            this.ToolStripButton1.Size = new System.Drawing.Size(66, 22);
-            this.ToolStripButton1.Text = "&Release";
-            this.ToolStripButton1.Click += new System.EventHandler(this.ToolStripButton1_Click);
             // 
             // chkCheckAll
             // 
-            this.chkCheckAll.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.chkCheckAll.AutoSize = true;
-            this.chkCheckAll.Location = new System.Drawing.Point(7, 210);
+            resources.ApplyResources(this.chkCheckAll, "chkCheckAll");
             this.chkCheckAll.Name = "chkCheckAll";
-            this.chkCheckAll.Size = new System.Drawing.Size(15, 14);
-            this.chkCheckAll.TabIndex = 28;
             this.chkCheckAll.UseVisualStyleBackColor = true;
-            // 
-            // DeleteToolStripButton2
-            // 
-            this.DeleteToolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("DeleteToolStripButton2.Image")));
-            this.DeleteToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.DeleteToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.DeleteToolStripButton2.Name = "DeleteToolStripButton2";
-            this.DeleteToolStripButton2.Size = new System.Drawing.Size(135, 22);
-            this.DeleteToolStripButton2.Text = "&Cancel Line";
-            this.DeleteToolStripButton2.ToolTipText = "Remove selected transaction line";
-            this.DeleteToolStripButton2.Click += new System.EventHandler(this.DeleteToolStripButton2_Click);
             // 
             // Panel3
             // 
+            resources.ApplyResources(this.Panel3, "Panel3");
             this.Panel3.Controls.Add(this.checkBox1);
             this.Panel3.Controls.Add(this.dataGridViewX1);
             this.Panel3.Controls.Add(this.chkCheckAll);
@@ -717,27 +541,18 @@
             this.Panel3.Controls.Add(this.Panel2);
             this.Panel3.Controls.Add(this.Panel1);
             this.Panel3.Controls.Add(this.LBLHEADER);
-            this.Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel3.Location = new System.Drawing.Point(0, 25);
             this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(931, 492);
-            this.Panel3.TabIndex = 32;
             // 
             // checkBox1
             // 
-            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(5, 211);
+            resources.ApplyResources(this.checkBox1, "checkBox1");
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 30;
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // dataGridViewX1
             // 
+            resources.ApplyResources(this.dataGridViewX1, "dataGridViewX1");
             this.dataGridViewX1.AllowUserToAddRows = false;
             this.dataGridViewX1.AllowUserToDeleteRows = false;
             this.dataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -764,102 +579,17 @@
             dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle15;
-            this.dataGridViewX1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewX1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dataGridViewX1.Location = new System.Drawing.Point(0, 206);
             this.dataGridViewX1.Name = "dataGridViewX1";
             this.dataGridViewX1.RowHeadersVisible = false;
             this.dataGridViewX1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewX1.Size = new System.Drawing.Size(931, 286);
-            this.dataGridViewX1.TabIndex = 29;
-            this.dataGridViewX1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewX1_CellContentDoubleClick);
             this.dataGridViewX1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewX1_CellContentClick);
-            // 
-            // Check
-            // 
-            this.Check.FalseValue = "False";
-            this.Check.Frozen = true;
-            this.Check.HeaderText = "";
-            this.Check.Name = "Check";
-            this.Check.TrueValue = "True";
-            this.Check.Width = 21;
-            // 
-            // Line_No
-            // 
-            this.Line_No.HeaderText = "Line No";
-            this.Line_No.Name = "Line_No";
-            this.Line_No.Width = 70;
-            // 
-            // LocationCode
-            // 
-            this.LocationCode.HeaderText = "Location Code";
-            this.LocationCode.Name = "LocationCode";
-            this.LocationCode.Width = 110;
-            // 
-            // Itemcode
-            // 
-            this.Itemcode.HeaderText = "Item Code";
-            this.Itemcode.Name = "Itemcode";
-            // 
-            // ItemDesc
-            // 
-            this.ItemDesc.HeaderText = "Item Description";
-            this.ItemDesc.Name = "ItemDesc";
-            this.ItemDesc.Width = 150;
-            // 
-            // ORD_REF
-            // 
-            this.ORD_REF.HeaderText = "ORD FER";
-            this.ORD_REF.Name = "ORD_REF";
-            this.ORD_REF.Visible = false;
-            // 
-            // UnitPurchase
-            // 
-            this.UnitPurchase.HeaderText = "Unit Purchase";
-            this.UnitPurchase.Name = "UnitPurchase";
-            // 
-            // PurchaseQty
-            // 
-            this.PurchaseQty.HeaderText = "Purchase Qty";
-            this.PurchaseQty.Name = "PurchaseQty";
-            // 
-            // StockQty
-            // 
-            this.StockQty.HeaderText = "Stock Qty";
-            this.StockQty.Name = "StockQty";
-            // 
-            // PurchaseCost
-            // 
-            this.PurchaseCost.HeaderText = "Cost";
-            this.PurchaseCost.Name = "PurchaseCost";
-            this.PurchaseCost.Width = 70;
-            // 
-            // SubTotal
-            // 
-            this.SubTotal.HeaderText = "Sub Total";
-            this.SubTotal.Name = "SubTotal";
-            // 
-            // TotalDisc
-            // 
-            this.TotalDisc.HeaderText = "Total Discount";
-            this.TotalDisc.Name = "TotalDisc";
-            this.TotalDisc.Width = 120;
-            // 
-            // TotalAItemDiscount
-            // 
-            this.TotalAItemDiscount.HeaderText = "Total A Item Discount";
-            this.TotalAItemDiscount.Name = "TotalAItemDiscount";
-            this.TotalAItemDiscount.Width = 160;
-            // 
-            // OriginalLineNo
-            // 
-            this.OriginalLineNo.HeaderText = "Original Line No";
-            this.OriginalLineNo.Name = "OriginalLineNo";
-            this.OriginalLineNo.Width = 130;
+            this.dataGridViewX1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewX1_CellContentDoubleClick);
             // 
             // Panel2
             // 
+            resources.ApplyResources(this.Panel2, "Panel2");
             this.Panel2.Controls.Add(this.Panel5);
             this.Panel2.Controls.Add(this.Panel4);
             this.Panel2.Controls.Add(this.Label2);
@@ -867,87 +597,21 @@
             this.Panel2.Controls.Add(this.txtSupCode);
             this.Panel2.Controls.Add(this.Label7);
             this.Panel2.Controls.Add(this.Label6);
-            this.Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel2.Enabled = false;
-            this.Panel2.Location = new System.Drawing.Point(0, 150);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(931, 56);
-            this.Panel2.TabIndex = 1;
             // 
             // LBLHEADER
             // 
-            this.LBLHEADER.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LBLHEADER.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.LBLHEADER, "LBLHEADER");
             this.LBLHEADER.Name = "LBLHEADER";
-            this.LBLHEADER.Size = new System.Drawing.Size(931, 8);
-            this.LBLHEADER.TabIndex = 0;
-            // 
-            // ToolStripMenuItem1
-            // 
-            this.ToolStripMenuItem1.Name = "ToolStripMenuItem1";
-            this.ToolStripMenuItem1.Size = new System.Drawing.Size(132, 6);
             // 
             // ToolStripSeparator3
             // 
+            resources.ApplyResources(this.ToolStripSeparator3, "ToolStripSeparator3");
             this.ToolStripSeparator3.Name = "ToolStripSeparator3";
-            this.ToolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
-            // SplitToolStripButton1
-            // 
-            this.SplitToolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("SplitToolStripButton1.Image")));
-            this.SplitToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.SplitToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.SplitToolStripButton1.Name = "SplitToolStripButton1";
-            this.SplitToolStripButton1.Size = new System.Drawing.Size(135, 22);
-            this.SplitToolStripButton1.Text = "Split &Line";
-            this.SplitToolStripButton1.ToolTipText = "Edit selected transaction line";
-            this.SplitToolStripButton1.Click += new System.EventHandler(this.SplitToolStripButton1_Click);
-            // 
-            // ToolStripSplitButton1
-            // 
-            this.ToolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.PurchaseOrdToolStripButton});
-            this.ToolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("ToolStripSplitButton1.Image")));
-            this.ToolStripSplitButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ToolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ToolStripSplitButton1.Name = "ToolStripSplitButton1";
-            this.ToolStripSplitButton1.Size = new System.Drawing.Size(64, 22);
-            this.ToolStripSplitButton1.Text = "&View";
-            // 
-            // PurchaseOrdToolStripButton
-            // 
-            this.PurchaseOrdToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.PurchaseOrdToolStripButton.Name = "PurchaseOrdToolStripButton";
-            this.PurchaseOrdToolStripButton.Size = new System.Drawing.Size(155, 22);
-            this.PurchaseOrdToolStripButton.Text = "&Purchase Order";
-            this.PurchaseOrdToolStripButton.Click += new System.EventHandler(this.PurchaseOrdToolStripButton_Click);
-            // 
-            // StartToolStripButton
-            // 
-            this.StartToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("StartToolStripButton.Image")));
-            this.StartToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.StartToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.StartToolStripButton.Name = "StartToolStripButton";
-            this.StartToolStripButton.Size = new System.Drawing.Size(51, 22);
-            this.StartToolStripButton.Text = "&Start";
-            this.StartToolStripButton.ToolTipText = "Start new journal";
-            this.StartToolStripButton.Click += new System.EventHandler(this.StartToolStripButton_Click);
-            // 
-            // ToolStripDropDownButton1
-            // 
-            this.ToolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.SplitToolStripButton1,
-            this.ToolStripMenuItem1,
-            this.DeleteToolStripButton2});
-            this.ToolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("ToolStripDropDownButton1.Image")));
-            this.ToolStripDropDownButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ToolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1";
-            this.ToolStripDropDownButton1.Size = new System.Drawing.Size(76, 22);
-            this.ToolStripDropDownButton1.Text = "&Actions";
             // 
             // ToolStrip1
             // 
+            resources.ApplyResources(this.ToolStrip1, "ToolStrip1");
             this.ToolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.StartToolStripButton,
             this.ToolStripSeparator3,
@@ -957,45 +621,159 @@
             this.ToolStripSeparator4,
             this.ToolStripButton1,
             this.CloseToolStripButton1});
-            this.ToolStrip1.Location = new System.Drawing.Point(0, 0);
             this.ToolStrip1.Name = "ToolStrip1";
             this.ToolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.ToolStrip1.Size = new System.Drawing.Size(931, 25);
-            this.ToolStrip1.TabIndex = 31;
-            this.ToolStrip1.Text = "ToolStrip1";
             this.ToolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.ToolStrip1_ItemClicked);
             // 
             // ToolStripSeparator2
             // 
+            resources.ApplyResources(this.ToolStripSeparator2, "ToolStripSeparator2");
             this.ToolStripSeparator2.Name = "ToolStripSeparator2";
-            this.ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // StartToolStripButton
+            // 
+            resources.ApplyResources(this.StartToolStripButton, "StartToolStripButton");
+            this.StartToolStripButton.Name = "StartToolStripButton";
+            this.StartToolStripButton.Click += new System.EventHandler(this.StartToolStripButton_Click);
+            // 
+            // ToolStripSplitButton1
+            // 
+            resources.ApplyResources(this.ToolStripSplitButton1, "ToolStripSplitButton1");
+            this.ToolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.PurchaseOrdToolStripButton});
+            this.ToolStripSplitButton1.Name = "ToolStripSplitButton1";
+            // 
+            // PurchaseOrdToolStripButton
+            // 
+            resources.ApplyResources(this.PurchaseOrdToolStripButton, "PurchaseOrdToolStripButton");
+            this.PurchaseOrdToolStripButton.Name = "PurchaseOrdToolStripButton";
+            this.PurchaseOrdToolStripButton.Click += new System.EventHandler(this.PurchaseOrdToolStripButton_Click);
+            // 
+            // ToolStripDropDownButton1
+            // 
+            resources.ApplyResources(this.ToolStripDropDownButton1, "ToolStripDropDownButton1");
+            this.ToolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.SplitToolStripButton1,
+            this.ToolStripMenuItem1,
+            this.DeleteToolStripButton2});
+            this.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1";
+            // 
+            // SplitToolStripButton1
+            // 
+            resources.ApplyResources(this.SplitToolStripButton1, "SplitToolStripButton1");
+            this.SplitToolStripButton1.Name = "SplitToolStripButton1";
+            this.SplitToolStripButton1.Click += new System.EventHandler(this.SplitToolStripButton1_Click);
+            // 
+            // ToolStripMenuItem1
+            // 
+            resources.ApplyResources(this.ToolStripMenuItem1, "ToolStripMenuItem1");
+            this.ToolStripMenuItem1.Name = "ToolStripMenuItem1";
+            // 
+            // DeleteToolStripButton2
+            // 
+            resources.ApplyResources(this.DeleteToolStripButton2, "DeleteToolStripButton2");
+            this.DeleteToolStripButton2.Name = "DeleteToolStripButton2";
+            this.DeleteToolStripButton2.Click += new System.EventHandler(this.DeleteToolStripButton2_Click);
+            // 
+            // ToolStripButton1
+            // 
+            resources.ApplyResources(this.ToolStripButton1, "ToolStripButton1");
+            this.ToolStripButton1.Name = "ToolStripButton1";
+            this.ToolStripButton1.Click += new System.EventHandler(this.ToolStripButton1_Click);
             // 
             // CloseToolStripButton1
             // 
+            resources.ApplyResources(this.CloseToolStripButton1, "CloseToolStripButton1");
             this.CloseToolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.CloseToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.CloseToolStripButton1.Image = global::POS.Properties.Resources.Close_64;
-            this.CloseToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.CloseToolStripButton1.Name = "CloseToolStripButton1";
-            this.CloseToolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.CloseToolStripButton1.Text = "&Close";
             this.CloseToolStripButton1.Click += new System.EventHandler(this.CloseToolStripButton1_Click_1);
+            // 
+            // Check
+            // 
+            this.Check.FalseValue = "False";
+            this.Check.Frozen = true;
+            resources.ApplyResources(this.Check, "Check");
+            this.Check.Name = "Check";
+            this.Check.TrueValue = "True";
+            // 
+            // Line_No
+            // 
+            resources.ApplyResources(this.Line_No, "Line_No");
+            this.Line_No.Name = "Line_No";
+            // 
+            // LocationCode
+            // 
+            resources.ApplyResources(this.LocationCode, "LocationCode");
+            this.LocationCode.Name = "LocationCode";
+            // 
+            // Itemcode
+            // 
+            resources.ApplyResources(this.Itemcode, "Itemcode");
+            this.Itemcode.Name = "Itemcode";
+            // 
+            // ItemDesc
+            // 
+            resources.ApplyResources(this.ItemDesc, "ItemDesc");
+            this.ItemDesc.Name = "ItemDesc";
+            // 
+            // ORD_REF
+            // 
+            resources.ApplyResources(this.ORD_REF, "ORD_REF");
+            this.ORD_REF.Name = "ORD_REF";
+            // 
+            // UnitPurchase
+            // 
+            resources.ApplyResources(this.UnitPurchase, "UnitPurchase");
+            this.UnitPurchase.Name = "UnitPurchase";
+            // 
+            // PurchaseQty
+            // 
+            resources.ApplyResources(this.PurchaseQty, "PurchaseQty");
+            this.PurchaseQty.Name = "PurchaseQty";
+            // 
+            // StockQty
+            // 
+            resources.ApplyResources(this.StockQty, "StockQty");
+            this.StockQty.Name = "StockQty";
+            // 
+            // PurchaseCost
+            // 
+            resources.ApplyResources(this.PurchaseCost, "PurchaseCost");
+            this.PurchaseCost.Name = "PurchaseCost";
+            // 
+            // SubTotal
+            // 
+            resources.ApplyResources(this.SubTotal, "SubTotal");
+            this.SubTotal.Name = "SubTotal";
+            // 
+            // TotalDisc
+            // 
+            resources.ApplyResources(this.TotalDisc, "TotalDisc");
+            this.TotalDisc.Name = "TotalDisc";
+            // 
+            // TotalAItemDiscount
+            // 
+            resources.ApplyResources(this.TotalAItemDiscount, "TotalAItemDiscount");
+            this.TotalAItemDiscount.Name = "TotalAItemDiscount";
+            // 
+            // OriginalLineNo
+            // 
+            resources.ApplyResources(this.OriginalLineNo, "OriginalLineNo");
+            this.OriginalLineNo.Name = "OriginalLineNo";
             // 
             // SIPOPURCHASEMATCHING_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 517);
             this.ControlBox = false;
             this.Controls.Add(this.Panel3);
             this.Controls.Add(this.ToolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SIPOPURCHASEMATCHING_FRM";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Purchase Order";
             this.Load += new System.EventHandler(this.SIPOPURCHASEMATCHING_FRM_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
             this.PanelTotalAmt.ResumeLayout(false);

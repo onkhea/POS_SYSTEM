@@ -112,208 +112,1209 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>229, 6</value>
-  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="&gt;&gt;chkCheckAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PurchaseOrdToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="&gt;&gt;Column53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StartToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 22</value>
+  </data>
+  <data name="&gt;&gt;dtpOrder_Date.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;txtRef.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ToolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="StockQty.HeaderText" xml:space="preserve">
+    <value>Stock Qty</value>
+  </data>
+  <data name="txtCom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Check.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 211</value>
+  </data>
+  <data name="lblOrderValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;txtSupName.Parent" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="Column53.HeaderText" xml:space="preserve">
+    <value>ORD_REF</value>
+  </data>
+  <data name="&gt;&gt;Column6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMatchVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 82</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>&amp;Comments</value>
+  </data>
+  <data name="ToolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblOrderValue.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="lblMatchQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 107</value>
+  </data>
+  <data name="LBVAT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 5</value>
+  </data>
+  <data name="Check.Width" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="&gt;&gt;lblMatchQty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripSplitButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Item Code</value>
+  </data>
+  <data name="&gt;&gt;Column51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Order Ref</value>
+  </data>
+  <data name="PurchaseOrdToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="txtOrder_Ref.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="Panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Del Date</value>
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 109</value>
+  </data>
+  <data name="dtpOrder_Date.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 6</value>
+  </data>
+  <data name="&gt;&gt;txtDelName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StartToolStripButton.Text" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="Label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 64</value>
+  </data>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Total DisAmt</value>
+  </data>
+  <data name="dataGridViewX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 286</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Matching Value:</value>
+  </data>
+  <data name="&gt;&gt;Label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 7</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;txtDelCode.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitToolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="PanelTotalAmt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalAItemDiscount.HeaderText" xml:space="preserve">
+    <value>Total A Item Discount</value>
+  </data>
+  <data name="&gt;&gt;DeleteToolStripButton2.Name" xml:space="preserve">
+    <value>DeleteToolStripButton2</value>
+  </data>
+  <data name="lblOrderValue.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;PurchaseCost.Name" xml:space="preserve">
+    <value>PurchaseCost</value>
+  </data>
+  <data name="DataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 300</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 7</value>
+  </data>
+  <data name="SplitToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.DataGridViewX, DevComponents.DotNetBar2, Version=6.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="ToolStripSplitButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 38</value>
+  </data>
+  <data name="&gt;&gt;dtpOrder_Date.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblOrderValue.Name" xml:space="preserve">
+    <value>lblOrderValue</value>
+  </data>
+  <data name="&gt;&gt;ItemDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="dtpOrder_Date.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtRef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txtOrder_Ref.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CloseToolStripButton1.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="DeleteToolStripButton2.ToolTipText" xml:space="preserve">
+    <value>Remove selected transaction line</value>
+  </data>
+  <data name="&gt;&gt;dtpDelDate.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LBVAT.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 84</value>
+  </data>
+  <data name="chkCheckAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="lblOrderValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Name" xml:space="preserve">
+    <value>DataGridView1</value>
+  </data>
+  <data name="&gt;&gt;lblMatchQty.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PurchaseQty.HeaderText" xml:space="preserve">
+    <value>Purchase Qty</value>
+  </data>
+  <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 6</value>
+  </data>
+  <data name="&gt;&gt;Column36.Name" xml:space="preserve">
+    <value>Column36</value>
+  </data>
+  <data name="&gt;&gt;LBVAT.Name" xml:space="preserve">
+    <value>LBVAT</value>
+  </data>
+  <data name="lblMatchVal.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="LBVAT.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOrderValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="PurchaseOrdToolStripButton.Text" xml:space="preserve">
+    <value>&amp;Purchase Order</value>
+  </data>
+  <data name="&gt;&gt;txtSupName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ItemDesc.HeaderText" xml:space="preserve">
+    <value>Item Description</value>
+  </data>
+  <data name="SplitToolStripButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;UnitPurchase.Name" xml:space="preserve">
+    <value>UnitPurchase</value>
+  </data>
+  <data name="&gt;&gt;txtOrder_Ref.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;txtSupName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 59</value>
+  </data>
+  <data name="&gt;&gt;lblMatchVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSupName.Name" xml:space="preserve">
+    <value>txtSupName</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PanelTotalAmt.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>931, 517</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="LBLHEADER.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 8</value>
+  </data>
+  <data name="txtDelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 20</value>
+  </data>
+  <data name="&gt;&gt;txtCom.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Item Description</value>
+  </data>
+  <data name="lblMatchQty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;Column34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Sub-Total</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="Column51.Width" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewX1.Name" xml:space="preserve">
+    <value>dataGridViewX1</value>
+  </data>
+  <data name="&gt;&gt;CloseToolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelTotalAmt.Name" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="&gt;&gt;Column52.Name" xml:space="preserve">
+    <value>Column52</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Total A-ItemDis</value>
+  </data>
+  <data name="LocationCode.HeaderText" xml:space="preserve">
+    <value>Location Code</value>
+  </data>
+  <data name="&gt;&gt;PanelTotalAmt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBVAT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator3.Name" xml:space="preserve">
+    <value>ToolStripSeparator3</value>
+  </data>
+  <data name="Column36.HeaderText" xml:space="preserve">
+    <value>Line Ref</value>
+  </data>
+  <data name="dtpDelDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 59</value>
+  </data>
+  <data name="lblMatchQty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TotalAItemDiscount.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="lblorderQty.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Column33.Name" xml:space="preserve">
+    <value>Column33</value>
+  </data>
+  <data name="&gt;&gt;StartToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitToolStripButton1.Text" xml:space="preserve">
+    <value>Split &amp;Line</value>
+  </data>
+  <data name="txtSupName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 5</value>
+  </data>
+  <data name="txtOrder_Ref.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 7</value>
+  </data>
+  <data name="&gt;&gt;Check.Name" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="lblMatchQty.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblorderQty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="&gt;&gt;Label14.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="LBVAT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Column37.HeaderText" xml:space="preserve">
+    <value>Unit_Purchase</value>
+  </data>
+  <data name="chkCheckAll.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;LBLHEADER.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMatchVal.Name" xml:space="preserve">
+    <value>lblMatchVal</value>
+  </data>
+  <data name="Panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="&gt;&gt;txtSupCode.Name" xml:space="preserve">
+    <value>txtSupCode</value>
+  </data>
+  <data name="&gt;&gt;TotalAItemDiscount.Name" xml:space="preserve">
+    <value>TotalAItemDiscount</value>
+  </data>
+  <data name="&gt;&gt;txtSupCode.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="DeleteToolStripButton2.Text" xml:space="preserve">
+    <value>&amp;Cancel Line</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="Label11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblorderQty.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="dataGridViewX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 206</value>
+  </data>
+  <data name="&gt;&gt;LBVAT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblorderQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 57</value>
+  </data>
+  <data name="&gt;&gt;Column33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column5.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;txtDelName.Parent" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="txtDelCode.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="TotalDisc.HeaderText" xml:space="preserve">
+    <value>Total Discount</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblMatchQty.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="Col2Barcode.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="Panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>387, 30</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Itemcode.Name" xml:space="preserve">
+    <value>Itemcode</value>
+  </data>
+  <data name="txtRef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 33</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="PanelTotalAmt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 3</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtRef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Label16.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Label16.Name" xml:space="preserve">
+    <value>Label16</value>
+  </data>
+  <data name="&gt;&gt;chkCheckAll.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 37</value>
+  </data>
+  <data name="&gt;&gt;lblMatchQty.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="&gt;&gt;SubTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSupCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LBVAT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="&gt;&gt;txtOrder_Ref.Name" xml:space="preserve">
+    <value>txtOrder_Ref</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;txtDelCode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACQ
-        AgAAAk1TRnQBSQFMAwEBAAEsAQABLAEAAQ0BAAENAQAE/wEhAQAI/wFCAU0BNgcAATYDAAEoAwABNAMA
-        AQ0DAAEBAQABIAUAAZABChYAAxwBKAFeAk8B1QMoATwDAAEBwAADMQFPAdwB2QHbAf8BXQJOAdMDFgEf
-        xAABUAJPAZsBtgG0AbUB/wFRAlABnwMKAQ3EAAFaAlQBvQN/Af4DOgFiAwIBA8QAAV4CSwHYAWQCOgHo
-        AzABTANFAX0BTQJMAZEBPQI8AWgDFQEdAwABAbMAAQEBegIgAfoBQgJBAXMDEwEaAw4BEwMuAUgBWQJS
-        AcIDIAEvsAADKgFAA0MBeAMbASYDIAEuAToCOQFgAT0CPAFnAzEBTwFbAlIBywMLAQ+sAAFeAlAB0AEx
-        AjABTQMqAUEBSQJIAYcDSAGEAUkCSAGHA0oBjQNRAaADHQEqrAABYQJIAdwBOgI5AWADOQFfAVACTwGe
-        AVICUAGkAVQCUQGmAVICUQGpAUcCRgGAAycBO6wAAV4CSQHZAUICQQFzAVQCUgGsAVICUAGkAUoCSQGJ
-        A04BmAFUAlIBrgFVAlIBsAMRAResAAExAjABTQFSAlEBpwFUAlEBpgFeAlAB0AFeAlIBzgFcAlABzQFZ
-        AlQBvgFcAlIBz7QAA0wBkwFbAlQBxAFcAlAB0QFdAk4B0wFdAk4B0gFdAlMByrwAAwYBCAFOAk0BlgFS
-        AlEBpgMaASWoAAFCAU0BPgcAAT4DAAEoAwABNAMAAQ0DAAEBAQABAQUAAWgXAAP/AQABhwH4BgABhwH4
-        BgABwwH4BgAB4QH4BgAB8AEIBgAB8AEIBgAB8AcAAfAHAAHwBwAB8AcAAfABCAYAAfgBGAYAAfwBOAYA
-        Cw==
-</value>
-  </data>
-  <metadata name="Column51.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Col2Barcode.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column53.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column37.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column32.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column33.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column34.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column36.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column52.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGvSURBVDhPY2AYBbQLgYDJzpY+kxymufbZXnXutfpv323+
-        X6te649lm+Eu0zZDS7jNhStDOJGdETPLVzFypteuzOVB/1t2Zfzv2Jf7v3VPzv+KrWn/Qxd4/LfqNf1v
-        0W7006zVIBmsL26By3+YIZkLQo1TFvi+nX28/P/mm73/F52v/T/teOn/9r35/5OWBP136rP4b9sNNKDT
-        BOwa8w5jG7ABIJy3NNImZ2HEh01XJ/0/9HDm/w3Xm/5PO5n+v3Rj0H+3qS7fPPptql27bRVdOoz5bbpM
-        PSzbjVrMW/QXgQ249fYg2JCdN2YBNU//P/98zP+OI9b/c9bZ//edYv82YKqLPbbQBrqCDWzA699X/599
-        vvL/6adL/q+4kvl/1tng/52HXP7Hznb7FjXDUxdvVEEMuPb/NtAV+x72/19/o+T/wosx/6u3+v1PnO9X
-        QTCeQQa8+3Mb6I0D/488nvV/652G/0supf9PBtqeNjOUnygD3v+59//Wu0P/zzxb9n/P/Z7/yy7mg8ME
-        PYqxGgZxwZ3/996f/H/p5ab/Rx7N/L/1dh3YIKIMgUUjPhqfSwA6jw/Om24/fAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="DeleteToolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE3SURBVDhPY2CgBvh8aPf/92sW/SfFrOMNNRD1D9Ys/f+0
-        LPX/2946MH4ysROnQR83r/1/t7b4/+LqKlQ1mzta/j/rrgcb8KYq8//DeF8MQ15kRf3fF4EpjuLqXXlp
-        /59Fuf1/Zqfy/56uMNgQkIuuqPH9X+7pSLwXT+pJ/r8gw/T/sBz7/33SrP9nRQQTrxnmJJBmmAGkBC5Y
-        7Vkrtf9nDKX+r3C2+n/eQPz/cUs14l1w0UwRrGlJWABc01WgYceyEwgbctnF4P95HeH/a2wMMRSDDMHr
-        lbvRXmCbD+phV7i/sfr/cUcD7Ia8mTnx/3V7DbABi4vycNp0wM8Bu9zTpMD/N131/oOij1CIbw/yx1QD
-        MuCOt8n/w6aqBA3YUwvNA8g2HS/M+H83yO7/4txMggYQciHJ8gDC5KUOOmpqogAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <metadata name="Check.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Line_No.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="LocationCode.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Itemcode.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ItemDesc.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ORD_REF.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="UnitPurchase.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="PurchaseQty.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="StockQty.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="PurchaseCost.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="SubTotal.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="TotalDisc.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="TotalAItemDiscount.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="OriginalLineNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="SplitToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKaSURBVDhPlZP7S5NhFMf9R/qtX8Kim3v3qtsM6fZDYhZU
-        FkJSFEFBFIVBRYOGlVqW5mibu28ma1tpw42u2AoV693EEKTLDznReZtzbu+u357nUQfDInrg8P7ynM/5
-        nPOct6ho9chbxycqWsdRphpFydVhbD7dj401XmyQuybW7vz1a7fbO2hybRCoeRvDXksI/O1RBtlU1QOL
-        xQKz2czCZDLR6CiA2Ww2/M8xGo34JyCXA3LZHDLZLNKZNFKpFJJJEQkxAYPB8GeAIAjw+/3wer1wP3fD
-        4XDA6XTC4/GgrqsUg4NDiMeX1wOsVmu+gxwpnSVVs5kM0umVymIyiVobjxMEEovFoNfrCw3WAGsGPq8P
-        bveKgcvpYgZHLDymkiM4bucLAfx9DmWtHGSPONZv5WMpdqul2PdEClEUUaXjUa3nccjI4813DYNQm/wQ
-        S5o5/IgNwBZsREAIQEFAk2IAAyEXM9ivkWIi8RkhUcCrb1oIkx6EU19xzLoK2X5Pgjq7DDd89aTfNLNp
-        /3gF1/qqsRxbZjbNH06ie0SF/p9dGA71YvCXk5kcJW0Vbb0rQYPnFNSfVBCIAdfC4ZyzEmcc5cxgV7sU
-        pi9K9I6p0TPWBntQCbPQgK7gdRw2EUBxowRK32Xc7DuPeCKOnU0c6p8qcKnnIBYXFyF7yKE70ALNUAPu
-        vK/DrddVUL2rwQEyGzaH4sYS0NhCQPQVthGjHU0S0NlQA/4Bh3LSlpzM5sILOS6+rMAe0lbBJtLVzJA3
-        X1paQjQaRSQSwcLCPObm5jA7O4twOIxSAjr7TAZFmxQajaYQQFeTPlmUKNPk+dXkmZkZljw9PcVmQ20m
-        Q6H1ALJZHXS7Ojs7Weh0OhZarTYfdDa0Mg21Wp3/G38DNCh+g5ovLRgAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="ToolStripSplitButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHTSURBVDhPlZLfa1JhGMfPRXVRbAlB9Rd00U3nrl93/QPd
-        BEERDOrqEBtsQWAQwphdhCRJkAzbmbZdjFUbDKMUHaIjJwtqEpXTREvH2jpN5sA59um8rzgST1se+F6c
-        9zzfz/s85/soisXj802wn6x8SiAQ+Ob3+3uEebMK1Y0dKuvbrBk1SstVsgWDxS9lCRd1or4F1Dx0u317
-        AsT35mVtnXgmE6iqiqZp2O12HA4HTqcTl8uFx+PB6/Wi6zqiznKMUCgkb2+MAOuVHQxzjJW1OsWfWyyV
-        a6SLmwwPj7YDon1HbZFBlfBAF+kf8LEA7/PbzC3VCKerTKUM9GhJAtzup62AN3cOq7N3TxiVr7oE7NdB
-        CyDc39WTfHgGYeb7AwloavLmIaLlRWbyScY+RXicfNHaQWjgyIgw11deQ64XPlyE4iP4FYPVGM+uKMyV
-        cv8GzN47SX35JWRuNMwLF2D+EqSuQ+KaBCQyNVL5DSLZzzyZn7boYOg49dS5hvmdqdh5eGu+T5/dBSQy
-        W8RNLeQaKbT9g/j9Y/wOqtIc7O0meNuU1i0BVjG2pfDq1kH1+dUDRnn0tDR1HKPYqpHLim1cOyUBHcX4
-        90qKDRPt/Y8sV7nTwz/qAkdrmX5gzgAAAABJRU5ErkJggg==
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB0
+        AgAAAk1TRnQBSQFMAwEBAAE0AQABPAEAAQ0BAAENAQAE/wEhARAI/wFCAU0BNgcAATYDAAEoAwABNAMA
+        AQ0DAAEBAQABIAUAAZABChYAAx0BKAFfAlQB1QMoATwEAcAAAzIBTwHcAdkB2wH/AV4CVAHTAxcBH8QA
+        AVACTwGbAbYBtAG1Af8BUQJQAZ8DCgENxAABWgJXAb0DgAH+AzoBYgMCAQPEAAFfAlEB2AFkAkIB6AMw
+        AUwDRgF9AU0CTAGRAz0BaAMVAR0EAbAABAEBegIhAfoBQgJBAXMDEwEaAw8BEwMuAUgBWgJVAcIDIQEv
+        sAADKgFAA0QBeAMbASYDIAEuAzoBYAM9AWcDMgFPAVwCVQHLAwwBD6wAAV8CVAHQAzEBTQMrAUEDSQGH
+        A0gBhANJAYcDSwGNA1IBoAMeASqsAAFhAk4B3AM6AWADOQFfAVECUAGeAVICUQGkAVQCUwGmA1MBqQFH
+        AkYBgAMoATusAAFeAk4B2QFCAkEBcwFVAlQBrAFSAlEBpANKAYkDTgGYAVUCVAGuAVYCVAGwAxIBF6wA
+        AzEBTQFTAlIBpwFUAlMBpgFfAlQB0AFfAlYBzgFcAlQBzQFZAlcBvgFdAlcBz7QAA00BkwFbAlgBxAFd
+        AlUB0QFeAlQB0wFeAlIB0gFdAlcByrwAAwYBCANOAZYDUwGmAxsBJagAAUIBTQE+BwABPgMAASgDAAE0
+        AwABDQMAAQEBAAEBBQABaBcAA/8BAAGHAfgGAAGHAfgGAAHDAfgGAAHhAfgGAAHwAQgGAAHwAQgGAAHw
+        BwAB8AcAAfAHAAHwBwAB8AEIBgAB+AEYBgAB/AE4HAAL
 </value>
   </data>
   <data name="StartToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKPSURBVDhPnVNdSJNhFN7lhzfdFKElWtqyhUWWoi6yXP6E
-        qc1MV6SWXkRU2/A2DUmGEhllpLWWU9fyJ+Zsm07dT7ll2qSZ9nPVjYiVdFEhksHc03fesemkmzofL7zf
-        +57nOe95zjkCwTpTKpXZ/GqqVlSPy+XyH7RoT2d0t94/9K9QKGJ5x5sqVcNSe4ce1mEnJl6/ZYv2dEZ3
-        5EO+YUQMrKzWtbY+hNU1At17Neo/yHHlXSEuTh1HrecSWjy3YHIPgnzIN4yEWOnC4jVD9VGJqplMVL45
-        gnJPBs6MiVEymobeWQ2cc1YYxo0BEh7DXkF50dMG3EOon1Gg0ssDJ3ngq4MoHU1FkSMZ5WNZcH61YMW/
-        gssj59HvGGDpME1IHMrv0fRdVEwewtkJMUrdaTjpTMaJ4SRI7QfQ8akZZFPfJ5Cu3YkbtkamCWEFpDCJ
-        VOO5ANnLVJx6kYwi234UDu5DnmUv6qYV8Pl9+L2yDOnjAghbNkLWVcCEJayAykRKV7gyIXOn47RLjFyz
-        CCm90Tg8kAD7FxN7unFOD2FzDCLvRWD3gxhWHcKGCMpcErTPNmFhcQEl5mNI7I1Co7cGfv5b5qPnqLMR
-        r96E6PscEjVbVwmCKVSNSTH/c57luuRbREqnKBTdNN+FuDtbEKuNwDYth+KnOaspBEWsd9UiozuJ5Uo2
-        9NkQiO77hayWbGxv24B4PQdhDweV7fqqiMEyGhwmFJtzkaQRMdEC5kffnA6xtzdjRzeHXUYOZdZ89Nn5
-        fgmWkXoh2Ei650+Q3yNBQnMci+z4Zg5E74yA6BmHc4486Ed7whuJCNa2ssFmwjXzVRxtEyOhNQp7dJGQ
-        DUnQ4Kpjkf/ayiGS/x2mtZP1r+P8B3OPOZYSkPWHAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAAqlJREFUOE9lUl1Ik1EY3uWHN90UoSVa2rKFRZaiLrI0f8LUNNMVqaUXEdU2dpuG
+        NIYSGbVIa5l/a/kT09rUqfupbdnWJE37uepGhpV0USGSwban7z1z8+85HDic8z7ve57nfQXrIZfLc/jd
+        pJApXFKp9DdtOtMdvS2HbYRMJovlA2+rVA2LHZ06mEZtcL/7wDad6Y7eKIZil2lBMLJcoW1peQyTYwza
+        TxooP0tx7WMRLk+dRJ3nCpo9d2BwDoNiKHZNEspKD4OTRqi+yFEzk4nq98dQ6cnAuXExyuxp6Jtthc1r
+        gt41EEzCcxiZdNHXhpwjUM7IUD3JEyd44tvDKLenosSajMrxbNh+DMIf8OPq2EW8sA4xOcwTMof0PZm+
+        j6qJIzjvFqPcmYbTtmScGk1CseUQOr+qQZj65UZ6+27cMjcyT4hL33eRSbWeS5C8ScWZ18koMR9E0fAB
+        5A/uR/20DL6AD//8Syh+Wghh82ZIuguZscQVUJvI6SpHJiTOdJx1iJFnFCGlLxpHhxJg+W5gXx/w6iBU
+        xyDyQQT2Poph3SFuOEGFIwsds02YX5hHmfEEEvui0DhZiwC/lvjquZocxGu2IPohh8TW7SsJQhJqxosx
+        92eOaV30LSClSxSubpjrRty9bYhtj8COdg6lz3NXJIRMVDrqkNGTxLQSRr7pg9V9f5HdnIOdbZsQr+Mg
+        7OWgMt9cMZFaQS3RWw0oNeYhqVXETAsigH6vFrF3t2JXD4c9AxwqTAXot/DzEmojgYaChkP76hkKerOQ
+        oI5jla0/jcHqXREQveRwwZoPnb137SARVo+y3mzADeN1HG8TI6ElCvu0kZCMZKHBUc8qM/L6USawJHxW
+        +hrpI5PIadp0pjt6o5gN5NUgXWQOOUxtok1nugtrDkMg+A9zjzmWSFy2jAAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="&gt;&gt;lblMatchVal.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="StartToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="PurchaseCost.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="dtpPayDate.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;StockQty.Name" xml:space="preserve">
+    <value>StockQty</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>Order Value:</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="&gt;&gt;Panel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Name" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="chkCheckAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtRef.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="Panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 29</value>
   </data>
   <data name="ToolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFnSURBVDhPjZFvT4JQFMb9/m1tfQPrXW9cUFMz53SWmuUA
-        nRKWIf7DKQhWlm7NU88xWijXdbdnwOU+v/Occ2MxwdL0RxL9E+4XazqVGx2qqi1WonDHEM2w/gcDIDAr
-        rQ5BetcmAJK5GzEkOIxn/cFkI5IYA4dM2+fvfOV+PwBVIKTIlDQGqM8u9bw1K6tugJH9w4jDUvaWTuXc
-        7yHsweS9r1kAJSuNMKQ3eWFzXjHp8Di1UwGJAIEiZ2GMPyinWKyD+BUDFosF/ZUzfyPPn5PjeiFlsj9p
-        O5MlFdtzOrnUGLBardjQNftCoUAI0BwuKa2PeIAAQGXL5SR4304VAvT9zYCQAtOHQdYsBopShACI3Ri+
-        Um3wSdfNMQPQNwBRlYO9VHozM14AnCkzkiomAwrf5tKTvTdBCADIUaJK8fMyA+rWlNvYbqHdNnkPKXYA
-        QRoAcO+j6SyyBdyQ73liAK5nn1AZkuQL+gLXHXj3mYqJQQAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAAWJJREFUOE+NkW1LwmAUhvv/QdA/sL71RXKFmokolpomc4ouLZvzHXU+W2U5CE/d
+        Ryc+6sQDF27zua9zdnbiV5r+SqvL4ytd1ClbaVK+VGOCqQJLtLp5nAwCL6zWmozeGhAE4cSjv8Q7DMov
+        Bv9iknp3QsbA5vtk7vmwAF0ApohlNBaU3i1qiwUTLy2Fq4hcCOJwKP5EV0pifQjPEBLfCwaicK4iS9qj
+        Dw4nVYPOLiI7HTARJGDvLurDH0qoJnMauOc/Z7MZbTJxvkjYDk0sIRGLr6ZtjuaUbjh0eafxA9d1OdAy
+        Or5ALAmqvTlF9T4vEAKQNS0+iOvNiTzWgo69XBCmwPYRUDSThfu6A0mAqvQ+qdj9pYfqkAV4bwi2u24S
+        iS53xgXBtTqlUM5gQeo/nHkb7O0OdgSo82CeAjdZFpTNMb/GdrDRMPwFXkGA794fT6WRPfCFbCH8BVjO
+        IRAEIeWW/gDXHXj3n4QsugAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>335, 6</value>
-  </metadata>
+  <data name="dtpDelDate.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblMatchVal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Column34.Name" xml:space="preserve">
+    <value>Column34</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMatchQty.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton1.Name" xml:space="preserve">
+    <value>ToolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="&gt;&gt;txtSupCode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Column53.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="LBLHEADER.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Column32.HeaderText" xml:space="preserve">
+    <value>Puchase QTY</value>
+  </data>
+  <data name="Col2Barcode.HeaderText" xml:space="preserve">
+    <value>Line_No</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;dtpOrder_Date.Name" xml:space="preserve">
+    <value>dtpOrder_Date</value>
+  </data>
+  <data name="txtDelCode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dtpDelDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="&gt;&gt;lblMatchVal.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 59</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 64</value>
+  </data>
+  <data name="lblOrderValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="ToolStripButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton1.Name" xml:space="preserve">
+    <value>ToolStripDropDownButton1</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Location Code</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDelCode.Name" xml:space="preserve">
+    <value>txtDelCode</value>
+  </data>
+  <data name="ToolStripSplitButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAAdFJREFUOE+lkt9LU2Ecxs9FdZFoQqD9BV5047nr113/gDeCUARCXR3EIINgQQyi
+        dRGj0Qgasjxu1YXYDyEWtbHJcNIcBuWIajqHq00sOzqcMCd+Ou+7M/OQtqQHnovzvs/zeb+871F2k98/
+        QiNbUbuCweB8IBDoFYH1MpTXtiitbrJsVCgslplbMJj5XJQAkRN5q1pTfdHj8f8VIPbrh1nV3/KOJlBV
+        FU3TcDgcOJ1OXC4Xbrcbr9eLz+dD13VEzqrYFQ6H5em1CWC1tIVhTrG0XCX/fYPZYoV0fp3BweE/AbHL
+        R1qjN1UiA82kv8GHBXiX22RytkIkXeZFykCPFSTA43lgB7y+elgdv9ZulL7oEtBoAhsgcqW5N3mnE1Hm
+        620JqHv04iFixRle5pI8/hjlXvKpHRAeaBoS5erSK8j2w/szkL8LP+PwI87DboXJQnZvwPj1Y1QXn0Hm
+        Qq08fRqmzkLqPCTOSUAiUyGVWyM694n7U2O7THCrjWrqZK381nT8FLwxv8dObAMSmQ0mTE9n97iDiRtH
+        WQmpshzqbyHUZ1prkYCGlyj0/NJB9VHPAaM4fFyW9v2MQkNdSusTrUMC9vWMOyX+MLH5L7Yq/yNF+QXq
+        Akdr0K+FOAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="lblMatchVal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="Column33.HeaderText" xml:space="preserve">
+    <value>Stock QTY</value>
+  </data>
+  <data name="&gt;&gt;PanelTotalAmt.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;PurchaseCost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeleteToolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAATdJREFUOE9joAr4fGj3//drFv2HcokCxxtqIOofrFn6/2lZ6v+3vXVg/GRiJ06D
+        Pm5e+/9ubfH/xdVVqGo2d7T8f9ZdDzbgTVXm/4fxvhiGvMiK+r8vAlMcBezKS/v/LMrt/zM7lf/3dIXB
+        ikEuuqLG93+5pyN+zcjgpJ7k/wsyTP8Py7H/3yfN+n9WRDDxmmEApBlmAFSIeHDWSu3/GUOp/yucrf6f
+        NxD/f9xSjXhDLpopgjUtCQuAa7oKNOxYdgJhQy67GPw/ryP8f42NIYZikCFQJnZwN9oLbPNBPewK9zdW
+        /z/uaIDdkDczJ/6/bq8BNmBxUR5Omw74OWCXe5oU+P+mq95/UPRBhXCC7UH+mGpABtzxNvl/2FSVoAF7
+        aqF5ABkcL8z4fzfI7v/i3EyCBlAZMDAAAMLkpQ44uEeMAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ToolStripButton1.Text" xml:space="preserve">
+    <value>&amp;Release</value>
+  </data>
+  <data name="&gt;&gt;Label14.Name" xml:space="preserve">
+    <value>Label14</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column52.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtSupName.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtSupCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 20</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Order Quantity:</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Column52.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;LocationCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OriginalLineNo.Width" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 32</value>
+  </data>
+  <data name="&gt;&gt;Label14.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chkCheckAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSplitButton1.Name" xml:space="preserve">
+    <value>ToolStripSplitButton1</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblorderQty.Name" xml:space="preserve">
+    <value>lblorderQty</value>
+  </data>
+  <data name="&gt;&gt;ORD_REF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 24</value>
+  </data>
+  <data name="Label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;Col2Barcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LocationCode.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="txtSupCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 3</value>
+  </data>
+  <data name="Label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Column51.HeaderText" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Panel2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="txtDelName.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;txtCom.Name" xml:space="preserve">
+    <value>txtCom</value>
+  </data>
+  <data name="txtDelCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="Panel5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ToolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 7</value>
+  </data>
+  <data name="&gt;&gt;Column6.Name" xml:space="preserve">
+    <value>Column6</value>
+  </data>
+  <data name="&gt;&gt;txtOrder_Ref.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;LBLHEADER.Name" xml:space="preserve">
+    <value>LBLHEADER</value>
+  </data>
+  <data name="&gt;&gt;PanelTotalAmt.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="txtDelName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 12</value>
+  </data>
+  <data name="&gt;&gt;Column32.Name" xml:space="preserve">
+    <value>Column32</value>
+  </data>
+  <data name="Label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ToolStripDropDownButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="dtpOrder_Date.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="ORD_REF.HeaderText" xml:space="preserve">
+    <value>ORD FER</value>
+  </data>
+  <data name="dtpOrder_Date.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAAbZJREFUOE/tkd0rg1Ecx58r5crf4FaJmZmxNfHQyKSxQqO8hNWQImp5SWNjRmFj
+        c2E0bzde24WFWCsJiczb1oSQNFwpWX09Ox43srhx51O/Ohff8znfcw71zx+SO5gmyB5IMaX3idxphiSI
+        9XxEtUUFBF0cB6+LI2BjFFU/mx/OLgkKizSy0JzlUE7LoHFUQ7deg85VFZrtlZBbJUgy8JCojXtN6Iwt
+        JxtKrDQ+JUqrnFthlfpHt5qwfGbAxH4LTFuN0K7VocwmQ2pfIkR6RtAdT9rwdVwhEQSndrJQqBoveF5y
+        D8B5acbCSQdM21VoXJQhw0i/SPqF6nS9KJLWcSOEPTyJQBun4WtiJojg3L9JJCunFmbzMMb2FdC5kqGa
+        E0M6JPbnGmkxqfsFpkUYETy8ubF3N4udGxtmjpSw7OWh20mjeDTjpWgkM5rNf8+H4BgepsX6ZT/mTxsw
+        fqCA2p6D0rGcZjYWmqDgMeBhrrEB17UFdm87bIdVKGdOrzTLI9hYaIKCp4AP549O7N5OYfWiF1MHdeRN
+        vn7xt3w08ML3tI3D+yW4rsywe1qJ6FeSYOinCS2hqHc6jw/O7N+UzAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;PurchaseOrdToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblMatchQty.Name" xml:space="preserve">
+    <value>lblMatchQty</value>
+  </data>
+  <data name="&gt;&gt;TotalDisc.Name" xml:space="preserve">
+    <value>TotalDisc</value>
+  </data>
+  <data name="txtSupName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 20</value>
+  </data>
+  <data name="LBLHEADER.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="StartToolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;DeleteToolStripButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LBLHEADER.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Name" xml:space="preserve">
+    <value>ImageList1</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="dataGridViewX1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lblOrderValue.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SIPOPURCHASEMATCHING_FRM</value>
+  </data>
+  <data name="&gt;&gt;PurchaseQty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripSplitButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 142</value>
+  </data>
+  <data name="txtRef.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtDelName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="txtCom.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;chkCheckAll.Name" xml:space="preserve">
+    <value>chkCheckAll</value>
+  </data>
+  <data name="&gt;&gt;txtRef.Name" xml:space="preserve">
+    <value>txtRef</value>
+  </data>
+  <data name="Col2Barcode.MinimumWidth" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Column52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator4.Name" xml:space="preserve">
+    <value>ToolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column52.HeaderText" xml:space="preserve">
+    <value>Original Line No</value>
+  </data>
+  <data name="&gt;&gt;lblorderQty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitToolStripButton1.ToolTipText" xml:space="preserve">
+    <value>Edit selected transaction line</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtSupName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ItemDesc.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBLHEADER.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtOrder_Ref.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 150</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Name" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Order VAT</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAgAEBAAAAEAIABoBAAAhgAAABgYAAABACAAiAkAAO4EAAAgIAAAAQAgAKgQAAB2DgAAMDAAAAEA
@@ -3016,4 +4017,639 @@
         AAAAAAAAA//h///////4AAAAAAAAAAP/8f//////+AAAAAAAAAAH//v/
 </value>
   </data>
+  <data name="&gt;&gt;dataGridViewX1.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Label16.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="Panel4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ORD_REF.Name" xml:space="preserve">
+    <value>ORD_REF</value>
+  </data>
+  <data name="lblMatchVal.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;PurchaseOrdToolStripButton.Name" xml:space="preserve">
+    <value>PurchaseOrdToolStripButton</value>
+  </data>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 34</value>
+  </data>
+  <data name="dataGridViewX1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Panel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DeleteToolStripButton2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="CloseToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;Check.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PurchaseQty.Name" xml:space="preserve">
+    <value>PurchaseQty</value>
+  </data>
+  <data name="Column34.HeaderText" xml:space="preserve">
+    <value>Purchase Cost</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PurchaseCost.HeaderText" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dtpDelDate.Name" xml:space="preserve">
+    <value>dtpDelDate</value>
+  </data>
+  <data name="&gt;&gt;SplitToolStripButton1.Name" xml:space="preserve">
+    <value>SplitToolStripButton1</value>
+  </data>
+  <data name="txtDelCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 3</value>
+  </data>
+  <data name="&gt;&gt;TotalDisc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 206</value>
+  </data>
+  <data name="&gt;&gt;txtDelName.Name" xml:space="preserve">
+    <value>txtDelName</value>
+  </data>
+  <data name="DeleteToolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="txtRef.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="SubTotal.HeaderText" xml:space="preserve">
+    <value>Sub Total</value>
+  </data>
+  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="&gt;&gt;txtDelCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem1.Name" xml:space="preserve">
+    <value>ToolStripMenuItem1</value>
+  </data>
+  <data name="lblorderQty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>&amp;Matching Ref</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Name *</value>
+  </data>
+  <data name="&gt;&gt;lblorderQty.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Column51.Name" xml:space="preserve">
+    <value>Column51</value>
+  </data>
+  <data name="DeleteToolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="StartToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Start new journal</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;ItemDesc.Name" xml:space="preserve">
+    <value>ItemDesc</value>
+  </data>
+  <data name="txtSupCode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LBVAT.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="UnitPurchase.HeaderText" xml:space="preserve">
+    <value>Unit Purchase</value>
+  </data>
+  <data name="txtSupCode.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LBVAT.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="ToolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;SubTotal.Name" xml:space="preserve">
+    <value>SubTotal</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="dtpDelDate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSplitButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAApxJREFUOE+Vk+tLU2Ecx/eP9K43YdHNnR1105BuLxKzoLIQkqIICqIoDEoSGqvU
+        sjRH25y7m6xtpQ03umIWKtbZxBCky4uc6OZ1zu3s+u15nh0D0V70g++78/0839/lyFZL1TIxWdYygWL1
+        GAqvj2Dr2X5srvJhk8o9KX3y73I4HO3UXB0Eqt7FsN8aAn9njEG2VPTAarXCYrEwmc1mqnbJmi+73Y7/
+        KZPJBMmar40AuRxRNodMNot0Jo1UKoVkUkRCTKCzs3NjgCAIGBgYgM/ng+eFB06nEy6XC16vFzVdRRga
+        GkY8vrIeYLPZGIBWjjydJa9mMxmk0/mXxWQS1XYepwgkFovBaDRuDFhN4Pf54fHkE7hdbpbgmJXHdHIU
+        Jx38WgD/gENxCwflY471W/5Egb1aBQ48VUAURVQYeFQaeRwx8Xj7Q8cgNI1kl8kKmzj8jA3CHtQgIARQ
+        SkBTYgCDITdLcFCnwGTiC0KigNff9RCmvAinvuGETYLsvC9HjUOJW/5a0m+apWn7dA03+iqxElthaZo+
+        nkb3qBr9v7owEurF0G8XS3KctCXbfk+OOu8ZaD+ryQwC4Jo5XHCV45yzhCXY06aA+WsDese16BlvhSPY
+        AItQh67gTRw1E0CBRo4G/1XU911EPBHH7kYOtc9KcaXnMJaWlqB8xKE70AzdcB3ufqjB7TcVUL+vwiEy
+        G9ZCgaYQVNsIiG5hB0m0q1EOOhuagH/IoYS0pSKzufRShcuvyrCPtMXMq0VPM0N2vry8jGg0isXFRSws
+        zGNubg6zs7MIh8MoIqDzz5UobVVAp9OtBdDLoiuLksjUPC+ZI5EIM8/MTLPZ0DRTodB6ADmMdnocHR0d
+        TAaDgUmv1/8VnQ01Umm1WulvlMn+ADQofoN991EcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;dtpPayDate.Name" xml:space="preserve">
+    <value>dtpPayDate</value>
+  </data>
+  <data name="&gt;&gt;Line_No.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="lblOrderValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 32</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip1.Name" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="&gt;&gt;LocationCode.Name" xml:space="preserve">
+    <value>LocationCode</value>
+  </data>
+  <data name="ToolStripDropDownButton1.Text" xml:space="preserve">
+    <value>&amp;Actions</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 56</value>
+  </data>
+  <data name="txtDelName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitToolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UnitPurchase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;dtpPayDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column36.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtCom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;Column37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Pay Date</value>
+  </data>
+  <data name="&gt;&gt;StockQty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;Column37.Name" xml:space="preserve">
+    <value>Column37</value>
+  </data>
+  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="OriginalLineNo.HeaderText" xml:space="preserve">
+    <value>Original Line No</value>
+  </data>
+  <data name="&gt;&gt;dtpPayDate.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="txtOrder_Ref.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dtpOrder_Date.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ToolStripDropDownButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCheckAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 210</value>
+  </data>
+  <data name="&gt;&gt;LBLHEADER.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;LBVAT.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="PanelTotalAmt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 142</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;txtCom.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="&gt;&gt;txtOrder_Ref.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TotalAItemDiscount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ToolStripSplitButton1.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dtpDelDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="dtpPayDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="Label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 11</value>
+  </data>
+  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="lblMatchVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Delivery Code</value>
+  </data>
+  <data name="txtCom.MaxLength" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Line_No.HeaderText" xml:space="preserve">
+    <value>Line No</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpDelDate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Column2.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="&gt;&gt;dtpPayDate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OriginalLineNo.Name" xml:space="preserve">
+    <value>OriginalLineNo</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Line_No.Name" xml:space="preserve">
+    <value>Line_No</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
+    <value>ToolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;OriginalLineNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label14.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Supplier Code</value>
+  </data>
+  <data name="Line_No.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="&gt;&gt;Itemcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ORD_REF.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="lblorderQty.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Column53.Name" xml:space="preserve">
+    <value>Column53</value>
+  </data>
+  <data name="ToolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 25</value>
+  </data>
+  <data name="Label16.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblMatchVal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Itemcode.HeaderText" xml:space="preserve">
+    <value>Item Code</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="lblMatchQty.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblorderQty.Parent" xml:space="preserve">
+    <value>PanelTotalAmt</value>
+  </data>
+  <data name="TotalDisc.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="lblorderQty.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;Col2Barcode.Name" xml:space="preserve">
+    <value>Col2Barcode</value>
+  </data>
+  <data name="&gt;&gt;StartToolStripButton.Name" xml:space="preserve">
+    <value>StartToolStripButton</value>
+  </data>
+  <data name="lblOrderValue.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblOrderValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseToolStripButton1.Name" xml:space="preserve">
+    <value>CloseToolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;chkCheckAll.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewX1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Matching Quantity:</value>
+  </data>
+  <data name="CloseToolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="dtpPayDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 32</value>
+  </data>
+  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 492</value>
+  </data>
+  <metadata name="Column36.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Col2Barcode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PurchaseQty.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column33.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TotalAItemDiscount.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UnitPurchase.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column51.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TotalDisc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OriginalLineNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column32.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Check.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>335, 6</value>
+  </metadata>
+  <metadata name="LocationCode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Line_No.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column34.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Itemcode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ItemDesc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PurchaseCost.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StockQty.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column53.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ORD_REF.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column52.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column37.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SubTotal.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>229, 6</value>
+  </metadata>
 </root>

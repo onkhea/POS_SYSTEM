@@ -112,242 +112,1467 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Column20.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;Column11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ToolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="PasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="addToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="&gt;&gt;SearchPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pasteToolStripMenuItem1.Name" xml:space="preserve">
+    <value>pasteToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;disabledToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="disabledToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="ToolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cloneToolStripMenuItem1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="&gt;&gt;pasteToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton2.Name" xml:space="preserve">
+    <value>ToolStripButton2</value>
+  </data>
+  <data name="LBLEXPORTEXCEL.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripSplitButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;PasteToolStripMenuItem.Name" xml:space="preserve">
+    <value>PasteToolStripMenuItem</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>    Select columns to export</value>
+  </data>
+  <data name="SearchPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chbS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 234</value>
+  </data>
+  <data name="pasteToolStripMenuItem1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+P</value>
+  </data>
+  <data name="EditToolStripButton1.Text" xml:space="preserve">
+    <value>កែសម្រួល</value>
+  </data>
+  <data name="actionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip3.Name" xml:space="preserve">
+    <value>ToolStrip3</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>លេខកូដប្រភេទ</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Column17.HeaderText" xml:space="preserve">
+    <value>Custom Feild2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SearchPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 430</value>
+  </data>
+  <data name="&gt;&gt;LBLEXPORTEXCEL.Parent" xml:space="preserve">
+    <value>ExcelPanel</value>
+  </data>
+  <data name="disabledToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Disabled</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;DeleteToolStripButton2.Name" xml:space="preserve">
+    <value>DeleteToolStripButton2</value>
+  </data>
+  <data name="SplitContainer1.Panel1.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="chbS.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>585, 3</value>
-  </metadata>
-  <metadata name="Column0.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column23.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column22.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column24.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column9.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column26.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column20.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column11.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column17.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column18.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column19.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="c5.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="c6.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="c7.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column13.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column21.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column12.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Label3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </data>
+  <data name="&gt;&gt;ExcelTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column11.HeaderText" xml:space="preserve">
+    <value>Custom Feild1</value>
+  </data>
+  <data name="ToolStripSplitButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <data name="&gt;&gt;chbS.Name" xml:space="preserve">
+    <value>chbS</value>
+  </data>
+  <data name="&gt;&gt;RemoveToolStripMenuItem.Name" xml:space="preserve">
+    <value>RemoveToolStripMenuItem</value>
+  </data>
+  <data name="SearchTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 24</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="ExcelPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="ExcelTool.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
-  <metadata name="ToolStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>118, 3</value>
-  </metadata>
-  <metadata name="ContextMenuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>439, 3</value>
-  </metadata>
-  <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJWSURBVDhPdZIhlKpQEIY9hA0Eg2GDwUAgGAwbNhgMBoNh
-        A4FgMBAMBALBQCAQCASCYYOBsMFgMGwgGAwEA8FAIBAIBAPBQCAQ+N/c+9a3753ncs6cuTAz3/wzl07n
-        63HdAJ77Ac8ju3s6O84W95wfPS+m5ChKkCQF8uKGNL3idEr4d9t+/xnCOnjeDnGcwzukcPffxt4ZiMXX
-        pv8YwuTGcQZnn+Bc1DjlNdKywa1pubcJeD6n8EnJwxGYxCwrYX1ceNH52iCrWtR0vlYNvM8UWX7jo1jW
-        g1FYoCgq2LuEF7Vti5J8UbdIbg38MCNAhc1mTwsN/lfBRsjzko/QtA2quiZQjWvdIC5r+J8ZLbXie3h4
-        I+wGLpccVhAiCAMaZQ1n5+AQnxCRdJcWyW6GNXq4AwZYmia0QIN2XGIRqpgdphhthhivVUSXDD7J9xzn
-        MaA77WIZLDCPZrAvFoqygHbQIG5F9LweXlcTbKwlMr+PvdHH++L5X9CLOYJ6VDDfzbE4LFDcCuifOsbb
-        MeSNDNEU4egimkhFcVgRYABf+Qvy6r7AOOm8M7NrdUVZlfw8CSYQ1gImb12cHQl1rKMkuK8OYE2/ICNb
-        4nObRxPW0UJZl1yBERoY0h4YoKsIsGYSQnOA+qwh3alwVRnKoIuOpPcwCijRFaDsFRohhx7qvJDZkyGg
-        pxJgLsMYS9itBsg/ZoicF6gM8ExBad2D6D5xyWwXXLotQCTA81L4szRzIkMfy/AUCdvVkADi71ifkgbG
-        E3r3rqyQOve17+L7P2BOZTCQOR3ird/FL1ii/4dBdNbBAAAAAElFTkSuQmCC
-</value>
+  <data name="&gt;&gt;chbS.Parent" xml:space="preserve">
+    <value>ExcelPanel</value>
+  </data>
+  <data name="CloseToolStripButton1.Text" xml:space="preserve">
+    <value>&amp;Close </value>
+  </data>
+  <data name="SplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>720</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pasteToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="&gt;&gt;LBLEXPORTEXCEL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Name" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="ToolStrip2.Text" xml:space="preserve">
+    <value>ToolStrip2</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip2.Parent" xml:space="preserve">
+    <value>SearchPanel</value>
+  </data>
+  <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;activeToolStripMenuItem.Name" xml:space="preserve">
+    <value>activeToolStripMenuItem</value>
+  </data>
+  <data name="chbS.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NewToolStripButton.Text" xml:space="preserve">
+    <value>បង្កើតថ្មី</value>
+  </data>
+  <data name="&gt;&gt;DataGridView3.Name" xml:space="preserve">
+    <value>DataGridView3</value>
+  </data>
+  <data name="&gt;&gt;SearchPanel.Name" xml:space="preserve">
+    <value>SearchPanel</value>
+  </data>
+  <data name="DataGridView3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 326</value>
+  </data>
+  <data name="&gt;&gt;Column12.Name" xml:space="preserve">
+    <value>Column12</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;bgwExcel.Name" xml:space="preserve">
+    <value>bgwExcel</value>
+  </data>
+  <data name="ToolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ListView1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Name" xml:space="preserve">
+    <value>editToolStripMenuItem</value>
+  </data>
+  <data name="Column26.HeaderText" xml:space="preserve">
+    <value>Category Code</value>
+  </data>
+  <data name="&gt;&gt;EditToolStripButton1.Name" xml:space="preserve">
+    <value>EditToolStripButton1</value>
+  </data>
+  <data name="Label4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>939, 460</value>
+  </data>
+  <data name="&gt;&gt;SearchTool.Name" xml:space="preserve">
+    <value>SearchTool</value>
+  </data>
+  <data name="exportToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Export</value>
+  </data>
+  <data name="&gt;&gt;c5.Name" xml:space="preserve">
+    <value>c5</value>
+  </data>
+  <data name="Column22.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;searchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="activeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="&gt;&gt;CloseToolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportToolStripMenuItem1.Name" xml:space="preserve">
+    <value>exportToolStripMenuItem1</value>
+  </data>
+  <data name="Label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Column0.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="Column13.HeaderText" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="DefaultAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="removesep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 6</value>
+  </data>
+  <data name="&gt;&gt;CloneToolStripMenuItem.Name" xml:space="preserve">
+    <value>CloneToolStripMenuItem</value>
+  </data>
+  <data name="NewToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="SplitContainer1.Panel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Column9.HeaderText" xml:space="preserve">
+    <value>Unit Weight</value>
+  </data>
+  <data name="ExportToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Export</value>
+  </data>
+  <data name="pasteToolStripMenuItem1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chbS.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Column21.HeaderText" xml:space="preserve">
+    <value>Updated Date</value>
+  </data>
+  <data name="Column9.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="SplitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="&gt;&gt;CloneToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Name" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="Column4.MinimumWidth" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="excelToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Excel</value>
+  </data>
+  <data name="&gt;&gt;c6.Name" xml:space="preserve">
+    <value>c6</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 14</value>
+  </data>
+  <data name="DeleteToolStripButton2.Text" xml:space="preserve">
+    <value>លុប</value>
+  </data>
+  <data name="refreshToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F5</value>
+  </data>
+  <data name="&gt;&gt;actionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Name" xml:space="preserve">
+    <value>toolsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;c7.Name" xml:space="preserve">
+    <value>c7</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip2.Name" xml:space="preserve">
+    <value>ToolStrip2</value>
+  </data>
+  <data name="&gt;&gt;Column22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Base Salling Price</value>
+  </data>
+  <data name="NewToolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;bgwExcel.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditToolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column18.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="ExcelTool.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="DataGridView3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="LBLEXPORTEXCEL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="removesep.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitContainer1.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;c7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column19.HeaderText" xml:space="preserve">
+    <value>Custom Feild4</value>
+  </data>
+  <data name="ExcelPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 159</value>
+  </data>
+  <data name="&gt;&gt;SearchPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 6</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="ToolStrip3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 46</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>939, 433</value>
+  </data>
+  <data name="Column3.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="ListView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 207</value>
+  </data>
+  <data name="Column22.HeaderText" xml:space="preserve">
+    <value>Item Type</value>
+  </data>
+  <data name="&gt;&gt;removesep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RemoveToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="c7.HeaderText" xml:space="preserve">
+    <value>Custom Feild7</value>
+  </data>
+  <data name="SplitContainer1.Panel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="SplitContainer1.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;ExportToolStripMenuItem.Name" xml:space="preserve">
+    <value>ExportToolStripMenuItem</value>
+  </data>
+  <data name="ToolStripButton2.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Column20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStrip2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;cloneToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton1.Name" xml:space="preserve">
+    <value>ToolStripButton1</value>
+  </data>
+  <data name="Column23.HeaderText" xml:space="preserve">
+    <value>Default Purchase Cost</value>
+  </data>
+  <data name="&gt;&gt;DataGridView3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExcelTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 24</value>
+  </data>
+  <data name="DefaultAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Show All</value>
+  </data>
+  <data name="LBLEXPORTEXCEL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="&gt;&gt;Column17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewToolStripButton.Name" xml:space="preserve">
+    <value>NewToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>SearchPanel</value>
+  </data>
+  <data name="&gt;&gt;excelToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column17.Name" xml:space="preserve">
+    <value>Column17</value>
+  </data>
+  <data name="&gt;&gt;RemoveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="actionToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Action</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Bar-Code</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExcelPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cloneToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Clone</value>
+  </data>
+  <data name="excelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="Column4.Width" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Item Description</value>
+  </data>
+  <data name="&gt;&gt;DefaultAllToolStripMenuItem.Name" xml:space="preserve">
+    <value>DefaultAllToolStripMenuItem</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="ToolStripButton1.Text" xml:space="preserve">
+    <value>Add Criteria</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>ស្ថានភាព</value>
+  </data>
+  <data name="Column0.HeaderText" xml:space="preserve">
+    <value>Item Code</value>
+  </data>
+  <data name="Label3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ExcelTool.Name" xml:space="preserve">
+    <value>ExcelTool</value>
+  </data>
+  <data name="&gt;&gt;Column9.Name" xml:space="preserve">
+    <value>Column9</value>
+  </data>
+  <data name="ToolStrip3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>    Search for Item Records</value>
+  </data>
+  <data name="SearchPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 159</value>
+  </data>
+  <data name="&gt;&gt;ExcelPanel.Name" xml:space="preserve">
+    <value>ExcelPanel</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Column21.Name" xml:space="preserve">
+    <value>Column21</value>
+  </data>
+  <data name="Column21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ExportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSplitButton1.Name" xml:space="preserve">
+    <value>ToolStripSplitButton1</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 14</value>
+  </data>
+  <data name="CloneToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column12.HeaderText" xml:space="preserve">
+    <value>User Code</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Column24.HeaderText" xml:space="preserve">
+    <value>Unit of Stock</value>
+  </data>
+  <data name="EditToolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 24</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ListView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DataGridView3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="ToolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEwSURBVDhPnZLfS8JQFMf9H3sIet6TPseyp71FRD8osmTM
-        ycW1rmWU6EQoovYS9CaSUsasECMKFCoQjG+cyaSVuxcbHBjc7/dz7vmeG4sJvq2Ujh12CHZQQipjgfM8
-        RPrQ2WrWwVmjj5cP+NXpAxe1NrZ3DTlkw+A4uRmi1QN6nyNAAHFqb0ibVjQkv5/DnvvoCwhAdfUAXHpf
-        uH4a+GUWTqMBGUNH9XY4FtSfRxAagYr+7fM7FI+PJkMsZvvdgkCCEX4CuOuBZQVZuI3XMeB9EM6BwMIR
-        SKCbLHJGykDTNPEmNtfXUG+2JoqWllfka+R2AXOzM3/WtaDOy81OqRq6IoUalPQVktm796CqqrzTb1q5
-        WEG304WiKNObqTOZE4n49Ga6Cc24mEz+zywNRiL4BnGwBqJhGvUHAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAAS5JREFUOE+lkd9LwlAUx/c/9iD0vKd8jmVPe4uIflBkxZiTi2tdyyixhVBE7SXo
+        TSTFlPUDMaJAoQLB+MaZm2S5O8wvfGG793w/Z+dMEmkjqWGLHYDtF5BMmeA8C/8qWstpG+eVDl4+4LnZ
+        AS5L99jc1qMhazrH8W0P9TbQ/uwDAohdesOOYYZDsnsZ7DqPXgEByNcPwJX7hZunrmcjdxYOSOkairXe
+        oKD83IdQdzI9Wxd3yB8djoaYzPK6+a9SMMJPAHdcsLRgF07ldXD53h3eA50JRyBpBgstoB2oqioGrK+u
+        oFytjyxaWFwSh0ncymE6NvXnd80ps9Fhu1Ac+kRaamD/KFwUdhsuFEWJLv6tk/wpWs0WZFkeP0ydKRyP
+        z4wfJtF884nE/8KTSZK+AXGwBqLW0+KjAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="ToolStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>206, 36</value>
-  </metadata>
+  <data name="&gt;&gt;ToolStrip2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="refreshToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ToolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="Label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;Column24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="&gt;&gt;refreshToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column8.Name" xml:space="preserve">
+    <value>Column8</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;SearchPanel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSplitButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="Column19.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;Column12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="refreshToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Refresh</value>
+  </data>
+  <data name="cloneToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAAlVJREFUOE91kR+U61AQxvcEFgKFwkKhEAgUCgsLhUKhUFgIBAqFQCEQCBQCgUAg
+        ECgsFAILhUJhIVAoBAqBQiAQCAQKgUIgEMj35t7Xvn17TnfOmXNvMvP95s99upvrBvDcT3ge+f0kd5wN
+        bim/GxdTchQlSJICeXFFml5wPCb8v21//A5hFTxvizjO4e1TuLtvZ98MxOIr038MYe3GcQZnl+BU1Djm
+        NdKywbVp+WkT6HRK4VMnN8lPYy1mWQnr88xFp0uDrGpR0/1SNfC+UmT5lY9iWQ9GYYGiqGBvEy5q2xYl
+        nUXdIrk28MOMABXW6x0tNHgAoBHyvOQjNG2Dqq4JVONSN4jLGv5XRkut+B4evgh7gfM5hxWECMKARlnB
+        2TrYx0dE1LpLi2QvwwrdJD+NARamCS3QoB0WmIcqpvsJhusBRisV0TmDT+17jvMY0Jl0sAjmmEVT2GcL
+        RVlA22sQNyK6XhdvyzHW1gKZ38PO6OFj/vIT9GoOoR4UzLYzzPdzFNcC+peO0WYEeS1DNEU4uogmUlHs
+        lwTow1f+g7y5rzCOOq/M/FJdUFYlv4+DMYSVgPF7BydHQh3rKAnuq31YkxtkaEt8bvNgwjpYKOuSd2CE
+        Bga0BwboKAKsqYTQ7KM+aUi3KlxVhtLv4EnSuxgGlOgKUHYKjZBDD3UuZP5sCOiqBJjJMEYStss+8s8p
+        IucVKgO8UFBadSG6z7xltgveui1AJMDLQvg3rzmWoY9keIqEzXJAAPFvrEdJfeMZ3XtVJqTKPe1bfDdz
+        IoOBzMkA770O/gBYov+HzyCOdAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="SearchTool.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>ExcelPanel</value>
+  </data>
+  <data name="&gt;&gt;Column23.Name" xml:space="preserve">
+    <value>Column23</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>ការពិពណ៌នា</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip3.Parent" xml:space="preserve">
+    <value>SearchPanel</value>
+  </data>
+  <data name="EditToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;Column18.Name" xml:space="preserve">
+    <value>Column18</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;DeleteToolStripButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 136</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SICAT_FRM</value>
+  </data>
+  <data name="Column23.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="ToolStripSplitButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ColumnHeader1.Text" xml:space="preserve">
+    <value>Column Name</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DefaultAllToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStrip3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="SplitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ToolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="&gt;&gt;PasteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;actionToolStripMenuItem.Name" xml:space="preserve">
+    <value>actionToolStripMenuItem</value>
+  </data>
+  <data name="addToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="&gt;&gt;Column23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Column21.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CloneToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Clone</value>
+  </data>
+  <data name="ExcelPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 173</value>
+  </data>
+  <data name="ToolStrip2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="RemoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addToolStripMenuItem.Name" xml:space="preserve">
+    <value>addToolStripMenuItem</value>
+  </data>
+  <data name="CloseToolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 24</value>
+  </data>
+  <data name="Column20.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="chbS.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;excelToolStripMenuItem.Name" xml:space="preserve">
+    <value>excelToolStripMenuItem</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="DeleteToolStripButton2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="EditToolStripButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="CloseToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;c6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SearchPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;disabledToolStripMenuItem.Name" xml:space="preserve">
+    <value>disabledToolStripMenuItem</value>
+  </data>
+  <data name="NewToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 24</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Column21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridView3.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Column8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExcelPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chbS.Text" xml:space="preserve">
+    <value>&amp;Select All</value>
+  </data>
+  <data name="ToolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>939, 27</value>
+  </data>
+  <data name="DeleteToolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Custom Feild8</value>
+  </data>
+  <data name="&gt;&gt;c5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Label4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATBJREFUOE+dkt9L
-        wlAUx/0fewh63pM+x7KnvUVEPyiyZMzJxbWuZZToRCii9hL0JpJSxqwQIwoUKhCMb5zJpJW7FxscGNzv
-        93Pu+Z4biwm+rZSOHXYIdlBCKmOB8zxE+tDZatbBWaOPlw/41ekDF7U2tncNOWTD4Di5GaLVA3qfI0AA
-        cWpvSJtWNCS/n8Oe++gLCEB19QBcel+4fhr4ZRZOowEZQ0f1djgW1J9HEBqBiv7t8zsUj48mQyxm+92C
-        QIIRfgK464FlBVm4jdcx4H0QzoHAwhFIoJssckbKQNM08SY219dQb7YmipaWV+Rr5HYBc7Mzf9a1oM7L
-        zU6pGroihRqU9BWS2bv3oKqqvNNvWrlYQbfThaIo05upM5kTifj0ZroJzbiYTP7PLA1GIvgGcbAGomEa
-        9QcAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABLklEQVQ4T6WR30vCUBTH9z/2IPS8p3yO
+        ZU97i4h+UGTFmJOLa13LKLGFUETtJehNJMWU9QMxokChAsH4xpmbZLk7zC98Ybv3fD9n50wSaSOpYYsd
+        gO0XkEyZ4DwL/ypay2kb55UOXj7gudkBLkv32NzWoyFrOsfxbQ/1NtD+7AMCiF16w45hhkOyexnsOo9e
+        AQHI1w/AlfuFm6euZyN3Fg5I6RqKtd6goPzch1B3Mj1bF3fIHx2OhpjM8rr5r1Iwwk8Ad1ywtGAXTuV1
+        cPneHd4DnQlHIGkGCy2gHaiqKgasr66gXK2PLFpYXBKHSdzKYTo29ed3zSmz0WG7UBz6RFpqYP8oXBR2
+        Gy4URYku/q2T/ClazRZkWR4/TJ0pHI/PjB8m0XzzicT/wpNJkr4BcbAGotbT4qMAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>332, 3</value>
-  </metadata>
-  <data name="ExcelTool.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ToolStrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem1.Name" xml:space="preserve">
+    <value>ToolStripMenuItem1</value>
+  </data>
+  <data name="c5.HeaderText" xml:space="preserve">
+    <value>Custom Feild5</value>
+  </data>
+  <data name="searchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="c6.HeaderText" xml:space="preserve">
+    <value>Custom Feild6</value>
+  </data>
+  <data name="&gt;&gt;LBLEXPORTEXCEL.Name" xml:space="preserve">
+    <value>LBLEXPORTEXCEL</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="activeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Active</value>
+  </data>
+  <data name="DeleteToolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;Column24.Name" xml:space="preserve">
+    <value>Column24</value>
+  </data>
+  <data name="&gt;&gt;Column0.Name" xml:space="preserve">
+    <value>Column0</value>
+  </data>
+  <data name="&gt;&gt;activeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="Label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="&gt;&gt;CloseToolStripButton1.Name" xml:space="preserve">
+    <value>CloseToolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;Column11.Name" xml:space="preserve">
+    <value>Column11</value>
+  </data>
+  <data name="SearchTool.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;ListView1.Parent" xml:space="preserve">
+    <value>ExcelPanel</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column17.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="ExcelTool.Text" xml:space="preserve">
+    <value>E&amp;xcel</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip1.Name" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="&gt;&gt;refreshToolStripMenuItem.Name" xml:space="preserve">
+    <value>refreshToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;searchToolStripMenuItem.Name" xml:space="preserve">
+    <value>searchToolStripMenuItem</value>
+  </data>
+  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LBLEXPORTEXCEL.Text" xml:space="preserve">
+    <value>&amp;Export to excel</value>
+  </data>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="Column18.HeaderText" xml:space="preserve">
+    <value>Custom Feild3</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip2.Name" xml:space="preserve">
+    <value>ContextMenuStrip2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cloneToolStripMenuItem1.Name" xml:space="preserve">
+    <value>cloneToolStripMenuItem1</value>
+  </data>
+  <data name="Column11.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="ListView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="searchToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Search</value>
+  </data>
+  <data name="&gt;&gt;deleteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="ToolStripSplitButton1.Text" xml:space="preserve">
+    <value>ឧបករណ៍</value>
+  </data>
+  <data name="chbS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="ExcelPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 257</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader1.Name" xml:space="preserve">
+    <value>ColumnHeader1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;ExcelPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="Label4.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;LBLEXPORTEXCEL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>Unit of Sale</value>
+  </data>
+  <data name="&gt;&gt;Column13.Name" xml:space="preserve">
+    <value>Column13</value>
+  </data>
+  <data name="&gt;&gt;deleteToolStripMenuItem.Name" xml:space="preserve">
+    <value>deleteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewToolStripButton.ToolTipText" xml:space="preserve">
+    <value>New User</value>
+  </data>
+  <data name="&gt;&gt;Column26.Name" xml:space="preserve">
+    <value>Column26</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Look up</value>
+  </data>
+  <data name="PasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Name" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="exportToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="&gt;&gt;DataGridView3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Office2007Form, DevComponents.DotNetBar2, Version=6.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Column2.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;ListView1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>939, 433</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column22.Name" xml:space="preserve">
+    <value>Column22</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;chbS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PasteToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ContextMenuStrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 32</value>
+  </data>
+  <data name="Label3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
-        fwFeBN6nkGQ0LQAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABx0lEQVQ4T62SS0tCURSF78g/ENKgQcMg
+        cKYzu4PwhmAGRjXqQRkRKYaggx6IREZlEEEPKAjDkF4URGnpoIlE0I1IQopq0jD6DyvW7iGXS0HRho9z
+        OI911t77KP8S/lU/SMNkw494Zj3wLfrgGHPg4+p78LJrxAXngBMt0RZBC2tffK4R76gX9qgdjd7Giog6
+        rcrl7HYWpcsS9HNdxueHZzyVnmROOM8cZmAL28wCrpALsVQMS/klJA4SQvmujNxNDhNHE2K/Y64Du7ld
+        s4Om2SaxN54cRygdQmQzIlCMOEedsHgt0Ho1pPfTUgODAAvEXGlzYWsBwfWgCCSPk3BPuaG0K9C6NDzq
+        jyjeF80OeIgCzPn15RXze/NfL1f1V6G6rRqBeABZPYv8Rd4sQAdMgQ74wln5TFywO7RLrENW1PfUYy2z
+        JsKmGtBBYiMhBetc7pSXCee8UNtXK536VsAx6IAaUeUgC/ZJTXcNbBGb1IHwDAXUZrUiwBa5h93YSe2g
+        cFpAIVeBf2NmZUY6FE/GZTQ54PfkD2OP2Xv9QTdwdXuF4nVRxtRJShwZBFgkVrYuWCebnH8H95mWQYDB
+        hd/Q2tZqFPhbKMobrrG8fING36sAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="bgwExcel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ColumnHeader1.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="SearchTool.Text" xml:space="preserve">
+    <value>ស្វែងរក</value>
+  </data>
+  <data name="&gt;&gt;Column19.Name" xml:space="preserve">
+    <value>Column19</value>
+  </data>
+  <data name="Label5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListView1.Name" xml:space="preserve">
+    <value>ListView1</value>
+  </data>
+  <data name="Column13.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;removesep.Name" xml:space="preserve">
+    <value>removesep</value>
+  </data>
+  <data name="LBLEXPORTEXCEL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-57, 235</value>
+  </data>
+  <data name="LBLEXPORTEXCEL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;ExcelPanel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Column20.Name" xml:space="preserve">
+    <value>Column20</value>
+  </data>
+  <data name="pasteToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="ExportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <metadata name="c5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="c7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>585, 3</value>
+  </metadata>
+  <metadata name="Column20.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column26.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column23.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="bgwExcel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>252, 3</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Column13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column22.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column21.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ContextMenuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>439, 3</value>
+  </metadata>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column24.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="c6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column19.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>206, 36</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>332, 3</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+  <metadata name="Column18.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column17.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>118, 3</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>99</value>
   </metadata>
 </root>

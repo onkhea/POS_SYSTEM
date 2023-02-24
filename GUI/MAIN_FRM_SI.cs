@@ -752,5 +752,20 @@ namespace POS.GUI
             var relogin = new LOGIN_FRM();
             relogin.ShowDialog();
         }
+
+        private void buttonBarItemBarcodeSales_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void buttonBarItemCustomerRecords_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void buttonBarItemCustomerDelivery_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
     }
 }

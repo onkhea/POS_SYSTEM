@@ -121,6 +121,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection\IConnection1.cs" />
     <Compile Include="DataLayer\Commands.cs" />
     <Compile Include="DataLayer\IDataCRUD.cs" />
     <Compile Include="GUI\Discount\ADDSIPOSDISCOUNT.cs">
@@ -896,6 +897,9 @@
       <DependentUpon>SIADDSETUPPRICE_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Discount\SIPOSDISCOUNT_FRM.km-KH.resx">
+      <DependentUpon>SIPOSDISCOUNT_FRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Discount\SIPOSDISCOUNT_FRM.resx">
       <DependentUpon>SIPOSDISCOUNT_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -907,6 +911,42 @@
     <EmbeddedResource Include="GUI\DROPLIST_FRM.resx">
       <DependentUpon>DROPLIST_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Inventory\SIBALANCESTOCK.km-KH.resx">
+      <DependentUpon>SIBALANCESTOCK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Inventory\SIMOVEMENTLINE_FRM.km-KH.resx">
+      <DependentUpon>SIMOVEMENTLINE_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Inventory\STOCKADDJUSTMENT_FRM.km-KH.resx">
+      <DependentUpon>STOCKADDJUSTMENT_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\EXCHANGERATE_FRM.km-KH.resx">
+      <DependentUpon>EXCHANGERATE_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\LOCATION_FRM.km-KH.resx">
+      <DependentUpon>LOCATION_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\SICATEGORY_FRM.en-US.resx">
+      <DependentUpon>SICATEGORY_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\SIEMPLOYEE_FRM.km-KH.resx">
+      <DependentUpon>SIEMPLOYEE_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\SIITEMS_FRM.km-KH.resx">
+      <DependentUpon>SIITEMS_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\SIOPTIONS_FRM.km-KH.resx">
+      <DependentUpon>SIOPTIONS_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\SISUPDELIVERY_FRM.km-KH.resx">
+      <DependentUpon>SISUPDELIVERY_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\SISUPPLIER_FRM.km-KH.resx">
+      <DependentUpon>SISUPPLIER_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Maintains\SIUNITCONVERT_FRM.km-KH.resx">
+      <DependentUpon>SIUNITCONVERT_FRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MAIN_FRM_SI.en-US.resx">
       <DependentUpon>MAIN_FRM_SI.cs</DependentUpon>
@@ -1051,6 +1091,9 @@
       <DependentUpon>MAIN_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\POS\SETUP_LOCATION_CUSTOMER_POS.km-KH.resx">
+      <DependentUpon>SETUP_LOCATION_CUSTOMER_POS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\POS\SETUP_LOCATION_CUSTOMER_POS.resx">
       <DependentUpon>SETUP_LOCATION_CUSTOMER_POS.cs</DependentUpon>
     </EmbeddedResource>
@@ -1061,6 +1104,9 @@
     <EmbeddedResource Include="GUI\POS\THANK_FRM.resx">
       <DependentUpon>THANK_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PROGRESSBAR_FRM.km-KH.resx">
+      <DependentUpon>PROGRESSBAR_FRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\PROGRESSBAR_FRM.resx">
       <DependentUpon>PROGRESSBAR_FRM.cs</DependentUpon>
@@ -1081,6 +1127,9 @@
     <EmbeddedResource Include="GUI\Purchases\PURCHASEORDER_PRINT_FRM.resx">
       <DependentUpon>PURCHASEORDER_PRINT_FRM.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Purchases\SIDEBIT_NOTE_FRM.km-KH.resx">
+      <DependentUpon>SIDEBIT_NOTE_FRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Purchases\SIDEBIT_NOTE_FRM.resx">
       <DependentUpon>SIDEBIT_NOTE_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -1089,9 +1138,15 @@
       <DependentUpon>SIDEBIT_NOTE_VIEW.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Purchases\SIPOPURCHASEMATCHING_FRM.km-KH.resx">
+      <DependentUpon>SIPOPURCHASEMATCHING_FRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Purchases\SIPOPURCHASEMATCHING_FRM.resx">
       <DependentUpon>SIPOPURCHASEMATCHING_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Purchases\SIPOPURCHASEORDER_FRM.km-KH.resx">
+      <DependentUpon>SIPOPURCHASEORDER_FRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Purchases\SIPOPURCHASEORDER_FRM.resx">
       <DependentUpon>SIPOPURCHASEORDER_FRM.cs</DependentUpon>
@@ -1113,6 +1168,9 @@
       <DependentUpon>ADDNEW_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SaleProcessing\CREDITNOTE_FRM.km-KH.resx">
+      <DependentUpon>CREDITNOTE_FRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\SaleProcessing\CREDITNOTE_FRM.resx">
       <DependentUpon>CREDITNOTE_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -1120,6 +1178,9 @@
     <EmbeddedResource Include="GUI\SaleProcessing\INVOICE_OPTIONS_FRM.resx">
       <DependentUpon>INVOICE_OPTIONS_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SaleProcessing\SALEPROCESSING_FRM.km-KH.resx">
+      <DependentUpon>SALEPROCESSING_FRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\SaleProcessing\SALEPROCESSING_FRM.resx">
       <DependentUpon>SALEPROCESSING_FRM.cs</DependentUpon>
@@ -1149,6 +1210,9 @@
       <DependentUpon>CONNECTION_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\User\GROUP_FRM.km-KH.resx">
+      <DependentUpon>GROUP_FRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\User\GROUP_FRM.resx">
       <DependentUpon>GROUP_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -1160,6 +1224,12 @@
     <EmbeddedResource Include="GUI\Maintains\SIEMPLOYEE_FRM.resx">
       <DependentUpon>SIEMPLOYEE_FRM.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\User\USER_FRM.en-US.resx">
+      <DependentUpon>USER_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\User\USER_FRM.km-KH.resx">
+      <DependentUpon>USER_FRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\User\USER_FRM.resx">
       <DependentUpon>USER_FRM.cs</DependentUpon>
@@ -1192,11 +1262,17 @@
     <EmbeddedResource Include="Reports\Inventory Movement\INVENTORY_LISTING_LOC_RPT.resx">
       <DependentUpon>INVENTORY_LISTING_LOC_RPT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Inventory Movement\INVENTORY_MOVEMENT_FRM.km-KH.resx">
+      <DependentUpon>INVENTORY_MOVEMENT_FRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Inventory Movement\INVENTORY_MOVEMENT_FRM.resx">
       <DependentUpon>INVENTORY_MOVEMENT_FRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Inventory Movement\INVENTORY_MOVEMNET_AMOUNT_RPT.resx">
       <DependentUpon>INVENTORY_MOVEMNET_AMOUNT_RPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Inventory Movement\INVENTORY_TRANSFER.km-KH.resx">
+      <DependentUpon>INVENTORY_TRANSFER.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Inventory Movement\INVENTORY_TRANSFER.resx">
       <DependentUpon>INVENTORY_TRANSFER.cs</DependentUpon>
@@ -1207,8 +1283,14 @@
     <EmbeddedResource Include="Reports\Inventory Movement\MOVEMENT_INVENTORY_RPT.resx">
       <DependentUpon>MOVEMENT_INVENTORY_RPT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Movement Listing\INVENTORY_LISTING.km-KH.resx">
+      <DependentUpon>INVENTORY_LISTING.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Movement Listing\INVENTORY_LISTING.resx">
       <DependentUpon>INVENTORY_LISTING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Movement Listing\MOVEMENT_LISTING_FRM.km-KH.resx">
+      <DependentUpon>MOVEMENT_LISTING_FRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Movement Listing\MOVEMENT_LISTING_FRM.resx">
       <DependentUpon>MOVEMENT_LISTING_FRM.cs</DependentUpon>
@@ -1216,11 +1298,17 @@
     <EmbeddedResource Include="Reports\Movement Listing\MOVEMENT_LISTING_RPT.resx">
       <DependentUpon>MOVEMENT_LISTING_RPT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PRINT_BARCODE.km-KH.resx">
+      <DependentUpon>PRINT_BARCODE.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\PRINT_BARCODE.resx">
       <DependentUpon>PRINT_BARCODE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\PRINT_BARCODE_RPT.resx">
       <DependentUpon>PRINT_BARCODE_RPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Purchase\PURCHASELISTING_FRM.km-KH.resx">
+      <DependentUpon>PURCHASELISTING_FRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Purchase\PURCHASELISTING_FRM.resx">
       <DependentUpon>PURCHASELISTING_FRM.cs</DependentUpon>
@@ -1246,6 +1334,9 @@
     <EmbeddedResource Include="Reports\REPORT_DESIGN.resx">
       <DependentUpon>REPORT_DESIGN.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\REPORT_FRM.km-KH.resx">
+      <DependentUpon>REPORT_FRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\REPORT_FRM.resx">
       <DependentUpon>REPORT_FRM.cs</DependentUpon>
     </EmbeddedResource>
@@ -1255,11 +1346,17 @@
     <EmbeddedResource Include="Reports\Sale Report\CUSTOMER_LISTING_RPT.resx">
       <DependentUpon>CUSTOMER_LISTING_RPT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Sale Report\SALE_LISTING.km-KH.resx">
+      <DependentUpon>SALE_LISTING.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Sale Report\SALE_LISTING.resx">
       <DependentUpon>SALE_LISTING.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Sale Report\SALE_LISTING_RPT.resx">
       <DependentUpon>SALE_LISTING_RPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Supplier\SUPPLIER_LISTING.km-KH.resx">
+      <DependentUpon>SUPPLIER_LISTING.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Supplier\SUPPLIER_LISTING.resx">
       <DependentUpon>SUPPLIER_LISTING.cs</DependentUpon>
@@ -1272,6 +1369,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Unit Conversion Type\ADDUNITTYPECONVERTREPORT.resx">
       <DependentUpon>ADDUNITTYPECONVERTREPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Unit Conversion Type\ReportUnitConversion.km-KH.resx">
+      <DependentUpon>ReportUnitConversion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Unit Conversion Type\ReportUnitConversion.resx">
       <DependentUpon>ReportUnitConversion.cs</DependentUpon>

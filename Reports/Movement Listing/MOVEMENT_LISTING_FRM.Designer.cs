@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MOVEMENT_LISTING_FRM));
             this.txtFormatDesc = new System.Windows.Forms.TextBox();
             this.txtFormatCode = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -60,259 +61,178 @@
             // 
             // txtFormatDesc
             // 
-            this.txtFormatDesc.Location = new System.Drawing.Point(317, 18);
+            resources.ApplyResources(this.txtFormatDesc, "txtFormatDesc");
             this.txtFormatDesc.Name = "txtFormatDesc";
-            this.txtFormatDesc.Size = new System.Drawing.Size(138, 20);
-            this.txtFormatDesc.TabIndex = 7;
             // 
             // txtFormatCode
             // 
-            this.txtFormatCode.Location = new System.Drawing.Point(158, 17);
+            resources.ApplyResources(this.txtFormatCode, "txtFormatCode");
             this.txtFormatCode.Name = "txtFormatCode";
-            this.txtFormatCode.Size = new System.Drawing.Size(129, 20);
-            this.txtFormatCode.TabIndex = 4;
             this.txtFormatCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFormatCode_KeyDown);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 19);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Report Format";
             // 
             // txtMovDescFrom
             // 
-            this.txtMovDescFrom.Location = new System.Drawing.Point(317, 45);
+            resources.ApplyResources(this.txtMovDescFrom, "txtMovDescFrom");
             this.txtMovDescFrom.Name = "txtMovDescFrom";
-            this.txtMovDescFrom.Size = new System.Drawing.Size(138, 20);
-            this.txtMovDescFrom.TabIndex = 11;
             // 
             // txtMovTypeFrom
             // 
-            this.txtMovTypeFrom.Location = new System.Drawing.Point(158, 44);
+            resources.ApplyResources(this.txtMovTypeFrom, "txtMovTypeFrom");
             this.txtMovTypeFrom.Name = "txtMovTypeFrom";
-            this.txtMovTypeFrom.Size = new System.Drawing.Size(129, 20);
-            this.txtMovTypeFrom.TabIndex = 8;
             this.txtMovTypeFrom.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMovTypeFrom_KeyDown);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 46);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 13);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Movement Type";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(111, 75);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 13);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "To";
             // 
             // txtMovDescTo
             // 
-            this.txtMovDescTo.Location = new System.Drawing.Point(317, 73);
+            resources.ApplyResources(this.txtMovDescTo, "txtMovDescTo");
             this.txtMovDescTo.Name = "txtMovDescTo";
-            this.txtMovDescTo.Size = new System.Drawing.Size(138, 20);
-            this.txtMovDescTo.TabIndex = 16;
             // 
             // txtMovTypeTo
             // 
-            this.txtMovTypeTo.Location = new System.Drawing.Point(158, 72);
+            resources.ApplyResources(this.txtMovTypeTo, "txtMovTypeTo");
             this.txtMovTypeTo.Name = "txtMovTypeTo";
-            this.txtMovTypeTo.Size = new System.Drawing.Size(129, 20);
-            this.txtMovTypeTo.TabIndex = 13;
             this.txtMovTypeTo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMovTypeTo_KeyDown);
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1, 100);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 13);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "Movement Reference";
             // 
             // txtMovRefTo
             // 
-            this.txtMovRefTo.Location = new System.Drawing.Point(317, 100);
+            resources.ApplyResources(this.txtMovRefTo, "txtMovRefTo");
             this.txtMovRefTo.Name = "txtMovRefTo";
-            this.txtMovRefTo.Size = new System.Drawing.Size(138, 20);
-            this.txtMovRefTo.TabIndex = 20;
             this.txtMovRefTo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMovRefTo_KeyDown);
             // 
             // txtMovRefFrom
             // 
-            this.txtMovRefFrom.Location = new System.Drawing.Point(158, 99);
+            resources.ApplyResources(this.txtMovRefFrom, "txtMovRefFrom");
             this.txtMovRefFrom.Name = "txtMovRefFrom";
-            this.txtMovRefFrom.Size = new System.Drawing.Size(129, 20);
-            this.txtMovRefFrom.TabIndex = 18;
             this.txtMovRefFrom.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMovRefFrom_KeyDown);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(111, 47);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "From";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(291, 102);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(20, 13);
-            this.label6.TabIndex = 23;
-            this.label6.Text = "To";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(111, 101);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(30, 13);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "From";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 131);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(30, 13);
-            this.label8.TabIndex = 24;
-            this.label8.Text = "Date";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(111, 131);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(30, 13);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "From";
             // 
             // dtDateFrom
             // 
+            resources.ApplyResources(this.dtDateFrom, "dtDateFrom");
             this.dtDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtDateFrom.Location = new System.Drawing.Point(159, 128);
             this.dtDateFrom.Name = "dtDateFrom";
-            this.dtDateFrom.Size = new System.Drawing.Size(128, 20);
-            this.dtDateFrom.TabIndex = 26;
             this.dtDateFrom.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtDateFrom_KeyDown);
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(292, 133);
+            resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(20, 13);
-            this.label10.TabIndex = 27;
-            this.label10.Text = "To";
             // 
             // dtDatTo
             // 
+            resources.ApplyResources(this.dtDatTo, "dtDatTo");
             this.dtDatTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtDatTo.Location = new System.Drawing.Point(317, 131);
             this.dtDatTo.Name = "dtDatTo";
-            this.dtDatTo.Size = new System.Drawing.Size(138, 20);
-            this.dtDatTo.TabIndex = 28;
             this.dtDatTo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtDatTo_KeyDown);
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(292, 185);
+            resources.ApplyResources(this.btnPreview, "btnPreview");
             this.btnPreview.Name = "btnPreview";
-            this.btnPreview.Size = new System.Drawing.Size(75, 23);
-            this.btnPreview.TabIndex = 29;
-            this.btnPreview.Text = "&Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             this.btnPreview.Click += new System.EventHandler(this.btnPreview_Click);
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(380, 185);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 30;
-            this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // txtUnitReport
             // 
-            this.txtUnitReport.Location = new System.Drawing.Point(159, 154);
+            resources.ApplyResources(this.txtUnitReport, "txtUnitReport");
             this.txtUnitReport.Name = "txtUnitReport";
-            this.txtUnitReport.Size = new System.Drawing.Size(129, 20);
-            this.txtUnitReport.TabIndex = 31;
             this.txtUnitReport.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitReport_KeyDown);
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(3, 158);
+            resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(75, 13);
-            this.label11.TabIndex = 32;
-            this.label11.Text = "Unit Of Report";
             // 
             // btnUnitReport
             // 
+            resources.ApplyResources(this.btnUnitReport, "btnUnitReport");
             this.btnUnitReport.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnUnitReport.Location = new System.Drawing.Point(288, 153);
             this.btnUnitReport.Name = "btnUnitReport";
-            this.btnUnitReport.Size = new System.Drawing.Size(27, 22);
-            this.btnUnitReport.TabIndex = 33;
             this.btnUnitReport.TabStop = false;
             this.btnUnitReport.UseVisualStyleBackColor = true;
             this.btnUnitReport.Click += new System.EventHandler(this.btnUnitReport_Click);
             // 
             // btnMovTypeTo
             // 
+            resources.ApplyResources(this.btnMovTypeTo, "btnMovTypeTo");
             this.btnMovTypeTo.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnMovTypeTo.Location = new System.Drawing.Point(287, 71);
             this.btnMovTypeTo.Name = "btnMovTypeTo";
-            this.btnMovTypeTo.Size = new System.Drawing.Size(27, 22);
-            this.btnMovTypeTo.TabIndex = 15;
             this.btnMovTypeTo.TabStop = false;
             this.btnMovTypeTo.UseVisualStyleBackColor = true;
             this.btnMovTypeTo.Click += new System.EventHandler(this.btnMovTypeTo_Click);
             // 
             // btnMovTypeFrom
             // 
+            resources.ApplyResources(this.btnMovTypeFrom, "btnMovTypeFrom");
             this.btnMovTypeFrom.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnMovTypeFrom.Location = new System.Drawing.Point(287, 43);
             this.btnMovTypeFrom.Name = "btnMovTypeFrom";
-            this.btnMovTypeFrom.Size = new System.Drawing.Size(27, 22);
-            this.btnMovTypeFrom.TabIndex = 10;
             this.btnMovTypeFrom.TabStop = false;
             this.btnMovTypeFrom.UseVisualStyleBackColor = true;
             this.btnMovTypeFrom.Click += new System.EventHandler(this.btnMovTypeFrom_Click);
             // 
             // btnFormat
             // 
+            resources.ApplyResources(this.btnFormat, "btnFormat");
             this.btnFormat.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnFormat.Location = new System.Drawing.Point(287, 16);
             this.btnFormat.Name = "btnFormat";
-            this.btnFormat.Size = new System.Drawing.Size(27, 22);
-            this.btnFormat.TabIndex = 6;
             this.btnFormat.TabStop = false;
             this.btnFormat.UseVisualStyleBackColor = true;
             this.btnFormat.Click += new System.EventHandler(this.btnFormat_Click);
             // 
             // MOVEMENT_LISTING_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 216);
             this.Controls.Add(this.btnUnitReport);
             this.Controls.Add(this.txtUnitReport);
             this.Controls.Add(this.label11);
@@ -347,8 +267,6 @@
             this.Name = "MOVEMENT_LISTING_FRM";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Movement Listing";
             this.Load += new System.EventHandler(this.MOVEMENT_LISTING_FRM_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

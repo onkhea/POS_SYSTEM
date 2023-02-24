@@ -54,8 +54,8 @@ namespace POS.Transaction.Security
 
         public SIPermissionUser()
         {
-            var command = new SqlCommand("SELECT * FROM SIPUSERG",connection.Connect());
-            dtUsGroup = dataManager.GetData(command);
+            //var command = new SqlCommand("SELECT * FROM SIPUSERG",connection.Connect());
+            //dtUsGroup = dataManager.GetData(command);
         }
 
         #endregion

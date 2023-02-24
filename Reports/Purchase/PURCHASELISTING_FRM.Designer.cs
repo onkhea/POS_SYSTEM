@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PURCHASELISTING_FRM));
             this.label1 = new System.Windows.Forms.Label();
             this.txtFormatCode = new System.Windows.Forms.TextBox();
             this.txtFormatDesc = new System.Windows.Forms.TextBox();
@@ -58,251 +59,175 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 24);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Report Format";
             // 
             // txtFormatCode
             // 
-            this.txtFormatCode.Location = new System.Drawing.Point(120, 20);
+            resources.ApplyResources(this.txtFormatCode, "txtFormatCode");
             this.txtFormatCode.Name = "txtFormatCode";
-            this.txtFormatCode.Size = new System.Drawing.Size(129, 20);
-            this.txtFormatCode.TabIndex = 0;
             this.txtFormatCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFormatCode_KeyDown);
             // 
             // txtFormatDesc
             // 
-            this.txtFormatDesc.Location = new System.Drawing.Point(279, 21);
+            resources.ApplyResources(this.txtFormatDesc, "txtFormatDesc");
             this.txtFormatDesc.Name = "txtFormatDesc";
-            this.txtFormatDesc.Size = new System.Drawing.Size(138, 20);
-            this.txtFormatDesc.TabIndex = 11;
             // 
             // txtItemCode1
             // 
-            this.txtItemCode1.Location = new System.Drawing.Point(305, 50);
+            resources.ApplyResources(this.txtItemCode1, "txtItemCode1");
             this.txtItemCode1.Name = "txtItemCode1";
-            this.txtItemCode1.Size = new System.Drawing.Size(85, 20);
-            this.txtItemCode1.TabIndex = 2;
             this.txtItemCode1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtItemCode1_KeyDown);
             // 
             // txtItemCode
             // 
-            this.txtItemCode.Location = new System.Drawing.Point(120, 49);
+            resources.ApplyResources(this.txtItemCode, "txtItemCode");
             this.txtItemCode.Name = "txtItemCode";
-            this.txtItemCode.Size = new System.Drawing.Size(129, 20);
-            this.txtItemCode.TabIndex = 1;
             this.txtItemCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtItemCode_KeyDown);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 53);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Item Code";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 82);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Transaction Ref. From";
             // 
             // txtTranTo
             // 
-            this.txtTranTo.Location = new System.Drawing.Point(281, 80);
+            resources.ApplyResources(this.txtTranTo, "txtTranTo");
             this.txtTranTo.Name = "txtTranTo";
-            this.txtTranTo.Size = new System.Drawing.Size(136, 20);
-            this.txtTranTo.TabIndex = 4;
             this.txtTranTo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTranTo_KeyDown);
             // 
             // txtTranFrom
             // 
-            this.txtTranFrom.Location = new System.Drawing.Point(121, 80);
+            resources.ApplyResources(this.txtTranFrom, "txtTranFrom");
             this.txtTranFrom.Name = "txtTranFrom";
-            this.txtTranFrom.Size = new System.Drawing.Size(129, 20);
-            this.txtTranFrom.TabIndex = 3;
             this.txtTranFrom.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTranFrom_KeyDown);
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(256, 84);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 13);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "To";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 112);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 13);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Purchase Type :";
             // 
             // cboPurhcaseType
             // 
+            resources.ApplyResources(this.cboPurhcaseType, "cboPurhcaseType");
             this.cboPurhcaseType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboPurhcaseType.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.cboPurhcaseType.FormattingEnabled = true;
             this.cboPurhcaseType.Items.AddRange(new object[] {
-            "O-Purchase Order",
-            "I-Purchase Invoice",
-            "D-Debit Note"});
-            this.cboPurhcaseType.Location = new System.Drawing.Point(120, 109);
+            resources.GetString("cboPurhcaseType.Items"),
+            resources.GetString("cboPurhcaseType.Items1"),
+            resources.GetString("cboPurhcaseType.Items2")});
             this.cboPurhcaseType.Name = "cboPurhcaseType";
-            this.cboPurhcaseType.Size = new System.Drawing.Size(129, 21);
-            this.cboPurhcaseType.TabIndex = 5;
             this.cboPurhcaseType.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboPurhcaseType_KeyDown);
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 140);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Transaction Period :";
             // 
             // dtDateFrom
             // 
+            resources.ApplyResources(this.dtDateFrom, "dtDateFrom");
             this.dtDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtDateFrom.Location = new System.Drawing.Point(120, 138);
             this.dtDateFrom.Name = "dtDateFrom";
-            this.dtDateFrom.Size = new System.Drawing.Size(127, 20);
-            this.dtDateFrom.TabIndex = 6;
             this.dtDateFrom.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtDateFrom_KeyDown);
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(256, 141);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(20, 13);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "To";
             // 
             // dtDateTo
             // 
+            resources.ApplyResources(this.dtDateTo, "dtDateTo");
             this.dtDateTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtDateTo.Location = new System.Drawing.Point(279, 139);
             this.dtDateTo.Name = "dtDateTo";
-            this.dtDateTo.Size = new System.Drawing.Size(138, 20);
-            this.dtDateTo.TabIndex = 7;
             this.dtDateTo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtDateTo_KeyDown);
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 172);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 13);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "Unit Of Report";
             // 
             // txtUnitReport
             // 
-            this.txtUnitReport.Location = new System.Drawing.Point(120, 169);
+            resources.ApplyResources(this.txtUnitReport, "txtUnitReport");
             this.txtUnitReport.Name = "txtUnitReport";
-            this.txtUnitReport.Size = new System.Drawing.Size(129, 20);
-            this.txtUnitReport.TabIndex = 8;
             this.txtUnitReport.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitReport_KeyDown);
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(261, 206);
+            resources.ApplyResources(this.btnPreview, "btnPreview");
             this.btnPreview.Name = "btnPreview";
-            this.btnPreview.Size = new System.Drawing.Size(75, 23);
-            this.btnPreview.TabIndex = 9;
-            this.btnPreview.Text = "&Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             this.btnPreview.Click += new System.EventHandler(this.btnPreview_Click);
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(346, 206);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 10;
-            this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(79, 54);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(30, 13);
-            this.label9.TabIndex = 22;
-            this.label9.Text = "From";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(280, 53);
+            resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(20, 13);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "To";
             // 
             // btnUnitReport
             // 
+            resources.ApplyResources(this.btnUnitReport, "btnUnitReport");
             this.btnUnitReport.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnUnitReport.Location = new System.Drawing.Point(249, 168);
             this.btnUnitReport.Name = "btnUnitReport";
-            this.btnUnitReport.Size = new System.Drawing.Size(27, 22);
-            this.btnUnitReport.TabIndex = 21;
             this.btnUnitReport.TabStop = false;
             this.btnUnitReport.UseVisualStyleBackColor = true;
             this.btnUnitReport.Click += new System.EventHandler(this.btnUnitReport_Click);
             // 
             // btnItemCode1
             // 
+            resources.ApplyResources(this.btnItemCode1, "btnItemCode1");
             this.btnItemCode1.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnItemCode1.Location = new System.Drawing.Point(390, 49);
             this.btnItemCode1.Name = "btnItemCode1";
-            this.btnItemCode1.Size = new System.Drawing.Size(27, 22);
-            this.btnItemCode1.TabIndex = 8;
             this.btnItemCode1.TabStop = false;
             this.btnItemCode1.UseVisualStyleBackColor = true;
             this.btnItemCode1.Click += new System.EventHandler(this.btnItemCode1_Click);
             // 
             // btnItemCode
             // 
+            resources.ApplyResources(this.btnItemCode, "btnItemCode");
             this.btnItemCode.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnItemCode.Location = new System.Drawing.Point(249, 48);
             this.btnItemCode.Name = "btnItemCode";
-            this.btnItemCode.Size = new System.Drawing.Size(27, 22);
-            this.btnItemCode.TabIndex = 6;
             this.btnItemCode.TabStop = false;
             this.btnItemCode.UseVisualStyleBackColor = true;
             this.btnItemCode.Click += new System.EventHandler(this.btnItemCode_Click);
             // 
             // btnFormat
             // 
+            resources.ApplyResources(this.btnFormat, "btnFormat");
             this.btnFormat.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnFormat.Location = new System.Drawing.Point(249, 19);
             this.btnFormat.Name = "btnFormat";
-            this.btnFormat.Size = new System.Drawing.Size(27, 22);
-            this.btnFormat.TabIndex = 2;
             this.btnFormat.TabStop = false;
             this.btnFormat.UseVisualStyleBackColor = true;
             this.btnFormat.Click += new System.EventHandler(this.btnFormat_Click);
             // 
             // PURCHASELISTING_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(445, 235);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnCancel);
@@ -335,8 +260,6 @@
             this.Name = "PURCHASELISTING_FRM";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Purchase Listing  Report";
             this.Load += new System.EventHandler(this.PURCHASELISTING_FRM_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

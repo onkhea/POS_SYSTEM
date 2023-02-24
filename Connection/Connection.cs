@@ -26,8 +26,8 @@ namespace POS.Connection
 
         public override SqlConnection Connect()
         {
-           connStr = SITempData.Cnn;
-           var connection = new SqlConnection(ConnStr);
+            connStr = SITempData.Cnn;
+            var connection = new SqlConnection(ConnStr);
             if (connection.State == ConnectionState.Closed)
             {
                 connection.Open();

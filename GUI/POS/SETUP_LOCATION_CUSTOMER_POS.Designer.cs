@@ -32,14 +32,8 @@ namespace POS.GUI.POS
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SetupLocationCustomerPos));
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node0");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("All Locations", new System.Windows.Forms.TreeNode[] {
-            treeNode1});
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.NewToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.Label1 = new System.Windows.Forms.Label();
-            this.EditToolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.CloseTool = new System.Windows.Forms.ToolStripButton();
             this.SplitContainer1 = new System.Windows.Forms.SplitContainer();
             this.TreeView1 = new System.Windows.Forms.TreeView();
             this.ImageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -47,9 +41,6 @@ namespace POS.GUI.POS
             this.DataGridView1 = new System.Windows.Forms.DataGridView();
             this.ContextMain = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ActionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.NewsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.EditToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.DeleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.EditPriceBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CloneToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.PasteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,6 +48,12 @@ namespace POS.GUI.POS
             this.RefreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Label2 = new System.Windows.Forms.Label();
             this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.NewToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.EditToolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.CloseTool = new System.Windows.Forms.ToolStripButton();
+            this.NewsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.EditToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.DeleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DeleteToolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripSplitButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.CloneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,6 +69,7 @@ namespace POS.GUI.POS
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.SplitContainer1)).BeginInit();
             this.SplitContainer1.Panel1.SuspendLayout();
             this.SplitContainer1.Panel2.SuspendLayout();
             this.SplitContainer1.SuspendLayout();
@@ -81,84 +79,36 @@ namespace POS.GUI.POS
             this.ToolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // NewToolStripButton
-            // 
-            this.NewToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("NewToolStripButton.Image")));
-            this.NewToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.NewToolStripButton.Name = "NewToolStripButton";
-            this.NewToolStripButton.Size = new System.Drawing.Size(57, 24);
-            this.NewToolStripButton.Text = "&New  ";
-            this.NewToolStripButton.ToolTipText = "New User";
-            this.NewToolStripButton.Click += new System.EventHandler(this.NewToolStripButton_Click);
-            // 
             // Label1
             // 
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.BackColor = System.Drawing.SystemColors.Control;
-            this.Label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(0, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(179, 22);
-            this.Label1.TabIndex = 1;
-            this.Label1.Text = "Location";
-            this.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // EditToolStripButton1
-            // 
-            this.EditToolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("EditToolStripButton1.Image")));
-            this.EditToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.EditToolStripButton1.Name = "EditToolStripButton1";
-            this.EditToolStripButton1.Size = new System.Drawing.Size(53, 24);
-            this.EditToolStripButton1.Text = "&Edit  ";
-            this.EditToolStripButton1.Click += new System.EventHandler(this.EditToolStripButton1_Click);
-            // 
-            // CloseTool
-            // 
-            this.CloseTool.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.CloseTool.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.CloseTool.Image = global::POS.Properties.Resources.Close_64;
-            this.CloseTool.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.CloseTool.Name = "CloseTool";
-            this.CloseTool.Size = new System.Drawing.Size(23, 24);
-            this.CloseTool.Text = "&Close";
-            this.CloseTool.Click += new System.EventHandler(this.CloseTool_Click);
             // 
             // SplitContainer1
             // 
-            this.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SplitContainer1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.SplitContainer1, "SplitContainer1");
             this.SplitContainer1.Name = "SplitContainer1";
             // 
             // SplitContainer1.Panel1
             // 
+            resources.ApplyResources(this.SplitContainer1.Panel1, "SplitContainer1.Panel1");
             this.SplitContainer1.Panel1.Controls.Add(this.TreeView1);
             this.SplitContainer1.Panel1.Controls.Add(this.Label1);
             // 
             // SplitContainer1.Panel2
             // 
+            resources.ApplyResources(this.SplitContainer1.Panel2, "SplitContainer1.Panel2");
             this.SplitContainer1.Panel2.Controls.Add(this.PanelAnalM);
-            this.SplitContainer1.Size = new System.Drawing.Size(953, 519);
-            this.SplitContainer1.SplitterDistance = 179;
-            this.SplitContainer1.TabIndex = 3;
             // 
             // TreeView1
             // 
-            this.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            resources.ApplyResources(this.TreeView1, "TreeView1");
             this.TreeView1.HideSelection = false;
-            this.TreeView1.ImageIndex = 0;
             this.TreeView1.ImageList = this.ImageList1;
-            this.TreeView1.Location = new System.Drawing.Point(0, 22);
             this.TreeView1.Name = "TreeView1";
-            treeNode1.Name = "Node0";
-            treeNode1.Text = "Node0";
-            treeNode2.Name = "Node0";
-            treeNode2.Tag = "ROOT";
-            treeNode2.Text = "All Locations";
             this.TreeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2});
-            this.TreeView1.SelectedImageIndex = 0;
-            this.TreeView1.Size = new System.Drawing.Size(179, 497);
-            this.TreeView1.TabIndex = 5;
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("TreeView1.Nodes")))});
             this.TreeView1.BeforeExpand += new System.Windows.Forms.TreeViewCancelEventHandler(this.TreeView1_BeforeExpand);
             this.TreeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TreeView1_AfterSelect);
             // 
@@ -171,17 +121,15 @@ namespace POS.GUI.POS
             // 
             // PanelAnalM
             // 
+            resources.ApplyResources(this.PanelAnalM, "PanelAnalM");
             this.PanelAnalM.Controls.Add(this.DataGridView1);
             this.PanelAnalM.Controls.Add(this.Label2);
             this.PanelAnalM.Controls.Add(this.ToolStrip1);
-            this.PanelAnalM.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelAnalM.Location = new System.Drawing.Point(0, 0);
             this.PanelAnalM.Name = "PanelAnalM";
-            this.PanelAnalM.Size = new System.Drawing.Size(770, 519);
-            this.PanelAnalM.TabIndex = 4;
             // 
             // DataGridView1
             // 
+            resources.ApplyResources(this.DataGridView1, "DataGridView1");
             this.DataGridView1.AllowUserToAddRows = false;
             this.DataGridView1.AllowUserToDeleteRows = false;
             this.DataGridView1.AllowUserToResizeRows = false;
@@ -209,19 +157,16 @@ namespace POS.GUI.POS
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.MenuText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DataGridView1.Location = new System.Drawing.Point(0, 49);
             this.DataGridView1.MultiSelect = false;
             this.DataGridView1.Name = "DataGridView1";
             this.DataGridView1.ReadOnly = true;
             this.DataGridView1.RowHeadersVisible = false;
             this.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DataGridView1.Size = new System.Drawing.Size(770, 470);
             this.DataGridView1.StandardTab = true;
-            this.DataGridView1.TabIndex = 4;
             // 
             // ContextMain
             // 
+            resources.ApplyResources(this.ContextMain, "ContextMain");
             this.ContextMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ActionToolStripMenuItem,
             this.EditPriceBookToolStripMenuItem,
@@ -229,231 +174,204 @@ namespace POS.GUI.POS
             this.RefreshToolStripMenuItem});
             this.ContextMain.Name = "ContextMain";
             this.ContextMain.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.ContextMain.Size = new System.Drawing.Size(133, 76);
             // 
             // ActionToolStripMenuItem
             // 
+            resources.ApplyResources(this.ActionToolStripMenuItem, "ActionToolStripMenuItem");
             this.ActionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.NewsToolStripMenuItem,
             this.EditToolStripMenuItem,
             this.DeleteToolStripMenuItem});
             this.ActionToolStripMenuItem.Name = "ActionToolStripMenuItem";
-            this.ActionToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
-            this.ActionToolStripMenuItem.Text = "&Actions";
-            // 
-            // NewsToolStripMenuItem
-            // 
-            this.NewsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("NewsToolStripMenuItem.Image")));
-            this.NewsToolStripMenuItem.Name = "NewsToolStripMenuItem";
-            this.NewsToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.NewsToolStripMenuItem.Text = "&New";
-            // 
-            // EditToolStripMenuItem
-            // 
-            this.EditToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("EditToolStripMenuItem.Image")));
-            this.EditToolStripMenuItem.Name = "EditToolStripMenuItem";
-            this.EditToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.EditToolStripMenuItem.Text = "&Edit";
-            // 
-            // DeleteToolStripMenuItem
-            // 
-            this.DeleteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("DeleteToolStripMenuItem.Image")));
-            this.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem";
-            this.DeleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.DeleteToolStripMenuItem.Text = "&Delete";
             // 
             // EditPriceBookToolStripMenuItem
             // 
+            resources.ApplyResources(this.EditPriceBookToolStripMenuItem, "EditPriceBookToolStripMenuItem");
             this.EditPriceBookToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.CloneToolStripMenuItem1,
             this.PasteToolStripMenuItem1});
             this.EditPriceBookToolStripMenuItem.Name = "EditPriceBookToolStripMenuItem";
-            this.EditPriceBookToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
-            this.EditPriceBookToolStripMenuItem.Text = "&Tools";
             // 
             // CloneToolStripMenuItem1
             // 
+            resources.ApplyResources(this.CloneToolStripMenuItem1, "CloneToolStripMenuItem1");
             this.CloneToolStripMenuItem1.Name = "CloneToolStripMenuItem1";
-            this.CloneToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.CloneToolStripMenuItem1.Size = new System.Drawing.Size(147, 22);
-            this.CloneToolStripMenuItem1.Text = "&Clone";
             // 
             // PasteToolStripMenuItem1
             // 
-            this.PasteToolStripMenuItem1.Enabled = false;
+            resources.ApplyResources(this.PasteToolStripMenuItem1, "PasteToolStripMenuItem1");
             this.PasteToolStripMenuItem1.Name = "PasteToolStripMenuItem1";
-            this.PasteToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.PasteToolStripMenuItem1.Size = new System.Drawing.Size(147, 22);
-            this.PasteToolStripMenuItem1.Text = "&Paste";
             // 
             // ToolStripMenuItem1
             // 
+            resources.ApplyResources(this.ToolStripMenuItem1, "ToolStripMenuItem1");
             this.ToolStripMenuItem1.Name = "ToolStripMenuItem1";
-            this.ToolStripMenuItem1.Size = new System.Drawing.Size(129, 6);
             // 
             // RefreshToolStripMenuItem
             // 
+            resources.ApplyResources(this.RefreshToolStripMenuItem, "RefreshToolStripMenuItem");
             this.RefreshToolStripMenuItem.Name = "RefreshToolStripMenuItem";
-            this.RefreshToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.RefreshToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
-            this.RefreshToolStripMenuItem.Text = "&Refresh";
             // 
             // Label2
             // 
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.BackColor = System.Drawing.SystemColors.Control;
-            this.Label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(0, 27);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(770, 22);
-            this.Label2.TabIndex = 3;
-            this.Label2.Text = "Relation Employee with Customer";
-            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ToolStrip1
             // 
+            resources.ApplyResources(this.ToolStrip1, "ToolStrip1");
             this.ToolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.CloseTool,
             this.NewToolStripButton,
             this.EditToolStripButton1,
             this.DeleteToolStripButton2,
             this.ToolStripSplitButton1});
-            this.ToolStrip1.Location = new System.Drawing.Point(0, 0);
             this.ToolStrip1.Name = "ToolStrip1";
             this.ToolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.ToolStrip1.Size = new System.Drawing.Size(770, 27);
-            this.ToolStrip1.TabIndex = 0;
             this.ToolStrip1.TabStop = true;
-            this.ToolStrip1.Text = "ToolStrip1";
+            // 
+            // NewToolStripButton
+            // 
+            resources.ApplyResources(this.NewToolStripButton, "NewToolStripButton");
+            this.NewToolStripButton.Name = "NewToolStripButton";
+            this.NewToolStripButton.Click += new System.EventHandler(this.NewToolStripButton_Click);
+            // 
+            // EditToolStripButton1
+            // 
+            resources.ApplyResources(this.EditToolStripButton1, "EditToolStripButton1");
+            this.EditToolStripButton1.Name = "EditToolStripButton1";
+            this.EditToolStripButton1.Click += new System.EventHandler(this.EditToolStripButton1_Click);
+            // 
+            // CloseTool
+            // 
+            resources.ApplyResources(this.CloseTool, "CloseTool");
+            this.CloseTool.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.CloseTool.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.CloseTool.Image = global::POS.Properties.Resources.Close_64;
+            this.CloseTool.Name = "CloseTool";
+            this.CloseTool.Click += new System.EventHandler(this.CloseTool_Click);
+            // 
+            // NewsToolStripMenuItem
+            // 
+            resources.ApplyResources(this.NewsToolStripMenuItem, "NewsToolStripMenuItem");
+            this.NewsToolStripMenuItem.Name = "NewsToolStripMenuItem";
+            // 
+            // EditToolStripMenuItem
+            // 
+            resources.ApplyResources(this.EditToolStripMenuItem, "EditToolStripMenuItem");
+            this.EditToolStripMenuItem.Name = "EditToolStripMenuItem";
+            // 
+            // DeleteToolStripMenuItem
+            // 
+            resources.ApplyResources(this.DeleteToolStripMenuItem, "DeleteToolStripMenuItem");
+            this.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem";
             // 
             // DeleteToolStripButton2
             // 
-            this.DeleteToolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("DeleteToolStripButton2.Image")));
-            this.DeleteToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            resources.ApplyResources(this.DeleteToolStripButton2, "DeleteToolStripButton2");
             this.DeleteToolStripButton2.Name = "DeleteToolStripButton2";
-            this.DeleteToolStripButton2.Size = new System.Drawing.Size(63, 24);
-            this.DeleteToolStripButton2.Text = "&Delete ";
             this.DeleteToolStripButton2.Click += new System.EventHandler(this.DeleteToolStripButton2_Click);
             // 
             // ToolStripSplitButton1
             // 
+            resources.ApplyResources(this.ToolStripSplitButton1, "ToolStripSplitButton1");
             this.ToolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.CloneToolStripMenuItem,
             this.PasteToolStripMenuItem});
-            this.ToolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("ToolStripSplitButton1.Image")));
-            this.ToolStripSplitButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ToolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ToolStripSplitButton1.Name = "ToolStripSplitButton1";
-            this.ToolStripSplitButton1.Size = new System.Drawing.Size(69, 24);
-            this.ToolStripSplitButton1.Text = "T&ools";
             // 
             // CloneToolStripMenuItem
             // 
+            resources.ApplyResources(this.CloneToolStripMenuItem, "CloneToolStripMenuItem");
             this.CloneToolStripMenuItem.Name = "CloneToolStripMenuItem";
-            this.CloneToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.CloneToolStripMenuItem.Text = "&Clone";
             this.CloneToolStripMenuItem.Click += new System.EventHandler(this.CloneToolStripMenuItem_Click);
             // 
             // PasteToolStripMenuItem
             // 
-            this.PasteToolStripMenuItem.Enabled = false;
+            resources.ApplyResources(this.PasteToolStripMenuItem, "PasteToolStripMenuItem");
             this.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem";
-            this.PasteToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.PasteToolStripMenuItem.Text = "&Paste";
             this.PasteToolStripMenuItem.Click += new System.EventHandler(this.PasteToolStripMenuItem_Click);
             // 
             // Column8
             // 
-            this.Column8.HeaderText = "Location Code";
+            resources.ApplyResources(this.Column8, "Column8");
             this.Column8.Name = "Column8";
             this.Column8.ReadOnly = true;
-            this.Column8.Width = 120;
             // 
             // Column9
             // 
-            this.Column9.HeaderText = "Location Name";
+            resources.ApplyResources(this.Column9, "Column9");
             this.Column9.Name = "Column9";
             this.Column9.ReadOnly = true;
-            this.Column9.Width = 120;
             // 
             // Column10
             // 
-            this.Column10.HeaderText = "Employee Code";
-            this.Column10.MinimumWidth = 2;
+            resources.ApplyResources(this.Column10, "Column10");
             this.Column10.Name = "Column10";
             this.Column10.ReadOnly = true;
-            this.Column10.Width = 120;
             // 
             // Column11
             // 
-            this.Column11.HeaderText = "Employee Name";
+            resources.ApplyResources(this.Column11, "Column11");
             this.Column11.Name = "Column11";
             this.Column11.ReadOnly = true;
-            this.Column11.Width = 120;
             // 
             // Customercode
             // 
-            this.Customercode.HeaderText = "Customer Code";
+            resources.ApplyResources(this.Customercode, "Customercode");
             this.Customercode.Name = "Customercode";
             this.Customercode.ReadOnly = true;
-            this.Customercode.Width = 120;
             // 
             // CustomerName
             // 
-            this.CustomerName.HeaderText = "Customer Name";
+            resources.ApplyResources(this.CustomerName, "CustomerName");
             this.CustomerName.Name = "CustomerName";
             this.CustomerName.ReadOnly = true;
-            this.CustomerName.Width = 120;
             // 
             // UserCode
             // 
-            this.UserCode.HeaderText = "User Code";
+            resources.ApplyResources(this.UserCode, "UserCode");
             this.UserCode.Name = "UserCode";
             this.UserCode.ReadOnly = true;
             // 
             // UserName
             // 
-            this.UserName.HeaderText = "User Name";
+            resources.ApplyResources(this.UserName, "UserName");
             this.UserName.Name = "UserName";
             this.UserName.ReadOnly = true;
             // 
             // Column13
             // 
-            this.Column13.HeaderText = "Created Date";
+            resources.ApplyResources(this.Column13, "Column13");
             this.Column13.Name = "Column13";
             this.Column13.ReadOnly = true;
-            this.Column13.Visible = false;
-            this.Column13.Width = 150;
             // 
             // Column21
             // 
-            this.Column21.HeaderText = "Updated Date";
+            resources.ApplyResources(this.Column21, "Column21");
             this.Column21.Name = "Column21";
             this.Column21.ReadOnly = true;
-            this.Column21.Visible = false;
-            this.Column21.Width = 150;
             // 
             // Column12
             // 
-            this.Column12.HeaderText = "User Code";
+            resources.ApplyResources(this.Column12, "Column12");
             this.Column12.Name = "Column12";
             this.Column12.ReadOnly = true;
-            this.Column12.Visible = false;
             // 
             // SetupLocationCustomerPos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(953, 519);
             this.Controls.Add(this.SplitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SetupLocationCustomerPos";
-            this.Text = "Setup Location with customer";
             this.SplitContainer1.Panel1.ResumeLayout(false);
             this.SplitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SplitContainer1)).EndInit();
             this.SplitContainer1.ResumeLayout(false);
             this.PanelAnalM.ResumeLayout(false);
             this.PanelAnalM.PerformLayout();

@@ -117,35 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ribbonControlMain.ExpandCollapseItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="ribbonControlMain.ExpandCollapseItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ribbonControlMain.ExpandCollapseItem.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="ribbonControlMain.ExpandCollapseItem.SearchTags" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barButtonItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barButtonGroup1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonGroup1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <assembly alias="DevExpress.Data.v22.1" name="DevExpress.Data.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="barButtonGroup1.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -185,21 +156,6 @@
         c3ZnPgs=
 </value>
   </data>
-  <data name="barSubItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barSubItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barSubItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="buttonBarItemLogout.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemLogout.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemLogout.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -220,30 +176,6 @@
         LDEuNi0xLjQsMS45TDE4LDI0eiBNMTIsMTIgICB2LTJjMC0yLjIsMS44LTQsNC00czQsMS44LDQsNHYy
         SDEyeiIgY2xhc3M9IlllbGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
-  </data>
-  <data name="barButtonGroup2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonGroup2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonGroup2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barButtonItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem3.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="buttonBarItemExit.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemExit.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemExit.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -268,21 +200,6 @@
         NmMwLjQsMC40LDAuNCwxLDAsMS40TDE4LDE2TDIzLjcsMjEuN3oiIGNsYXNzPSJSZWQiIC8+DQogIDwv
         Zz4NCjwvc3ZnPgs=
 </value>
-  </data>
-  <data name="barButtonGroup3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonGroup3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonGroup3.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barButtonItem5.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem5.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="barButtonItem5.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -322,12 +239,6 @@
         c3ZnPgs=
 </value>
   </data>
-  <data name="barButtonItem6.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem6.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="barButtonItem6.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -355,12 +266,6 @@
         MjIuMywyMS40LDIwLDE4eiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemLocationStore.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemLocationStore.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemLocationStore.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -382,11 +287,9 @@
         LDR6IiBjbGFzcz0iUmVkIiAvPg0KICA8L2c+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="buttonBarItemUnitConverstion.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemUnitConverstion.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonBarItemLocationStore.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemUnitConverstion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -409,11 +312,8 @@
         Ni40LDkuMiwyMy45LDd6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemItemCategory.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemItemCategory.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemUnitConverstion.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemItemCategory.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -444,11 +344,8 @@
         Pg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="barButtonItem12.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem12.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemItemCategory.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="barButtonItem12.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -472,12 +369,6 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemItemRecord.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemItemRecord.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemItemRecord.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -500,11 +391,8 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemPricesList.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemPricesList.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemItemRecord.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemPricesList.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -523,12 +411,6 @@
         eiBNNSwyMGMtMS43LDAtMywxLjMtMywzczEuMywzLDMsM3MzLTEuMywzLTNTNi43LDIwLDUsMjB6IiBj
         bGFzcz0iQmx1ZSIgLz4NCjwvc3ZnPgs=
 </value>
-  </data>
-  <data name="buttonBarItemItemPromotion.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemItemPromotion.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemItemPromotion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -554,12 +436,6 @@
         LTAuOS0yLTJjMC0xLjEsMC45LTIsMi0yczIsMC45LDIsMkMyNiw5LjEsMjUuMSwxMCwyNCwxMHoiIGNs
         YXNzPSJSZWQiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
-  </data>
-  <data name="buttonBarItemGroupManagement.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemGroupManagement.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemGroupManagement.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -599,12 +475,6 @@
         c3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemUsersManagement.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemUsersManagement.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemUsersManagement.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -632,12 +502,6 @@
         MjIuMywyMS40LDIwLDE4eiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemSupplierDelivery.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemSupplierDelivery.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemSupplierDelivery.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -659,11 +523,8 @@
         eiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemSupplierRecords.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemSupplierRecords.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemSupplierDelivery.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemSupplierRecords.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -687,11 +548,8 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemCustomerRecords.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemCustomerRecords.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemSupplierRecords.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemCustomerRecords.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -715,11 +573,8 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemCustomerDelivery.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemCustomerDelivery.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemCustomerRecords.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemCustomerDelivery.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -742,11 +597,11 @@
         eiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemEmployee.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemCustomerDelivery.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
-  <data name="buttonBarItemEmployee.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemEmployee.Caption" xml:space="preserve">
+    <value>Staff</value>
   </data>
   <data name="buttonBarItemEmployee.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -776,11 +631,8 @@
         QmxhY2siIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="barButtonItem23.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem23.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemEmployee.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
   </data>
   <data name="barButtonItem23.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -800,21 +652,6 @@
         PSIyLDIwIDEwLDEyIDE2LDE4IDMwLDQgMzAsMjggMiwyOCAgIiBjbGFzcz0iWWVsbG93IiAvPg0KICA8
         L2c+DQo8L3N2Zz4L
 </value>
-  </data>
-  <data name="barButtonItem24.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem24.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem24.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="buttonBarItemReportConverstion.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemReportConverstion.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemReportConverstion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -845,11 +682,8 @@
         LjYsMTIsMjcsMTJ6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemReportDesign.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemReportDesign.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemReportConverstion.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemReportDesign.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -871,11 +705,8 @@
         IlllbGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemOption.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemOption.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemReportDesign.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemOption.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -901,11 +732,8 @@
         LDIwLDE2LDIweiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemPurchaseOrder.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemPurchaseOrder.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemOption.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemPurchaseOrder.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -936,12 +764,6 @@
         MHoiIGNsYXNzPSJCbGFjayIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemPurchaseInvoice.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemPurchaseInvoice.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemPurchaseInvoice.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -963,11 +785,8 @@
         Zz4L
 </value>
   </data>
-  <data name="buttonBarItemDebitNote.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemDebitNote.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemPurchaseInvoice.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemDebitNote.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -993,12 +812,6 @@
         bGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="barButtonItem31.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem31.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="barButtonItem31.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1018,12 +831,6 @@
         IkdyZWVuIiAvPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemStockAdjustment.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemStockAdjustment.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemStockAdjustment.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1041,12 +848,6 @@
         NHogTTIyLDEyLjhWMzBsOC04VjQuOEwyMiwxMi44eiBNMTkuMiwySDEyTDIsMTJoNy4yTDE5LjIsMnog
         TTIyLDJMMTIsMTJoOEwzMCwySDIyeiIgY2xhc3M9IlllbGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
-  </data>
-  <data name="buttonBarItemInventoryTransfer.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemInventoryTransfer.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemInventoryTransfer.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1066,12 +867,6 @@
         QmxhY2siIC8+DQogIDxwYXRoIGQ9Ik0xMiwyNGg4djZsMTItOGwtMTItOHY2aC04VjI0eiIgY2xhc3M9
         IkdyZWVuIiAvPg0KPC9zdmc+Cw==
 </value>
-  </data>
-  <data name="buttonBarItemInventoryBalance.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemInventoryBalance.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemInventoryBalance.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1113,12 +908,6 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemSalesOrder.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemSalesOrder.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemSalesOrder.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1148,12 +937,6 @@
         OWw4LThIMjAuN3oiIGNsYXNzPSJZZWxsb3ciIC8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="buttonBarItemCraditNote.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemCraditNote.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemCraditNote.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1177,12 +960,6 @@
         SDh2LTJoMTRWMTh6IE0yMiwxNEg4di0yaDE0VjE0eiBNMjIsMTBIOFY4aDE0VjEweiIgY2xhc3M9Illl
         bGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
-  </data>
-  <data name="buttonBarItemBarcodeSales.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemBarcodeSales.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemBarcodeSales.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1234,12 +1011,6 @@
         DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="buttonBarItemExchangeRate.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemExchangeRate.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemExchangeRate.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1280,12 +1051,6 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemSetupCustomerInPOS.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemSetupCustomerInPOS.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemSetupCustomerInPOS.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1299,12 +1064,6 @@
         PC9zdHlsZT4NCiAgPHBhdGggZD0iTTE4LDMwbDAtMTJsOCwwTDE1LDJMNCwxOGw4LDBsMCwxMkwxOCwz
         MHoiIGNsYXNzPSJHcmVlbiIgLz4NCjwvc3ZnPgs=
 </value>
-  </data>
-  <data name="buttonBarItemPurchaseListing.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemPurchaseListing.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemPurchaseListing.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1326,11 +1085,8 @@
         Y2siIC8+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="buttonBarItemSupplierListing.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemSupplierListing.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemPurchaseListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemSupplierListing.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1352,11 +1108,8 @@
         Y2siIC8+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="buttonBarItemMovementListing.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemMovementListing.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemSupplierListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemMovementListing.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1382,11 +1135,8 @@
         MTAsMjJIOHYyaDJWMjJ6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemInventoryMovement.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemInventoryMovement.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemMovementListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemInventoryMovement.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1407,11 +1157,8 @@
         IkdyZWVuIiAvPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemInventoryListing.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemInventoryListing.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemInventoryMovement.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
   </data>
   <data name="buttonBarItemInventoryListing.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1433,11 +1180,8 @@
         Y2siIC8+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="buttonBarItemReportInventoryTransfer.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemReportInventoryTransfer.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemInventoryListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
   </data>
   <data name="buttonBarItemReportInventoryTransfer.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1458,11 +1202,8 @@
         IkdyZWVuIiAvPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemReportSaleListing.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemReportSaleListing.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemReportInventoryTransfer.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
   </data>
   <data name="buttonBarItemReportSaleListing.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1484,11 +1225,8 @@
         Y2siIC8+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="buttonBarItemReportCustomerListing.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemReportCustomerListing.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemReportSaleListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
   </data>
   <data name="buttonBarItemReportCustomerListing.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1515,11 +1253,8 @@
         LjcsMjMuMnoiIGNsYXNzPSJCbGFjayIgLz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="buttonBarItemReportBarcode.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemReportBarcode.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemReportCustomerListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
   </data>
   <data name="buttonBarItemReportBarcode.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1571,11 +1306,8 @@
         DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="buttonBarItemDocuments.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemDocuments.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemReportBarcode.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
   </data>
   <data name="buttonBarItemDocuments.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1596,12 +1328,6 @@
         LjItMi4zLTMuOS00LjUtNC40QzExLDkuMiw3LjIsMTMsOC4yLDE3LjR6IiBjbGFzcz0iQmx1ZSIgLz4N
         Cjwvc3ZnPgs=
 </value>
-  </data>
-  <data name="buttonBarItemAboutUs.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemAboutUs.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemAboutUs.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1624,97 +1350,12 @@
         PC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemLanguage.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>Khmer</value>
   </data>
-  <data name="buttonBarItemLanguage.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="barButtonItem4.Caption" xml:space="preserve">
+    <value>English</value>
   </data>
-  <data name="buttonBarItemLanguage.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="buttonBarItemLanguageEnglish.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemLanguageEnglish.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemLanguageEnglish.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="buttonBarItemKhmer.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemKhmer.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="buttonBarItemKhmer.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barStaticItemPeroid.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItemPeroid.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItemPeroid.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barStaticItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barStaticItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItem3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItem3.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barStaticItemUserCode.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItemUserCode.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItemUserCode.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barStaticItemUserName.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItemUserName.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barStaticItemUserName.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barButtonItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barButtonItem4.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem4.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem4.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="barButtonItem9.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
@@ -1736,9 +1377,6 @@
         q2WeA5Kzecb1GdxvE7KCkagJhlTNHZCkc6q4/AAOc+/9P1J2hDLH30HXlX53yqznJ3Wn20fxZ6Bd/7HW
         hPwFT86a61YrcdEAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="barButtonItem9.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="barButtonItem9.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1790,57 +1428,6 @@
         z78WMW0IPp6cW57DNop/S+yP+bcaT+CALERU/waK94ob8E1YIAflrVTY/8ftzaD/2t787Y/4C00Q/gEI
         ifbQIqnXAgAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="barButtonItem9.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem9.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barEditItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barEditItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barEditItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barCheckItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barCheckItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barCheckItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barEditItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barEditItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barEditItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barEditItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barEditItem3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barEditItem3.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="barEditItem4.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barEditItem4.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barEditItem4.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
   </data>
   <data name="ribbonPageGroupFileActivity.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1930,12 +1517,6 @@
         c3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="barButtonItem7.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem7.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="barButtonItem7.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1962,12 +1543,6 @@
         NC00LDRzLTMuMi0yLjUtNC00Yy0yLjMsMy41LTgsMS04LDguNVYzMGgyNHYtMy41ICAgQzI4LDE5LjEs
         MjIuMywyMS40LDIwLDE4eiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
-  </data>
-  <data name="barButtonItem8.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonItem8.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="barButtonItem8.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -182,7 +182,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonBarItemLogout.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Khmer OS Battambang, 6.25pt</value>
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemExit.Caption" xml:space="preserve">
     <value>បិទ</value>
@@ -212,7 +212,7 @@
 </value>
   </data>
   <data name="buttonBarItemExit.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Khmer OS Battambang, 6.25pt</value>
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="barButtonItem5.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -303,6 +303,9 @@
         LDR6IiBjbGFzcz0iUmVkIiAvPg0KICA8L2c+DQo8L3N2Zz4L
 </value>
   </data>
+  <data name="buttonBarItemLocationStore.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemUnitConverstion.Caption" xml:space="preserve">
     <value>បម្លែងឯកតា</value>
   </data>
@@ -326,6 +329,12 @@
         NC40LTMuNiw4LTgsOHYtNGwtNiw2bDYsNnYtNGM2LjYsMCwxMi01LjQsMTItMTIgICBDMjgsMTIuNCwy
         Ni40LDkuMiwyMy45LDd6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
+  </data>
+  <data name="buttonBarItemUnitConverstion.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemItemCategory.Caption" xml:space="preserve">
+    <value>ប្រភេទធាតុ</value>
   </data>
   <data name="buttonBarItemItemCategory.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -356,6 +365,9 @@
         Pg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
+  <data name="buttonBarItemItemCategory.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="barButtonItem12.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -377,6 +389,9 @@
         LjEsMyw3LDNzNy0xLjMsNy0zVjE3QzMwLDE1LjMsMjYuOSwxNCwyMywxNHoiIGNsYXNzPSJZZWxsb3ci
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
+  </data>
+  <data name="buttonBarItemItemRecord.Caption" xml:space="preserve">
+    <value>ធាតុកត់ត្រា</value>
   </data>
   <data name="buttonBarItemItemRecord.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -400,8 +415,11 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
+  <data name="buttonBarItemItemRecord.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemPricesList.Caption" xml:space="preserve">
-    <value>Item Prices List</value>
+    <value>បញ្ជីតម្លៃទំនិញ</value>
   </data>
   <data name="buttonBarItemPricesList.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -420,6 +438,9 @@
         eiBNNSwyMGMtMS43LDAtMywxLjMtMywzczEuMywzLDMsM3MzLTEuMywzLTNTNi43LDIwLDUsMjB6IiBj
         bGFzcz0iQmx1ZSIgLz4NCjwvc3ZnPgs=
 </value>
+  </data>
+  <data name="buttonBarItemItemPromotion.Caption" xml:space="preserve">
+    <value>ការផ្សព្វផ្សាយទំនិញ</value>
   </data>
   <data name="buttonBarItemItemPromotion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -487,6 +508,9 @@
         c3ZnPgs=
 </value>
   </data>
+  <data name="buttonBarItemGroupManagement.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemGroupManagement.ItemAppearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
     <value>Khmer OS Battambang, 6pt</value>
   </data>
@@ -520,6 +544,9 @@
         MjIuMywyMS40LDIwLDE4eiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
+  <data name="buttonBarItemUsersManagement.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemSupplierDelivery.Caption" xml:space="preserve">
     <value>អ្នកផ្គត់ផ្គង់ ដឹកជញ្ជូន</value>
   </data>
@@ -543,6 +570,9 @@
         LTIsMi0yczIsMC45LDIsMkMyNiwyMy4xLDI1LjEsMjQsMjQsMjR6IE0yMiwxNnYtNGgxLjJsNCw0SDIy
         eiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
+  </data>
+  <data name="buttonBarItemSupplierDelivery.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemSupplierRecords.Caption" xml:space="preserve">
     <value>កំណត់ត្រា អ្នកផ្គត់ផ្គង់</value>
@@ -569,6 +599,9 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
+  <data name="buttonBarItemSupplierRecords.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemCustomerRecords.Caption" xml:space="preserve">
     <value>កំណត់ត្រា អតិថិជន</value>
   </data>
@@ -594,6 +627,12 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
+  <data name="buttonBarItemCustomerRecords.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemCustomerDelivery.Caption" xml:space="preserve">
+    <value>ការដឹកជញ្ជូនអតិថិជន</value>
+  </data>
   <data name="buttonBarItemCustomerDelivery.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -614,6 +653,9 @@
         LTIsMi0yczIsMC45LDIsMkMyNiwyMy4xLDI1LjEsMjQsMjQsMjR6IE0yMiwxNnYtNGgxLjJsNCw0SDIy
         eiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
+  </data>
+  <data name="buttonBarItemCustomerDelivery.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemEmployee.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -643,6 +685,9 @@
         QmxhY2siIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
+  <data name="buttonBarItemEmployee.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="barButtonItem23.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -661,6 +706,9 @@
         PSIyLDIwIDEwLDEyIDE2LDE4IDMwLDQgMzAsMjggMiwyOCAgIiBjbGFzcz0iWWVsbG93IiAvPg0KICA8
         L2c+DQo8L3N2Zz4L
 </value>
+  </data>
+  <data name="buttonBarItemReportConverstion.Caption" xml:space="preserve">
+    <value>រាយការណ៍ពីការបំប្លែង</value>
   </data>
   <data name="buttonBarItemReportConverstion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -691,6 +739,12 @@
         LjYsMTIsMjcsMTJ6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
+  <data name="buttonBarItemReportConverstion.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemReportDesign.Caption" xml:space="preserve">
+    <value>រចនារបាយការណ៍</value>
+  </data>
   <data name="buttonBarItemReportDesign.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -710,6 +764,9 @@
         ICAgPHBhdGggZD0iTTYsMzJoMjZWNkw2LDMyeiBNMjYsMjZoLTUuNWw1LjUtNS41VjI2eiIgY2xhc3M9
         IlllbGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
+  </data>
+  <data name="buttonBarItemReportDesign.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemOption.Caption" xml:space="preserve">
     <value>ជម្រើស</value>
@@ -737,6 +794,9 @@
         NiwyMGMtMi4yLDAtNC0xLjgtNC00YzAtMi4yLDEuOC00LDQtNHM0LDEuOCw0LDRDMjAsMTguMiwxOC4y
         LDIwLDE2LDIweiIgY2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
+  </data>
+  <data name="buttonBarItemOption.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemPurchaseOrder.Caption" xml:space="preserve">
     <value>បញ្ជា​រ​ទិញ</value>
@@ -770,6 +830,9 @@
         MHoiIGNsYXNzPSJCbGFjayIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
+  <data name="buttonBarItemPurchaseOrder.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemPurchaseInvoice.Caption" xml:space="preserve">
     <value>វិក្កយបត្រទិញ</value>
   </data>
@@ -793,6 +856,9 @@
         LDIsMzEsMnogTTI0LDEwbC00LTRoOEwyNCwxMHoiIGNsYXNzPSJCbHVlIiAvPg0KICA8L2c+DQo8L3N2
         Zz4L
 </value>
+  </data>
+  <data name="buttonBarItemDebitNote.Caption" xml:space="preserve">
+    <value>កំណត់ចំណាំឥណពន្ធ</value>
   </data>
   <data name="buttonBarItemDebitNote.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -818,6 +884,9 @@
         bGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
+  <data name="buttonBarItemDebitNote.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="barButtonItem31.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -837,6 +906,9 @@
         IkdyZWVuIiAvPg0KPC9zdmc+Cw==
 </value>
   </data>
+  <data name="buttonBarItemStockAdjustment.Caption" xml:space="preserve">
+    <value>ការកែតម្រូវភាគហ៊ុន</value>
+  </data>
   <data name="buttonBarItemStockAdjustment.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -854,6 +926,9 @@
         NHogTTIyLDEyLjhWMzBsOC04VjQuOEwyMiwxMi44eiBNMTkuMiwySDEyTDIsMTJoNy4yTDE5LjIsMnog
         TTIyLDJMMTIsMTJoOEwzMCwySDIyeiIgY2xhc3M9IlllbGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
+  </data>
+  <data name="buttonBarItemInventoryTransfer.Caption" xml:space="preserve">
+    <value>ការផ្ទេរសារពើភ័ណ្ឌ</value>
   </data>
   <data name="buttonBarItemInventoryTransfer.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -873,6 +948,9 @@
         QmxhY2siIC8+DQogIDxwYXRoIGQ9Ik0xMiwyNGg4djZsMTItOGwtMTItOHY2aC04VjI0eiIgY2xhc3M9
         IkdyZWVuIiAvPg0KPC9zdmc+Cw==
 </value>
+  </data>
+  <data name="buttonBarItemInventoryBalance.Caption" xml:space="preserve">
+    <value>សមតុល្យសារពើភ័ណ្ឌ</value>
   </data>
   <data name="buttonBarItemInventoryBalance.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -914,6 +992,9 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
+  <data name="buttonBarItemSalesOrder.Caption" xml:space="preserve">
+    <value>ការបញ្ជាទិញលក់</value>
+  </data>
   <data name="buttonBarItemSalesOrder.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -943,6 +1024,9 @@
         OWw4LThIMjAuN3oiIGNsYXNzPSJZZWxsb3ciIC8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4L
 </value>
   </data>
+  <data name="buttonBarItemCraditNote.Caption" xml:space="preserve">
+    <value>កំណត់ចំណាំឥណទាន</value>
+  </data>
   <data name="buttonBarItemCraditNote.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -966,6 +1050,9 @@
         SDh2LTJoMTRWMTh6IE0yMiwxNEg4di0yaDE0VjE0eiBNMjIsMTBIOFY4aDE0VjEweiIgY2xhc3M9Illl
         bGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
+  </data>
+  <data name="buttonBarItemBarcodeSales.Caption" xml:space="preserve">
+    <value>ការលក់បាកូដ</value>
   </data>
   <data name="buttonBarItemBarcodeSales.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1060,6 +1147,9 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
+  <data name="buttonBarItemSetupCustomerInPOS.Caption" xml:space="preserve">
+    <value>ដំឡើងអតិថិជនចូល POS</value>
+  </data>
   <data name="buttonBarItemSetupCustomerInPOS.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1097,6 +1187,9 @@
         Y2siIC8+DQo8L3N2Zz4L
 </value>
   </data>
+  <data name="buttonBarItemPurchaseListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemSupplierListing.Caption" xml:space="preserve">
     <value>បញ្ជី អ្នកផ្គត់ផ្គង់</value>
   </data>
@@ -1119,6 +1212,12 @@
         LjcsMC0zLDEuMy0zLDNzMS4zLDMsMywzczMtMS4zLDMtM1MxMC43LDEwLDksMTB6IiBjbGFzcz0iQmxh
         Y2siIC8+DQo8L3N2Zz4L
 </value>
+  </data>
+  <data name="buttonBarItemSupplierListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemMovementListing.Caption" xml:space="preserve">
+    <value>ការចុះបញ្ជីចលនា</value>
   </data>
   <data name="buttonBarItemMovementListing.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1144,6 +1243,12 @@
         MTAsMjJIOHYyaDJWMjJ6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
+  <data name="buttonBarItemMovementListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemInventoryMovement.Caption" xml:space="preserve">
+    <value>ចលនាសារពើភ័ណ្ឌ</value>
+  </data>
   <data name="buttonBarItemInventoryMovement.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1162,6 +1267,12 @@
         QmxhY2siIC8+DQogIDxwYXRoIGQ9Ik0xMiwyNGg4djZsMTItOGwtMTItOHY2aC04VjI0eiIgY2xhc3M9
         IkdyZWVuIiAvPg0KPC9zdmc+Cw==
 </value>
+  </data>
+  <data name="buttonBarItemInventoryMovement.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemInventoryListing.Caption" xml:space="preserve">
+    <value>បញ្ជីសារពើភណ្ឌ</value>
   </data>
   <data name="buttonBarItemInventoryListing.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1183,6 +1294,12 @@
         Y2siIC8+DQo8L3N2Zz4L
 </value>
   </data>
+  <data name="buttonBarItemInventoryListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemReportInventoryTransfer.Caption" xml:space="preserve">
+    <value>ការផ្ទេរសារពើភ័ណ្ឌ</value>
+  </data>
   <data name="buttonBarItemReportInventoryTransfer.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
@@ -1201,6 +1318,9 @@
         QmxhY2siIC8+DQogIDxwYXRoIGQ9Ik0xMiwyNGg4djZsMTItOGwtMTItOHY2aC04VjI0eiIgY2xhc3M9
         IkdyZWVuIiAvPg0KPC9zdmc+Cw==
 </value>
+  </data>
+  <data name="buttonBarItemReportInventoryTransfer.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemReportSaleListing.Caption" xml:space="preserve">
     <value>បញ្ជីលក់</value>
@@ -1224,6 +1344,9 @@
         LjcsMC0zLDEuMy0zLDNzMS4zLDMsMywzczMtMS4zLDMtM1MxMC43LDEwLDksMTB6IiBjbGFzcz0iQmxh
         Y2siIC8+DQo8L3N2Zz4L
 </value>
+  </data>
+  <data name="buttonBarItemReportSaleListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemReportCustomerListing.Caption" xml:space="preserve">
     <value>បញ្ជីអតិថិជន</value>
@@ -1252,6 +1375,9 @@
         Ni0yLjkgIEMxOS45LDI1LjYsMTYsMjMuOCwxNiwyOXYxaDE2di0xQzMyLDIzLjksMjguMiwyNS41LDI2
         LjcsMjMuMnoiIGNsYXNzPSJCbGFjayIgLz4NCjwvc3ZnPgs=
 </value>
+  </data>
+  <data name="buttonBarItemReportCustomerListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemReportBarcode.Caption" xml:space="preserve">
     <value> បាកូដ</value>
@@ -1306,6 +1432,9 @@
         DQo8L3N2Zz4L
 </value>
   </data>
+  <data name="buttonBarItemReportBarcode.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemDocuments.Caption" xml:space="preserve">
     <value>ឯកសារ</value>
   </data>
@@ -1328,6 +1457,9 @@
         LjItMi4zLTMuOS00LjUtNC40QzExLDkuMiw3LjIsMTMsOC4yLDE3LjR6IiBjbGFzcz0iQmx1ZSIgLz4N
         Cjwvc3ZnPgs=
 </value>
+  </data>
+  <data name="buttonBarItemDocuments.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemAboutUs.Caption" xml:space="preserve">
     <value>អំពីយើង</value>
@@ -1352,6 +1484,9 @@
         NnogTTIwLDI0aC04di0yaDJ2LThoLTJ2LTJoMmg0djEwaDJWMjR6IiBjbGFzcz0iQmx1ZSIgLz4NCiAg
         PC9nPg0KPC9zdmc+Cw==
 </value>
+  </data>
+  <data name="buttonBarItemAboutUs.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemLanguage.Caption" xml:space="preserve">
     <value>ភាសារ</value>
@@ -1520,7 +1655,7 @@
     <value>ដំណើរការលក់</value>
   </data>
   <data name="ribbonPageGroupPointOfSale.Text" xml:space="preserve">
-    <value>Point of Sale</value>
+    <value>ដំឡើងអតិថិជនចូល</value>
   </data>
   <data name="ribbonPageTransaction.Text" xml:space="preserve">
     <value>ប្រតិបត្តិការ</value>
@@ -1548,7 +1683,7 @@
 </value>
   </data>
   <data name="ribbonPageGroupItemSetup.Text" xml:space="preserve">
-    <value>Item Setup</value>
+    <value>ការដំឡើងធាតុ</value>
   </data>
   <data name="ribbonPageGroupSupplier.Text" xml:space="preserve">
     <value>អ្នកផ្គត់ផ្គង់</value>

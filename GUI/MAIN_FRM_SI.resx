@@ -128,7 +128,7 @@
   <data name="buttonBarItemEmployee.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;ribbonPageGroup17.Type" xml:space="preserve">
+  <data name="&gt;&gt;ribbonPageGroupFileManagement.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;buttonBarItemOption.Type" xml:space="preserve">
@@ -150,8 +150,8 @@
   <data name="ribbonPageReport.Text" xml:space="preserve">
     <value>REPORT</value>
   </data>
-  <data name="barSubItem1.Caption" xml:space="preserve">
-    <value>barSubItem1</value>
+  <data name="barButtonItem6.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="buttonBarItemMovementListing.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -199,8 +199,8 @@
   <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;ribbonPage7.Name" xml:space="preserve">
-    <value>ribbonPage7</value>
+  <data name="&gt;&gt;buttonBarItemLogout.Name" xml:space="preserve">
+    <value>buttonBarItemLogout</value>
   </data>
   <data name="buttonBarItemLogout.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
     <value>Georgia, 9pt</value>
@@ -257,9 +257,6 @@
   </data>
   <data name="&gt;&gt;buttonBarItemSetupCustomerInPOS.Name" xml:space="preserve">
     <value>buttonBarItemSetupCustomerInPOS</value>
-  </data>
-  <data name="&gt;&gt;buttonBarItemPricesList.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="barButtonGroup1.Hint" xml:space="preserve">
     <value>Group Management</value>
@@ -432,8 +429,8 @@
   <data name="buttonBarItemItemRecord.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="buttonBarItemLocationStore.Caption" xml:space="preserve">
-    <value>Location Store</value>
+  <data name="buttonBarItemSetupCustomerInPOS.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="&gt;&gt;ribbonPage7.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -467,11 +464,8 @@
   <data name="buttonBarItemExit.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
     <value>Georgia, 9pt</value>
   </data>
-  <data name="barSubItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="barButtonGroup2.Caption" xml:space="preserve">
-    <value>barButtonGroup2</value>
+  <data name="buttonBarItemSetupCustomerInPOS.Caption" xml:space="preserve">
+    <value>Setup Customer In POS</value>
   </data>
   <data name="&gt;&gt;barButtonGroup1.Name" xml:space="preserve">
     <value>barButtonGroup1</value>
@@ -491,8 +485,8 @@
   <data name="barSubItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;repositoryItemButtonEdit1.Name" xml:space="preserve">
-    <value>repositoryItemButtonEdit1</value>
+  <data name="buttonBarItemReportBarcode.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemItemPromotion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -566,14 +560,29 @@
   <data name="ribbonPageReport.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Georgia, 12pt</value>
   </data>
+  <data name="buttonBarItemAboutUs.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="buttonBarItemInventoryListing.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;barEditItem4.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="buttonBarItemSalesOrder.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
+  </data>
+  <data name="barButtonGroup3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
   <data name="&gt;&gt;barButtonItem31.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="buttonBarItemCustomerDelivery.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemUnitConverstion.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="&gt;&gt;buttonBarItemDebitNote.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -629,17 +638,33 @@
   <data name="buttonBarItemUsersManagement.Caption" xml:space="preserve">
     <value>Users Management</value>
   </data>
-  <data name="ribbonPageTransaction.Text" xml:space="preserve">
-    <value>TRANSACTION</value>
+  <data name="ribbonPageGroupLocation.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAALMCAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
+        WWVsbG93e2ZpbGw6I0ZGQjExNTt9CgkuQmx1ZXtmaWxsOiMxMTc3RDc7fQoJLlJlZHtmaWxsOiNEMTFD
+        MUM7fQoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9CgkuR3JlZW57ZmlsbDojMDM5QzIzO30KCS5zdDB7Zmls
+        bDojNzI3MjcyO30KCS5zdDF7b3BhY2l0eTowLjU7fQoJLnN0MntvcGFjaXR5OjAuNzU7fQo8L3N0eWxl
+        Pg0KICA8ZyBpZD0iQ3VzdG9tZXJRdWlja0xvY2F0aW9ucyI+DQogICAgPHBhdGggZD0iTTE2LDJDMTAu
+        NSwyLDYsNi41LDYsMTJzMTAsMTgsMTAsMThzMTAtMTIuNSwxMC0xOFMyMS41LDIsMTYsMnogTTE2LDE2
+        Yy0yLjIsMC00LTEuOC00LTRzMS44LTQsNC00ICAgczQsMS44LDQsNFMxOC4yLDE2LDE2LDE2eiIgY2xh
+        c3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
+</value>
   </data>
   <data name="&gt;&gt;barCheckItem1.Name" xml:space="preserve">
     <value>barCheckItem1</value>
   </data>
-  <data name="buttonBarItemSetupCustomerInPOS.Caption" xml:space="preserve">
-    <value>Setup Customer In POS</value>
-  </data>
   <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
     <value>barButtonItem3</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem24.Name" xml:space="preserve">
+    <value>barButtonItem24</value>
   </data>
   <data name="&gt;&gt;buttonBarItemCustomerDelivery.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -650,11 +675,14 @@
   <data name="buttonBarItemUsersManagement.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
     <value>Georgia, 9pt</value>
   </data>
-  <data name="&gt;&gt;buttonBarItemAboutUs.Name" xml:space="preserve">
-    <value>buttonBarItemAboutUs</value>
+  <data name="&gt;&gt;barStaticItemUserName.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;ribbonPageGroupFileManagement.Name" xml:space="preserve">
     <value>ribbonPageGroupFileManagement</value>
+  </data>
+  <data name="buttonBarItemMovementListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemUsersManagement.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -686,11 +714,17 @@
   <data name="&gt;&gt;buttonBarItemGroupManagement.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="barCheckItem1.Caption" xml:space="preserve">
+    <value>barCheckItem1</value>
+  </data>
   <data name="&gt;&gt;buttonBarItemReportSaleListing.Name" xml:space="preserve">
     <value>buttonBarItemReportSaleListing</value>
   </data>
   <data name="ribbonControlMain.Size" type="System.Drawing.Size, System.Drawing">
     <value>1703, 189</value>
+  </data>
+  <data name="barEditItem2.Caption" xml:space="preserve">
+    <value>barEditItem2</value>
   </data>
   <data name="ribbonStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 631</value>
@@ -710,8 +744,43 @@
   <data name="&gt;&gt;barButtonItem7.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;ribbonPageGroupEmployee.Name" xml:space="preserve">
-    <value>ribbonPageGroupEmployee</value>
+  <data name="buttonBarItemGroupManagement.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAA8HAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
+        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
+        aXNwbGF5OmlubGluZTtmaWxsOiNGRkIxMTU7fQoJLnN0NHtkaXNwbGF5OmlubGluZTt9Cgkuc3Q1e2Rp
+        c3BsYXk6aW5saW5lO29wYWNpdHk6MC43NTt9Cgkuc3Q2e2Rpc3BsYXk6aW5saW5lO29wYWNpdHk6MC41
+        O30KCS5zdDd7ZGlzcGxheTppbmxpbmU7ZmlsbDojMDM5QzIzO30KCS5zdDh7ZGlzcGxheTppbmxpbmU7
+        ZmlsbDojRDExQzFDO30KCS5zdDl7ZGlzcGxheTppbmxpbmU7ZmlsbDojMTE3N0Q3O30KCS5zdDEwe2Rp
+        c3BsYXk6aW5saW5lO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+DQogIDxnIGlkPSJEZXBhcnRtZW50Ij4N
+        CiAgICA8ZyBjbGFzcz0ic3QxIj4NCiAgICAgIDxwYXRoIGQ9Ik0xNi4zLDkuN0MxNi4yLDkuMywxNS45
+        LDksMTYsOC42YzAuMS0wLjIsMC4zLTAuMiwwLjQtMC4yQzE1LjUsNS4zLDE2LDIsMjAsMmM0LjMsMCw0
+        LjYsMi41LDQuNiwyLjUgICAgczIuNC0wLjIsMC45LDMuOWMwLjEtMC4xLDAuMy0wLjEsMC40LDAuMmMw
+        LjEsMC40LTAuMSwwLjctMC4yLDEuMmMtMC4yLDAuNCwwLjEsMS40LTAuNywxLjN2MC4xYy0wLjQsMS45
+        LTEuNyw0LjEtMy45LDQuMSAgICBjLTIuMiwwLTMuNC0yLjItMy45LTQuMWMwLTAuMSwwLTAuMiwwLTAu
+        MkMxNi4zLDExLjIsMTYuNSwxMC4yLDE2LjMsOS43eiBNMjQsMTZjLTAuNiwxLTEuNiwyLjctMywyLjdT
+        MTguNiwxNywxOCwxNiAgICBjLTAuMSwwLjItMC4zLDAuMy0wLjQsMC40YzAsMCwwLDAsMCwwbDAsMC4x
+        bDAsMGMtMC4xLDEtMC41LDEuNy0wLjksMmMtMC4zLDAuOC0wLjYsMS41LTEuMSwyLjJsMCwwYzAuMyww
+        LjMsMC45LDAuNSwxLjYsMC44ICAgIGMxLjEsMC40LDIuOCwwLjksMy44LDIuNGg5di0yLjNDMzAsMTYu
+        NywyNS43LDE4LjMsMjQsMTZ6IiBjbGFzcz0iQmxhY2siIC8+DQogICAgPC9nPg0KICAgIDxwYXRoIGQ9
+        Ik02LjMsMTUuN0M2LjIsMTUuMyw1LjksMTUsNiwxNC42YzAuMS0wLjIsMC4zLTAuMiwwLjQtMC4yQzUu
+        NSwxMS4zLDYsOCwxMCw4YzQuMywwLDQuNiwyLjUsNC42LDIuNSAgIHMyLjQtMC4yLDAuOSwzLjljMC4x
+        LTAuMSwwLjMtMC4xLDAuNCwwLjJjMC4xLDAuNC0wLjEsMC43LTAuMiwxLjJjLTAuMiwwLjQsMC4xLDEu
+        NC0wLjcsMS4zdjAuMWMtMC40LDEuOS0xLjcsNC4xLTMuOSw0LjEgICBjLTIuMiwwLTMuNC0yLjItMy45
+        LTQuMWMwLTAuMSwwLTAuMiwwLTAuMkM2LjMsMTcuMiw2LjUsMTYuMiw2LjMsMTUuN3ogTTE0LDIyYy0w
+        LjYsMS0xLjYsMi43LTMsMi43UzguNiwyMyw4LDIyICAgYy0xLjcsMi4zLTYsMC43LTYsNS43VjMwaDE4
+        di0yLjNDMjAsMjIuNywxNS43LDI0LjMsMTQsMjJ6IiBjbGFzcz0iQmxhY2siIC8+DQogIDwvZz4NCjwv
+        c3ZnPgs=
+</value>
   </data>
   <data name="&gt;&gt;buttonBarItemSupplierRecords.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -780,11 +849,11 @@
   <data name="barButtonItem6.Caption" xml:space="preserve">
     <value>Users Management</value>
   </data>
+  <data name="ribbonPageFile.Text" xml:space="preserve">
+    <value>FOLDER</value>
+  </data>
   <data name="buttonBarItemStockAdjustment.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
-  </data>
-  <data name="barButtonItem2.Caption" xml:space="preserve">
-    <value>barButtonItem2</value>
   </data>
   <data name="buttonBarItemPurchaseInvoice.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -822,9 +891,6 @@
         MTAsMjJIOHYyaDJWMjJ6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="&gt;&gt;buttonBarItemPurchaseInvoice.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
   <data name="&gt;&gt;buttonBarItemPurchaseListing.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
@@ -840,8 +906,8 @@
   <data name="buttonBarItemLogout.Caption" xml:space="preserve">
     <value>Log Out</value>
   </data>
-  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
-    <value>barButtonItem1</value>
+  <data name="&gt;&gt;ribbonPageFile.Name" xml:space="preserve">
+    <value>ribbonPageFile</value>
   </data>
   <data name="barStaticItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -870,8 +936,8 @@
         SDEyeiIgY2xhc3M9IlllbGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemReportSaleListing.Caption" xml:space="preserve">
-    <value>Sales Listing</value>
+  <data name="&gt;&gt;ribbonPageGroupEmployee.Name" xml:space="preserve">
+    <value>ribbonPageGroupEmployee</value>
   </data>
   <data name="&gt;&gt;ribbonPageGroupItemSetup.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -879,8 +945,8 @@
   <data name="repositoryItemTextEdit1.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;barButtonItem6.Name" xml:space="preserve">
-    <value>barButtonItem6</value>
+  <data name="buttonBarItemPurchaseListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="&gt;&gt;repositoryItemButtonEdit1.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -923,11 +989,11 @@
   <data name="buttonBarItemItemPromotion.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="barButtonItem31.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="buttonBarItemReportSaleListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
-  <data name="&gt;&gt;buttonBarItemLogout.Name" xml:space="preserve">
-    <value>buttonBarItemLogout</value>
+  <data name="buttonBarItemCraditNote.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="ribbonPageReport.AppearanceSelected.Font" type="System.Drawing.Font, System.Drawing">
     <value>Khmer OS Battambang, 12pt</value>
@@ -979,11 +1045,8 @@
   <data name="buttonBarItemSupplierDelivery.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;ribbonPageFile.Name" xml:space="preserve">
-    <value>ribbonPageFile</value>
-  </data>
-  <data name="buttonBarItemPurchaseInvoice.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Georgia, 9pt</value>
+  <data name="barSubItem1.Caption" xml:space="preserve">
+    <value>barSubItem1</value>
   </data>
   <data name="barEditItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1209,17 +1272,20 @@
         DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="&gt;&gt;barButtonItem7.Name" xml:space="preserve">
-    <value>barButtonItem7</value>
+  <data name="&gt;&gt;buttonBarItemDebitNote.Name" xml:space="preserve">
+    <value>buttonBarItemDebitNote</value>
   </data>
-  <data name="&gt;&gt;buttonBarItemPurchaseInvoice.Name" xml:space="preserve">
-    <value>buttonBarItemPurchaseInvoice</value>
+  <data name="buttonBarItemInventoryBalance.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="ribbonPage7.Text" xml:space="preserve">
     <value>HELP</value>
   </data>
   <data name="barButtonItem4.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
+  </data>
+  <data name="buttonBarItemReportDesign.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemItemRecord.Caption" xml:space="preserve">
     <value>Item Record</value>
@@ -1245,9 +1311,6 @@
 </value>
   </data>
   <data name="&gt;&gt;buttonBarItemInventoryBalance.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;buttonBarItemPurchaseOrder.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="buttonBarItemInventoryMovement.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
@@ -1286,8 +1349,8 @@
   <data name="buttonBarItemItemPromotion.Caption" xml:space="preserve">
     <value>Item Promotion</value>
   </data>
-  <data name="barEditItem2.Caption" xml:space="preserve">
-    <value>barEditItem2</value>
+  <data name="buttonBarItemPurchaseInvoice.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
   </data>
   <data name="buttonBarItemItemCategory.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1318,8 +1381,8 @@
         Pg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="&gt;&gt;ribbonPageGroupFileManagement.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;ribbonPageReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;ribbonPageGroupProccess.Name" xml:space="preserve">
     <value>ribbonPageGroupProccess</value>
@@ -1355,40 +1418,17 @@
   <data name="&gt;&gt;barSubItem1.Name" xml:space="preserve">
     <value>barSubItem1</value>
   </data>
+  <data name="&gt;&gt;buttonBarItemPurchaseOrder.Name" xml:space="preserve">
+    <value>buttonBarItemPurchaseOrder</value>
+  </data>
   <data name="&gt;&gt;buttonBarItemInventoryListing.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="buttonBarItemReportConverstion.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="buttonBarItemReportConverstion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
-        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
-        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAABwFAAAC77u/
-        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
-        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
-        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
-        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
-        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
-        Qmx1ZXtmaWxsOiMxMTc3RDc7fQoJLkdyZWVue2ZpbGw6IzAzOUMyMzt9CgkuWWVsbG93e2ZpbGw6I0ZG
-        QjExNTt9CgkuUmVke2ZpbGw6I0QxMUMxQzt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
-        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
-        aXNwbGF5OmlubGluZTtmaWxsOiMxMTc3RDc7fQoJLnN0NHtkaXNwbGF5OmlubGluZTtmaWxsOiM3Mjcy
-        NzI7fQo8L3N0eWxlPg0KICA8ZyBpZD0iU3BhcmtsaW5lTGluZSI+DQogICAgPHBhdGggZD0iTTI3LDhj
-        LTEuNywwLTMsMS4zLTMsM2MwLDAuNSwwLjEsMC45LDAuMywxLjNsLTYsNkMxNy45LDE4LjEsMTcuNSwx
-        OCwxNywxOHMtMC45LDAuMS0xLjMsMC4zbC0yLTIgICBjMC4yLTAuNCwwLjMtMC44LDAuMy0xLjNjMC0x
-        LjctMS4zLTMtMy0zcy0zLDEuMy0zLDNjMCwwLjUsMC4xLDAuOSwwLjMsMS4zbC0yLDJDNS45LDE4LjEs
-        NS41LDE4LDUsMThjLTEuNywwLTMsMS4zLTMsM3MxLjMsMywzLDMgICBzMy0xLjMsMy0zYzAtMC41LTAu
-        MS0wLjktMC4zLTEuM2wyLTJjMC40LDAuMiwwLjgsMC4zLDEuMywwLjNzMC45LTAuMSwxLjMtMC4zbDIs
-        MkMxNC4xLDIwLjEsMTQsMjAuNSwxNCwyMWMwLDEuNywxLjMsMywzLDMgICBzMy0xLjMsMy0zYzAtMC41
-        LTAuMS0wLjktMC4zLTEuM2w2LTZjMC40LDAuMiwwLjgsMC4zLDEuMywwLjNjMS43LDAsMy0xLjMsMy0z
-        UzI4LjcsOCwyNyw4eiBNNSwyMmMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMSAgIHMxLDAuNCwxLDFT
-        NS42LDIyLDUsMjJ6IE0xMSwxNmMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMXMxLDAuNCwxLDFTMTEu
-        NiwxNiwxMSwxNnogTTE3LDIyYy0wLjYsMC0xLTAuNC0xLTFzMC40LTEsMS0xczEsMC40LDEsMSAgIFMx
-        Ny42LDIyLDE3LDIyeiBNMjcsMTJjLTAuNiwwLTEtMC40LTEtMXMwLjQtMSwxLTFzMSwwLjQsMSwxUzI3
-        LjYsMTIsMjcsMTJ6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
-</value>
+  <data name="buttonBarItemLocationStore.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="&gt;&gt;buttonBarItemDocuments.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -1399,8 +1439,8 @@
   <data name="buttonBarItemEmployee.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;buttonBarItemLocationStore.Name" xml:space="preserve">
-    <value>buttonBarItemLocationStore</value>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
   </data>
   <data name="barButtonItem8.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1468,9 +1508,6 @@
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;ribbonControlMain.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
   <data name="buttonBarItemPurchaseOrder.Caption" xml:space="preserve">
     <value>Purchase Order</value>
   </data>
@@ -1486,8 +1523,8 @@
   <data name="buttonBarItemExchangeRate.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="buttonBarItemCustomerRecords.Caption" xml:space="preserve">
-    <value>Customer Records</value>
+  <data name="buttonBarItemStockAdjustment.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemExchangeRate.Caption" xml:space="preserve">
     <value>Exchange Rate</value>
@@ -1554,6 +1591,9 @@
   <data name="&gt;&gt;ribbonPageGroupOption.Name" xml:space="preserve">
     <value>ribbonPageGroupOption</value>
   </data>
+  <data name="buttonBarItemUnitConverstion.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
   <data name="&gt;&gt;barEditItem3.Name" xml:space="preserve">
     <value>barEditItem3</value>
   </data>
@@ -1599,6 +1639,9 @@
   <data name="barEditItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
+  <data name="&gt;&gt;buttonBarItemAboutUs.Name" xml:space="preserve">
+    <value>buttonBarItemAboutUs</value>
+  </data>
   <data name="barStaticItemPeroid.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
@@ -1611,36 +1654,23 @@
   <data name="&gt;&gt;repositoryItemTextEdit1.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;barStaticItemUserCode.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;barButtonItem9.Name" xml:space="preserve">
+    <value>barButtonItem9</value>
   </data>
-  <data name="ribbonPageGroupLocation.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
-        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
-        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAALMCAAAC77u/
-        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
-        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
-        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
-        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
-        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
-        WWVsbG93e2ZpbGw6I0ZGQjExNTt9CgkuQmx1ZXtmaWxsOiMxMTc3RDc7fQoJLlJlZHtmaWxsOiNEMTFD
-        MUM7fQoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9CgkuR3JlZW57ZmlsbDojMDM5QzIzO30KCS5zdDB7Zmls
-        bDojNzI3MjcyO30KCS5zdDF7b3BhY2l0eTowLjU7fQoJLnN0MntvcGFjaXR5OjAuNzU7fQo8L3N0eWxl
-        Pg0KICA8ZyBpZD0iQ3VzdG9tZXJRdWlja0xvY2F0aW9ucyI+DQogICAgPHBhdGggZD0iTTE2LDJDMTAu
-        NSwyLDYsNi41LDYsMTJzMTAsMTgsMTAsMThzMTAtMTIuNSwxMC0xOFMyMS41LDIsMTYsMnogTTE2LDE2
-        Yy0yLjIsMC00LTEuOC00LTRzMS44LTQsNC00ICAgczQsMS44LDQsNFMxOC4yLDE2LDE2LDE2eiIgY2xh
-        c3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
-</value>
+  <data name="&gt;&gt;buttonBarItemPurchaseInvoice.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;barButtonItem24.Name" xml:space="preserve">
-    <value>barButtonItem24</value>
+  <data name="&gt;&gt;barEditItem2.Name" xml:space="preserve">
+    <value>barEditItem2</value>
+  </data>
+  <data name="buttonBarItemGroupManagement.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 9pt</value>
+  </data>
+  <data name="buttonBarItemSetupCustomerInPOS.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemItemRecord.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
-  </data>
-  <data name="&gt;&gt;barStaticItemUserName.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="buttonBarItemUnitConverstion.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1693,8 +1723,8 @@
   <data name="barStaticItemUserName.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="ribbonPage7.Appearance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Georgia, 12pt</value>
+  <data name="buttonBarItemInventoryBalance.Caption" xml:space="preserve">
+    <value>Inventory Balance</value>
   </data>
   <data name="&gt;&gt;buttonBarItemUsersManagement.Name" xml:space="preserve">
     <value>buttonBarItemUsersManagement</value>
@@ -1710,6 +1740,9 @@
   </data>
   <data name="&gt;&gt;ribbonPageGroupInventory.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;buttonBarItemPurchaseInvoice.Name" xml:space="preserve">
+    <value>buttonBarItemPurchaseInvoice</value>
   </data>
   <data name="barButtonItem31.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1787,14 +1820,20 @@
   <data name="&gt;&gt;buttonBarItemMovementListing.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="buttonBarItemInventoryListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="&gt;&gt;barButtonItem23.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;barButtonItem9.Name" xml:space="preserve">
-    <value>barButtonItem9</value>
+  <data name="buttonBarItemReportSaleListing.Caption" xml:space="preserve">
+    <value>Sales Listing</value>
   </data>
   <data name="&gt;&gt;buttonBarItemCustomerRecords.Name" xml:space="preserve">
     <value>buttonBarItemCustomerRecords</value>
+  </data>
+  <data name="buttonBarItemItemRecord.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="&gt;&gt;ribbonPageGroupInventory.Name" xml:space="preserve">
     <value>ribbonPageGroupInventory</value>
@@ -1853,26 +1892,8 @@
   <data name="barButtonItem9.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="buttonBarItemUnitConverstion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
-        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
-        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAD8DAAAC77u/
-        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
-        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
-        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
-        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
-        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlllbGxvd3tmaWxsOiNGRkIxMTU7fQoJ
-        LlJlZHtmaWxsOiNEMTFDMUM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuQmx1ZXtmaWxsOiMxMTc3
-        RDc7fQoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9CgkuR3JlZW57ZmlsbDojMDM5QzIzO30KCS5zdDB7b3Bh
-        Y2l0eTowLjc1O30KCS5zdDF7b3BhY2l0eTowLjU7fQoJLnN0MntvcGFjaXR5OjAuMjU7fQoJLnN0M3tm
-        aWxsOiNGRkIxMTU7fQo8L3N0eWxlPg0KICA8ZyAvPg0KICA8ZyBpZD0iQ29udmVydFRvIj4NCiAgICA8
-        cGF0aCBkPSJNMjIsNmwtNi02djRDOS40LDQsNCw5LjQsNCwxNmMwLDMuNiwxLjYsNi44LDQuMSw5bDIu
-        OC0yLjhjLTEuOC0xLjUtMy0zLjctMy02LjJjMC00LjQsMy42LTgsOC04djRMMjIsNnoiIGNsYXNzPSJH
-        cmVlbiIgLz4NCiAgICA8cGF0aCBkPSJNMjMuOSw3TDIxLDkuOGMxLjgsMS41LDMsMy43LDMsNi4yYzAs
-        NC40LTMuNiw4LTgsOHYtNGwtNiw2bDYsNnYtNGM2LjYsMCwxMi01LjQsMTItMTIgICBDMjgsMTIuNCwy
-        Ni40LDkuMiwyMy45LDd6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
-</value>
+  <data name="buttonBarItemCustomerRecords.Caption" xml:space="preserve">
+    <value>Customer Records</value>
   </data>
   <data name="&gt;&gt;ribbonPage1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -1891,9 +1912,6 @@
   </data>
   <data name="&gt;&gt;buttonBarItemBarcodeSales.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="buttonBarItemReportConverstion.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="buttonBarItemCustomerDelivery.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1990,8 +2008,11 @@
   <data name="barButtonItem8.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="buttonBarItemSalesOrder.Caption" xml:space="preserve">
-    <value>Sales Order</value>
+  <data name="&gt;&gt;buttonBarItemPurchaseOrder.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="buttonBarItemSupplierDelivery.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="buttonBarItemPurchaseOrder.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -2001,6 +2022,9 @@
   </data>
   <data name="buttonBarItemDocuments.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
+  </data>
+  <data name="buttonBarItemExchangeRate.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemAboutUs.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2026,8 +2050,8 @@
   <data name="barStaticItemUserCode.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;ribbonPageReport.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>barButtonItem2</value>
   </data>
   <data name="&gt;&gt;ribbonControlMain.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -2050,52 +2074,44 @@
   <data name="buttonBarItemCustomerDelivery.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
+  <data name="buttonBarItemEmployee.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="barButtonItem24.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="barButtonItem5.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonBarItemUnitConverstion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
-        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAA8HAAAC77u/
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAD8DAAAC77u/
         PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
         IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
         MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
         Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
-        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
-        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5HcmVlbntmaWxsOiMwMzlD
-        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
-        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
-        aXNwbGF5OmlubGluZTtmaWxsOiNGRkIxMTU7fQoJLnN0NHtkaXNwbGF5OmlubGluZTt9Cgkuc3Q1e2Rp
-        c3BsYXk6aW5saW5lO29wYWNpdHk6MC43NTt9Cgkuc3Q2e2Rpc3BsYXk6aW5saW5lO29wYWNpdHk6MC41
-        O30KCS5zdDd7ZGlzcGxheTppbmxpbmU7ZmlsbDojMDM5QzIzO30KCS5zdDh7ZGlzcGxheTppbmxpbmU7
-        ZmlsbDojRDExQzFDO30KCS5zdDl7ZGlzcGxheTppbmxpbmU7ZmlsbDojMTE3N0Q3O30KCS5zdDEwe2Rp
-        c3BsYXk6aW5saW5lO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+DQogIDxnIGlkPSJEZXBhcnRtZW50Ij4N
-        CiAgICA8ZyBjbGFzcz0ic3QxIj4NCiAgICAgIDxwYXRoIGQ9Ik0xNi4zLDkuN0MxNi4yLDkuMywxNS45
-        LDksMTYsOC42YzAuMS0wLjIsMC4zLTAuMiwwLjQtMC4yQzE1LjUsNS4zLDE2LDIsMjAsMmM0LjMsMCw0
-        LjYsMi41LDQuNiwyLjUgICAgczIuNC0wLjIsMC45LDMuOWMwLjEtMC4xLDAuMy0wLjEsMC40LDAuMmMw
-        LjEsMC40LTAuMSwwLjctMC4yLDEuMmMtMC4yLDAuNCwwLjEsMS40LTAuNywxLjN2MC4xYy0wLjQsMS45
-        LTEuNyw0LjEtMy45LDQuMSAgICBjLTIuMiwwLTMuNC0yLjItMy45LTQuMWMwLTAuMSwwLTAuMiwwLTAu
-        MkMxNi4zLDExLjIsMTYuNSwxMC4yLDE2LjMsOS43eiBNMjQsMTZjLTAuNiwxLTEuNiwyLjctMywyLjdT
-        MTguNiwxNywxOCwxNiAgICBjLTAuMSwwLjItMC4zLDAuMy0wLjQsMC40YzAsMCwwLDAsMCwwbDAsMC4x
-        bDAsMGMtMC4xLDEtMC41LDEuNy0wLjksMmMtMC4zLDAuOC0wLjYsMS41LTEuMSwyLjJsMCwwYzAuMyww
-        LjMsMC45LDAuNSwxLjYsMC44ICAgIGMxLjEsMC40LDIuOCwwLjksMy44LDIuNGg5di0yLjNDMzAsMTYu
-        NywyNS43LDE4LjMsMjQsMTZ6IiBjbGFzcz0iQmxhY2siIC8+DQogICAgPC9nPg0KICAgIDxwYXRoIGQ9
-        Ik02LjMsMTUuN0M2LjIsMTUuMyw1LjksMTUsNiwxNC42YzAuMS0wLjIsMC4zLTAuMiwwLjQtMC4yQzUu
-        NSwxMS4zLDYsOCwxMCw4YzQuMywwLDQuNiwyLjUsNC42LDIuNSAgIHMyLjQtMC4yLDAuOSwzLjljMC4x
-        LTAuMSwwLjMtMC4xLDAuNCwwLjJjMC4xLDAuNC0wLjEsMC43LTAuMiwxLjJjLTAuMiwwLjQsMC4xLDEu
-        NC0wLjcsMS4zdjAuMWMtMC40LDEuOS0xLjcsNC4xLTMuOSw0LjEgICBjLTIuMiwwLTMuNC0yLjItMy45
-        LTQuMWMwLTAuMSwwLTAuMiwwLTAuMkM2LjMsMTcuMiw2LjUsMTYuMiw2LjMsMTUuN3ogTTE0LDIyYy0w
-        LjYsMS0xLjYsMi43LTMsMi43UzguNiwyMyw4LDIyICAgYy0xLjcsMi4zLTYsMC43LTYsNS43VjMwaDE4
-        di0yLjNDMjAsMjIuNywxNS43LDI0LjMsMTQsMjJ6IiBjbGFzcz0iQmxhY2siIC8+DQogIDwvZz4NCjwv
-        c3ZnPgs=
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlllbGxvd3tmaWxsOiNGRkIxMTU7fQoJ
+        LlJlZHtmaWxsOiNEMTFDMUM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuQmx1ZXtmaWxsOiMxMTc3
+        RDc7fQoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9CgkuR3JlZW57ZmlsbDojMDM5QzIzO30KCS5zdDB7b3Bh
+        Y2l0eTowLjc1O30KCS5zdDF7b3BhY2l0eTowLjU7fQoJLnN0MntvcGFjaXR5OjAuMjU7fQoJLnN0M3tm
+        aWxsOiNGRkIxMTU7fQo8L3N0eWxlPg0KICA8ZyAvPg0KICA8ZyBpZD0iQ29udmVydFRvIj4NCiAgICA8
+        cGF0aCBkPSJNMjIsNmwtNi02djRDOS40LDQsNCw5LjQsNCwxNmMwLDMuNiwxLjYsNi44LDQuMSw5bDIu
+        OC0yLjhjLTEuOC0xLjUtMy0zLjctMy02LjJjMC00LjQsMy42LTgsOC04djRMMjIsNnoiIGNsYXNzPSJH
+        cmVlbiIgLz4NCiAgICA8cGF0aCBkPSJNMjMuOSw3TDIxLDkuOGMxLjgsMS41LDMsMy43LDMsNi4yYzAs
+        NC40LTMuNiw4LTgsOHYtNGwtNiw2bDYsNnYtNGM2LjYsMCwxMi01LjQsMTItMTIgICBDMjgsMTIuNCwy
+        Ni40LDkuMiwyMy45LDd6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="buttonBarItemGroupManagement.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Georgia, 9pt</value>
+  <data name="barButtonItem31.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
-  <data name="&gt;&gt;barStaticItemPeroid.Name" xml:space="preserve">
-    <value>barStaticItemPeroid</value>
+  <data name="&gt;&gt;ribbonPageGroup17.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonBarItemSupplierListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="ribbonControlMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -2130,49 +2146,14 @@
   <data name="barEditItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;buttonBarItemSupplierListing.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="ribbonPage7.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt</value>
   </data>
   <data name="ribbonPage6.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Georgia, 12pt</value>
   </data>
-  <data name="buttonBarItemGroupManagement.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
-        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
-        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAA8HAAAC77u/
-        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
-        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
-        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
-        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
-        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
-        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5HcmVlbntmaWxsOiMwMzlD
-        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
-        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
-        aXNwbGF5OmlubGluZTtmaWxsOiNGRkIxMTU7fQoJLnN0NHtkaXNwbGF5OmlubGluZTt9Cgkuc3Q1e2Rp
-        c3BsYXk6aW5saW5lO29wYWNpdHk6MC43NTt9Cgkuc3Q2e2Rpc3BsYXk6aW5saW5lO29wYWNpdHk6MC41
-        O30KCS5zdDd7ZGlzcGxheTppbmxpbmU7ZmlsbDojMDM5QzIzO30KCS5zdDh7ZGlzcGxheTppbmxpbmU7
-        ZmlsbDojRDExQzFDO30KCS5zdDl7ZGlzcGxheTppbmxpbmU7ZmlsbDojMTE3N0Q3O30KCS5zdDEwe2Rp
-        c3BsYXk6aW5saW5lO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+DQogIDxnIGlkPSJEZXBhcnRtZW50Ij4N
-        CiAgICA8ZyBjbGFzcz0ic3QxIj4NCiAgICAgIDxwYXRoIGQ9Ik0xNi4zLDkuN0MxNi4yLDkuMywxNS45
-        LDksMTYsOC42YzAuMS0wLjIsMC4zLTAuMiwwLjQtMC4yQzE1LjUsNS4zLDE2LDIsMjAsMmM0LjMsMCw0
-        LjYsMi41LDQuNiwyLjUgICAgczIuNC0wLjIsMC45LDMuOWMwLjEtMC4xLDAuMy0wLjEsMC40LDAuMmMw
-        LjEsMC40LTAuMSwwLjctMC4yLDEuMmMtMC4yLDAuNCwwLjEsMS40LTAuNywxLjN2MC4xYy0wLjQsMS45
-        LTEuNyw0LjEtMy45LDQuMSAgICBjLTIuMiwwLTMuNC0yLjItMy45LTQuMWMwLTAuMSwwLTAuMiwwLTAu
-        MkMxNi4zLDExLjIsMTYuNSwxMC4yLDE2LjMsOS43eiBNMjQsMTZjLTAuNiwxLTEuNiwyLjctMywyLjdT
-        MTguNiwxNywxOCwxNiAgICBjLTAuMSwwLjItMC4zLDAuMy0wLjQsMC40YzAsMCwwLDAsMCwwbDAsMC4x
-        bDAsMGMtMC4xLDEtMC41LDEuNy0wLjksMmMtMC4zLDAuOC0wLjYsMS41LTEuMSwyLjJsMCwwYzAuMyww
-        LjMsMC45LDAuNSwxLjYsMC44ICAgIGMxLjEsMC40LDIuOCwwLjksMy44LDIuNGg5di0yLjNDMzAsMTYu
-        NywyNS43LDE4LjMsMjQsMTZ6IiBjbGFzcz0iQmxhY2siIC8+DQogICAgPC9nPg0KICAgIDxwYXRoIGQ9
-        Ik02LjMsMTUuN0M2LjIsMTUuMyw1LjksMTUsNiwxNC42YzAuMS0wLjIsMC4zLTAuMiwwLjQtMC4yQzUu
-        NSwxMS4zLDYsOCwxMCw4YzQuMywwLDQuNiwyLjUsNC42LDIuNSAgIHMyLjQtMC4yLDAuOSwzLjljMC4x
-        LTAuMSwwLjMtMC4xLDAuNCwwLjJjMC4xLDAuNC0wLjEsMC43LTAuMiwxLjJjLTAuMiwwLjQsMC4xLDEu
-        NC0wLjcsMS4zdjAuMWMtMC40LDEuOS0xLjcsNC4xLTMuOSw0LjEgICBjLTIuMiwwLTMuNC0yLjItMy45
-        LTQuMWMwLTAuMSwwLTAuMiwwLTAuMkM2LjMsMTcuMiw2LjUsMTYuMiw2LjMsMTUuN3ogTTE0LDIyYy0w
-        LjYsMS0xLjYsMi43LTMsMi43UzguNiwyMyw4LDIyICAgYy0xLjcsMi4zLTYsMC43LTYsNS43VjMwaDE4
-        di0yLjNDMjAsMjIuNywxNS43LDI0LjMsMTQsMjJ6IiBjbGFzcz0iQmxhY2siIC8+DQogIDwvZz4NCjwv
-        c3ZnPgs=
-</value>
+  <data name="&gt;&gt;buttonBarItemItemPromotion.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="buttonBarItemSupplierDelivery.Caption" xml:space="preserve">
     <value>Supplier Delivery</value>
@@ -2204,14 +2185,11 @@
   <data name="buttonBarItemCustomerDelivery.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="barButtonGroup2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="&gt;&gt;buttonBarItemLocationStore.Name" xml:space="preserve">
+    <value>buttonBarItemLocationStore</value>
   </data>
   <data name="&gt;&gt;buttonBarItemItemRecord.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="barButtonItem4.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="barButtonGroup1.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2254,9 +2232,6 @@
   <data name="buttonBarItemSalesOrder.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="buttonBarItemCraditNote.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="&gt;&gt;buttonBarItemItemCategory.Name" xml:space="preserve">
     <value>buttonBarItemItemCategory</value>
   </data>
@@ -2278,8 +2253,8 @@
   <data name="&gt;&gt;buttonBarItemCraditNote.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="barCheckItem1.Caption" xml:space="preserve">
-    <value>barCheckItem1</value>
+  <data name="buttonBarItemLocationStore.Caption" xml:space="preserve">
+    <value>Location Store</value>
   </data>
   <data name="buttonBarItemKhmer.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -2337,8 +2312,8 @@
   <data name="buttonBarItemPricesList.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;barEditItem2.Name" xml:space="preserve">
-    <value>barEditItem2</value>
+  <data name="buttonBarItemSupplierRecords.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="repositoryItemComboBox1.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2381,6 +2356,35 @@
   <data name="buttonBarItemLanguageEnglish.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
+  <data name="buttonBarItemReportConverstion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAABwFAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
+        Qmx1ZXtmaWxsOiMxMTc3RDc7fQoJLkdyZWVue2ZpbGw6IzAzOUMyMzt9CgkuWWVsbG93e2ZpbGw6I0ZG
+        QjExNTt9CgkuUmVke2ZpbGw6I0QxMUMxQzt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
+        aXNwbGF5OmlubGluZTtmaWxsOiMxMTc3RDc7fQoJLnN0NHtkaXNwbGF5OmlubGluZTtmaWxsOiM3Mjcy
+        NzI7fQo8L3N0eWxlPg0KICA8ZyBpZD0iU3BhcmtsaW5lTGluZSI+DQogICAgPHBhdGggZD0iTTI3LDhj
+        LTEuNywwLTMsMS4zLTMsM2MwLDAuNSwwLjEsMC45LDAuMywxLjNsLTYsNkMxNy45LDE4LjEsMTcuNSwx
+        OCwxNywxOHMtMC45LDAuMS0xLjMsMC4zbC0yLTIgICBjMC4yLTAuNCwwLjMtMC44LDAuMy0xLjNjMC0x
+        LjctMS4zLTMtMy0zcy0zLDEuMy0zLDNjMCwwLjUsMC4xLDAuOSwwLjMsMS4zbC0yLDJDNS45LDE4LjEs
+        NS41LDE4LDUsMThjLTEuNywwLTMsMS4zLTMsM3MxLjMsMywzLDMgICBzMy0xLjMsMy0zYzAtMC41LTAu
+        MS0wLjktMC4zLTEuM2wyLTJjMC40LDAuMiwwLjgsMC4zLDEuMywwLjNzMC45LTAuMSwxLjMtMC4zbDIs
+        MkMxNC4xLDIwLjEsMTQsMjAuNSwxNCwyMWMwLDEuNywxLjMsMywzLDMgICBzMy0xLjMsMy0zYzAtMC41
+        LTAuMS0wLjktMC4zLTEuM2w2LTZjMC40LDAuMiwwLjgsMC4zLDEuMywwLjNjMS43LDAsMy0xLjMsMy0z
+        UzI4LjcsOCwyNyw4eiBNNSwyMmMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMSAgIHMxLDAuNCwxLDFT
+        NS42LDIyLDUsMjJ6IE0xMSwxNmMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMXMxLDAuNCwxLDFTMTEu
+        NiwxNiwxMSwxNnogTTE3LDIyYy0wLjYsMC0xLTAuNC0xLTFzMC40LTEsMS0xczEsMC40LDEsMSAgIFMx
+        Ny42LDIyLDE3LDIyeiBNMjcsMTJjLTAuNiwwLTEtMC40LTEtMXMwLjQtMSwxLTFzMSwwLjQsMSwxUzI3
+        LjYsMTIsMjcsMTJ6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
+</value>
+  </data>
   <data name="&gt;&gt;barButtonItem2.Name" xml:space="preserve">
     <value>barButtonItem2</value>
   </data>
@@ -2396,6 +2400,12 @@
   <data name="&gt;&gt;ribbonPageGroupLocation.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="buttonBarItemItemPromotion.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
+  </data>
+  <data name="&gt;&gt;buttonBarItemSupplierListing.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="&gt;&gt;ribbonPageGroupPointOfSale.Name" xml:space="preserve">
     <value>ribbonPageGroupPointOfSale</value>
   </data>
@@ -2408,17 +2418,14 @@
   <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="buttonBarItemLogout.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="&gt;&gt;buttonBarItemAboutUs.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="buttonBarItemSupplierRecords.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="barButtonItem24.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="&gt;&gt;barButtonItem7.Name" xml:space="preserve">
+    <value>barButtonItem7</value>
   </data>
   <data name="barButtonItem12.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2442,11 +2449,11 @@
         IC8+DQogIDwvZz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="&gt;&gt;buttonBarItemSupplierListing.Name" xml:space="preserve">
-    <value>buttonBarItemSupplierListing</value>
+  <data name="buttonBarItemLogout.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
-  <data name="&gt;&gt;barButtonGroup2.Name" xml:space="preserve">
-    <value>barButtonGroup2</value>
+  <data name="&gt;&gt;barStaticItemPeroid.Name" xml:space="preserve">
+    <value>barStaticItemPeroid</value>
   </data>
   <data name="&gt;&gt;buttonBarItemReportConverstion.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -2454,14 +2461,17 @@
   <data name="&gt;&gt;barButtonItem24.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;ribbonPageGroup1.Name" xml:space="preserve">
-    <value>ribbonPageGroup1</value>
+  <data name="buttonBarItemDocuments.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="barButtonGroup2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;repositoryItemTextEdit1.Name" xml:space="preserve">
     <value>repositoryItemTextEdit1</value>
+  </data>
+  <data name="barButtonGroup2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="&gt;&gt;buttonBarItemInventoryMovement.Name" xml:space="preserve">
     <value>buttonBarItemInventoryMovement</value>
@@ -2496,14 +2506,52 @@
   <data name="ribbonStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="&gt;&gt;barButtonItem6.Name" xml:space="preserve">
+    <value>barButtonItem6</value>
+  </data>
   <data name="&gt;&gt;ribbonPageGroupProccess.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;ribbonPageGroupReport.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="barButtonItem6.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="barButtonItem5.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjEsIFZlcnNpb249MjIuMS4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAA8HAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
+        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
+        aXNwbGF5OmlubGluZTtmaWxsOiNGRkIxMTU7fQoJLnN0NHtkaXNwbGF5OmlubGluZTt9Cgkuc3Q1e2Rp
+        c3BsYXk6aW5saW5lO29wYWNpdHk6MC43NTt9Cgkuc3Q2e2Rpc3BsYXk6aW5saW5lO29wYWNpdHk6MC41
+        O30KCS5zdDd7ZGlzcGxheTppbmxpbmU7ZmlsbDojMDM5QzIzO30KCS5zdDh7ZGlzcGxheTppbmxpbmU7
+        ZmlsbDojRDExQzFDO30KCS5zdDl7ZGlzcGxheTppbmxpbmU7ZmlsbDojMTE3N0Q3O30KCS5zdDEwe2Rp
+        c3BsYXk6aW5saW5lO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+DQogIDxnIGlkPSJEZXBhcnRtZW50Ij4N
+        CiAgICA8ZyBjbGFzcz0ic3QxIj4NCiAgICAgIDxwYXRoIGQ9Ik0xNi4zLDkuN0MxNi4yLDkuMywxNS45
+        LDksMTYsOC42YzAuMS0wLjIsMC4zLTAuMiwwLjQtMC4yQzE1LjUsNS4zLDE2LDIsMjAsMmM0LjMsMCw0
+        LjYsMi41LDQuNiwyLjUgICAgczIuNC0wLjIsMC45LDMuOWMwLjEtMC4xLDAuMy0wLjEsMC40LDAuMmMw
+        LjEsMC40LTAuMSwwLjctMC4yLDEuMmMtMC4yLDAuNCwwLjEsMS40LTAuNywxLjN2MC4xYy0wLjQsMS45
+        LTEuNyw0LjEtMy45LDQuMSAgICBjLTIuMiwwLTMuNC0yLjItMy45LTQuMWMwLTAuMSwwLTAuMiwwLTAu
+        MkMxNi4zLDExLjIsMTYuNSwxMC4yLDE2LjMsOS43eiBNMjQsMTZjLTAuNiwxLTEuNiwyLjctMywyLjdT
+        MTguNiwxNywxOCwxNiAgICBjLTAuMSwwLjItMC4zLDAuMy0wLjQsMC40YzAsMCwwLDAsMCwwbDAsMC4x
+        bDAsMGMtMC4xLDEtMC41LDEuNy0wLjksMmMtMC4zLDAuOC0wLjYsMS41LTEuMSwyLjJsMCwwYzAuMyww
+        LjMsMC45LDAuNSwxLjYsMC44ICAgIGMxLjEsMC40LDIuOCwwLjksMy44LDIuNGg5di0yLjNDMzAsMTYu
+        NywyNS43LDE4LjMsMjQsMTZ6IiBjbGFzcz0iQmxhY2siIC8+DQogICAgPC9nPg0KICAgIDxwYXRoIGQ9
+        Ik02LjMsMTUuN0M2LjIsMTUuMyw1LjksMTUsNiwxNC42YzAuMS0wLjIsMC4zLTAuMiwwLjQtMC4yQzUu
+        NSwxMS4zLDYsOCwxMCw4YzQuMywwLDQuNiwyLjUsNC42LDIuNSAgIHMyLjQtMC4yLDAuOSwzLjljMC4x
+        LTAuMSwwLjMtMC4xLDAuNCwwLjJjMC4xLDAuNC0wLjEsMC43LTAuMiwxLjJjLTAuMiwwLjQsMC4xLDEu
+        NC0wLjcsMS4zdjAuMWMtMC40LDEuOS0xLjcsNC4xLTMuOSw0LjEgICBjLTIuMiwwLTMuNC0yLjItMy45
+        LTQuMWMwLTAuMSwwLTAuMiwwLTAuMkM2LjMsMTcuMiw2LjUsMTYuMiw2LjMsMTUuN3ogTTE0LDIyYy0w
+        LjYsMS0xLjYsMi43LTMsMi43UzguNiwyMyw4LDIyICAgYy0xLjcsMi4zLTYsMC43LTYsNS43VjMwaDE4
+        di0yLjNDMjAsMjIuNywxNS43LDI0LjMsMTQsMjJ6IiBjbGFzcz0iQmxhY2siIC8+DQogIDwvZz4NCjwv
+        c3ZnPgs=
+</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SI Inventory System</value>
@@ -2546,13 +2594,16 @@
         MHoiIGNsYXNzPSJCbGFjayIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="&gt;&gt;buttonBarItemSupplierRecords.Name" xml:space="preserve">
-    <value>buttonBarItemSupplierRecords</value>
+  <data name="ribbonPageTransaction.Text" xml:space="preserve">
+    <value>TRANSACTION</value>
+  </data>
+  <data name="buttonBarItemInventoryMovement.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="&gt;&gt;ribbonPageTransaction.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="buttonBarItemUnitConverstion.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+  <data name="barSubItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;ribbonPage1.Name" xml:space="preserve">
@@ -2566,6 +2617,9 @@
   </data>
   <data name="ribbonPage7.AppearanceSelected.Font" type="System.Drawing.Font, System.Drawing">
     <value>Khmer OS Battambang, 12pt</value>
+  </data>
+  <data name="buttonBarItemInventoryTransfer.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
   </data>
   <data name="buttonBarItemLocationStore.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -2587,6 +2641,9 @@
   </data>
   <data name="barButtonItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
+  </data>
+  <data name="&gt;&gt;buttonBarItemSupplierRecords.Name" xml:space="preserve">
+    <value>buttonBarItemSupplierRecords</value>
   </data>
   <data name="barButtonItem9.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -2652,8 +2709,20 @@
   <data name="barStaticItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="buttonBarItemReportInventoryTransfer.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="&gt;&gt;buttonBarItemKhmer.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="buttonBarItemReportCustomerListing.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="buttonBarItemBarcodeSales.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage7.Name" xml:space="preserve">
+    <value>ribbonPage7</value>
   </data>
   <data name="ribbonControlMain.ExpandCollapseItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -2663,6 +2732,9 @@
   </data>
   <data name="&gt;&gt;barEditItem2.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="buttonBarItemReportConverstion.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="&gt;&gt;buttonBarItemSupplierDelivery.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -2685,14 +2757,20 @@
   <data name="&gt;&gt;ribbonPageGroup18.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;buttonBarItemDebitNote.Name" xml:space="preserve">
-    <value>buttonBarItemDebitNote</value>
+  <data name="&gt;&gt;barButtonGroup2.Name" xml:space="preserve">
+    <value>barButtonGroup2</value>
   </data>
-  <data name="repositoryItemButtonEdit1.AutoHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="buttonBarItemOption.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
-  <data name="ribbonPageFile.Text" xml:space="preserve">
-    <value>FOLDER</value>
+  <data name="&gt;&gt;repositoryItemButtonEdit1.Name" xml:space="preserve">
+    <value>repositoryItemButtonEdit1</value>
+  </data>
+  <data name="&gt;&gt;buttonBarItemStockAdjustment.Name" xml:space="preserve">
+    <value>buttonBarItemStockAdjustment</value>
+  </data>
+  <data name="barButtonItem24.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="&gt;&gt;buttonBarItemDocuments.Name" xml:space="preserve">
     <value>buttonBarItemDocuments</value>
@@ -2715,14 +2793,14 @@
   <data name="barCheckItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;ribbonPageGroupFileActivity.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;buttonBarItemPricesList.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;barStaticItemPeroid.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;buttonBarItemPurchaseOrder.Name" xml:space="preserve">
-    <value>buttonBarItemPurchaseOrder</value>
+  <data name="&gt;&gt;ribbonPageGroupFileActivity.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="barButtonGroup1.Caption" xml:space="preserve">
     <value>barButtonGroup1</value>
@@ -2745,11 +2823,20 @@
   <data name="&gt;&gt;buttonBarItemReportDesign.Name" xml:space="preserve">
     <value>buttonBarItemReportDesign</value>
   </data>
+  <data name="barButtonGroup2.Caption" xml:space="preserve">
+    <value>barButtonGroup2</value>
+  </data>
+  <data name="buttonBarItemCraditNote.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 10pt</value>
+  </data>
   <data name="buttonBarItemExit.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;buttonBarItemExchangeRate.Name" xml:space="preserve">
     <value>buttonBarItemExchangeRate</value>
+  </data>
+  <data name="&gt;&gt;barStaticItemUserCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -2763,14 +2850,17 @@
   <data name="barStaticItem3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
+  <data name="buttonBarItemCustomerRecords.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Name" xml:space="preserve">
+    <value>ribbonPageGroup1</value>
+  </data>
   <data name="buttonBarItemEmployee.Caption" xml:space="preserve">
     <value>បុគ្គលិក</value>
   </data>
   <data name="&gt;&gt;ribbonPageGroupPointOfSale.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;ribbonPageMaintain.Name" xml:space="preserve">
-    <value>ribbonPageMaintain</value>
   </data>
   <data name="barButtonItem23.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2791,14 +2881,17 @@
         L2c+DQo8L3N2Zz4L
 </value>
   </data>
+  <data name="buttonBarItemSalesOrder.Caption" xml:space="preserve">
+    <value>Sales Order</value>
+  </data>
   <data name="barEditItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;repositoryItemComboBox1.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="buttonBarItemInventoryBalance.Caption" xml:space="preserve">
-    <value>Inventory Balance</value>
+  <data name="buttonBarItemReportConverstion.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="buttonBarItemExit.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2824,8 +2917,11 @@
         Zz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="&gt;&gt;buttonBarItemItemPromotion.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="buttonBarItemItemCategory.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="barButtonItem4.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="buttonBarItemSupplierRecords.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2852,9 +2948,6 @@
   <data name="&gt;&gt;buttonBarItemExchangeRate.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="buttonBarItemSetupCustomerInPOS.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="buttonBarItemDebitNote.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
@@ -2870,6 +2963,9 @@
   <data name="buttonBarItemCustomerRecords.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
+  <data name="&gt;&gt;buttonBarItemSupplierListing.Name" xml:space="preserve">
+    <value>buttonBarItemSupplierListing</value>
+  </data>
   <data name="barStaticItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
@@ -2882,8 +2978,8 @@
   <data name="buttonBarItemAboutUs.Caption" xml:space="preserve">
     <value>About us</value>
   </data>
-  <data name="buttonBarItemPurchaseListing.Caption" xml:space="preserve">
-    <value>Purchase Listing</value>
+  <data name="&gt;&gt;ribbonPageMaintain.Name" xml:space="preserve">
+    <value>ribbonPageMaintain</value>
   </data>
   <data name="&gt;&gt;barButtonItem4.Name" xml:space="preserve">
     <value>barButtonItem4</value>
@@ -2894,8 +2990,8 @@
   <data name="&gt;&gt;barEditItem1.Name" xml:space="preserve">
     <value>barEditItem1</value>
   </data>
-  <data name="&gt;&gt;buttonBarItemStockAdjustment.Name" xml:space="preserve">
-    <value>buttonBarItemStockAdjustment</value>
+  <data name="buttonBarItemPurchaseListing.Caption" xml:space="preserve">
+    <value>Purchase Listing</value>
   </data>
   <data name="barButtonItem7.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2945,8 +3041,8 @@
   <data name="buttonBarItemReportSaleListing.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="barButtonGroup3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="&gt;&gt;ribbonControlMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;buttonBarItemCustomerDelivery.Name" xml:space="preserve">
     <value>buttonBarItemCustomerDelivery</value>
@@ -2958,6 +3054,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>km-KH</value>
+    <value>en-US</value>
   </metadata>
 </root>

@@ -30,7 +30,7 @@ namespace POS.GUI.Maintains
         #region Global varaible
 
         private readonly OutLook outLook = new OutLook();
-        SILocation location = new SILocation();
+      //  SILocation location = new SILocation();
         private string STRTMP = "";
         readonly Connection.Connection connection = new Connection.Connection();
         readonly PROGRESSBAR_FRM progressbar_FRM = new PROGRESSBAR_FRM();
@@ -46,9 +46,9 @@ namespace POS.GUI.Maintains
 
         private void LOCATION_FRM_Load(object sender, EventArgs e)
         {
-            outLook.showDGV(dataGridViewX1, location.LoadData(), "LOC_STAT");
-            outLook.loadSearch(dataGridViewX1, location.LoadData(), "LOC_CODE", ListView1, contextMenuStrip2, ToolStrip2,
-                               splitContainer1, SearchPanel);
+            //outLook.showDGV(dataGridViewX1, location.LoadData(), "LOC_STAT");
+            //outLook.loadSearch(dataGridViewX1, location.LoadData(), "LOC_CODE", ListView1, contextMenuStrip2, ToolStrip2,
+            //                   splitContainer1, SearchPanel);
         }
 
         #region ToolStrip1
@@ -99,8 +99,8 @@ namespace POS.GUI.Maintains
             }
             else
             {
-                location = new SILocation();
-                outLook.showDGV(dataGridViewX1, location.LoadData(), "LOC_STAT");
+            //    location = new SILocation();
+            //    outLook.showDGV(dataGridViewX1, location.LoadData(), "LOC_STAT");
                 DefaultAllToolStripMenuItem.Checked = true;
                 ActiveToolStripMenuItem.Checked = false;
                 disableToolStripMenuItem.Checked = false;
@@ -138,7 +138,7 @@ namespace POS.GUI.Maintains
                                         locationfrm.txtCode.Text, locationfrm.txtName.Text,
                                         locationfrm.cboStatus.Text.Substring(0, 1), UserLogOn.Code
                                     };
-                    location.Save(value);
+                    //location.Save(value);
                     controls.AddToDataGridView(dataGridViewX1, locationfrm.txtCode.Text, locationfrm.txtName.Text,
                                                locationfrm.cboStatus.Text.Substring(4,
                                                                                     locationfrm.cboStatus.Text.Length -
@@ -174,7 +174,7 @@ namespace POS.GUI.Maintains
                 {
                     var value = new[]{"LOC_NAME",location_frm.txtName.Text,"LOC_STAT",location_frm.cboStatus.Text.Substring(0,1)};
                     var condition = new[] {"LOC_CODE", location_frm.txtCode.Text};
-                    location.Update(value,condition);
+                    //location.Update(value,condition);
                     controls.UpdateDataToGridView(dataGridViewX1, location_frm.txtCode.Text, location_frm.txtName.Text,
                                                   location_frm.cboStatus.Text == "A - Active" ? "Active" : "Disabled",
                                                   UserLogOn.Code);

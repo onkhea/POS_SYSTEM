@@ -14,8 +14,8 @@ namespace POS.Transaction.Maintains
 
         public SILocation()
         {
-            _command = new SqlCommand("SELECT * FROM dbo.SIPLOCA ORDER BY LOC_CODE ASC",_connection.Connect());
-            _dtLocation = _dataManager.GetData(_command);
+            //_command = new SqlCommand("SELECT * FROM dbo.SIPLOCA ORDER BY LOC_CODE ASC",_connection.Connect());
+            //_dtLocation = _dataManager.GetData(_command);
         }
 
         public DataTable LoadData()
