@@ -55,150 +55,97 @@
             // 
             // cboconvf
             // 
+            resources.ApplyResources(this.cboconvf, "cboconvf");
             this.cboconvf.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.cboconvf.Location = new System.Drawing.Point(130, 5);
             this.cboconvf.Name = "cboconvf";
-            this.cboconvf.Size = new System.Drawing.Size(87, 20);
-            this.cboconvf.TabIndex = 0;
             this.cboconvf.Tag = "Unit Sale";
             this.cboconvf.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboconvf_KeyDown);
             // 
             // txtconvt
             // 
+            resources.ApplyResources(this.txtconvt, "txtconvt");
             this.txtconvt.FormattingEnabled = true;
-            this.txtconvt.Location = new System.Drawing.Point(130, 70);
             this.txtconvt.Name = "txtconvt";
-            this.txtconvt.Size = new System.Drawing.Size(87, 21);
-            this.txtconvt.TabIndex = 3;
             this.txtconvt.Tag = "Unit Stock";
             this.txtconvt.SelectedIndexChanged += new System.EventHandler(this.txtconvt_SelectedIndexChanged);
             this.txtconvt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtconvt_KeyDown);
             // 
             // txtDescT2
             // 
-            this.txtDescT2.Font = new System.Drawing.Font("Limon S1", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescT2.Location = new System.Drawing.Point(130, 96);
-            this.txtDescT2.MaxLength = 50;
+            resources.ApplyResources(this.txtDescT2, "txtDescT2");
             this.txtDescT2.Name = "txtDescT2";
-            this.txtDescT2.Size = new System.Drawing.Size(319, 32);
-            this.txtDescT2.TabIndex = 5;
             this.txtDescT2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDescT2_KeyDown);
             // 
             // Label8
             // 
-            this.Label8.AutoSize = true;
-            this.Label8.Location = new System.Drawing.Point(8, 105);
+            resources.ApplyResources(this.Label8, "Label8");
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(90, 13);
-            this.Label8.TabIndex = 27;
-            this.Label8.Text = "Unit Stock Khmer";
             // 
             // txtDescF2
             // 
-            this.txtDescF2.Font = new System.Drawing.Font("Limon S1", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescF2.Location = new System.Drawing.Point(130, 32);
-            this.txtDescF2.MaxLength = 50;
+            resources.ApplyResources(this.txtDescF2, "txtDescF2");
             this.txtDescF2.Name = "txtDescF2";
-            this.txtDescF2.Size = new System.Drawing.Size(319, 32);
-            this.txtDescF2.TabIndex = 2;
             this.txtDescF2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDescF2_KeyDown);
             // 
             // txtDescT1
             // 
-            this.txtDescT1.Location = new System.Drawing.Point(311, 70);
-            this.txtDescT1.MaxLength = 15;
+            resources.ApplyResources(this.txtDescT1, "txtDescT1");
             this.txtDescT1.Name = "txtDescT1";
-            this.txtDescT1.Size = new System.Drawing.Size(138, 20);
-            this.txtDescT1.TabIndex = 4;
             this.txtDescT1.Tag = "Unit Stock Description";
             this.txtDescT1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDescT1_KeyDown);
             // 
             // Label5
             // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(8, 41);
+            resources.ApplyResources(this.Label5, "Label5");
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(83, 13);
-            this.Label5.TabIndex = 21;
-            this.Label5.Text = "Sale Unit Khmer";
             // 
             // Label7
             // 
-            this.Label7.AutoSize = true;
-            this.Label7.Location = new System.Drawing.Point(220, 74);
+            resources.ApplyResources(this.Label7, "Label7");
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(85, 13);
-            this.Label7.TabIndex = 25;
-            this.Label7.Text = "Unit Stock Desc";
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(74, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "&OK";
             this.OK_Button.UseVisualStyleBackColor = true;
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             this.OK_Button.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OK_Button_KeyDown);
             // 
             // TxtdescF1
             // 
-            this.TxtdescF1.Location = new System.Drawing.Point(311, 5);
-            this.TxtdescF1.MaxLength = 15;
+            resources.ApplyResources(this.TxtdescF1, "TxtdescF1");
             this.TxtdescF1.Name = "TxtdescF1";
-            this.TxtdescF1.Size = new System.Drawing.Size(138, 20);
-            this.TxtdescF1.TabIndex = 1;
             this.TxtdescF1.Tag = "Unit Sale Description";
             this.TxtdescF1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtdescF1_KeyDown);
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(220, 9);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(78, 13);
-            this.Label3.TabIndex = 19;
-            this.Label3.Text = "Unit Sale Desc";
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(223, 137);
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(37, 13);
-            this.Label2.TabIndex = 31;
-            this.Label2.Text = "Factor";
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(8, 74);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(57, 13);
-            this.Label1.TabIndex = 23;
-            this.Label1.Text = "Unit Stock";
             // 
             // txtfactor
             // 
-            this.txtfactor.Location = new System.Drawing.Point(311, 134);
-            this.txtfactor.MaxLength = 50;
+            resources.ApplyResources(this.txtfactor, "txtfactor");
             this.txtfactor.Name = "txtfactor";
-            this.txtfactor.Size = new System.Drawing.Size(138, 20);
-            this.txtfactor.TabIndex = 7;
             this.txtfactor.Tag = "Factor";
             this.txtfactor.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtfactor_KeyDown);
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(85, 3);
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(74, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "&Cancel";
             this.Cancel_Button.UseVisualStyleBackColor = true;
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
@@ -210,56 +157,37 @@
             // 
             // Label4
             // 
-            this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(8, 138);
+            resources.ApplyResources(this.Label4, "Label4");
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(48, 13);
-            this.Label4.TabIndex = 29;
-            this.Label4.Text = "Operator";
             // 
             // cbooperator
             // 
+            resources.ApplyResources(this.cbooperator, "cbooperator");
             this.cbooperator.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbooperator.FormattingEnabled = true;
             this.cbooperator.Items.AddRange(new object[] {
-            "* - Multiply",
-            "/ - Divide"});
-            this.cbooperator.Location = new System.Drawing.Point(130, 134);
+            resources.GetString("cbooperator.Items"),
+            resources.GetString("cbooperator.Items1")});
             this.cbooperator.Name = "cbooperator";
-            this.cbooperator.Size = new System.Drawing.Size(87, 21);
-            this.cbooperator.TabIndex = 6;
             this.cbooperator.Tag = "Operator";
             this.cbooperator.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cbooperator_KeyDown);
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(288, 163);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(163, 29);
-            this.TableLayoutPanel1.TabIndex = 33;
             // 
             // Label6
             // 
-            this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(8, 8);
+            resources.ApplyResources(this.Label6, "Label6");
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(50, 13);
-            this.Label6.TabIndex = 17;
-            this.Label6.Text = "Unit Sale";
             // 
             // ADDUNITCONVERT_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 193);
             this.Controls.Add(this.cboconvf);
             this.Controls.Add(this.txtconvt);
             this.Controls.Add(this.txtDescT2);
@@ -283,10 +211,8 @@
             this.Name = "ADDUNITCONVERT_FRM";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add Unit Conversion";
-            this.Load += new System.EventHandler(this.ADDUNITCONVERT_FRM_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ADDUNITCONVERT_FRM_FormClosing);
+            this.Load += new System.EventHandler(this.ADDUNITCONVERT_FRM_Load);
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -52,35 +52,25 @@
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(257, 79);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(37, 13);
-            this.Label1.TabIndex = 25;
-            this.Label1.Text = "&Status";
             // 
             // cboStatus
             // 
+            resources.ApplyResources(this.cboStatus, "cboStatus");
             this.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboStatus.FormattingEnabled = true;
             this.cboStatus.Items.AddRange(new object[] {
-            "A - Active",
-            "D - Disable"});
-            this.cboStatus.Location = new System.Drawing.Point(338, 76);
+            resources.GetString("cboStatus.Items"),
+            resources.GetString("cboStatus.Items1")});
             this.cboStatus.Name = "cboStatus";
-            this.cboStatus.Size = new System.Drawing.Size(118, 21);
-            this.cboStatus.TabIndex = 26;
             this.cboStatus.Tag = "Status";
             this.cboStatus.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboStatus_KeyDown);
             // 
             // Label4
             // 
-            this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(9, 45);
+            resources.ApplyResources(this.Label4, "Label4");
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(69, 13);
-            this.Label4.TabIndex = 18;
-            this.Label4.Text = "Unit of Stock";
             // 
             // ImageList1
             // 
@@ -90,156 +80,102 @@
             // 
             // txtUnitofSale
             // 
+            resources.ApplyResources(this.txtUnitofSale, "txtUnitofSale");
             this.txtUnitofSale.BackColor = System.Drawing.SystemColors.Window;
-            this.txtUnitofSale.Location = new System.Drawing.Point(338, 42);
-            this.txtUnitofSale.MaxLength = 5;
             this.txtUnitofSale.Name = "txtUnitofSale";
-            this.txtUnitofSale.Size = new System.Drawing.Size(95, 20);
-            this.txtUnitofSale.TabIndex = 21;
             this.txtUnitofSale.Tag = "Unit of Sale";
             this.txtUnitofSale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitofSale_KeyDown);
             // 
             // Label10
             // 
-            this.Label10.AutoSize = true;
-            this.Label10.Location = new System.Drawing.Point(257, 44);
+            resources.ApplyResources(this.Label10, "Label10");
             this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(62, 13);
-            this.Label10.TabIndex = 20;
             this.Label10.Tag = "Second Commonts";
-            this.Label10.Text = "Unit of Sale";
             // 
             // txtUnitofStock
             // 
-            this.txtUnitofStock.Enabled = false;
-            this.txtUnitofStock.Location = new System.Drawing.Point(90, 42);
-            this.txtUnitofStock.MaxLength = 1;
+            resources.ApplyResources(this.txtUnitofStock, "txtUnitofStock");
             this.txtUnitofStock.Name = "txtUnitofStock";
             this.txtUnitofStock.ReadOnly = true;
-            this.txtUnitofStock.Size = new System.Drawing.Size(159, 20);
-            this.txtUnitofStock.TabIndex = 19;
             this.txtUnitofStock.TabStop = false;
             this.txtUnitofStock.Tag = "D/C";
             // 
             // txtSellingPrice
             // 
-            this.txtSellingPrice.Location = new System.Drawing.Point(90, 76);
-            this.txtSellingPrice.MaxLength = 20;
+            resources.ApplyResources(this.txtSellingPrice, "txtSellingPrice");
             this.txtSellingPrice.Name = "txtSellingPrice";
-            this.txtSellingPrice.Size = new System.Drawing.Size(159, 20);
-            this.txtSellingPrice.TabIndex = 24;
             this.txtSellingPrice.Tag = "Discount Rate";
-            this.txtSellingPrice.Text = "0";
-            this.txtSellingPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtSellingPrice.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSellingPrice_KeyDown);
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(74, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "&OK";
             this.OK_Button.UseVisualStyleBackColor = true;
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             this.OK_Button.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OK_Button_KeyDown);
             // 
             // txtProID
             // 
-            this.txtProID.Location = new System.Drawing.Point(90, 8);
-            this.txtProID.MaxLength = 25;
+            resources.ApplyResources(this.txtProID, "txtProID");
             this.txtProID.Name = "txtProID";
-            this.txtProID.Size = new System.Drawing.Size(136, 20);
-            this.txtProID.TabIndex = 15;
             this.txtProID.Tag = "Item Code";
             this.txtProID.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtProID_KeyDown);
             // 
             // Label20
             // 
-            this.Label20.AutoSize = true;
-            this.Label20.Location = new System.Drawing.Point(9, 12);
+            resources.ApplyResources(this.Label20, "Label20");
             this.Label20.Name = "Label20";
-            this.Label20.Size = new System.Drawing.Size(55, 13);
-            this.Label20.TabIndex = 14;
-            this.Label20.Text = "Item Code";
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(85, 3);
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(74, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "&Cancel";
             this.Cancel_Button.UseVisualStyleBackColor = true;
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(293, 128);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(163, 29);
-            this.TableLayoutPanel1.TabIndex = 27;
             // 
             // txtProName
             // 
-            this.txtProName.Enabled = false;
-            this.txtProName.Location = new System.Drawing.Point(255, 9);
-            this.txtProName.MaxLength = 50;
+            resources.ApplyResources(this.txtProName, "txtProName");
             this.txtProName.Name = "txtProName";
-            this.txtProName.Size = new System.Drawing.Size(201, 20);
-            this.txtProName.TabIndex = 17;
             this.txtProName.Tag = "Product Name";
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(9, 79);
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(65, 13);
-            this.Label2.TabIndex = 23;
             this.Label2.Tag = "";
-            this.Label2.Text = "Selling Price";
             // 
             // btnUnitofSale
             // 
-            this.btnUnitofSale.ImageIndex = 0;
+            resources.ApplyResources(this.btnUnitofSale, "btnUnitofSale");
             this.btnUnitofSale.ImageList = this.ImageList1;
-            this.btnUnitofSale.Location = new System.Drawing.Point(432, 42);
             this.btnUnitofSale.Name = "btnUnitofSale";
-            this.btnUnitofSale.Size = new System.Drawing.Size(24, 20);
-            this.btnUnitofSale.TabIndex = 22;
             this.btnUnitofSale.TabStop = false;
             this.btnUnitofSale.UseVisualStyleBackColor = true;
             this.btnUnitofSale.Click += new System.EventHandler(this.btnUnitofSale_Click);
             // 
             // btnProID
             // 
-            this.btnProID.ImageIndex = 0;
+            resources.ApplyResources(this.btnProID, "btnProID");
             this.btnProID.ImageList = this.ImageList1;
-            this.btnProID.Location = new System.Drawing.Point(225, 8);
             this.btnProID.Name = "btnProID";
-            this.btnProID.Size = new System.Drawing.Size(24, 20);
-            this.btnProID.TabIndex = 16;
             this.btnProID.TabStop = false;
             this.btnProID.UseVisualStyleBackColor = true;
             this.btnProID.Click += new System.EventHandler(this.btnProID_Click);
             // 
             // SIADDSETUPPRICE_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(462, 159);
             this.ControlBox = false;
             this.Controls.Add(this.Label1);
             this.Controls.Add(this.cboStatus);
@@ -256,13 +192,10 @@
             this.Controls.Add(this.txtProName);
             this.Controls.Add(this.Label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SIADDSETUPPRICE_FRM";
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add Price";
             this.Load += new System.EventHandler(this.SIADDSETUPPRICE_FRM_Load);
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

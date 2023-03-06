@@ -76,80 +76,83 @@
             // 
             // Label14
             // 
+            resources.ApplyResources(this.Label14, "Label14");
             this.Label14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Label14.Location = new System.Drawing.Point(133, 148);
+            this.HelpProvider1.SetHelpKeyword(this.Label14, resources.GetString("Label14.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label14, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label14.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label14, resources.GetString("Label14.HelpString"));
             this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(406, 2);
-            this.Label14.TabIndex = 72;
-            this.Label14.Text = "Label14";
+            this.HelpProvider1.SetShowHelp(this.Label14, ((bool)(resources.GetObject("Label14.ShowHelp"))));
             // 
             // Label4
             // 
-            this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(294, 91);
+            resources.ApplyResources(this.Label4, "Label4");
+            this.HelpProvider1.SetHelpKeyword(this.Label4, resources.GetString("Label4.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label4, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label4.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label4, resources.GetString("Label4.HelpString"));
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(54, 13);
-            this.Label4.TabIndex = 52;
+            this.HelpProvider1.SetShowHelp(this.Label4, ((bool)(resources.GetObject("Label4.ShowHelp"))));
             this.Label4.Tag = "Second Commonts";
-            this.Label4.Text = "Stock Qty";
             // 
             // txtStockQ
             // 
+            resources.ApplyResources(this.txtStockQ, "txtStockQ");
             this.txtStockQ.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtStockQ.Location = new System.Drawing.Point(411, 87);
-            this.txtStockQ.MaxLength = 1;
+            this.HelpProvider1.SetHelpKeyword(this.txtStockQ, resources.GetString("txtStockQ.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtStockQ, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtStockQ.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtStockQ, resources.GetString("txtStockQ.HelpString"));
             this.txtStockQ.Name = "txtStockQ";
             this.txtStockQ.ReadOnly = true;
-            this.txtStockQ.Size = new System.Drawing.Size(126, 20);
-            this.txtStockQ.TabIndex = 53;
+            this.HelpProvider1.SetShowHelp(this.txtStockQ, ((bool)(resources.GetObject("txtStockQ.ShowHelp"))));
             this.txtStockQ.TabStop = false;
             this.txtStockQ.Tag = "D/C";
             // 
             // dtpE
             // 
+            resources.ApplyResources(this.dtpE, "dtpE");
             this.dtpE.CalendarMonthBackground = System.Drawing.Color.WhiteSmoke;
-            this.dtpE.CustomFormat = "";
-            this.dtpE.Enabled = false;
             this.dtpE.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpE.Location = new System.Drawing.Point(411, 114);
+            this.HelpProvider1.SetHelpKeyword(this.dtpE, resources.GetString("dtpE.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.dtpE, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("dtpE.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.dtpE, resources.GetString("dtpE.HelpString"));
             this.dtpE.Name = "dtpE";
             this.dtpE.ShowCheckBox = true;
-            this.dtpE.Size = new System.Drawing.Size(126, 20);
-            this.dtpE.TabIndex = 57;
+            this.HelpProvider1.SetShowHelp(this.dtpE, ((bool)(resources.GetObject("dtpE.ShowHelp"))));
             this.dtpE.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtpE_KeyDown);
             // 
             // Label13
             // 
-            this.Label13.AutoSize = true;
-            this.Label13.Location = new System.Drawing.Point(294, 116);
+            resources.ApplyResources(this.Label13, "Label13");
+            this.HelpProvider1.SetHelpKeyword(this.Label13, resources.GetString("Label13.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label13, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label13.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label13, resources.GetString("Label13.HelpString"));
             this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(68, 13);
-            this.Label13.TabIndex = 56;
-            this.Label13.Text = "Expired Date";
+            this.HelpProvider1.SetShowHelp(this.Label13, ((bool)(resources.GetObject("Label13.ShowHelp"))));
             // 
             // cboPType
             // 
+            resources.ApplyResources(this.cboPType, "cboPType");
             this.cboPType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboPType.Enabled = false;
             this.cboPType.FormattingEnabled = true;
+            this.HelpProvider1.SetHelpKeyword(this.cboPType, resources.GetString("cboPType.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.cboPType, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("cboPType.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.cboPType, resources.GetString("cboPType.HelpString"));
             this.cboPType.Items.AddRange(new object[] {
-            "P - Purchase",
-            "F - Free"});
-            this.cboPType.Location = new System.Drawing.Point(133, 113);
+            resources.GetString("cboPType.Items"),
+            resources.GetString("cboPType.Items1")});
             this.cboPType.Name = "cboPType";
-            this.cboPType.Size = new System.Drawing.Size(147, 21);
-            this.cboPType.TabIndex = 55;
+            this.HelpProvider1.SetShowHelp(this.cboPType, ((bool)(resources.GetObject("cboPType.ShowHelp"))));
             this.cboPType.Tag = "Purchase Type";
             this.cboPType.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboPType_KeyDown);
             // 
             // lblItemCode
             // 
-            this.lblItemCode.AutoSize = true;
-            this.lblItemCode.Location = new System.Drawing.Point(13, 13);
+            resources.ApplyResources(this.lblItemCode, "lblItemCode");
+            this.HelpProvider1.SetHelpKeyword(this.lblItemCode, resources.GetString("lblItemCode.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.lblItemCode, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("lblItemCode.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.lblItemCode, resources.GetString("lblItemCode.HelpString"));
             this.lblItemCode.Name = "lblItemCode";
-            this.lblItemCode.Size = new System.Drawing.Size(55, 13);
-            this.lblItemCode.TabIndex = 36;
-            this.lblItemCode.Text = "Item Code";
+            this.HelpProvider1.SetShowHelp(this.lblItemCode, ((bool)(resources.GetObject("lblItemCode.ShowHelp"))));
             // 
             // ImageList1
             // 
@@ -159,375 +162,367 @@
             // 
             // lblLoc
             // 
-            this.lblLoc.AutoSize = true;
-            this.lblLoc.Location = new System.Drawing.Point(13, 40);
+            resources.ApplyResources(this.lblLoc, "lblLoc");
+            this.HelpProvider1.SetHelpKeyword(this.lblLoc, resources.GetString("lblLoc.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.lblLoc, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("lblLoc.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.lblLoc, resources.GetString("lblLoc.HelpString"));
             this.lblLoc.Name = "lblLoc";
-            this.lblLoc.Size = new System.Drawing.Size(76, 13);
-            this.lblLoc.TabIndex = 40;
-            this.lblLoc.Text = "Location Code";
+            this.HelpProvider1.SetShowHelp(this.lblLoc, ((bool)(resources.GetObject("lblLoc.ShowHelp"))));
             // 
             // Label8
             // 
+            resources.ApplyResources(this.Label8, "Label8");
             this.Label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Label8.Location = new System.Drawing.Point(16, 254);
+            this.HelpProvider1.SetHelpKeyword(this.Label8, resources.GetString("Label8.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label8, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label8.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label8, resources.GetString("Label8.HelpString"));
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(521, 2);
-            this.Label8.TabIndex = 70;
-            this.Label8.Text = "Label8";
+            this.HelpProvider1.SetShowHelp(this.Label8, ((bool)(resources.GetObject("Label8.ShowHelp"))));
             // 
             // txtLoc_Desc
             // 
+            resources.ApplyResources(this.txtLoc_Desc, "txtLoc_Desc");
             this.txtLoc_Desc.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtLoc_Desc.Enabled = false;
-            this.txtLoc_Desc.Location = new System.Drawing.Point(284, 35);
-            this.txtLoc_Desc.MaxLength = 50;
+            this.HelpProvider1.SetHelpKeyword(this.txtLoc_Desc, resources.GetString("txtLoc_Desc.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtLoc_Desc, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtLoc_Desc.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtLoc_Desc, resources.GetString("txtLoc_Desc.HelpString"));
             this.txtLoc_Desc.Name = "txtLoc_Desc";
-            this.txtLoc_Desc.Size = new System.Drawing.Size(253, 20);
-            this.txtLoc_Desc.TabIndex = 43;
+            this.HelpProvider1.SetShowHelp(this.txtLoc_Desc, ((bool)(resources.GetObject("txtLoc_Desc.ShowHelp"))));
             this.txtLoc_Desc.Tag = "Item Description";
             this.txtLoc_Desc.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLoc_Desc_KeyDown);
             // 
             // Label6
             // 
-            this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(294, 189);
+            resources.ApplyResources(this.Label6, "Label6");
+            this.HelpProvider1.SetHelpKeyword(this.Label6, resources.GetString("Label6.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label6, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label6.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label6, resources.GetString("Label6.HelpString"));
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(78, 13);
-            this.Label6.TabIndex = 66;
-            this.Label6.Text = "Discount(USD)";
+            this.HelpProvider1.SetShowHelp(this.Label6, ((bool)(resources.GetObject("Label6.ShowHelp"))));
             // 
             // txtItem_Desc
             // 
+            resources.ApplyResources(this.txtItem_Desc, "txtItem_Desc");
             this.txtItem_Desc.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtItem_Desc.Enabled = false;
-            this.txtItem_Desc.Location = new System.Drawing.Point(284, 9);
-            this.txtItem_Desc.MaxLength = 50;
+            this.HelpProvider1.SetHelpKeyword(this.txtItem_Desc, resources.GetString("txtItem_Desc.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtItem_Desc, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtItem_Desc.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtItem_Desc, resources.GetString("txtItem_Desc.HelpString"));
             this.txtItem_Desc.Name = "txtItem_Desc";
-            this.txtItem_Desc.Size = new System.Drawing.Size(253, 20);
-            this.txtItem_Desc.TabIndex = 39;
+            this.HelpProvider1.SetShowHelp(this.txtItem_Desc, ((bool)(resources.GetObject("txtItem_Desc.ShowHelp"))));
             this.txtItem_Desc.Tag = "Item Description";
             // 
             // Label12
             // 
-            this.Label12.AutoSize = true;
-            this.Label12.Location = new System.Drawing.Point(13, 64);
+            resources.ApplyResources(this.Label12, "Label12");
+            this.HelpProvider1.SetHelpKeyword(this.Label12, resources.GetString("Label12.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label12, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label12.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label12, resources.GetString("Label12.HelpString"));
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(65, 13);
-            this.Label12.TabIndex = 44;
-            this.Label12.Text = "Physical Qty";
+            this.HelpProvider1.SetShowHelp(this.Label12, ((bool)(resources.GetObject("Label12.ShowHelp"))));
             // 
             // Label9
             // 
-            this.Label9.AutoSize = true;
-            this.Label9.Location = new System.Drawing.Point(294, 64);
+            resources.ApplyResources(this.Label9, "Label9");
+            this.HelpProvider1.SetHelpKeyword(this.Label9, resources.GetString("Label9.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label9, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label9.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label9, resources.GetString("Label9.HelpString"));
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(98, 13);
-            this.Label9.TabIndex = 46;
-            this.Label9.Text = "On Purchase Order";
+            this.HelpProvider1.SetShowHelp(this.Label9, ((bool)(resources.GetObject("Label9.ShowHelp"))));
             // 
             // txtItem_Code
             // 
+            resources.ApplyResources(this.txtItem_Code, "txtItem_Code");
             this.txtItem_Code.BackColor = System.Drawing.Color.White;
-            this.txtItem_Code.Location = new System.Drawing.Point(133, 9);
-            this.txtItem_Code.MaxLength = 15;
+            this.HelpProvider1.SetHelpKeyword(this.txtItem_Code, resources.GetString("txtItem_Code.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtItem_Code, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtItem_Code.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtItem_Code, resources.GetString("txtItem_Code.HelpString"));
             this.txtItem_Code.Name = "txtItem_Code";
-            this.txtItem_Code.Size = new System.Drawing.Size(124, 20);
-            this.txtItem_Code.TabIndex = 37;
+            this.HelpProvider1.SetShowHelp(this.txtItem_Code, ((bool)(resources.GetObject("txtItem_Code.ShowHelp"))));
             this.txtItem_Code.Tag = "Item Code";
             this.txtItem_Code.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtItem_Code_KeyDown);
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(384, 266);
+            this.HelpProvider1.SetHelpKeyword(this.TableLayoutPanel1, resources.GetString("TableLayoutPanel1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.TableLayoutPanel1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("TableLayoutPanel1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.TableLayoutPanel1, resources.GetString("TableLayoutPanel1.HelpString"));
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(156, 32);
-            this.TableLayoutPanel1.TabIndex = 71;
+            this.HelpProvider1.SetShowHelp(this.TableLayoutPanel1, ((bool)(resources.GetObject("TableLayoutPanel1.ShowHelp"))));
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Enabled = false;
-            this.OK_Button.Location = new System.Drawing.Point(3, 4);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
+            this.HelpProvider1.SetHelpKeyword(this.OK_Button, resources.GetString("OK_Button.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.OK_Button, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("OK_Button.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.OK_Button, resources.GetString("OK_Button.HelpString"));
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(72, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "&OK";
+            this.HelpProvider1.SetShowHelp(this.OK_Button, ((bool)(resources.GetObject("OK_Button.ShowHelp"))));
             this.OK_Button.UseVisualStyleBackColor = true;
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             this.OK_Button.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OK_Button_KeyDown);
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(81, 4);
+            this.HelpProvider1.SetHelpKeyword(this.Cancel_Button, resources.GetString("Cancel_Button.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Cancel_Button, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Cancel_Button.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Cancel_Button, resources.GetString("Cancel_Button.HelpString"));
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(72, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "&Cancel";
+            this.HelpProvider1.SetShowHelp(this.Cancel_Button, ((bool)(resources.GetObject("Cancel_Button.ShowHelp"))));
             this.Cancel_Button.UseVisualStyleBackColor = true;
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(13, 214);
+            resources.ApplyResources(this.Label3, "Label3");
+            this.HelpProvider1.SetHelpKeyword(this.Label3, resources.GetString("Label3.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label3, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label3.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label3, resources.GetString("Label3.HelpString"));
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(65, 13);
-            this.Label3.TabIndex = 62;
-            this.Label3.Text = "Sub Amount";
+            this.HelpProvider1.SetShowHelp(this.Label3, ((bool)(resources.GetObject("Label3.ShowHelp"))));
             // 
             // txtLoc_Code
             // 
+            resources.ApplyResources(this.txtLoc_Code, "txtLoc_Code");
             this.txtLoc_Code.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtLoc_Code.Enabled = false;
-            this.txtLoc_Code.Location = new System.Drawing.Point(133, 35);
-            this.txtLoc_Code.MaxLength = 15;
+            this.HelpProvider1.SetHelpKeyword(this.txtLoc_Code, resources.GetString("txtLoc_Code.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtLoc_Code, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtLoc_Code.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtLoc_Code, resources.GetString("txtLoc_Code.HelpString"));
             this.txtLoc_Code.Name = "txtLoc_Code";
-            this.txtLoc_Code.Size = new System.Drawing.Size(124, 20);
-            this.txtLoc_Code.TabIndex = 41;
+            this.HelpProvider1.SetShowHelp(this.txtLoc_Code, ((bool)(resources.GetObject("txtLoc_Code.ShowHelp"))));
             this.txtLoc_Code.Tag = "Location Code";
             this.txtLoc_Code.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLoc_Code_KeyDown);
             // 
             // Label11
             // 
-            this.Label11.AutoSize = true;
-            this.Label11.Location = new System.Drawing.Point(13, 116);
+            resources.ApplyResources(this.Label11, "Label11");
+            this.HelpProvider1.SetHelpKeyword(this.Label11, resources.GetString("Label11.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label11, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label11.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label11, resources.GetString("Label11.HelpString"));
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(79, 13);
-            this.Label11.TabIndex = 54;
+            this.HelpProvider1.SetShowHelp(this.Label11, ((bool)(resources.GetObject("Label11.ShowHelp"))));
             this.Label11.Tag = "Second Commonts";
-            this.Label11.Text = "Purchase Type";
             // 
             // Label10
             // 
-            this.Label10.AutoSize = true;
-            this.Label10.Location = new System.Drawing.Point(13, 91);
+            resources.ApplyResources(this.Label10, "Label10");
+            this.HelpProvider1.SetHelpKeyword(this.Label10, resources.GetString("Label10.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label10, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label10.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label10, resources.GetString("Label10.HelpString"));
             this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(74, 13);
-            this.Label10.TabIndex = 48;
+            this.HelpProvider1.SetShowHelp(this.Label10, ((bool)(resources.GetObject("Label10.ShowHelp"))));
             this.Label10.Tag = "Second Commonts";
-            this.Label10.Text = "Unit Purchase";
             // 
             // txtSubTotal
             // 
+            resources.ApplyResources(this.txtSubTotal, "txtSubTotal");
             this.txtSubTotal.BackColor = System.Drawing.SystemColors.Control;
             this.txtSubTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSubTotal.Enabled = false;
-            this.txtSubTotal.Location = new System.Drawing.Point(133, 211);
-            this.txtSubTotal.MaxLength = 20;
+            this.HelpProvider1.SetHelpKeyword(this.txtSubTotal, resources.GetString("txtSubTotal.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtSubTotal, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtSubTotal.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtSubTotal, resources.GetString("txtSubTotal.HelpString"));
             this.txtSubTotal.Name = "txtSubTotal";
-            this.txtSubTotal.Size = new System.Drawing.Size(147, 20);
-            this.txtSubTotal.TabIndex = 63;
+            this.HelpProvider1.SetShowHelp(this.txtSubTotal, ((bool)(resources.GetObject("txtSubTotal.ShowHelp"))));
             this.txtSubTotal.Tag = "Line Reference";
-            this.txtSubTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtPhysical
             // 
+            resources.ApplyResources(this.txtPhysical, "txtPhysical");
             this.txtPhysical.BackColor = System.Drawing.SystemColors.Control;
             this.txtPhysical.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPhysical.Enabled = false;
-            this.txtPhysical.Location = new System.Drawing.Point(133, 61);
-            this.txtPhysical.MaxLength = 20;
+            this.HelpProvider1.SetHelpKeyword(this.txtPhysical, resources.GetString("txtPhysical.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtPhysical, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtPhysical.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtPhysical, resources.GetString("txtPhysical.HelpString"));
             this.txtPhysical.Name = "txtPhysical";
-            this.txtPhysical.Size = new System.Drawing.Size(147, 20);
-            this.txtPhysical.TabIndex = 45;
+            this.HelpProvider1.SetShowHelp(this.txtPhysical, ((bool)(resources.GetObject("txtPhysical.ShowHelp"))));
             this.txtPhysical.Tag = "Line Reference";
-            this.txtPhysical.Text = "0.00";
-            this.txtPhysical.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtOnOrder
             // 
+            resources.ApplyResources(this.txtOnOrder, "txtOnOrder");
             this.txtOnOrder.BackColor = System.Drawing.SystemColors.Control;
             this.txtOnOrder.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtOnOrder.Enabled = false;
-            this.txtOnOrder.Location = new System.Drawing.Point(411, 61);
-            this.txtOnOrder.MaxLength = 20;
+            this.HelpProvider1.SetHelpKeyword(this.txtOnOrder, resources.GetString("txtOnOrder.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtOnOrder, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtOnOrder.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtOnOrder, resources.GetString("txtOnOrder.HelpString"));
             this.txtOnOrder.Name = "txtOnOrder";
-            this.txtOnOrder.Size = new System.Drawing.Size(126, 20);
-            this.txtOnOrder.TabIndex = 47;
+            this.HelpProvider1.SetShowHelp(this.txtOnOrder, ((bool)(resources.GetObject("txtOnOrder.ShowHelp"))));
             this.txtOnOrder.Tag = "Line Reference";
-            this.txtOnOrder.Text = "0.00";
-            this.txtOnOrder.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtDisAmt
             // 
+            resources.ApplyResources(this.txtDisAmt, "txtDisAmt");
             this.txtDisAmt.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtDisAmt.Enabled = false;
-            this.txtDisAmt.Location = new System.Drawing.Point(411, 186);
-            this.txtDisAmt.MaxLength = 20;
+            this.HelpProvider1.SetHelpKeyword(this.txtDisAmt, resources.GetString("txtDisAmt.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtDisAmt, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtDisAmt.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtDisAmt, resources.GetString("txtDisAmt.HelpString"));
             this.txtDisAmt.Name = "txtDisAmt";
-            this.txtDisAmt.Size = new System.Drawing.Size(126, 20);
-            this.txtDisAmt.TabIndex = 67;
+            this.HelpProvider1.SetShowHelp(this.txtDisAmt, ((bool)(resources.GetObject("txtDisAmt.ShowHelp"))));
             this.txtDisAmt.Tag = "Discount Amount";
-            this.txtDisAmt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDisAmt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDisAmt_KeyDown);
             // 
             // Label7
             // 
-            this.Label7.AutoSize = true;
-            this.Label7.Location = new System.Drawing.Point(294, 214);
+            resources.ApplyResources(this.Label7, "Label7");
+            this.HelpProvider1.SetHelpKeyword(this.Label7, resources.GetString("Label7.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label7, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label7.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label7, resources.GetString("Label7.HelpString"));
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(43, 13);
-            this.Label7.TabIndex = 68;
+            this.HelpProvider1.SetShowHelp(this.Label7, ((bool)(resources.GetObject("Label7.ShowHelp"))));
             this.Label7.Tag = "Amount";
-            this.Label7.Text = "Amount";
             // 
             // txtCost
             // 
+            resources.ApplyResources(this.txtCost, "txtCost");
             this.txtCost.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtCost.Enabled = false;
-            this.txtCost.Location = new System.Drawing.Point(133, 186);
-            this.txtCost.MaxLength = 20;
+            this.HelpProvider1.SetHelpKeyword(this.txtCost, resources.GetString("txtCost.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtCost, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtCost.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtCost, resources.GetString("txtCost.HelpString"));
             this.txtCost.Name = "txtCost";
-            this.txtCost.Size = new System.Drawing.Size(147, 20);
-            this.txtCost.TabIndex = 61;
+            this.HelpProvider1.SetShowHelp(this.txtCost, ((bool)(resources.GetObject("txtCost.ShowHelp"))));
             this.txtCost.Tag = "Cost";
-            this.txtCost.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtCost.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCost_KeyDown);
             // 
             // txtDisP
             // 
+            resources.ApplyResources(this.txtDisP, "txtDisP");
             this.txtDisP.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtDisP.Enabled = false;
-            this.txtDisP.Location = new System.Drawing.Point(411, 160);
-            this.txtDisP.MaxLength = 5;
+            this.HelpProvider1.SetHelpKeyword(this.txtDisP, resources.GetString("txtDisP.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtDisP, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtDisP.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtDisP, resources.GetString("txtDisP.HelpString"));
             this.txtDisP.Name = "txtDisP";
-            this.txtDisP.Size = new System.Drawing.Size(126, 20);
-            this.txtDisP.TabIndex = 65;
+            this.HelpProvider1.SetShowHelp(this.txtDisP, ((bool)(resources.GetObject("txtDisP.ShowHelp"))));
             this.txtDisP.Tag = "Discount Percent";
-            this.txtDisP.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDisP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDisP_KeyDown);
             // 
             // txtTotal
             // 
+            resources.ApplyResources(this.txtTotal, "txtTotal");
             this.txtTotal.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTotal.Enabled = false;
-            this.txtTotal.Location = new System.Drawing.Point(411, 212);
-            this.txtTotal.MaxLength = 20;
+            this.HelpProvider1.SetHelpKeyword(this.txtTotal, resources.GetString("txtTotal.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtTotal, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtTotal.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtTotal, resources.GetString("txtTotal.HelpString"));
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(126, 20);
-            this.txtTotal.TabIndex = 69;
+            this.HelpProvider1.SetShowHelp(this.txtTotal, ((bool)(resources.GetObject("txtTotal.ShowHelp"))));
             this.txtTotal.Tag = "Line Reference";
-            this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtQTY
             // 
+            resources.ApplyResources(this.txtQTY, "txtQTY");
             this.txtQTY.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtQTY.Enabled = false;
-            this.txtQTY.Location = new System.Drawing.Point(133, 159);
-            this.txtQTY.MaxLength = 20;
+            this.HelpProvider1.SetHelpKeyword(this.txtQTY, resources.GetString("txtQTY.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtQTY, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtQTY.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtQTY, resources.GetString("txtQTY.HelpString"));
             this.txtQTY.Name = "txtQTY";
-            this.txtQTY.Size = new System.Drawing.Size(147, 20);
-            this.txtQTY.TabIndex = 59;
+            this.HelpProvider1.SetShowHelp(this.txtQTY, ((bool)(resources.GetObject("txtQTY.ShowHelp"))));
             this.txtQTY.Tag = "Quantity";
-            this.txtQTY.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtQTY.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtQTY_KeyDown);
+            // 
+            // HelpProvider1
+            // 
+            resources.ApplyResources(this.HelpProvider1, "HelpProvider1");
             // 
             // txtUnitofStock
             // 
+            resources.ApplyResources(this.txtUnitofStock, "txtUnitofStock");
             this.txtUnitofStock.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUnitofStock.Location = new System.Drawing.Point(217, 87);
-            this.txtUnitofStock.MaxLength = 1;
+            this.HelpProvider1.SetHelpKeyword(this.txtUnitofStock, resources.GetString("txtUnitofStock.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtUnitofStock, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtUnitofStock.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtUnitofStock, resources.GetString("txtUnitofStock.HelpString"));
             this.txtUnitofStock.Name = "txtUnitofStock";
             this.txtUnitofStock.ReadOnly = true;
-            this.txtUnitofStock.Size = new System.Drawing.Size(63, 20);
-            this.txtUnitofStock.TabIndex = 51;
+            this.HelpProvider1.SetShowHelp(this.txtUnitofStock, ((bool)(resources.GetObject("txtUnitofStock.ShowHelp"))));
             this.txtUnitofStock.TabStop = false;
             this.txtUnitofStock.Tag = "D/C";
             // 
             // Label5
             // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(294, 163);
+            resources.ApplyResources(this.Label5, "Label5");
+            this.HelpProvider1.SetHelpKeyword(this.Label5, resources.GetString("Label5.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label5, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label5.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label5, resources.GetString("Label5.HelpString"));
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(63, 13);
-            this.Label5.TabIndex = 64;
+            this.HelpProvider1.SetShowHelp(this.Label5, ((bool)(resources.GetObject("Label5.ShowHelp"))));
             this.Label5.Tag = "Second Commonts";
-            this.Label5.Text = "Discount(%)";
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(13, 189);
+            resources.ApplyResources(this.Label1, "Label1");
+            this.HelpProvider1.SetHelpKeyword(this.Label1, resources.GetString("Label1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label1, resources.GetString("Label1.HelpString"));
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(28, 13);
-            this.Label1.TabIndex = 60;
+            this.HelpProvider1.SetShowHelp(this.Label1, ((bool)(resources.GetObject("Label1.ShowHelp"))));
             this.Label1.Tag = "Second Commonts";
-            this.Label1.Text = "Cost";
             // 
             // txtUnitOfPurchase
             // 
+            resources.ApplyResources(this.txtUnitOfPurchase, "txtUnitOfPurchase");
             this.txtUnitOfPurchase.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtUnitOfPurchase.Enabled = false;
-            this.txtUnitOfPurchase.Location = new System.Drawing.Point(133, 87);
-            this.txtUnitOfPurchase.MaxLength = 5;
+            this.HelpProvider1.SetHelpKeyword(this.txtUnitOfPurchase, resources.GetString("txtUnitOfPurchase.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtUnitOfPurchase, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtUnitOfPurchase.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtUnitOfPurchase, resources.GetString("txtUnitOfPurchase.HelpString"));
             this.txtUnitOfPurchase.Name = "txtUnitOfPurchase";
-            this.txtUnitOfPurchase.Size = new System.Drawing.Size(62, 20);
-            this.txtUnitOfPurchase.TabIndex = 49;
+            this.HelpProvider1.SetShowHelp(this.txtUnitOfPurchase, ((bool)(resources.GetObject("txtUnitOfPurchase.ShowHelp"))));
             this.txtUnitOfPurchase.Tag = "Unit Purchase";
             this.txtUnitOfPurchase.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitOfPurchase_KeyDown);
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(13, 163);
+            resources.ApplyResources(this.Label2, "Label2");
+            this.HelpProvider1.SetHelpKeyword(this.Label2, resources.GetString("Label2.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label2, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label2.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label2, resources.GetString("Label2.HelpString"));
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(46, 13);
-            this.Label2.TabIndex = 58;
-            this.Label2.Text = "Quantity";
+            this.HelpProvider1.SetShowHelp(this.Label2, ((bool)(resources.GetObject("Label2.ShowHelp"))));
             // 
             // BTN_U_PURCHASE
             // 
-            this.BTN_U_PURCHASE.Enabled = false;
-            this.BTN_U_PURCHASE.ImageIndex = 0;
+            resources.ApplyResources(this.BTN_U_PURCHASE, "BTN_U_PURCHASE");
+            this.HelpProvider1.SetHelpKeyword(this.BTN_U_PURCHASE, resources.GetString("BTN_U_PURCHASE.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.BTN_U_PURCHASE, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("BTN_U_PURCHASE.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.BTN_U_PURCHASE, resources.GetString("BTN_U_PURCHASE.HelpString"));
             this.BTN_U_PURCHASE.ImageList = this.ImageList1;
-            this.BTN_U_PURCHASE.Location = new System.Drawing.Point(192, 87);
             this.BTN_U_PURCHASE.Name = "BTN_U_PURCHASE";
-            this.BTN_U_PURCHASE.Size = new System.Drawing.Size(24, 20);
-            this.BTN_U_PURCHASE.TabIndex = 50;
+            this.HelpProvider1.SetShowHelp(this.BTN_U_PURCHASE, ((bool)(resources.GetObject("BTN_U_PURCHASE.ShowHelp"))));
             this.BTN_U_PURCHASE.TabStop = false;
             this.BTN_U_PURCHASE.UseVisualStyleBackColor = true;
             this.BTN_U_PURCHASE.Click += new System.EventHandler(this.BTN_U_PURCHASE_Click);
             // 
             // btnItem_Code
             // 
-            this.btnItem_Code.ImageIndex = 0;
+            resources.ApplyResources(this.btnItem_Code, "btnItem_Code");
+            this.HelpProvider1.SetHelpKeyword(this.btnItem_Code, resources.GetString("btnItem_Code.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.btnItem_Code, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("btnItem_Code.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.btnItem_Code, resources.GetString("btnItem_Code.HelpString"));
             this.btnItem_Code.ImageList = this.ImageList1;
-            this.btnItem_Code.Location = new System.Drawing.Point(256, 9);
             this.btnItem_Code.Name = "btnItem_Code";
-            this.btnItem_Code.Size = new System.Drawing.Size(24, 20);
-            this.btnItem_Code.TabIndex = 38;
+            this.HelpProvider1.SetShowHelp(this.btnItem_Code, ((bool)(resources.GetObject("btnItem_Code.ShowHelp"))));
             this.btnItem_Code.TabStop = false;
             this.btnItem_Code.UseVisualStyleBackColor = true;
             this.btnItem_Code.Click += new System.EventHandler(this.btnItem_Code_Click);
             // 
             // btnLoc_Code
             // 
-            this.btnLoc_Code.Enabled = false;
-            this.btnLoc_Code.ImageIndex = 0;
+            resources.ApplyResources(this.btnLoc_Code, "btnLoc_Code");
+            this.HelpProvider1.SetHelpKeyword(this.btnLoc_Code, resources.GetString("btnLoc_Code.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.btnLoc_Code, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("btnLoc_Code.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.btnLoc_Code, resources.GetString("btnLoc_Code.HelpString"));
             this.btnLoc_Code.ImageList = this.ImageList1;
-            this.btnLoc_Code.Location = new System.Drawing.Point(256, 35);
             this.btnLoc_Code.Name = "btnLoc_Code";
-            this.btnLoc_Code.Size = new System.Drawing.Size(24, 20);
-            this.btnLoc_Code.TabIndex = 42;
+            this.HelpProvider1.SetShowHelp(this.btnLoc_Code, ((bool)(resources.GetObject("btnLoc_Code.ShowHelp"))));
             this.btnLoc_Code.TabStop = false;
             this.btnLoc_Code.UseVisualStyleBackColor = true;
             this.btnLoc_Code.Click += new System.EventHandler(this.btnLoc_Code_Click);
             // 
             // ADDSIPOPURCHASEORDER_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(546, 303);
             this.Controls.Add(this.Label14);
             this.Controls.Add(this.Label4);
             this.Controls.Add(this.txtStockQ);
@@ -566,12 +561,14 @@
             this.Controls.Add(this.txtUnitOfPurchase);
             this.Controls.Add(this.Label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.HelpProvider1.SetHelpKeyword(this, resources.GetString("$this.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("$this.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this, resources.GetString("$this.HelpString"));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ADDSIPOPURCHASEORDER_FRM";
+            this.HelpProvider1.SetShowHelp(this, ((bool)(resources.GetObject("$this.ShowHelp"))));
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "New Item Entry";
             this.Load += new System.EventHandler(this.ADDSIPOPURCHASEORDER_FRM_Load);
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("All Post Invoices");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("All Credit Notes");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VIEW_CREDIT_NOTE_FRM));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
@@ -38,6 +36,8 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.dataGridViewX1 = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.chk = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ORD_Ref = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.INV_REF = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,8 +55,7 @@
             this.INVTOTAI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.INVVAT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.INVGRAND = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -66,40 +65,29 @@
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.splitContainer1, "splitContainer1");
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
+            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
             this.splitContainer1.Panel1.Controls.Add(this.treeView1);
             // 
             // splitContainer1.Panel2
             // 
+            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
             this.splitContainer1.Panel2.Controls.Add(this.checkBox1);
             this.splitContainer1.Panel2.Controls.Add(this.dataGridViewX1);
             this.splitContainer1.Panel2.Controls.Add(this.toolStrip1);
-            this.splitContainer1.Size = new System.Drawing.Size(774, 420);
-            this.splitContainer1.SplitterDistance = 159;
-            this.splitContainer1.TabIndex = 0;
             // 
             // treeView1
             // 
-            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView1.ImageIndex = 0;
+            resources.ApplyResources(this.treeView1, "treeView1");
             this.treeView1.ImageList = this.imageList1;
-            this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "AllPosts";
-            treeNode1.Text = "All Post Invoices";
-            treeNode2.Name = "AllCredit";
-            treeNode2.Text = "All Credit Notes";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2});
-            this.treeView1.SelectedImageIndex = 0;
-            this.treeView1.Size = new System.Drawing.Size(159, 420);
-            this.treeView1.TabIndex = 0;
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView1.Nodes"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView1.Nodes1")))});
             this.treeView1.BeforeExpand += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView1_BeforeExpand);
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -112,16 +100,13 @@
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(4, 29);
+            resources.ApplyResources(this.checkBox1, "checkBox1");
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 3;
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.Visible = false;
             // 
             // dataGridViewX1
             // 
+            resources.ApplyResources(this.dataGridViewX1, "dataGridViewX1");
             this.dataGridViewX1.AllowUserToAddRows = false;
             this.dataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewX1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -150,162 +135,135 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridViewX1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dataGridViewX1.Location = new System.Drawing.Point(0, 25);
             this.dataGridViewX1.Name = "dataGridViewX1";
             this.dataGridViewX1.ReadOnly = true;
             this.dataGridViewX1.RowHeadersVisible = false;
             this.dataGridViewX1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewX1.Size = new System.Drawing.Size(611, 395);
-            this.dataGridViewX1.TabIndex = 2;
-            this.dataGridViewX1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewX1_CellDoubleClick);
             this.dataGridViewX1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewX1_CellContentClick);
+            this.dataGridViewX1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewX1_CellDoubleClick);
+            // 
+            // toolStrip1
+            // 
+            resources.ApplyResources(this.toolStrip1, "toolStrip1");
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1});
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            // 
+            // toolStripButton1
+            // 
+            resources.ApplyResources(this.toolStripButton1, "toolStripButton1");
+            this.toolStripButton1.Name = "toolStripButton1";
             // 
             // chk
             // 
-            this.chk.HeaderText = ".";
+            resources.ApplyResources(this.chk, "chk");
             this.chk.Name = "chk";
             this.chk.ReadOnly = true;
             this.chk.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.chk.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.chk.Width = 20;
             // 
             // ORD_Ref
             // 
-            this.ORD_Ref.HeaderText = "Transaction Reference";
+            resources.ApplyResources(this.ORD_Ref, "ORD_Ref");
             this.ORD_Ref.Name = "ORD_Ref";
             this.ORD_Ref.ReadOnly = true;
-            this.ORD_Ref.Width = 150;
             // 
             // INV_REF
             // 
-            this.INV_REF.HeaderText = "INV REF";
+            resources.ApplyResources(this.INV_REF, "INV_REF");
             this.INV_REF.Name = "INV_REF";
             this.INV_REF.ReadOnly = true;
-            this.INV_REF.Visible = false;
             // 
             // TransDate
             // 
-            this.TransDate.HeaderText = "Trans. Date";
+            resources.ApplyResources(this.TransDate, "TransDate");
             this.TransDate.Name = "TransDate";
             this.TransDate.ReadOnly = true;
-            this.TransDate.Width = 120;
             // 
             // CustomerCode
             // 
-            this.CustomerCode.HeaderText = "CustomerCode";
+            resources.ApplyResources(this.CustomerCode, "CustomerCode");
             this.CustomerCode.Name = "CustomerCode";
             this.CustomerCode.ReadOnly = true;
-            this.CustomerCode.Visible = false;
             // 
             // CustomerName
             // 
-            this.CustomerName.HeaderText = "CustomerName";
+            resources.ApplyResources(this.CustomerName, "CustomerName");
             this.CustomerName.Name = "CustomerName";
             this.CustomerName.ReadOnly = true;
-            this.CustomerName.Width = 120;
             // 
             // InvoiceValue
             // 
-            this.InvoiceValue.HeaderText = "Invoice Value";
+            resources.ApplyResources(this.InvoiceValue, "InvoiceValue");
             this.InvoiceValue.Name = "InvoiceValue";
             this.InvoiceValue.ReadOnly = true;
-            this.InvoiceValue.Width = 120;
             // 
             // UserCode
             // 
-            this.UserCode.HeaderText = "User Code";
+            resources.ApplyResources(this.UserCode, "UserCode");
             this.UserCode.Name = "UserCode";
             this.UserCode.ReadOnly = true;
             // 
             // DELCODE
             // 
-            this.DELCODE.HeaderText = "DELCODE";
+            resources.ApplyResources(this.DELCODE, "DELCODE");
             this.DELCODE.Name = "DELCODE";
             this.DELCODE.ReadOnly = true;
-            this.DELCODE.Visible = false;
             // 
             // INVCOM
             // 
-            this.INVCOM.HeaderText = "INVCOM";
+            resources.ApplyResources(this.INVCOM, "INVCOM");
             this.INVCOM.Name = "INVCOM";
             this.INVCOM.ReadOnly = true;
-            this.INVCOM.Visible = false;
             // 
             // INVTOTID
             // 
-            this.INVTOTID.HeaderText = "INVTOTID";
+            resources.ApplyResources(this.INVTOTID, "INVTOTID");
             this.INVTOTID.Name = "INVTOTID";
             this.INVTOTID.ReadOnly = true;
-            this.INVTOTID.Visible = false;
             // 
             // INVTOTAD
             // 
-            this.INVTOTAD.HeaderText = "INVTOTAD";
+            resources.ApplyResources(this.INVTOTAD, "INVTOTAD");
             this.INVTOTAD.Name = "INVTOTAD";
             this.INVTOTAD.ReadOnly = true;
-            this.INVTOTAD.Visible = false;
             // 
             // INVDISP
             // 
-            this.INVDISP.HeaderText = "INVDISP";
+            resources.ApplyResources(this.INVDISP, "INVDISP");
             this.INVDISP.Name = "INVDISP";
             this.INVDISP.ReadOnly = true;
-            this.INVDISP.Visible = false;
             // 
             // INVDISA
             // 
-            this.INVDISA.HeaderText = "INVDISA";
+            resources.ApplyResources(this.INVDISA, "INVDISA");
             this.INVDISA.Name = "INVDISA";
             this.INVDISA.ReadOnly = true;
-            this.INVDISA.Visible = false;
             // 
             // INVTOTAI
             // 
-            this.INVTOTAI.HeaderText = "INVTOTAI";
+            resources.ApplyResources(this.INVTOTAI, "INVTOTAI");
             this.INVTOTAI.Name = "INVTOTAI";
             this.INVTOTAI.ReadOnly = true;
-            this.INVTOTAI.Visible = false;
             // 
             // INVVAT
             // 
-            this.INVVAT.HeaderText = "INVVAT";
+            resources.ApplyResources(this.INVVAT, "INVVAT");
             this.INVVAT.Name = "INVVAT";
             this.INVVAT.ReadOnly = true;
-            this.INVVAT.Visible = false;
             // 
             // INVGRAND
             // 
-            this.INVGRAND.HeaderText = "INVGRAND";
+            resources.ApplyResources(this.INVGRAND, "INVGRAND");
             this.INVGRAND.Name = "INVGRAND";
             this.INVGRAND.ReadOnly = true;
-            this.INVGRAND.Visible = false;
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(611, 25);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(42, 22);
-            this.toolStripButton1.Text = "&Ok";
             // 
             // VIEW_CREDIT_NOTE_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(774, 420);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -313,12 +271,11 @@
             this.Name = "VIEW_CREDIT_NOTE_FRM";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "View Credit Note";
             this.Load += new System.EventHandler(this.VIEW_CREDIT_NOTE_FRM_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
@@ -335,6 +292,7 @@
         public DevComponents.DotNetBar.Controls.DataGridViewX dataGridViewX1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.CheckBox checkBox1;
+        internal System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.DataGridViewCheckBoxColumn chk;
         private System.Windows.Forms.DataGridViewTextBoxColumn ORD_Ref;
         private System.Windows.Forms.DataGridViewTextBoxColumn INV_REF;
@@ -352,7 +310,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn INVTOTAI;
         private System.Windows.Forms.DataGridViewTextBoxColumn INVVAT;
         private System.Windows.Forms.DataGridViewTextBoxColumn INVGRAND;
-        internal System.Windows.Forms.TreeView treeView1;
-
     }
 }

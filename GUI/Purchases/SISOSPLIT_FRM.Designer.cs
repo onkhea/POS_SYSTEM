@@ -42,92 +42,59 @@
             // 
             // txtField
             // 
-            this.txtField.Enabled = false;
-            this.txtField.Location = new System.Drawing.Point(67, 9);
+            resources.ApplyResources(this.txtField, "txtField");
             this.txtField.Name = "txtField";
-            this.txtField.Size = new System.Drawing.Size(123, 20);
-            this.txtField.TabIndex = 4;
             this.txtField.Tag = "Values";
             // 
             // txtOldValue
             // 
-            this.txtOldValue.Enabled = false;
-            this.txtOldValue.Location = new System.Drawing.Point(194, 9);
+            resources.ApplyResources(this.txtOldValue, "txtOldValue");
             this.txtOldValue.Name = "txtOldValue";
-            this.txtOldValue.Size = new System.Drawing.Size(142, 20);
-            this.txtOldValue.TabIndex = 3;
             this.txtOldValue.Tag = "Values";
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(190, 66);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(146, 29);
-            this.TableLayoutPanel1.TabIndex = 7;
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(67, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "OK";
             this.OK_Button.UseVisualStyleBackColor = true;
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(76, 3);
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(67, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "Cancel";
             this.Cancel_Button.UseVisualStyleBackColor = true;
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
             // txtSplit
             // 
-            this.txtSplit.Location = new System.Drawing.Point(194, 35);
+            resources.ApplyResources(this.txtSplit, "txtSplit");
             this.txtSplit.Name = "txtSplit";
-            this.txtSplit.Size = new System.Drawing.Size(142, 20);
-            this.txtSplit.TabIndex = 2;
             this.txtSplit.Tag = "Values";
             this.txtSplit.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSplit_KeyDown);
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(7, 12);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(52, 13);
-            this.Label3.TabIndex = 6;
-            this.Label3.Text = "Split Field";
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(103, 38);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(67, 13);
-            this.Label1.TabIndex = 5;
-            this.Label1.Text = "&Value to split";
             // 
             // SISOSPLIT_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(348, 95);
             this.Controls.Add(this.txtField);
             this.Controls.Add(this.txtOldValue);
             this.Controls.Add(this.TableLayoutPanel1);
@@ -135,13 +102,10 @@
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.Label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SISOSPLIT_FRM";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Split Values";
             this.Load += new System.EventHandler(this.SISOSPLIT_FRM_Load);
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

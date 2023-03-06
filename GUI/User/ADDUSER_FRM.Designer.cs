@@ -57,228 +57,151 @@
             // 
             // Panel3
             // 
+            resources.ApplyResources(this.Panel3, "Panel3");
             this.Panel3.Controls.Add(this.Label21);
             this.Panel3.Controls.Add(this.chbDisable);
             this.Panel3.Controls.Add(this.chbChange);
             this.Panel3.Controls.Add(this.chbLog);
-            this.Panel3.Location = new System.Drawing.Point(2, 187);
             this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(414, 92);
-            this.Panel3.TabIndex = 7;
             // 
             // Label21
             // 
+            resources.ApplyResources(this.Label21, "Label21");
             this.Label21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Label21.Location = new System.Drawing.Point(13, 2);
             this.Label21.Name = "Label21";
-            this.Label21.Size = new System.Drawing.Size(393, 2);
-            this.Label21.TabIndex = 31;
             // 
             // chbDisable
             // 
-            this.chbDisable.AutoSize = true;
-            this.chbDisable.Location = new System.Drawing.Point(12, 60);
+            resources.ApplyResources(this.chbDisable, "chbDisable");
             this.chbDisable.Name = "chbDisable";
-            this.chbDisable.Size = new System.Drawing.Size(100, 17);
-            this.chbDisable.TabIndex = 2;
-            this.chbDisable.Text = "User is disabled";
             this.chbDisable.UseVisualStyleBackColor = true;
             // 
             // chbChange
             // 
-            this.chbChange.AutoSize = true;
-            this.chbChange.Location = new System.Drawing.Point(12, 37);
+            resources.ApplyResources(this.chbChange, "chbChange");
             this.chbChange.Name = "chbChange";
-            this.chbChange.Size = new System.Drawing.Size(171, 17);
-            this.chbChange.TabIndex = 1;
-            this.chbChange.Text = "User cannot change password";
             this.chbChange.UseVisualStyleBackColor = true;
             this.chbChange.CheckedChanged += new System.EventHandler(this.chbChange_CheckedChanged);
             // 
             // chbLog
             // 
-            this.chbLog.AutoSize = true;
-            this.chbLog.Location = new System.Drawing.Point(12, 14);
+            resources.ApplyResources(this.chbLog, "chbLog");
             this.chbLog.Name = "chbLog";
-            this.chbLog.Size = new System.Drawing.Size(224, 17);
-            this.chbLog.TabIndex = 0;
-            this.chbLog.Text = "User must change password at next logon";
             this.chbLog.UseVisualStyleBackColor = true;
             this.chbLog.CheckedChanged += new System.EventHandler(this.chbLog_CheckedChanged);
             // 
             // Panel2
             // 
+            resources.ApplyResources(this.Panel2, "Panel2");
             this.Panel2.Controls.Add(this.Label1);
             this.Panel2.Controls.Add(this.txtDes);
             this.Panel2.Controls.Add(this.txtUserName);
             this.Panel2.Controls.Add(this.Label2);
             this.Panel2.Controls.Add(this.txtCode);
             this.Panel2.Controls.Add(this.Label3);
-            this.Panel2.Location = new System.Drawing.Point(2, 4);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(414, 93);
-            this.Panel2.TabIndex = 4;
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(9, 10);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(43, 13);
-            this.Label1.TabIndex = 0;
-            this.Label1.Text = "&User ID";
             // 
             // txtDes
             // 
-            this.txtDes.Location = new System.Drawing.Point(80, 67);
-            this.txtDes.MaxLength = 50;
+            resources.ApplyResources(this.txtDes, "txtDes");
             this.txtDes.Name = "txtDes";
-            this.txtDes.Size = new System.Drawing.Size(318, 20);
-            this.txtDes.TabIndex = 2;
             this.txtDes.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDes_KeyDown);
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(80, 37);
-            this.txtUserName.MaxLength = 50;
+            resources.ApplyResources(this.txtUserName, "txtUserName");
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(318, 20);
-            this.txtUserName.TabIndex = 1;
             this.txtUserName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUserName_KeyDown);
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(9, 40);
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(60, 13);
-            this.Label2.TabIndex = 2;
-            this.Label2.Text = "User &Name";
             // 
             // txtCode
             // 
+            resources.ApplyResources(this.txtCode, "txtCode");
             this.txtCode.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtCode.Location = new System.Drawing.Point(80, 7);
-            this.txtCode.MaxLength = 15;
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(318, 20);
-            this.txtCode.TabIndex = 0;
             this.txtCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCode_KeyDown);
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(9, 70);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(60, 13);
-            this.Label3.TabIndex = 4;
-            this.Label3.Text = "&Description";
             // 
             // Panel1
             // 
+            resources.ApplyResources(this.Panel1, "Panel1");
             this.Panel1.Controls.Add(this.txtPass);
             this.Panel1.Controls.Add(this.Label5);
             this.Panel1.Controls.Add(this.Label4);
             this.Panel1.Controls.Add(this.txtConfirm);
-            this.Panel1.Location = new System.Drawing.Point(2, 105);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(414, 79);
-            this.Panel1.TabIndex = 5;
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(106, 12);
-            this.txtPass.MaxLength = 50;
+            resources.ApplyResources(this.txtPass, "txtPass");
             this.txtPass.Name = "txtPass";
-            this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(292, 20);
-            this.txtPass.TabIndex = 0;
             this.txtPass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPass_KeyDown);
             // 
             // Label5
             // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(9, 47);
+            resources.ApplyResources(this.Label5, "Label5");
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(91, 13);
-            this.Label5.TabIndex = 2;
-            this.Label5.Text = "Con&firm Password";
             // 
             // Label4
             // 
-            this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(9, 15);
+            resources.ApplyResources(this.Label4, "Label4");
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(53, 13);
-            this.Label4.TabIndex = 0;
-            this.Label4.Text = "&Password";
             // 
             // txtConfirm
             // 
-            this.txtConfirm.Location = new System.Drawing.Point(106, 44);
-            this.txtConfirm.MaxLength = 50;
+            resources.ApplyResources(this.txtConfirm, "txtConfirm");
             this.txtConfirm.Name = "txtConfirm";
-            this.txtConfirm.PasswordChar = '*';
-            this.txtConfirm.Size = new System.Drawing.Size(292, 20);
-            this.txtConfirm.TabIndex = 1;
             this.txtConfirm.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtConfirm_KeyDown);
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(251, 284);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(163, 29);
-            this.TableLayoutPanel1.TabIndex = 6;
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(74, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "&OK";
             this.OK_Button.UseVisualStyleBackColor = true;
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             this.OK_Button.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OK_Button_KeyDown);
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(85, 3);
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(74, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "&Cancel";
             this.Cancel_Button.UseVisualStyleBackColor = true;
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
             // ADDUSER_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(426, 317);
             this.Controls.Add(this.Panel3);
             this.Controls.Add(this.Panel2);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.TableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ADDUSER_FRM";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "New User";
             this.Load += new System.EventHandler(this.ADDUSER_FRM_Load);
             this.Panel3.ResumeLayout(false);
             this.Panel3.PerformLayout();

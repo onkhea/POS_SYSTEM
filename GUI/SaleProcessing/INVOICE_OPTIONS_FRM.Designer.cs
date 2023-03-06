@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(INVOICE_OPTIONS_FRM));
             this.label1 = new System.Windows.Forms.Label();
             this.txtTotalInvoice = new System.Windows.Forms.TextBox();
             this.txtDiscount = new System.Windows.Forms.TextBox();
@@ -47,148 +48,88 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(5, 9);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Total Invoice";
             // 
             // txtTotalInvoice
             // 
-            this.txtTotalInvoice.Enabled = false;
-            this.txtTotalInvoice.Location = new System.Drawing.Point(88, 5);
+            resources.ApplyResources(this.txtTotalInvoice, "txtTotalInvoice");
             this.txtTotalInvoice.Name = "txtTotalInvoice";
-            this.txtTotalInvoice.Size = new System.Drawing.Size(172, 20);
-            this.txtTotalInvoice.TabIndex = 1;
-            this.txtTotalInvoice.Text = "0.00";
             // 
             // txtDiscount
             // 
-            this.txtDiscount.Location = new System.Drawing.Point(88, 30);
+            resources.ApplyResources(this.txtDiscount, "txtDiscount");
             this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(61, 20);
-            this.txtDiscount.TabIndex = 3;
-            this.txtDiscount.Text = "0";
             this.txtDiscount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDiscount_KeyDown);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 33);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Discount (%)";
             // 
             // txtDiscUSD
             // 
-            this.txtDiscUSD.Enabled = false;
-            this.txtDiscUSD.Location = new System.Drawing.Point(188, 31);
+            resources.ApplyResources(this.txtDiscUSD, "txtDiscUSD");
             this.txtDiscUSD.Name = "txtDiscUSD";
-            this.txtDiscUSD.Size = new System.Drawing.Size(71, 20);
-            this.txtDiscUSD.TabIndex = 5;
-            this.txtDiscUSD.Text = "0.00";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(154, 35);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "USD";
             // 
             // txtVAT
             // 
-            this.txtVAT.Enabled = false;
-            this.txtVAT.Location = new System.Drawing.Point(88, 60);
+            resources.ApplyResources(this.txtVAT, "txtVAT");
             this.txtVAT.Name = "txtVAT";
-            this.txtVAT.Size = new System.Drawing.Size(109, 20);
-            this.txtVAT.TabIndex = 7;
-            this.txtVAT.Text = "0";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 65);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "VAT (USD)";
             // 
             // txtGrandTotal
             // 
-            this.txtGrandTotal.Enabled = false;
-            this.txtGrandTotal.Location = new System.Drawing.Point(88, 86);
+            resources.ApplyResources(this.txtGrandTotal, "txtGrandTotal");
             this.txtGrandTotal.Name = "txtGrandTotal";
-            this.txtGrandTotal.Size = new System.Drawing.Size(172, 20);
-            this.txtGrandTotal.TabIndex = 11;
-            this.txtGrandTotal.Text = "0.00";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 90);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Grand Total";
             // 
             // chkVAT
             // 
-            this.chkVAT.AutoSize = true;
-            this.chkVAT.Location = new System.Drawing.Point(203, 63);
+            resources.ApplyResources(this.chkVAT, "chkVAT");
             this.chkVAT.Name = "chkVAT";
-            this.chkVAT.Size = new System.Drawing.Size(44, 17);
-            this.chkVAT.TabIndex = 12;
-            this.chkVAT.Text = "Yes";
             this.chkVAT.UseVisualStyleBackColor = true;
             this.chkVAT.CheckedChanged += new System.EventHandler(this.chkVAT_CheckedChanged);
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(114, 113);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(146, 29);
-            this.TableLayoutPanel1.TabIndex = 26;
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(67, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "&OK";
             this.OK_Button.UseVisualStyleBackColor = true;
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(76, 3);
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(67, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "&Cancel";
             this.Cancel_Button.UseVisualStyleBackColor = true;
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
             // INVOICE_OPTIONS_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(268, 149);
             this.ControlBox = false;
             this.Controls.Add(this.TableLayoutPanel1);
             this.Controls.Add(this.chkVAT);
@@ -204,8 +145,6 @@
             this.Controls.Add(this.label1);
             this.Name = "INVOICE_OPTIONS_FRM";
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Invoice Options";
             this.Load += new System.EventHandler(this.INVOICE_OPTIONS_FRM_Load);
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

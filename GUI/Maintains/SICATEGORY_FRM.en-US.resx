@@ -132,16 +132,16 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 14</value>
+    <value>735, 14</value>
   </data>
   <data name="LBLEXPORTEXCEL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="LBLEXPORTEXCEL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 235</value>
+    <value>651, 235</value>
   </data>
   <data name="ListView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 207</value>
+    <value>733, 207</value>
   </data>
   <data name="Label3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -161,19 +161,22 @@
     <value>NoControl</value>
   </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 25</value>
+    <value>733, 25</value>
   </data>
   <data name="chbS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="chbS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 232</value>
+  </data>
   <data name="ExcelPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 257</value>
+    <value>735, 257</value>
   </data>
   <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 14</value>
+    <value>735, 14</value>
   </data>
   <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -203,10 +206,10 @@
 </value>
   </data>
   <data name="ToolStrip3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 23</value>
+    <value>733, 23</value>
   </data>
   <data name="ToolStrip2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 0</value>
+    <value>733, 0</value>
   </data>
   <data name="Label4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -223,10 +226,10 @@
     <value>NoControl</value>
   </data>
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 25</value>
+    <value>733, 25</value>
   </data>
   <data name="SearchPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 159</value>
+    <value>735, 159</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
@@ -249,6 +252,18 @@
   </data>
   <data name="DeleteToolStripButton2.Text" xml:space="preserve">
     <value>Delete</value>
+  </data>
+  <data name="CloneToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="PasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 6</value>
+  </data>
+  <data name="ExportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
   </data>
   <data name="ToolStripSplitButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 24</value>
@@ -338,8 +353,5 @@
   </data>
   <data name="SearchTool.Text" xml:space="preserve">
     <value>Search</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>

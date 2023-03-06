@@ -112,40 +112,1377 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="xrDesignBarManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="commandColorBarItem1.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="commandBarItem14.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="barSubItem4.Caption" xml:space="preserve">
+    <value>&amp;Toolbars</value>
+  </data>
+  <data name="commandBarItem44.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="barDockControlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 458</value>
+  </data>
+  <data name="commandColorBarItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem36.Hint" xml:space="preserve">
+    <value>Add the control from the clipboard</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="commandBarItem30.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem13.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem14.Hint" xml:space="preserve">
+    <value>Align the bottoms of the selected controls</value>
+  </data>
+  <data name="commandBarItem12.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem38.Hint" xml:space="preserve">
+    <value>Redo the last operation</value>
+  </data>
+  <data name="commandBarItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem12.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;propertyGridDockPanel1_Container.Parent" xml:space="preserve">
+    <value>propertyGridDockPanel1</value>
+  </data>
+  <data name="commandBarItem18.Caption" xml:space="preserve">
+    <value>&amp;Both</value>
+  </data>
+  <data name="commandBarItem7.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem27.Name" xml:space="preserve">
+    <value>commandBarItem27</value>
+  </data>
+  <data name="commandBarItem18.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;commandColorBarItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandColorBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem18.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem39.Hint" xml:space="preserve">
+    <value>Create a new report using the Wizard</value>
+  </data>
+  <data name="barSubItem13.Caption" xml:space="preserve">
+    <value>&amp;Center in Form</value>
+  </data>
+  <data name="commandBarItem19.Caption" xml:space="preserve">
+    <value>Make &amp;Equal</value>
+  </data>
+  <data name="commandBarItem23.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem41.Hint" xml:space="preserve">
+    <value>Close the designer</value>
+  </data>
+  <data name="designBar6.Text" xml:space="preserve">
+    <value>Zoom Toolbar</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.Name" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem12.Name" xml:space="preserve">
+    <value>barSubItem12</value>
+  </data>
+  <data name="commandBarItem16.Caption" xml:space="preserve">
+    <value>Size to Gri&amp;d</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="commandBarItem29.Caption" xml:space="preserve">
+    <value>&amp;Bring to Front</value>
+  </data>
+  <data name="&gt;&gt;barReportTabButtonsListItem1.Name" xml:space="preserve">
+    <value>barReportTabButtonsListItem1</value>
+  </data>
+  <data name="commandBarItem39.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem23.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem27.Hint" xml:space="preserve">
+    <value>Horizontally center the selected controls within a band</value>
+  </data>
+  <data name="propertyGridDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 166</value>
+  </data>
+  <data name="commandBarItem21.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="panelContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 190</value>
+  </data>
+  <data name="commandBarItem41.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="designBar1.Text" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem26.Hint" xml:space="preserve">
+    <value>Remove the spacing between the selected controls</value>
+  </data>
+  <data name="commandBarItem38.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem7.Caption" xml:space="preserve">
+    <value>&amp;Justify</value>
+  </data>
+  <data name="commandBarItem42.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem3.Hint" xml:space="preserve">
+    <value>Underline the font</value>
+  </data>
+  <data name="commandBarItem28.Hint" xml:space="preserve">
+    <value>Vertically center the selected controls within a band</value>
+  </data>
+  <data name="commandBarItem44.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="xrZoomBarEditItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem9.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem16.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem10.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem43.Caption" xml:space="preserve">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="&gt;&gt;toolBoxDockPanel1_Container.Name" xml:space="preserve">
+    <value>toolBoxDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem31.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem12.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="xrDesignPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;propertyGridDockPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="commandColorBarItem1.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAAQBJREFUOE9jYBjUQG365/+qUz/+J9uRIM0qk9//V5n42pdkQ1SmvvNVmfzuv/LE
-        N/+V+l6R7gqVSe/+q/S99lXqe/lfsfv5f8X2J8S7QmXiO1/lCa/BtoI0K3Q++S/f9oh4V4A0K/Y9B9so
-        1/7MWL7t4X+55vv/ZRtvEXYF2Nm9L4DOfvZfoQNkM0jzvf+yDXf+y9TdJOwKiGZU/8o13TEGaZauvvZf
-        qvwyblcA/eur2PX0v2znQyn0aJOuutYsVXH5v1jRuUNYo1Sx90WMAlCzQvvj/3KtD6YjK5KuvBoD0ixZ
-        euG/RNHZ/+IFpwl7hdSEAzKRHAy3hxzNKN4g2wAABPumB4yVLqkAAAAASUVORK5CYII=
+        vwAADr8BOAVTJAAAAQdJREFUOE9jGNxAbfrn/6pTP/6HckkHIM0qk9//V5n42hcqRDxQmfrOV2Xyu//K
+        E9/8V+p7RborVCa9+6/S99pXqe/lf8Xu5/8V258Q7wqVie98lSe8BtsK0qzQ+eS/fNsj4l0B0qzY9xxs
+        o1z7M2P5tof/5Zrv/5dtvEXYFWBn974AOvvZf4UOkM0gzff+yzbc+S9Td5OwKyCaUf0r13THGKRZuvra
+        f6nyy7hdAfSvr2LX0/+ynQ+loEJwIF11rVmq4vJ/saJzh6BCqECx90WMAlCzQvvj/3KtD6ZDhcFAuvJq
+        DEizZOmF/xJFZ/+LF5wmP3FhAyDTyMVggE2CWAwG2CSIxAwMAH2QqQRdHh0+AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="commandColorBarItem2.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barSubItem8.Name" xml:space="preserve">
+    <value>barSubItem8</value>
+  </data>
+  <data name="commandBarItem38.Caption" xml:space="preserve">
+    <value>&amp;Redo</value>
+  </data>
+  <data name="barEditItem1.Hint" xml:space="preserve">
+    <value>Font Name</value>
+  </data>
+  <data name="commandBarItem28.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="commandBarItem15.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="commandBarItem14.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;designBar5.Name" xml:space="preserve">
+    <value>designBar5</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="commandBarItem39.Caption" xml:space="preserve">
+    <value>New with &amp;Wizard...</value>
+  </data>
+  <data name="barSubItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="xrDesignPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="reportExplorerDockPanel1.Text" xml:space="preserve">
+    <value>Report Explorer</value>
+  </data>
+  <data name="barDockControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 381</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;designBar4.Name" xml:space="preserve">
+    <value>designBar4</value>
+  </data>
+  <data name="&gt;&gt;barReportTabButtonsListItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.BarReportTabButtonsListItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem36.Caption" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="&gt;&gt;designBar3.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barStaticItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="fieldListDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 24</value>
+  </data>
+  <data name="barSubItem7.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem7.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem33.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem28.Name" xml:space="preserve">
+    <value>commandBarItem28</value>
+  </data>
+  <data name="commandBarItem19.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem16.Name" xml:space="preserve">
+    <value>commandBarItem16</value>
+  </data>
+  <data name="&gt;&gt;barSubItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem21.Name" xml:space="preserve">
+    <value>commandBarItem21</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem22.Name" xml:space="preserve">
+    <value>commandBarItem22</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandColorBarItem1.Caption" xml:space="preserve">
+    <value>For&amp;eground Color</value>
+  </data>
+  <data name="&gt;&gt;xrDesignBarManager1.Name" xml:space="preserve">
+    <value>xrDesignBarManager1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem20.Name" xml:space="preserve">
+    <value>commandBarItem20</value>
+  </data>
+  <data name="commandBarItem29.Hint" xml:space="preserve">
+    <value>Bring the selected controls to the front</value>
+  </data>
+  <data name="&gt;&gt;barSubItem11.Name" xml:space="preserve">
+    <value>barSubItem11</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barEditItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem17.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem20.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="commandBarItem45.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="xrBarToolbarsListItem1.Caption" xml:space="preserve">
+    <value>&amp;Toolbars</value>
+  </data>
+  <data name="&gt;&gt;reportExplorerDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem29.Name" xml:space="preserve">
+    <value>commandBarItem29</value>
+  </data>
+  <data name="commandBarItem1.Caption" xml:space="preserve">
+    <value>&amp;Bold</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem29.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barSubItem7.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="panelContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 381</value>
+  </data>
+  <data name="commandBarItem37.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="reportExplorerDockPanel1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem28.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem30.Hint" xml:space="preserve">
+    <value>Move the selected controls to the back</value>
+  </data>
+  <data name="panelContainer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="commandBarItem15.Hint" xml:space="preserve">
+    <value>Make the selected controls have the same width</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Name" xml:space="preserve">
+    <value>barSubItem1</value>
+  </data>
+  <data name="&gt;&gt;toolBoxDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;barSubItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem19.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barDockPanelsListItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.BarDockPanelsListItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem13.Caption" xml:space="preserve">
+    <value>&amp;Middles</value>
+  </data>
+  <data name="&gt;&gt;xrDesignPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignPanel, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barSubItem6.Name" xml:space="preserve">
+    <value>barSubItem6</value>
+  </data>
+  <data name="barDockControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 381</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem10.Name" xml:space="preserve">
+    <value>commandBarItem10</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="commandBarItem27.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem8.Caption" xml:space="preserve">
+    <value>to &amp;Grid</value>
+  </data>
+  <data name="commandBarItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem23.Caption" xml:space="preserve">
+    <value>Make &amp;Equal</value>
+  </data>
+  <data name="&gt;&gt;barSubItem3.Name" xml:space="preserve">
+    <value>barSubItem3</value>
+  </data>
+  <data name="&gt;&gt;commandColorBarItem2.Name" xml:space="preserve">
+    <value>commandColorBarItem2</value>
+  </data>
+  <data name="designBar2.Text" xml:space="preserve">
+    <value>Toolbar</value>
+  </data>
+  <data name="barEditItem1.Caption" xml:space="preserve">
+    <value>Font Name</value>
+  </data>
+  <data name="commandBarItem29.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="barSubItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;reportExplorerDockPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fieldListDockPanel1.Text" xml:space="preserve">
+    <value>Field List</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="xrDesignPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="barSubItem11.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem24.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barDockControlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 28</value>
+  </data>
+  <data name="commandBarItem44.Caption" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>645, 486</value>
+  </data>
+  <data name="barSubItem4.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem13.Name" xml:space="preserve">
+    <value>barSubItem13</value>
+  </data>
+  <data name="commandBarItem28.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem38.Name" xml:space="preserve">
+    <value>commandBarItem38</value>
+  </data>
+  <data name="commandBarItem22.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem20.Hint" xml:space="preserve">
+    <value>Increase the spacing between the selected controls</value>
+  </data>
+  <data name="barSubItem8.Caption" xml:space="preserve">
+    <value>&amp;Justify</value>
+  </data>
+  <data name="barSubItem4.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem36.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem11.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem35.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem25.Name" xml:space="preserve">
+    <value>commandBarItem25</value>
+  </data>
+  <data name="&gt;&gt;reportExplorerDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem12.Name" xml:space="preserve">
+    <value>commandBarItem12</value>
+  </data>
+  <data name="commandBarItem42.Hint" xml:space="preserve">
+    <value>Delete the control</value>
+  </data>
+  <data name="commandColorBarItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barSubItem13.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem42.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem14.Name" xml:space="preserve">
+    <value>commandBarItem14</value>
+  </data>
+  <data name="&gt;&gt;designBar6.Name" xml:space="preserve">
+    <value>designBar6</value>
+  </data>
+  <data name="&gt;&gt;fieldListDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.FieldListDockPanel, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem33.Caption" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="barSubItem10.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem1.Name" xml:space="preserve">
+    <value>barStaticItem1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem2.Name" xml:space="preserve">
+    <value>commandBarItem2</value>
+  </data>
+  <data name="commandBarItem43.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem13.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="barSubItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem37.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="commandBarItem10.Hint" xml:space="preserve">
+    <value>Align the centers of the selected controls vertically</value>
+  </data>
+  <data name="barDockControlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 77</value>
+  </data>
+  <data name="commandColorBarItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="propertyGridDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 190</value>
+  </data>
+  <data name="commandBarItem43.Hint" xml:space="preserve">
+    <value>Select all the controls in the document</value>
+  </data>
+  <data name="barDockPanelsListItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barEditItem1.EditWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="xrBarToolbarsListItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barSubItem13.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem20.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;xrDesignPanel1.Name" xml:space="preserve">
+    <value>xrDesignPanel1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>REPORT_DESIGN</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem17.Name" xml:space="preserve">
+    <value>commandBarItem17</value>
+  </data>
+  <data name="&gt;&gt;xrBarToolbarsListItem1.Name" xml:space="preserve">
+    <value>xrBarToolbarsListItem1</value>
+  </data>
+  <data name="commandBarItem11.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="propertyGridDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 191</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem41.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="commandBarItem21.Hint" xml:space="preserve">
+    <value>Decrease the spacing between the selected controls</value>
+  </data>
+  <data name="toolBoxDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 381</value>
+  </data>
+  <data name="barSubItem1.Caption" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="barSubItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="panelContainer2.Text" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="xrDesignPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 77</value>
+  </data>
+  <data name="&gt;&gt;fieldListDockPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xrBarToolbarsListItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;xrZoomBarEditItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRZoomBarEditItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem16.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="commandBarItem42.Caption" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem20.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;designBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem31.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="toolBoxDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="barSubItem9.Caption" xml:space="preserve">
+    <value>&amp;Align</value>
+  </data>
+  <data name="barDockControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 77</value>
+  </data>
+  <data name="commandBarItem25.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="designBar5.Text" xml:space="preserve">
+    <value>Status Bar</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem7.Hint" xml:space="preserve">
+    <value>Justify the control's text</value>
+  </data>
+  <data name="commandBarItem24.Caption" xml:space="preserve">
+    <value>&amp;Increase</value>
+  </data>
+  <data name="commandBarItem16.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;barSubItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem8.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem5.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem27.Caption" xml:space="preserve">
+    <value>&amp;Horizontally</value>
+  </data>
+  <data name="&gt;&gt;designBar2.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem4.Name" xml:space="preserve">
+    <value>commandBarItem4</value>
+  </data>
+  <data name="&gt;&gt;toolBoxDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;reportExplorerDockPanel1_Container.Parent" xml:space="preserve">
+    <value>reportExplorerDockPanel1</value>
+  </data>
+  <data name="commandBarItem3.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barSubItem4.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="commandBarItem5.Hint" xml:space="preserve">
+    <value>Align the control's text to the center</value>
+  </data>
+  <data name="commandBarItem28.Caption" xml:space="preserve">
+    <value>&amp;Vertically</value>
+  </data>
+  <data name="commandBarItem9.Caption" xml:space="preserve">
+    <value>&amp;Lefts</value>
+  </data>
+  <data name="barSubItem13.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="toolBoxDockPanel1.Text" xml:space="preserve">
+    <value>Toolbox</value>
+  </data>
+  <data name="&gt;&gt;xrDesignPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="commandBarItem24.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="commandBarItem29.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem45.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barSubItem10.Caption" xml:space="preserve">
+    <value>&amp;Make Same Size</value>
+  </data>
+  <data name="fieldListDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 134</value>
+  </data>
+  <data name="commandBarItem26.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolBoxDockPanel1_Container.Parent" xml:space="preserve">
+    <value>toolBoxDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="commandBarItem18.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;panelContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="propertyGridDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="barSubItem11.Caption" xml:space="preserve">
+    <value>&amp;Horizontal Spacing</value>
+  </data>
+  <data name="commandBarItem14.Caption" xml:space="preserve">
+    <value>&amp;Bottoms</value>
+  </data>
+  <data name="commandBarItem34.Caption" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="xrBarToolbarsListItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem18.Hint" xml:space="preserve">
+    <value>Make the selected controls the same size</value>
+  </data>
+  <data name="&gt;&gt;barSubItem14.Name" xml:space="preserve">
+    <value>barSubItem14</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem18.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;designBar3.Name" xml:space="preserve">
+    <value>designBar3</value>
+  </data>
+  <data name="&gt;&gt;barSubItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem31.Hint" xml:space="preserve">
+    <value>Create a new blank report</value>
+  </data>
+  <data name="barSubItem12.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem42.Name" xml:space="preserve">
+    <value>commandBarItem42</value>
+  </data>
+  <data name="commandColorBarItem2.Hint" xml:space="preserve">
+    <value>Set the background color of the control</value>
+  </data>
+  <data name="commandBarItem29.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem15.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem36.Name" xml:space="preserve">
+    <value>commandBarItem36</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem21.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="xrZoomBarEditItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem12.Caption" xml:space="preserve">
+    <value>&amp;Tops</value>
+  </data>
+  <data name="commandBarItem17.Hint" xml:space="preserve">
+    <value>Make the selected controls have the same height</value>
+  </data>
+  <data name="&gt;&gt;toolBoxDockPanel1.Name" xml:space="preserve">
+    <value>toolBoxDockPanel1</value>
+  </data>
+  <data name="commandBarItem2.Hint" xml:space="preserve">
+    <value>Make the font italic</value>
+  </data>
+  <data name="panelContainer1.Text" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;panelContainer2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="commandBarItem35.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem4.Caption" xml:space="preserve">
+    <value>&amp;Left</value>
+  </data>
+  <data name="commandBarItem22.Caption" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem23.Name" xml:space="preserve">
+    <value>commandBarItem23</value>
+  </data>
+  <data name="barEditItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem24.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barSubItem8.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem40.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="designBar4.Text" xml:space="preserve">
+    <value>Layout Toolbar</value>
+  </data>
+  <data name="barDockControlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;xrZoomBarEditItem1.Name" xml:space="preserve">
+    <value>xrZoomBarEditItem1</value>
+  </data>
+  <data name="commandBarItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barSubItem8.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem7.Name" xml:space="preserve">
+    <value>commandBarItem7</value>
+  </data>
+  <data name="&gt;&gt;barSubItem9.Name" xml:space="preserve">
+    <value>barSubItem9</value>
+  </data>
+  <data name="barSubItem12.Caption" xml:space="preserve">
+    <value>&amp;Vertical Spacing</value>
+  </data>
+  <data name="commandColorBarItem2.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAAW5JREFUOE+tk0FLAlEUhf0bkZo5jmaLhERokbmWaBu0jJBa1T5atItoY45WmpbL
-        tkFQIbQ1LCP6C0FlppaWjjPC6d2xwcmntMgDl3mL951z7oMxmQYld7qFXjN2rKI9ClxHNE04U01wud1w
-        P9CZkiEm5f4G3SCYXCyRQCcDxWQD4mGdN9BBAkgrGVUDSUbQkahDSHz1NtB3NIK6IX0jeQVC/BN2Ntwb
-        0ONIdy3jfa0qycESQxeydrYf1DC6X+UNaEcS7bh82a5OIIlSQ+cN7Uywbe+DNyAwkld/NSDQqPCNDFvs
-        HSOxCm/gYHUpUYjTsD1/quqJOmiNlmGVyrzB32BFAy1SCebIG29AiXoq7dhJ7IAWBpp3ixgOv/IG//4l
-        GsEgaoEAyj4flFwO2w8L2LiexdrVNJbOJnD/omImWcJUtIjJnR4Nqn4/Sl4vCm435GwWqxk/Fk89mD8R
-        MJcewu2jAs9WAeObzxDXnwa3wjc8ocUnnnGg+gAAAABJRU5ErkJggg==
+        vwAADr8BOAVTJAAAAWJJREFUOE+tkE1LAlEUhv0bkZqpo02LhERo0eRaom3QMkJqVfto0S6ijY3ah2m5
+        dBsEFUJbwzKivxBUZlpp6jgKb/foDA5dpSAfeGEW87znnGsaGGKyhV4ZO2lqUeE+pjTgSjSgaV3+KroS
+        CoS40r/gp0i4NdHFRCFeh3BU4wt0UWcl3WyLhFF0xmpwxKq9C/RVjaIROafCcfgFO4umdSExfNfSfu1A
+        Ewknmxi86JTZDyoY3S/zBXQjQasuX3Y2IJGgqcHzevubZNveJ19AopzrvgFBopHQjQJb9AMj0Xe+wNl+
+        oCqTKOxObVV9oi5aIyVYwyW+4HeRhYmWcBFm+Y0vIFGX+4kWJpp3CxgOvfIF/6YeCKDi96Pk80HNZrH9
+        sICN61msXU1j6WwC9y9NzMSLmIoUMLnTY4OyJKHo9SIvilAyGaymJSyeejCfcmAuOYTbRxWerTzGN58h
+        rD8N6gST6Rs8ocUnDHDJ4QAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="xrDesignDockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>189, 17</value>
-  </metadata>
+  <data name="&gt;&gt;commandBarItem20.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barSubItem14.Caption" xml:space="preserve">
+    <value>&amp;Order</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandColorBarItem1.Hint" xml:space="preserve">
+    <value>Set the foreground color of the control</value>
+  </data>
+  <data name="&gt;&gt;barSubItem4.Name" xml:space="preserve">
+    <value>barSubItem4</value>
+  </data>
+  <data name="commandBarItem32.Hint" xml:space="preserve">
+    <value>Open a report</value>
+  </data>
+  <data name="&gt;&gt;designBar4.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xrDesignBarManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignBarManager, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem36.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem43.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem31.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem19.Hint" xml:space="preserve">
+    <value>Make the spacing between the selected controls equal</value>
+  </data>
+  <data name="commandBarItem38.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="barSubItem6.Caption" xml:space="preserve">
+    <value>Fo&amp;rmat</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem11.Name" xml:space="preserve">
+    <value>commandBarItem11</value>
+  </data>
+  <data name="barSubItem14.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem39.Name" xml:space="preserve">
+    <value>commandBarItem39</value>
+  </data>
+  <data name="barSubItem9.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;fieldListDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="commandBarItem25.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="barDockControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 77</value>
+  </data>
+  <data name="commandBarItem33.Hint" xml:space="preserve">
+    <value>Save a report</value>
+  </data>
+  <data name="&gt;&gt;designBar5.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barSubItem5.Caption" xml:space="preserve">
+    <value>&amp;Windows</value>
+  </data>
+  <data name="barDockPanelsListItem1.Caption" xml:space="preserve">
+    <value>&amp;Windows</value>
+  </data>
+  <data name="commandBarItem32.Caption" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="barSubItem6.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem17.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="xrZoomBarEditItem1.Hint" xml:space="preserve">
+    <value>Select or input the zoom factor</value>
+  </data>
+  <data name="propertyGridDockPanel1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;propertyGridDockPanel1_Container.Name" xml:space="preserve">
+    <value>propertyGridDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;propertyGridDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xrZoomBarEditItem1.EditWidth" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="barReportTabButtonsListItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem45.Name" xml:space="preserve">
+    <value>commandBarItem45</value>
+  </data>
+  <data name="&gt;&gt;reportExplorerDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fieldListDockPanel1.Name" xml:space="preserve">
+    <value>fieldListDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem15.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem22.Hint" xml:space="preserve">
+    <value>Remove the spacing between the selected controls</value>
+  </data>
+  <data name="&gt;&gt;designBar6.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem45.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;toolBoxDockPanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="barSubItem5.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barStaticItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem30.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Save Report To Database</value>
+  </data>
+  <data name="commandBarItem9.Hint" xml:space="preserve">
+    <value>Left align the selected controls</value>
+  </data>
+  <data name="commandBarItem8.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem24.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem14.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barEditItem2.Caption" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem37.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem43.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem33.Name" xml:space="preserve">
+    <value>commandBarItem33</value>
+  </data>
+  <data name="commandBarItem45.Caption" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem19.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem7.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;barSubItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem23.Hint" xml:space="preserve">
+    <value>Make the spacing between the selected controls equal</value>
+  </data>
+  <data name="&gt;&gt;barSubItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="fieldListDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.1" name="DevExpress.Utils.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrDesignDockManager1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYyMi4xLCBWZXJzaW9uPTIyLjEu
+        My4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFFT
+        eXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+        a2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAChEZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0
+        cmVhbWVyAgAAAAlJbWFnZVNpemUERGF0YQQHE1N5c3RlbS5EcmF3aW5nLlNpemUDAAAAAgIAAAAF/P//
+        /xNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAwAAABAAAAAQAAAACQUAAAAP
+        BQAAANgJAAACewIAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAIdSURBVDhPjZFdSJNRHIcHZUVmsrIPaHalF04GdVFjehGL
+        wDGIIkYIsdWCDKaw2EWJI0ILgxxd5Ii5iJp1kR8XISSG4sdEJIlFk/Krsg/NWc5JC93c3vfpGN6+Yw/8
+        737nOf9zfqoNFrsKmGtTM/ssnyl/HuH7O3nbsIPR69sYqcnhf0iJaPc+4B3IAyB1QspHaqmW1ekLrARP
+        EGkvIXh5q7IkJkJ/Jy1CMCamRwiek4reEYIrxIYqCFbnMGTPIIj2lyPH21h6U85cbykzHYWEW9SMNeYy
+        cmM7C4/2MHgpg+BX7zHkP09hTWyQmERefkJq2srqsI7ljv0s+NUMZBJEuo8gx5oh3ickIeTfXtYnzhMI
+        BPD7/Xi9Xpqamqivr6eurg6Xy4XD4cBut1NZWYlqvqsEeakReaVdPKUfOXKP9fHT+Hw+8bmZMZlMqL53
+        FiEv1grJQ7FJO9L8LZLvK/B4PJsxZQwGA6rZF4VIc9Xi5ttC5EX6eo1kyIjb7d6MKaPValHNtB5A+mZF
+        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
+        AElFTkSuQmCCCw==
+</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem19.Name" xml:space="preserve">
+    <value>commandBarItem19</value>
+  </data>
+  <data name="&gt;&gt;toolBoxDockPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem31.Name" xml:space="preserve">
+    <value>commandBarItem31</value>
+  </data>
+  <data name="commandBarItem45.Hint" xml:space="preserve">
+    <value>Zoom in the design surface</value>
+  </data>
+  <data name="barSubItem10.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barDockPanelsListItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;propertyGridDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.PropertyGridDockPanel, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem22.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem38.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barSubItem14.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem39.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;propertyGridDockPanel1.Name" xml:space="preserve">
+    <value>propertyGridDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;xrDesignDockManager1.Name" xml:space="preserve">
+    <value>xrDesignDockManager1</value>
+  </data>
+  <data name="commandBarItem8.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="fieldListDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 134</value>
+  </data>
+  <data name="barSubItem5.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem36.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="barStaticItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 0</value>
+  </data>
+  <data name="&gt;&gt;designBar2.Name" xml:space="preserve">
+    <value>designBar2</value>
+  </data>
+  <data name="commandBarItem9.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem22.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barReportTabButtonsListItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem40.Caption" xml:space="preserve">
+    <value>Save &amp;As...</value>
+  </data>
+  <data name="commandBarItem28.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fieldListDockPanel1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="barSubItem9.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem41.Caption" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="commandBarItem5.Caption" xml:space="preserve">
+    <value>&amp;Center</value>
+  </data>
+  <data name="barReportTabButtonsListItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="reportExplorerDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 134</value>
+  </data>
+  <data name="commandBarItem3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem44.Name" xml:space="preserve">
+    <value>commandBarItem44</value>
+  </data>
+  <data name="commandBarItem42.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem34.Name" xml:space="preserve">
+    <value>commandBarItem34</value>
+  </data>
+  <data name="barSubItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="reportExplorerDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 134</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem15.Name" xml:space="preserve">
+    <value>commandBarItem15</value>
+  </data>
+  <data name="commandBarItem1.Hint" xml:space="preserve">
+    <value>Make the font bold</value>
+  </data>
+  <data name="commandBarItem38.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem11.Hint" xml:space="preserve">
+    <value>Right align the selected controls</value>
+  </data>
+  <data name="barSubItem7.Caption" xml:space="preserve">
+    <value>&amp;Font</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem32.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelContainer2.Name" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="fieldListDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barDockControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;barSubItem2.Name" xml:space="preserve">
+    <value>barSubItem2</value>
+  </data>
+  <data name="commandBarItem44.Hint" xml:space="preserve">
+    <value>Zoom out the design surface</value>
+  </data>
+  <data name="commandBarItem15.Caption" xml:space="preserve">
+    <value>&amp;Width</value>
+  </data>
+  <data name="&gt;&gt;xrDesignDockManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignDockManager, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barDockControlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barSubItem3.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barSubItem6.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="xrZoomBarEditItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="commandBarItem23.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="commandBarItem26.Caption" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="commandBarItem25.Caption" xml:space="preserve">
+    <value>&amp;Decrease</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandColorBarItem2.Caption" xml:space="preserve">
+    <value>Bac&amp;kground Color</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem35.Name" xml:space="preserve">
+    <value>commandBarItem35</value>
+  </data>
+  <data name="reportExplorerDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolBoxDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.ToolBoxDockPanel, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barSubItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem4.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;reportExplorerDockPanel1_Container.Name" xml:space="preserve">
+    <value>reportExplorerDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem40.Name" xml:space="preserve">
+    <value>commandBarItem40</value>
+  </data>
+  <data name="reportExplorerDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barEditItem2.Hint" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="&gt;&gt;barSubItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;designBar1.Name" xml:space="preserve">
+    <value>designBar1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem37.Name" xml:space="preserve">
+    <value>commandBarItem37</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAgAEBAAAAEAIABoBAAAhgAAABgYAAABACAAiAkAAO4EAAAgIAAAAQAgAKgQAAB2DgAAMDAAAAEA
@@ -2848,421 +4185,900 @@
         AAAAAAf///////8AAAAAAAAAAAAP////////gAAAAAAAAAAAP///////
 </value>
   </data>
-  <assembly alias="DevExpress.Utils.v22.1" name="DevExpress.Utils.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-  <data name="xrDesignDockManager1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjMsIFZlcnNpb249OC4zLjMu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhDAMAAABRU3lz
-        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
-        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
-        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
-        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAQAAAAEAAAAAkFAAAADwUA
-        AAAhCgAAAooCAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAh9JREFUOE+Nk91L02EUx39QVmQmK3uB
-        ZlfuQmVQFzWmF7EIlEEUMWIQWy3IYAoLL0o2IrbCoEkXOWIuorQu8uUihMRQfEWkEQsntamVvWjOcioZ
-        6tx+v0+Pf8DmvnDuzvmc8zzfcyRJaL6zgJlWFdMv8pkI5BF+uJv3nl2M3tzBSE0OmzlpFe86AHwApR/k
-        Dkj6SS7UsTp5ieWhU8Taihm6uj09ZEkk/YuaBCAoolsAXpKM3xOAaywNVjBUncOgLQMg3leOstLKwrty
-        ZnpKmWovJNykIlify8itncw92cfAlQyA3z0nUP4+hzUxwXoUZfEZyUkLq8NaFtsPMhdQ0Z8JEOs6hrLU
-        CCu9AhJC+eNjI3KR5uZmAoEAPp8Pr9eL2+3G6XRSW1uL3W7HZrNhNpuRZjuLURbqUZbbxFP6UGIP2Bg/
-        i9/vF5+bWZWVlUg/OopQ5usE5LGYpA159g6JsQoaGhq2qkev1yNNvypEnqkWne8KkA/52w0SIQMul2tL
-        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
-        PUcBUdc7FpQAAAAASUVORK5CYIIL
-</value>
+  <data name="&gt;&gt;commandBarItem13.Name" xml:space="preserve">
+    <value>commandBarItem13</value>
+  </data>
+  <data name="toolBoxDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolBoxDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 357</value>
+  </data>
+  <data name="xrZoomBarEditItem1.Caption" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem6.Hint" xml:space="preserve">
+    <value>Align the control's text to the right</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem41.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barSubItem2.Caption" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="commandBarItem37.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem30.Name" xml:space="preserve">
+    <value>commandBarItem30</value>
+  </data>
+  <data name="&gt;&gt;panelContainer2.Parent" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="commandBarItem27.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;fieldListDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="commandBarItem10.Caption" xml:space="preserve">
+    <value>&amp;Centers</value>
+  </data>
+  <data name="commandBarItem5.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem34.Hint" xml:space="preserve">
+    <value>Delete the control and copy it to the clipboard</value>
+  </data>
+  <data name="commandBarItem15.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem33.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem43.Name" xml:space="preserve">
+    <value>commandBarItem43</value>
+  </data>
+  <data name="commandBarItem11.Caption" xml:space="preserve">
+    <value>&amp;Rights</value>
+  </data>
+  <data name="barSubItem12.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem20.Caption" xml:space="preserve">
+    <value>&amp;Increase</value>
+  </data>
+  <data name="commandBarItem37.Hint" xml:space="preserve">
+    <value>Undo the last operation</value>
+  </data>
+  <data name="commandBarItem35.Caption" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem6.Name" xml:space="preserve">
+    <value>commandBarItem6</value>
+  </data>
+  <data name="commandBarItem2.Caption" xml:space="preserve">
+    <value>&amp;Italic</value>
+  </data>
+  <data name="&gt;&gt;commandColorBarItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandColorBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem21.Caption" xml:space="preserve">
+    <value>&amp;Decrease</value>
+  </data>
+  <data name="commandBarItem8.Hint" xml:space="preserve">
+    <value>Align the positions of the selected controls to the grid</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem9.Name" xml:space="preserve">
+    <value>commandBarItem9</value>
+  </data>
+  <data name="&gt;&gt;barSubItem7.Name" xml:space="preserve">
+    <value>barSubItem7</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem44.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem43.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem31.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem33.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barEditItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem25.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem27.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandColorBarItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem10.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="commandBarItem39.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem34.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="commandBarItem19.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barEditItem2.EditWidth" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="commandBarItem24.Hint" xml:space="preserve">
+    <value>Increase the spacing between the selected controls</value>
+  </data>
+  <data name="panelContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 77</value>
+  </data>
+  <data name="barEditItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem3.Name" xml:space="preserve">
+    <value>commandBarItem3</value>
+  </data>
+  <data name="barDockPanelsListItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem45.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="commandBarItem35.Hint" xml:space="preserve">
+    <value>Copy the control to the clipboard</value>
+  </data>
+  <data name="commandBarItem30.Caption" xml:space="preserve">
+    <value>&amp;Send to Back</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem41.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem26.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="xrDesignPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 381</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Report Design</value>
+  </data>
+  <data name="commandBarItem31.Caption" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="&gt;&gt;commandColorBarItem1.Name" xml:space="preserve">
+    <value>commandColorBarItem1</value>
+  </data>
+  <data name="commandBarItem17.Caption" xml:space="preserve">
+    <value>&amp;Height</value>
+  </data>
+  <data name="barSubItem12.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem32.Name" xml:space="preserve">
+    <value>commandBarItem32</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem26.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;fieldListDockPanel1_Container.Name" xml:space="preserve">
+    <value>fieldListDockPanel1_Container</value>
+  </data>
+  <data name="commandBarItem17.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem1.Name" xml:space="preserve">
+    <value>commandBarItem1</value>
+  </data>
+  <data name="commandBarItem40.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandColorBarItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem8.Name" xml:space="preserve">
+    <value>commandBarItem8</value>
+  </data>
+  <data name="commandBarItem4.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="reportExplorerDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 24</value>
+  </data>
+  <data name="toolBoxDockPanel1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="commandBarItem10.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem33.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem39.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barEditItem2.Name" xml:space="preserve">
+    <value>barEditItem2</value>
+  </data>
+  <data name="commandBarItem36.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem40.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem17.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem18.Name" xml:space="preserve">
+    <value>commandBarItem18</value>
+  </data>
+  <data name="barSubItem9.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem42.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barEditItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barSubItem10.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem25.Hint" xml:space="preserve">
+    <value>Decrease the spacing between the selected controls</value>
+  </data>
+  <data name="&gt;&gt;fieldListDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem9.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="commandBarItem3.Caption" xml:space="preserve">
+    <value>&amp;Underline</value>
+  </data>
+  <data name="commandBarItem21.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem40.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem30.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem12.Hint" xml:space="preserve">
+    <value>Align the tops of the selected controls</value>
+  </data>
+  <data name="commandBarItem32.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="barSubItem3.Caption" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="&gt;&gt;fieldListDockPanel1_Container.Parent" xml:space="preserve">
+    <value>fieldListDockPanel1</value>
+  </data>
+  <data name="commandBarItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="commandBarItem4.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem11.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="commandBarItem35.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;propertyGridDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="commandBarItem32.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem37.Caption" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="propertyGridDockPanel1.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="commandBarItem13.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barSubItem5.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem34.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem13.Hint" xml:space="preserve">
+    <value>Align the centers of the selected controls horizontally</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="commandBarItem27.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="commandBarItem6.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="barReportTabButtonsListItem1.Caption" xml:space="preserve">
+    <value>Tab Buttons</value>
+  </data>
+  <data name="&gt;&gt;reportExplorerDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.ReportExplorerDockPanel, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem23.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem34.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="commandBarItem30.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barSubItem6.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barEditItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;propertyGridDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="panelContainer2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;barDockPanelsListItem1.Name" xml:space="preserve">
+    <value>barDockPanelsListItem1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="designBar3.Text" xml:space="preserve">
+    <value>Formatting Toolbar</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem35.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barSubItem5.Name" xml:space="preserve">
+    <value>barSubItem5</value>
+  </data>
+  <data name="propertyGridDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 25</value>
+  </data>
+  <data name="barSubItem11.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="barSubItem3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem32.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem4.Hint" xml:space="preserve">
+    <value>Align the control's text to the left</value>
+  </data>
+  <data name="commandBarItem5.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="toolBoxDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 77</value>
+  </data>
+  <data name="&gt;&gt;barSubItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barEditItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem41.Name" xml:space="preserve">
+    <value>commandBarItem41</value>
+  </data>
+  <data name="commandBarItem16.Hint" xml:space="preserve">
+    <value>Size the selected controls to the grid</value>
+  </data>
+  <data name="commandBarItem6.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="commandBarItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="barStaticItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;xrBarToolbarsListItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRBarToolbarsListItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem6.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem21.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="commandBarItem26.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="commandBarItem6.Caption" xml:space="preserve">
+    <value>&amp;Rights</value>
+  </data>
+  <data name="commandBarItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="barSubItem11.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barSubItem14.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;xrDesignPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="commandBarItem40.Hint" xml:space="preserve">
+    <value>Save a report with a new name</value>
+  </data>
+  <data name="&gt;&gt;panelContainer2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="commandBarItem16.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;reportExplorerDockPanel1.Name" xml:space="preserve">
+    <value>reportExplorerDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barEditItem1.Name" xml:space="preserve">
+    <value>barEditItem1</value>
+  </data>
+  <data name="barSubItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem34.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barEditItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barSubItem7.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarItem22.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barSubItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="xrDesignBarManager1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v22.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjMsIFZlcnNpb249OC4zLjMu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhDAMAAABRU3lz
-        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
-        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
-        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
-        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAQAAAAEAAAAAkFAAAADwUA
-        AABpUgAAAkYBAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAANtJREFUOE/dkT0ORFAQx10ADa3X0WJr
-        eg5A8kpxAVrZQruVis4NHOElEgebnRGTbDey1WZfMt385v/xLOu/3rquyzRNMI4j9H0PbdtCXddQliXk
-        eb6nafoQEyN8MEzLRVHoLMtmhCEMw1080HWdYWVeTpJkQHgLggDEA03TGLZNy6isoyiaCfZ9X3ZQVZW5
-        MgPZRhgYdl1X7gBhg4WdMDlQSmnP814Ig+M4sgOEDStzXgQH27Y3OiJ2EMexYdtfHUD4uDKfaqiuce5F
-        wK96Mkx2P4fy3ypRzPhzC29ZY2RFNeFxngAAAABJRU5ErkJggvAAAACJUE5HDQoaCgAAAA1JSERSAAAA
-        EAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEB
-        uJFr7QAAAIVJREFUOE/d0bERABEQheGrgIiMDLkChBcQSWhABRpQhIL3dmeuAZvdyT/vN67rv2etdc85
-        YYwBvXfIOcPxaxHXF+9jTKC1tmk5pVRZF7z4PJ3WSikVlyHGyMtHvBGDc46XTziEwMtHXAkbY3j53vtt
-        rQWt9Xk+LRNWSoGUEoQQN+sLv4MeKCYtxvBcpFAAAAAASUVORK5CYII1AQAAiVBORw0KGgoAAAANSUhE
-        UgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEA
-        AA7BAbiRa+0AAADKSURBVDhPY2AYVKCxsfF/UVHR/5SUlP/h4eH/kR2npqZ2QE5O7r+oqOgBnI4uLS2V
-        gmn28/OTQlYoKysrBdT8X1hYGEUcwzCQzV5eXii2wxTx8/NjFUcxBKTZzs6OfANAmo2MjMg3AKRZXV2d
-        fANAmkGhjS2kiQoDYGivAYU2ULExsiFAviEfHx/uKIQpFhERMQbZBMTTQYaAog2Egex2kCFEJVwBAQFf
-        oOJmqEEgw5YCbXcjSjNFioA2NSDZCrIZAxMVDhS5glTNAGwbQ9Rh0PhHAAAAAElFTkSuQmCCxwEAAIlQ
-        TkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEF
-        AAAACXBIWXMAAA7BAAAOwQG4kWvtAAABXElEQVQ4T2NgGNRAbfrn/6pTP/4n25EgzSqT3/9Xmfjal2RD
-        VKa+81WZ/O6/8sQ3/5X6XpHuCpVJ7/6r9L32Vep7+V+x+/l/xfYnxLtCZeI7X+UJr8G2gjQrdD75L9/2
-        iHhXgDQr9j0H2yjX/sxYvu3hf7nm+/9lG28RdgXY2b0vgM5+9l+hA2QzSPO9/7INd/7L1N0k7AqIZlT/
-        yjXdMQZplq6+9l+q/DJuVwD966vY9fS/bOdDKfRok6661ixVcfm/WNG5Q1ijVLH3RYwCULNC++P/cq0P
-        piMrkq68GgPSLFl64b9E0dn/4gWnCXuF5ITz3dPz/2d7+//vTE3//zp16n/npcj/NSe8/+fvs/mfvEXv
-        /4UXv//bzXn732LK6/9G3VgS1idb2/9vjY3/v9TU/P/j+PH/ebtt/ydu1P8ftkL5v+8Cyf9nHv/6r9/+
-        8r9Ww/P/qlXPqOcFAI2vu25pHm8hAAAAAElFTkSuQmCC2QEAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAA
-        EAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7BAAAOwQG4kWvt
-        AAABbklEQVQ4T62TQUsCURSF/RuRmjmOZouERGiRuZZoG7SMkFrVPlq0i2hjjlaalsu2QVAhtDUsI/oL
-        QWWmlpaOM8Lp3bHByae0yAOXeYv3nXPugzGZBiV3uoVeM3asoj0KXEc0TThTTXC53XA/0JmSISbl/gbd
-        IJhcLJFAJwPFZAPiYZ030EECSCsZVQNJRtCRqENIfPU20Hc0grohfSN5BUL8E3Y23BvQ40h3LeN9rSrJ
-        wRJDF7J2th/UMLpf5Q1oRxLtuHzZrk4giVJD5w3tTLBt74M3IDCSV381INCo8I0MW+wdI7EKb+BgdSlR
-        iNOwPX+q6ok6aI2WYZXKvMHfYEUDLVIJ5sgbb0CJeirt2EnsgBYGmneLGA6/8gb//iUawSBqgQDKPh+U
-        XA7bDwvYuJ7F2tU0ls4mcP+iYiZZwlS0iMmdHg2qfj9KXi8KbjfkbBarGT8WTz2YPxEwlx7C7aMCz1YB
-        45vPENefBrfCNzyhxSeecaD6AAAAAElFTkSuQmCC2gAAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgG
-        AAAAH/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7BAAAOwQG4kWvtAAAA
-        b0lEQVQ4T2NgGD5g/fr1/+fPn/9/woQJ/xsbG/8XFRX9T0lJ+R8eHv7fy8vrv52d3X8jI6P/6urq/+Xk
-        5P5T3+fE2Ex9W5FNJORnUVHR//z8/HBMfdfgCm1km6lvK7KJ6PGM7mdk/4PYtHXN0DIdAERdXEcSeVfG
-        AAAAAElFTkSuQmCCygAAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7O
-        HOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7BAAAOwQG4kWvtAAAAX0lEQVQ4T2NgGD5g/fr1/+fP
-        n/9/woQJ/xsbG/8XFRX9T0lJ+R8eHv7fy8vrv52d3X8jI6P/6urq/+Xk5P7TzueD12ZRUdH//Pz8cEy7
-        MEAP7cFjM7L/QWzahcHQMxkAs7hVuodAgrsAAAAASUVORK5CYILZAAAAiVBORw0KGgoAAAANSUhEUgAA
-        ABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7B
-        AbiRa+0AAABuSURBVDhPY2AYPmD9+vX/58+f/3/ChAn/Gxsb/xcVFf1PSUn5Hx4e/t/Ly+u/nZ3dfyMj
-        o//q6ur/5eTk/tPW5/hsFhUV/c/Pz08DFxDyM8xmkO20cQFyqCKHNrrNtHMBejzjspl2LqBtyqKl6QBW
-        w1ZuYN6wogAAAABJRU5ErkJggtcAAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAB
-        c1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAGxJREFUOE9jYBg+
-        YP369f/nz5//f8KECf8bGxv/FxUV/U9JSfkfHh7+38vL67+dnd1/IyOj/+rq6v/l5OT+U9/nxNosKir6
-        n5+fnwYuIORnmM0g22njAlyhjW4z7VyAHs+4bKadC6ifsuhlIgCPXWOOoCcS5wAAAABJRU5ErkJgggMC
-        AACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGP
-        C/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAZhJREFUOE+t098rQ2Ecx3H/iBKiiKQoiRQXLrhwwYWS
-        RGKZ/I4kJC64IDcuJBcSpUgRzY/5sfweWmLGiO1sZmebDZvz8+OcuHue7UKeep+75/V8n9M5UVH/tTp0
-        b2hd96J5lYV22Q3Nkgu1C05Uz9tROWtD6aQVUwb3QNjzWta8iLSKxs14CQiY2HHSkaYVD2RFEJUHrfxh
-        E2w+HlaWw9gmQyINytjqRk6kl9V3ipTWfcTWbyG6RgfiKvWLLvAS8MnL1Bi/APMrh+OnIHIHz0lAfWHq
-        6QFOpuYIiLhjeRjtIWT3n5JA1ZwdQUGGJyhRY36BCyaEzJ5jEqiYecKHMv7Lh0TNrgIeAZeOL6R3HZJA
-        +fQj/Mr4toBE7dkvwaICTg6p7QYSKJu8hy8k48Enhu2W/QGSm/dIoGTCAjYow8yKYbt2i7hw8Ehs1JNA
-        8fgNXJ8STK9CxM4UIF6zTQKFo1dwvEswOoWInTA8Yuo2SKBgxIS8oUvkDBiR1XuCjO4jpHUeIKXNgKSm
-        XSRo9YjTbCmbN+lf4l//6m8JxjtpQjur4QAAAABJRU5ErkJggs4CAACJUE5HDQoaCgAAAA1JSERSAAAA
-        EAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEB
-        uJFr7QAAAmNJREFUOE/FkltI02EYxndTCermNC8EkQ5goEnR6UKJugiSMELoJiEwDIvSJPMwVNSakFCE
-        BCU6G2l5qDQlyQNazaHT1tR0ianhzDxblIXzv/nffn1aCN55E33w8L4X3/M8L+/zKhT//U1XRxuGtL4M
-        XvflQ7aa/kw1Nl24YcODDef5gmSFRTP8MsJCM92pPmxYYMUZuwW+lcNsIUzkg01DV5KKjgQlHYl+mJID
-        MGu2050bgq0wbP10Azlq4WyCuSJBvgVjWTB0BfeX+7hst3ENa5EHM5H7r7Hcm0Rf/v7101mzhMDCG5i8
-        I8g5fK48SftlFcaLSgzxSl7FedMSK3DOa7Vvi/fClODNu2RvPuYFPFT0ZfjA9yZB1jLXeBZrQQTuqUrc
-        X1/hnnmJa7IW13gVsq0M+ZOen32lyNMGw2xj2oA1169T0ZMuBObrYCQdU2YwP7qycU9UIL+/wHLXGZzG
-        EzhajyA1HEKqDWVcd5ClmrDcnlTV1IhWHamwpAiBmSfMNsbQmbNbuFcjW1ORTadxGo7haA5Hqt+D9DyY
-        paogxu+JRd7cWmZJUVpXkzJfVQnHUgyaYGYaz4vF6VhuP4Xz9VEcDQeQ6kKQnm1jqTwAe6k/YwU7RTKe
-        o31pyphVgU4R17wxg6aEIFyjxcjmOJwth3HU70WqWXENxP7YH7vel8USNYPaQLFgz9G1O1nJulWzD1tF
-        lIjsriBH4HgRylL1DuwVK65qFvUCOoEiH9ouqXmb6Jm4JmC5sau3OHILxZGb0YlaIvDgL/Si6o//waMo
-        D55Ge9Ac6+WwxCs2bfhS//nH33b8sh1cTrITAAAAAElFTkSuQmCCBQMAAIlQTkcNChoKAAAADUlIRFIA
-        AAAQAAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7BAAAO
-        wQG4kWvtAAACmklEQVQ4T62T2UuUURiH/QMEQRA0EgQRBQshRQsMjBTGC+fCEZxKpSGZdEZMYzTNkkqk
-        FCsxbAEVy93MJVzDLU3BxMxlXDJTZ8ZcSwQdd5+++S78uvKmDvw4V7/nec+B18rqf5xXPXMdieXzJJSZ
-        mJycPDZh2V9RZg1wNb+3/chtKY9uQHr1DMedw8NDMhrnye5fR57WyxFAV2pkcA1iCibF/t9TTExMMD4+
-        ztjYGPv7+2jLZohvXUWW2iUB4ovn6FuFuKLvRwNYbAcHB2Jpb2+P3d1dMZqKWWKbl7mY3CYBYgt/0L0E
-        OoFuKVpsluj1ekZHRxkZGWFoaIjt7W2iK+fQNC1wXtciAaLzvtE2D0lVBtFoicW2s7Mjlra2tjCbzWxu
-        bhL1zkBU/TxnbzRIgMgX4zQZDkipNZEsJFGITkhcjYmYaiMaARxVLUQoXxfuyDojZzR1EiAiZ5i66T1y
-        B81k9m/woGed252/uNm6grZ5EU3jgmhVvzdxrdaIqsbAaXW1BLj0+Atvp7Yp1pvJG9ogd2CdJ32/yehd
-        5eGnFdK7l0n7uMT9jkXutf8kvGoGN1WlBFA86qNEv0m+UNZqtajValQqFWFhYYSGhhIcHExQUBAymYy7
-        wmddqZjGJaJcAsjTeigY3uC5YFYqlSgUCuRyOYGBgfj7+4tWS9Hb25uUFiPKsimcLpdIAFlqJy8H18np
-        WyMgIAA/Pz98fX3x8fHB09NTLN/5YMLV1ZXk5jlCSic4GVokAS4ktfLs8xpZwpu9vLzw8PDA3d0dNzc3
-        nJ2dRWtyiwF7e3sSmmYJfjPGiZDXEiDkaVv7ubgGwjO7cHFxwcnJCUdHRxwcHLCzs8PW1hYbGxusra0J
-        vFWPg6KQU7GV0jL9y0b/AesWPr4eiENnAAAAAElFTkSuQmCCBQIAAIlQTkcNChoKAAAADUlIRFIAAAAQ
-        AAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7BAAAOwQG4
-        kWvtAAABmklEQVQ4T2NgoApY9Z9ZcsmbLaLzX0oQMk+05KSEWN6xLQyhq5hR1ErPe+0kOffpSZneR5y4
-        DJEpPMYpmnf8pHjOQSesaiSnP9kiOfnhalwGAG1eLZZ9eAtOV8pMeaQi1n/3p3jnrRZ0RaIFR1tEsw78
-        FE3er4LXmxKdN9slWq/9F6u/GAVTKFZ4LApo83+xlAPthMKIQbT+Co9o/aVXouWnf4qVnLQUyz9iCbJZ
-        OG3vK9Gs/TwEDQApEK08lyleeuq/cMHxV8IZh1+JpR34L5q4N5MozWBFwCgSKzh+HuxsoGaxpD3nMaIN
-        n2niBcd8QZpFU/c3AG1uEI3f9V84cqcvUS7w9/f39fb2BmuGaRCN3t5gY2Pz38LCArchlpaWoWZmZgeM
-        jIwOGBoarkK3TUVFZZWiouIBOTm5A9LS0qEYrgFJKigo2MvIyNhLSUkdQFcgJCR0QEBAwB6EeXl5MeQZ
-        +Pj4DvDw8NiDMBcXF4YCNja2AywsLPYgzMTEhGkAMzNzKEgChEFsLAEWysjIeACEQfFEVIASowgAb2uG
-        0wlEBF8AAAAASUVORK5CYIKiAgAAiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNS
-        R0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAI3SURBVDhPdZPtS1Nh
-        GMb9R4KoSCIMCgokCiL6ENSXoCIJpRKrwaSxiiQkYyRk2dKGFRZFLyQJxsBStKXpyGyujVG2Zcvc+8vZ
-        5qZuOzvnOVfPOZHPtuNuuJ6H8+H63dd9n3OqqspKP5yE7i0HrTkOzZsomvrDONMXQMNLP472evHYGjeU
-        e0qedYMJVKpD3W5EMgLuj4crQ7TmGCRKEOlRrv0dLvhTBXg5HnffBxmk50sGpqk0uqyL0AxEFCMvqlXb
-        ZkONfhIbzluwrnEEq9Fl8/9qeh1CgQArBUmlYFqAO8ZjeiGLvTe+MkCXNaXEJvQ4/SqgdM/wEkyj/hLd
-        GfJhjivAHshh93UbAxgnkopZ7lz/3IesICGRJSoFM6ICcARz2NU6zQC3xzgI1Jyjxrqn81im8SPLBMZh
-        f4k65QQJAc5QHjtaphjgpiW+Ovex3l9I0/j+DFHJlyb4KQPCPLZdsjJA+0gUebr6dJ7gyAMPUjkJv1Mi
-        Ot75VPJw/wBbdRMMYBgKK/GTOYLD936Ay0pwc+Kamo2LcIQKqG4eY4C2waAyd2yF4KDxO6L0dsWEipqh
-        gE2aDwzQavZhic4dWiI4cMuFfe0O7DHYUXvNhp1XP2P7lU+ouTiJLbqP2Nw8jo0aC9afG2WAloEFOr8E
-        eUlr6c8ioa9PwMluBzMV/0GX++eV+b10cZUkL6/OWPT1FQP0fV5ceDEH7TMPNE/cOPtoFo0Pv+FUjwv1
-        Jift7MQJox3HO2dUCf4CS8KzP0rpK4gAAAAASUVORK5CYIJAAwAAiVBORw0KGgoAAAANSUhEUgAAABAA
-        AAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiR
-        a+0AAALVSURBVDhPfZL5b8thHMf7FzgTRxxhhCHmSCwZcd9HJu44x+aIxRHmmMUMdQyZuY0KYoYYM8cY
-        M2qd6UynjkVt2bKtqzkq1Xbtt/32ePl+ixY/7EneT55f3q/3+/k8j8J8N1ptPNeHOlUfas+EU5Y2AE3q
-        IEkD0eyXzvsj0B7oy9u0MPSHuqM70A2DKlKt+LNko990G19DDj5jNlUne2E4PxJD5iQ+XJpIhWpowOip
-        Ooun8jTix5OU7O5CEFCTEY6vPhtPhRLPuxR+PFnG+/Qe/ySa1Rtx65NxPY9FKI5BndwpBJATvbVZiG+S
-        EPVbEcsTpDSVlJYhpZ1CNJzAVZ6EoFmM89kCnE/nUpDYIQT4cLQn3uoLiDop5dV63C/jcWlXIZTESWlL
-        EYoko3o+zidzcDyeiePRdPIS2oUA8nDk+7lKJeOLlQjPJaMmBmfRItbe/kb8rS+szG4k7loDMVlG5qiq
-        uaLaHQLIU5VrCvL9NEt+15yHo3A28Tlf+H9NO2bgs83DaXWjMjBI7Z6uuN8fDtR0yDULZ9FUMJ2mh9MC
-        yX6J4JW2Pxp78C1Gi0i12c2RxyalQpPSGdebVMk0QzJFY8+fij1vIva744i72hAwur0hRe0so3+ChrDV
-        hXRZ/ghFYVJHBJ0S+/0p2O9NwHZnLLbcUVhzhhNzuQ7RBw7RH5TJ6sHw1U1pnZMRe8tR5G9pj7Nsh2Qc
-        gzV3JD9yhmG5EYXleiQLL9YG0k8UGIM6/KCe1Ht16BoEhu0qQ6HdF6bOXdeWm2vacH11a66takXWipZk
-        xrZg3rlqnB4/352+oEw2L1Vmkdcmgcjk0tBrBL/mX4eZGZU0SfXT841BpckN8urRf3IxeNuL5gHRxw1Y
-        3X6MNl9Q9VYfld896BvdRGwubh4wOb0Ci+CnxuL9Rx/NvwD9NhQ1Dxh/6B2jU/UMV+qQn2/Idi2DE0uI
-        2FRM341F9F73lJ87apMOV946IAAAAABJRU5ErkJgggkCAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAI
-        BgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAA
-        AZ5JREFUOE9jYBi+wKz7uaJh871c9apb65WKr16Ty7t0Uybv/Dap7HPxKL5OX/k2LHbB6/8wQff+5wqW
-        XY+ydRvv/Qbi/9r19/6r19z/r1x++7984dX/khmn/4ulHj0jmXaGC6wnfuHr/6GzX4ANcJ/01Nai4947
-        8/ZH/236X/836XzxX63q7n+ZvIv/JTJO/RdPOv5bLOXYf8n00/9F4g7vBRsQAdQcPOvFf5Bm+54n/92n
-        v/tvP+ntf7Pul/9VK278l8o5f1A2+6yfcdoZVpB60ZSTBiKxh04Jxe79Jxy/34HBf+qT/4krv/137Hv8
-        33fux/9Ok9/+t+x59V8dqFku72IbrlgWij2wXTB6zwEG9wkP/0cv+/I/YP7H/27T3wOd/uq/ZvWt//IF
-        F2YRSiICkbt3Mjh03vsfsvDTf6+Z7/87THz9X6f2zn/5vPOrCWkGyQuG77VisGi+9d939vv/LlPeAJ3+
-        4r9h69P/wGj7L5py9L9I4mF47OA00LDm6n+t8kv/lQvO/ZfNOQ0M4RP/xaCaRZNOlBDjkpGuBgBMo9PY
-        dntCswAAAABJRU5ErkJgggoCAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JH
-        QgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAZ9JREFUOE9jYBheIGLu
-        i8CAmS9X+E59dsFj2ouzThNfLrXve5Fi3fFUDq9P4+ff5wia/nRvyOyX/8MXfPgfuuDjf7+5H/67THv7
-        37rn+X+9pke/dJsepmnV34UbpFRy879i0Y1QsMGBUx6uiVn49r/7hEf/7bsf/LTtfPDfpufJf7sJr/7b
-        TXz737zv1X+dhnv/lStuvlUquWEN0iNfcOW/bO6l/wx+Ux6bu/be/uvcc2+vS/99TZCkff1/FsuOR+4G
-        DXd2GjY9+G/a9fK/XsvT/+q1j/7LF137L1tw1VYu/9J/6ezz/xlcu25udOq8sxKXHzUrrzeoV9/+r9nw
-        5L9q9YP/KpV3/8vmXfyvVHzjv2TGmf8MDm03VxNKCopFl6crllz/rwzUrFx2679i8c3/CgVX/0uknvjP
-        4Nx215SQASB56ayzq2QLLgM13/gvX3Dtv1ze5f9iyUf/E9QrkX7iv3jaif8yQGcrAkNeARgGIM0y2Rf/
-        CyccJmyAVPbZItHkI/9Fkg7/F0kE4UNAjUAcf/C/UNxBwgYQdOLQVwAAt3/TBNlPFKkAAAAASUVORK5C
-        YIL8AQAAiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1B
-        AACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAGRSURBVDhPhZPPS8JgGMf9p4IOnXbpZKcO0q1L
-        pw5BhwhTpkNMHDLB4ZBkdO40vBTRDzoIgYJUUhaEFZRSmpJlP9z7bc+LhmOuDXbZ+3w+z/t+n3c+n8sT
-        CATg9/shCALcahzfC4WCrXgSrOu6u9AwDM9u+XzeWUOdCV7drv29K/ollreqWNLOsahWsKCUQHAul4Om
-        aVBV1SkiwYAB3ybQHwC9H6D7BbQ+gXn5lAMEu2ZCAgIbHwx3bww3XYaLtomnd2Bus8jBTCZjF1DaIyNt
-        u2N1vLbAcwssPzMUmwx1SzYrnfC6dDptF4yPis7c7DOUCGwwHD2a2H0wUeswCOIxB1OplF0wPioK7L4H
-        HA5Bo25i59bEWZthZuOAg8lk0j0DSpvOfWV1rL4yDlZaDOUXhun1fQ7G43F3AY2K0qbA6My0bepM8NTa
-        HgdjsZi74N8RDZOORqNOAV2ObDYLGhGlTEHJsoxEIgHaMnWVJAmRSASiKCIcDiMUCjlFiqJ4XuWJ4Oge
-        UFevPy8YDHrWeDls67+o/kYAg7/EcQAAAABJRU5ErkJggvIBAACJUE5HDQoaCgAAAA1JSERSAAAAEAAA
-        ABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr
-        7QAAAYdJREFUOE+tk8tLAlEUh/unehEEQRFkJIGLgZKwGMgymhgwp4ioiCKCiCgie27at+yBUZRiImam
-        ZiBkQWFmmvYy8f66d4rRNrOZLsxi4Py+c+Z8d8rK/uNIkgRNHKvVKgPErQjY078eRo/9El1LfrTPe2GY
-        das3EEVRAbzlgcwXkMoBT59A/ANonjpVBwiCIBewziwUeCbwJghccYKbLNAwfqQOsFgscgEb++4Vciia
-        Aa5fgHCaoHbEoQ4wm81yQek3s7FZZxauHtpXB/A8r82CyWT6Y4GZEDbC6LUHwS9foGPBB27Og9YZF5om
-        T1A/9jOZot5oNCoA0FMgQK4AMCPMBjPBdsP2EkoD/iRQM3xQBHAcpwDyNJykJm5pIJwCzhKA455gJ0aw
-        HSVYjRC4H4EqqWQvBoNBAWTpHWCAh3cgRm0wE0EK8tGuHgpz0bAzDlTYdosT6PV6+WVg8wp9ayF0rwTQ
-        uXiOtt9b2DLtROPEMepGD+XRK217KB8sAeh0Om0WNP1IWsPfKTFNyvHla/gAAAAASUVORK5CYIK/AQAA
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAFUSURBVDhPtZPfK4NRHMb9U36llCJlUsqFohS9JS6QC3tJ
-        QiIpSSSTHzfuXfrRRGzNWjMzr6mVUTQzm2EMOx/vGWoXW70rTp3L5/N9zvN8T0HBfx5VVcmb37vmR96u
-        ZY0Oyylt8x6aZ1w0TDmMwaT45QPi7xBNwv0bhF6hdvzQGEBOliLvg8AVFthDgssnqBrZMwaQtq+fSYsC
-        cbh4BC0mKB+0GgNkvlnalpOluLR/2xggM3VFUYyLftPvXtHotPhQFk5omXXTOO2kftJOzdgBlcPfbrJW
-        KwEpAckU6RZkAzJ9mYfM4iwGngiUDezkBiQ+4UoXaFE4CoP1RrARFKwHBEt+geMOStQcWUgHEb2+2wQE
-        9QZk+j4d5NanOnWYXRfbQlBk3szuoGf1nPZFL61zxzT9bF7dhI3q0X0qhnbT1ovNWxT25QBkC8ZkMhlv
-        Ie9P81eCL0n1JoPZOE10AAAAAElFTkSuQmCC8wEAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAA
-        H/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7BAAAOwQG4kWvtAAABiElE
-        QVQ4T8WSS0tCQRiG/VPdCIKgCDKSwIVQEhYHsoxOHDAtIiqiiCAiisium/Ytu2AUpZiImakZCFlQmJmm
-        3Uyct5mxMDfHwEUDwyyG5/m+eb9RKP5rmc1myNaWNoNgu28tgG7LBToXPWibc0E94+Cg0WgsLnjNAMlP
-        IJ4GHj+AyDvQNHnCQUmS5AWsMoO8TwSuKIE9QnCdAurHDjkoiqK8gLV9+wIOhZLA1TMQSBDUDFs5aDAY
-        5AW/38zaZpUZXDW4x0G9Xi8vKDZdQRDygp/E2SmuB9Bj8UFYOkf7vBuaWSdapu1onDhG3WiuCybX6XSF
-        AtCVJUA6C7D0WfIsdZYDy8CfADwxoHpon4NarbZQkKFwjKZ+Q4FAHDiNAtY7gu0wwVaIYCVI4HgAKs25
-        DDQaTaEgRefNBPdvQJgmz1L3UZGbVnVSmZ3CtghQbtrhoFqtzgv6Ny7Ru+pH17IXHQtnaP3+cc1TNjSM
-        H6F25IC3XmHaRdlATqBSqUqbglKpLE1QbMx/vv8CSSJNykLaXtYAAAAASUVORK5CYIL3AQAAiVBORw0K
-        GgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJ
-        cEhZcwAADsEAAA7BAbiRa+0AAAGMSURBVDhPrZPbSwJBGMX7p7oRBEERZCTBPgglYSFkGRmCuUVERRQR
-        REQR2fWl9x7NMIxSTMTM1AyELCjMTNNuJs5pZkghXIgFB4aFme/7nXNmZquqKjFEUYTJZILRaITBYIBe
-        r4dOp4NWq4VGo4FarYZKpYIgCFAqlVAoFKiE7l+GcS8CNoe3wxiwXKFvzc9ViuvF78jutbQ6K3jPA89f
-        wP0b0L3sLQFAR54A2W9gaCskDWDKGVoQeCG4zQLCorsEKNDmJAWz2b8RkAYw26kc4E0QRDNA+9wZLzTs
-        hJErAHfU1eMH0Lt6IQ1gmZl9V5zg5hVomXbwwkFLkEcLp4AYddb1G63sFljm+Ce4/XCaoHHCzgHa9Uvu
-        7DwBDi5GKwOwDWabKbPm+jEbB/Ss+DjY/kAQpC465p3y3oBqycNv5SBG4EsCrTMn8gCdCy5+qPtRAg+N
-        0TR5LA/QNnuKUBrYjBC4noCG8SN5gOYpB/zUups2O+NArflQHoAdKFOtE22oMVtRPWqVB/jvr/sB2QtN
-        ygMawlwAAAAASUVORK5CYILAAQAAiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNS
-        R0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAFVSURBVDhPzZLdK4NR
-        HMf3T3lLKUXKpJQLRSl6SlwgF/aQhERSkkjIy417lzNNE1tIzMyDUkbRzGzexrDz8ZwTIXPxXHHq3Pz6
-        /L4vp2Oz/fvTMnfI19s8e4Cl0HI5JSDxCtEnqJsIpBf4cGmcNqif3KN2zK/AphmDZApO7+EiATWjO78L
-        PLzAlelyZsJVw1sKbJgMIudGDEJ3UPk+/1FDOt8+Q+BacGKC5YPrSkAb3yWWhI0IHN18zr8J6LquYktw
-        KyI4voWSvjU0TaN6ZJvwI7jPBUEzRWm/F7vd/rOG7Czj+8JCORV2exRUMbSpKi2EBNtRKOpZSf8GsrN0
-        kvGNuCCvw63AsgGfSjR/LNg0a+R3LqcXkJ1lbOksl3PaXAos7l1lPw5ThwLfJeS2L1n7BwVdHvxm9HVz
-        2RuGLMeiNQGZRrpm6y4yHU4yWp3WBCx92z+B3wDgliaDYCPLKQAAAABJRU5ErkJggvcBAACJUE5HDQoa
-        CgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlw
-        SFlzAAAOwQAADsEBuJFr7QAAAYxJREFUOE+1kt9Lk1Ecxv2nLCUIgkRw4RB2McgRUwYuJy1eWFsiYhGK
-        BBKhSKbZTfddrsVkUQ4bY84fmwsGraCYa25t5Y/E8/F8Xxt08Qa9kAcOnAPP9/M8z+G0tZ33Mp4X+HPf
-        Xt7BlqcMyzpW0PwFI4s5+4ATPVw9PNtDTzbtAYLP8hydwKcf8HUfBmbX7QGGF7b5eQz5GpSacP1R2hrQ
-        eqhbS3luLmwxOJc1hb75DWpH8L4CH76D6+Ha3wHi9E33/Kzj9v92uvE4Q/kA4l8U2zpF79SqNUCcG/qV
-        N/cUH3XUlpN7JmUCX5YUmSp0339jDZDYEjVdURQbcG3ynSnsm06a9xdFRUrXuDK+Yg2QzhI/WVZm1657
-        CVPY8+AtuTo8LSiSu3Bp9LU1QDpLV4mfrysuj8VN4dWJBFkdfU0Pr5bhYviVNUA6S2xxluHOuzFTKGdx
-        7YjEuBCO0n4nau8f/NO/j0QihEIhDMMgGAwSCATw+/34fD68Xi8ejwe3243L5cLpdOJwOP5filOgOU3K
-        TNBvlgAAAABJRU5ErkJgghsCAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JH
-        QgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAbBJREFUOE+tks1rE0EY
-        xvsv5WBaKWw+0EObTQykXmQPgnhQSIt6UFcUKwQVlFQQDUiDe+3dg1VKi5raENFITaIVgkqxpm36lbRR
-        w/w6s62brKAk6MAedmaer3eenp7/sc5Z7znzsMTweIFTD+Y5ef8tx+++5thYjqFbcxy5kWEg8YxDozP4
-        rkzRf+kpvRcncbQVwa/VFNBoQu0nrH2Hyg4s1qG8BR82YH4N3qxC74U2grOSQAE3fsDStry8Ce+qkF2G
-        6a+CR58FE2WBtSBIFQUvK+B1EUj7dam4LhWXf1MsSMW8VMytwJwEzn6DjPy85x+3Itj50wVOq/ypVv6j
-        t2X+m7MMJp7b+f37+ftk/gPtBJZlXe32MVyYZDLZstMhk2maLcw/O4jH4107iMVif3agejGSLtpDPXEv
-        j3HnlV2o9nQu1+rHMAzngiJQz6p6UW3slUm//sI5j0ajuAgikQjhcBhd1wmFQrb6igTmVwXZiuBTDQ5f
-        myEYDBIIBPD7/fh8PndsTdOcDWX9iwSp+n6U9S2tC7TLU865x+P5+8xUbpVZ2VbKCnzQfNL1oDtqxC7Q
-        T3N847qy2AAAAABJRU5ErkJgghACAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAB
-        c1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAaVJREFUOE+NU01L
-        AlEU9Se40Y260d8Q7Vq4aNGmTZs2LVu0CKJFhCjRIgiEJBAHY5B+gghBRWDRB30glllKBGIfaqll+YHp
-        e6d3NW3EcXDgDnPf3HPuuefydLoBj91uRycG1fSdh0IhKA+JQJkHAoGevI8gGAxqFsiyrP6fOhN4cTvZ
-        jYVAAvPyHea24piVYpjZjGB64xKSJMHr9aoTEQEH0BSvhog6A2pNoNwAinVgyn2uPQIRNASo9MPxXuPI
-        VDievjkeSwzZKjC5ftZPoDSKZFdFNwKmBPChxHH/wXFdYEiXgYm14y6BzWZrfytXRTOXhFQCxgUwmme4
-        euM4zQkVXxzjq0ctkNVqhcVi+SforIMMI+nRPMclAbMch68M+88MiU8O+0q4q8BoNPaPQ26/VICTHEM4
-        0wbupBmCKYZYkWPMeaBtIq0q+Tf3rQDciIgWOCJC0YVQNLq8p07g9/vh8/lae6ZVkdtkGM1MsqkzgUeW
-        duFyueB0OtWJPB6PpsSBwI6Jbre7h8BsNvfkDodD2wPl5TCZTDAYDNDr9cODhr62isJfnidUqRLaCVYA
-        AAAASUVORK5CYIIhAgAAiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c
-        6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAG2SURBVDhPrVPLK4RRFPcvzYIh
-        Na9YMA9Tw0azULKghrDAiFBC0VBCiXxbewuPRBiPyCNmvEpIGIz3W/fnnBu+4ZqNfHW6i3N+r/Pdm5Dw
-        H1+5tgWuMq6BTZRSaZpWFwgE5Onz+eTJ5XK5oGgygL83Ady/AsX9IXWIUF6vF06nEyaT6Xu/uC8kCa5f
-        gKtnoKh3/VcCVnY4HGqvkACsfvIAnD0CBT1rcQnsdrvaK+hew9MbsHcDHN0DeZ3LytDnnkr6w9Jhfteq
-        PsOAO8q+ESWSWyC3fVEhYCDv5/wJOLwDslvn9RkGXFL2hTNg+xrIaYtpfqycVXlHqxdCijiaZnQCZotQ
-        9oljgdAlkNUyqzhgy1FSX4gI7JJIesOkPpPVHJTZhw4EKQCZjdMKgbdjSYrsk/3NKwFTzbg+k9E4JW0N
-        7gksngNp9THsHxHYJdtmZQan+Ed1AgZwdm1HYD4CWGpj2H9cO5vNpv5GMwHWKXtPWGD2FEitHot7D6xW
-        q9pjwAplnyP1IBEkV438SuB2u2GxWGAwGL73jQQwVo4giatiGIlU/HD8fr88PR7P12Mym81x3f3pYb8D
-        5lhzfHyo1aUAAAAASUVORK5CYILKAgAAiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA
-        AXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAJfSURBVDhPpZPL
-        alphFIXzBhmIRpBEyJN0VgRFCHhLBKuZSEe1HWQQqAQp2oBCQgNKB21fIKCIBBGhLZSWQJo0Fe8X1HjX
-        eIuKkax278NJ0nEPrMn5z/722mv/ZykajSISibBCoRCOj4+RSCRweXkJm82G8/NznJ2dIRAI4OjoCAcH
-        B/D5fNjf38cSPScnJ1gsFri9vWXN53OW1WqF2WyGwWDAdDplTSYT3NzcYDwew+12PwCo8PHhaDTCYDCA
-        TqfD9fU1ut0uq91uo9ls/gsIh8PcmahUKKrf70Or1aLX66HT6aDVarEajQZ/43K5BAc0N1kWAbPZDKLI
-        1WNnVFyr1TAcDuF0OgVAMplkAFHpgIpffUrf68WHFJ6//83nV1dXqFarPF48HhcAlLjJZOKXZJvCIkBz
-        CpTHQG4APHv3k+GVSgXlchlKpRKxWEwAUMobGxvQaDRQqVRs+eXHFNJ/C3/1gNM2oPP+4Abr6+tYW1uD
-        QqGATCYTABcXF1Cr1Zw2BUYAsvy9BXyu3yFavYPqzVcGlEolFItFSKVS0PoZQJeEbNOaKG3aM1k2+E6h
-        ffsNT11f8OR1nMej4lwux9/SxWOA3+/nrrRjWpO4DZpZzIXckfL5PLLZLDey2+0C4PDwkAF0Qer1Oq+J
-        RIGtrq6y7UKhwJ0zmQzS6TQ3297eFgBer5dtizsWV0Vpy+Vyti12puJUKsUAi8UiADweD9smibbJ+srK
-        CiQSCZaXl+/zIeviqJubmwJgb28PpN3dXezs7MDhcHBAdMWpOBgMsqgj/VxbW1swGo3Q6/UC4H+fP62r
-        3Gv3dCWBAAAAAElFTkSuQmCCxgEAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAAFz
-        UkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7BAAAOwQG4kWvtAAABW0lEQVQ4T82S6ysD
-        UBjG/VNuuUVESZTkslJopSQbH9zvIsktGQrjz3Cbu8kQ1i7Ih5XEjLkNmfycc8bkC+3bTr2dznOe9/c+
-        dU5ERNiumtljZFXLmnESclCd0Yn/Ax7foHLKHjqgYtKGzw+eVyifsCrAd6rvPZhKCjqjA9mkHT9SZrl7
-        RfP5E5SMHgQBz+9wI/RfqeRBRnW/gGZ4T5mLR/a5fIazByga2lVa1bQDj/C4HqHUEICqVWY45MIHp/eQ
-        3WtGr9eTP2DBJaY77iC3bxuNRoN27EhpdqHl9e/8AAoHLdi9sOeBtI5VdZEjQCcCeHADmd0bSisQPtuX
-        L6Nr/QeQ1bNJeucaya3LxDUuqgtpsN6C5RpS2wNQCdoVZ/MVJDQt/f0yKW0rKpE0JzablDmpxaQGxNTP
-        E1k79zcgvmmRbTdsCUBsw0Lo/yC6bp4oWWLSv9NC/qZh1fAJsrAhSgqGZpQAAAAASUVORK5CYII2AgAA
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAHLSURBVDhPlZL9S9NBHMf9pzRD23CzrW20OdrYpixW8R1B
-        RKKwrCy/PqwI8SEkK6isPyMze05pGqa4WeEPQkTp1NQ0UfHl3c1N98P86sGH4973vtf7w90VFRUY9c+/
-        IatO1rMpCvkK6rV9U2xuw8oGXH6SPDrg0uNJVjchvQ4XH00oQLar7JxLl0JtXwp5SHs4rsxyXhSHf/6D
-        c/fHcoC1LZgXel5XciFbnf0PNfdGlflszxd+r8H0MlR3jyjtytMUaeGZWYHzvRmoGhd6v/JrFX4sgefu
-        EPF4nEBnghmRnvoLZ9qHicViaA/GlZYUmr/j8x4g1JUguQijaTjZ8lZtVAnQdwEcmwfX7Q9KCwrf5K7v
-        VNv7PcDpOx+xt76jouk1ZTcG1IY0TCxAYg4qmzNQCRoR66E/cKLx1cEvY9HfqI6k2XRzUJnNtwZVQOm1
-        foqvvjgYUN44wPAsfBKA49dfGv+DaDSKpml69mKPNfRTIksk7U8LBAK6qHxgJBIhHA7nDht9W4/Ho7vd
-        7gwkFAoRDAaRVL/fj8/nK9iuy+XC6XTicDiw2+3YbLaM1+v1IqlGydl9q9WqWyyW/KBdqiHEbDbrJpPJ
-        +FIP280OJT9QKHSi7LMAAAAASUVORK5CYIIzAgAAiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
-        8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAHISURB
-        VDhPlZP9S5NRGIb9p7Iit8itrW20NdrYliywcBNClIKVZvmWrYhIDXEWlB9/hmupfSpNQzfcVuEPQkTZ
-        TMu0yOjynOPHeAfb9MDD4dznfq7nhve8VVUl1qXh98i6KGsoRylfSb1lMMfGf1j9C01PMvsHXHg8x9oG
-        5P9A46O0Auyk2tl3p0uhZTCLbGp4mFJmuS+L5k+/oL5vZhew/g+WhK5LJQ8y6uJvqHswrcxne9/xZR3m
-        f8KZnimlNQ9kyQvPwiqci21B1Tofm+XzGnz8Aa67E0SjUXxdSRbE9OwKnL43SSQSoaE/pbSM0Lz33xYA
-        ge4kmWWYzsPxm8/VxSkB+iCAM0vguP1KaX7hm9v2nbj1sgA4eec11s4XHOsY48jVhLqQhvR3SH4D840t
-        qARNifPEVzC0Pyv/ZWq1cZVImo3XRpX56PVRNeBQa5wDl0fKA2raE0wuwhsBONz2tLw5HA5roVBIZzp4
-        JU61LDGpeJrP58Pr9Wq6VxgMBjVRFV+c2+3G5XIVmgOBAH6/n20qHo+nJMThcGC327HZbFitViwWS8Er
-        qU6ns2ICs9mMyWTSxxdETVL3+scZjUYMBoMestfmYt8mImxQJQvlhysAAAAASUVORK5CYIL/AQAAiVBO
-        Rw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUA
-        AAAJcEhZcwAADsEAAA7BAbiRa+0AAAGUSURBVDhPlZNLSxtRGIbzp7SKHYINYcwNzI1MIXFhmVURxS6s
-        F9oBRemidiFEF23Vn2GMVbReaGyxiolt6UIopWrU2phUmuLjOamImJyaDLzMmW++9/new8yx2RTXo+lP
-        SHVLTe2g6lPWuyZ3KJ5D7g90vErXDnj4cpt8EbJnlJJcl3KqbOqazCDN5sQmx8L87fQfoPAXDsXzf9PI
-        lzLy/m9oG/vAjwJ8/QWdrzNkRW03B+3xDfV2HsQ/8j0PX04gMppiV0zP/ARzfLO0Tot1+Pk7NeD+ixTp
-        Y3ifhdZnq3wWoI1DMER9+7LeMrSkBvhGltEHF2l+Oo9s3DqC1AF4ht+yLu6re6ANzFX3Re5ZC6Uk0mR/
-        8oam/iQNvQnqemaqA9wdSLK2DysC0Ng3e7vJNE1L6KrxzuME9VJi4vWphmEQiUSsiv9CLBazotGoclog
-        EMDv95ebL6mEw2FCoRDBYLAM4vV68Xg8uN1uXC4Xuq6XD/L5fJaQMoHT6cThcFSOL6hWReqNzdrtdjRN
-        qwyp+cgKwwXvCiuURyLo7wAAAABJRU5ErkJggtABAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAA
-        AB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAWVJ
-        REFUOE+1k+srw1Ech/dPueUWESVRkstKoZWSbPPCbe4iyS0ZCuPPwMz9kplm2gV5sZKYzdzJ5HHOtDfa
-        ar8XTp2X3+d8znM+R6X6j9W0dEbDvIta4wkVY1YKB3dRdI7W5Ob5E65fwRWEvL4tZYD6OSe+d7h4BJsf
-        srrWlQE0Mw7UEzaKhvbJ7d0ktd2sDBC5r06ni39QitOaPMj4MkHV5DFlo1aKRYr8/m2yuzdIM5hJalmJ
-        DpWA0De8hiD4ATdv4H2Bc+Hh9P7XxYEPEmMB9AIgzfvF8JUYvHwC9wPYA2C9g/1b2BM7sXk5egL9oif8
-        9nWzp1RP2akcP6Jk+ICCgR1yejbJ6LCQ0rZKQixAtKKo1er4JUYA0oXcjQtuNNMOykUTZYrMTkt8MDn8
-        9iVciCJJiU7RxCPhIO4uSEBAiPQ+ixoLidK+FJjcGuP5/t498pFqjHZKRw7DHUg3rCmTp+Tn/QApgCFK
-        M9NE8wAAAABJRU5ErkJggkACAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JH
-        QgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAdVJREFUOE+dk/1LU1Ec
-        h/2n0iLdaKvNbbQ53NiWTGZyRxCSGKwXtW7aighNEd8g3/6Myte0lKayFJ0W/SCEmPlWpkVGT+dcucOL
-        u2QduD/cy/d8zofnPDcv7z9WJBLBdNv1gWWqehap7HhL5EmKiw9fGYZjsRjhcBi/3587pLovw+5PWN2D
-        xW1wNr7MDsbjcaLRqBoKhfD5fKrL5ToecvXpAuvf4f0XmNmAc3dHskOKoqiyejAY1L45nU7t3bCUrjnK
-        WmfwPZrkQsMYZ2sHj50SCATMGehpyWTy70P6sARX3beErC8blLfNEmpOUSJaFN8fx6aOUlg3SMHN57lD
-        ZcDBb9g7gO0fsLYPK9/gneAwv3XIYmod8s0CakSAJL8hNn8UGz98hcwOpDch9RkmP8Fr8eTfeJa7QU3/
-        knb3V7rnqWhPc6llmtLHU3geTHD+3hiW+mHO3H7BKbOAXFYlEomTQzwKU/K41ptB6ZwjLEyULax3hg1h
-        Ho/HHOb+L8FCiCQhLggTpwUD3QVhoCaO2+3WAqxWq1EkefqmALmyKzQWECV9CfD0rcPrO6qw3W5XLRaL
-        sYn+I13uSBNseqM5UFQ3ZIDn9XoRCmOz2f6dkc7K4XBkN/8B3ABQKDmRTyIAAAAASUVORK5CYIJBAgAA
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAHWSURBVDhPnZP/S1NRGMb9p7LCtrDNrW20OdrYVkww2RZE
-        KArLSuuWLonoG6ImVNafUZmlVkrTWIpOi34QQsycZqZGRp/ec8fGxnZRPHB/uIf3fc5zPud5Kyr2sUKh
-        EIZtLU/nOf9olobej4TuJjnR9TZfHIvFNNUYDAb1PYfDof8XraaBNBt/YHETZtfA3jGSF4hGo4TDYS0Q
-        CODxeDQRKHVy7uEMy9vweR0mV6D66quiIhHA7/fjdrvLXyPyYIrT9yfx3Byj5vowVZcHSwp9Pp8xg9x9
-        EonE7kW5YgWuaWAOZV85qOv+QOBOklpxcbxzlGPaa460DXKw9Xl5USWw8w82d2DtNyxtwcIv+CQcplez
-        LMaXodJIoFkEFPkVaf4qjV9+QvoHpDKQ/A5j3+CdfJUXnpV30PxkTn/7s/3T1PekOHVvgpO3xnHdeIP1
-        2jDm9iEOX3rBASOBcqmKx+N7h1gIU/FofJwm0jdFUJKoXBy9MlQk5nK5jGFu/RUWEiQFcUaSOCEMCrPg
-        9XpxOp1YrdZSEXV6RkAubEiMBaKirwAeuph9vsIIWywWzWw2F4vkBulMbwr/7fd6BkxtL/PwJML68Njt
-        dr3RZDKVDtNepttms+VP/g/HWlAlNdEkRAAAAABJRU5ErkJgggoCAACJUE5HDQoaCgAAAA1JSERSAAAA
-        EAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEB
-        uJFr7QAAAZ9JREFUOE/FU0tLAlEY9U9lRYmUiOko5GMYA21RzCoisUUvqYGiaFEtAmtRWT+jsge9jKww
-        w0dFCyGiTLMyLTI63TthITOCtenCXczlO+c75/vOKBT/cex2O/7Ul+d5gQI5jhMJ9Hq9+F1yupfO0Dkf
-        Rbv3BC1TQZjGdr+7EQI4nU6BZVmYTCZBp9NJlbh8MWTfgOscEM0AuuGtkiKHwwGbzUYJ5G10zEWQfAEu
-        HoGjFNAwtCEptFqtpW9UtssXBwXzs2G0Th+DmwyieTyAppFtNAqbqPf4Ud27It+VEhQ+gFwByLwCN3kg
-        8QycExWn919K9pOAshyBmxBQ3ykCviLAyycg9gCE0kDwDgjcAnvkKnuW5RW4F+Pi5KkSersWYuBnwrCT
-        LTCjO1APrqO2fxVV5QiKe6Tg/DtRQoZILUTIFg6JgroBf0lno9FYfhZpYiORJSskFqh3Kr+m72d4FosF
-        DMNAq9VKSYohavOGwE4ciBtQeda+pdMIm81mwWAwQKPRCGq1+neRJhEWo0siLAJVKpU0ypX8JLIRrgQo
-        V/MJ2vcrlNUg5wcAAAAASUVORK5CYII2AgAAiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9h
-        AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAHLSURBVDhP
-        pZLPaxJgHMb3rwgKogcFMcNk2MVAJEk8TDoIg8lgCAsPKzKmiCiiDkkxE50TD4KnHcdiQoeNNWLRGGtB
-        hxUUEWu0ajW2+cnXF2PtvYz1wBde3vd5P++P7zPS6XRot9u0Wi2azSb1ep1qtUq5XKZYLFIoFMjlcmQy
-        GVKpFIlEgng8TiQSYURIbL6KwuGwBIiTr6JQKCQBjUbj7/5utzsYRxZ2/6l7jTeD+eG6GAeDQQmo1WrK
-        BQTgrAdHp7D/GyafbimeQCAgAZVKRVmcnt/h+Aze/4BPRzBeeqV4fD6fBJRKJWVxqrrNzxPYOYC973C3
-        8FLxeDweCRBtGrZQ/IeoiSevOTiGF1/g7TfwZ9fJZrODSqfTJJNJXC6XBOTzeYUefLzJ51+w8rHHdv8W
-        t9OrisfpdEqACMhFjc1t8KH//sW9Hpv7cCvxXPHY7XYJEOm6qDuZNd4dwtZX2Og/4+asbO95Wa1WCRDR
-        HGrY59FHK9x4+IzrD5a5dn8J68ySkgOTySQBsVhMoV9mwmAwSEA0Gr2MX/HodDoJEJEUqfL7/Xi9Xtxu
-        96BF4pcdDgc2mw2LxYLZbMZoNKLX69FqtWg0Ggn4X/0BsO7vnTp7gdkAAAAASUVORK5CYII2AgAAiVBO
-        Rw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUA
-        AAAJcEhZcwAADsEAAA7BAbiRa+0AAAHLSURBVDhPpZLPa9JhHMf3rwgKogcFMcPJsIuBSJJ4SDoIg8lg
-        CAsPFRkpIoqoISnOiWbiQfC0YzQmdChqxKIxVsEOW1BErNGv1aj5yocHv6nwdNkbnsvzfj+vz8PzvGd6
-        vR7dbpdOp0O73abZbFKv16lWq5TLZUqlEoVCgVwuRyaTIZVKkUwmicVizAiJwyoJqErRaFQC/hcSN1Ip
-        EolIQKvV0jL9fn8iP+4JY9wPh8MS0Gg0lFOmAePBUCgkAbVaTduPPXiDWMv3d1mq77Cw8orwvS2u3N3k
-        cu4pc7c3tGwgEJCASqUyATgdwMkp/PgNRyfw8Se8+w57X2H21rqW9fl8EiC+aSQx/fgPHAwP7B7B80+w
-        8X7A2v6A7c9w/uYjLevxeCSgWCxOAA5/wYdj2P8Gb7/AzhC0dQibQ9i5Gw+1rNvtlgBRkJGutV6zuLrN
-        fOUlV0svCOafcSn7hIupx1y408d+/R/A6XRKgGiXSvl8XunZ7XYJENUcaboH04Bx32KxSEAikVBOyWaz
-        Ss9kMklAPB5XhtLptNIzGAwSICopWhUMBvH7/Xi9XsQXiVd2uVw4HA5sNhtWqxWz2YzRaESv16PT6STg
-        rPoL3NTvnSDeQScAAAAASUVORK5CYIL8AQAAiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9h
-        AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAGRSURBVDhP
-        rZO9S8NQFMX7TwkOTi5uTk5uLk4OgkMJZLDYQYoUoQgdClYKXZzcFPEDh4LQQrEpsRGkRmoS0jYprU1i
-        894x92Gdgs1g4EGW37n3nPNeKvUfX7VaxfxUKhWUy2UUi0UUCgUk0ieYMYYwDDGbzRAEAabTKfL5fHIB
-        AsfjMRzHQb/fF/+5XC6ZAK3teZ4A9846v2f3VMVOqY3tYgtbJ01sHtfjBckzTez1egIOOfDFAC8EJjNg
-        FAADH9g4eowXoMBoum3bQoBAc8rxNuZ4GXEoQwbjE1g/rMULUNoUGHmmtd1oohaBrQhs2Bw1i6Mbia0d
-        PCzOhDxbHkedQJPj7oPh8p2h43Ks7t+jVCr9XTEFpk+A2x/wostw/srwNORYkW/g+/7fFVPa5Ps5mth2
-        uACbA45Gn2NZuoau66LqbDYbb4eqorQpMPJMa9NkgpfSV9A0TYSdyWQW50HXmDy7ritAVVWhKApM04Qs
-        y8kE5hVbliVAwzDEfZEkKZnAvGLyTGvTZILT6XQygUWv8RvdXqfvt0gLJwAAAABJRU5ErkJggskBAACJ
-        UE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xh
-        BQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAV5JREFUOE+tkjFLw1AUhfvv3Jyc3Fyc3EuhSzGDFAlCETJk
-        KBTyG5wcHApCBcGUSIQikZqEVJOS2iSkeUdO4HUxNG8wEMiQc+4957udzn88lmVBvpPJBOPxGIZhYDQa
-        Qcmf4qqqsNvtUJYliqLAdruFruvqBhSmaYo4jrFarerv4XCoZsC1syyrhUEQYLlc1kaapuHCnOPceMHZ
-        7TNOb2bNhszMiRR6nofFYoEoijAYDLApgXUBfOXAyfVjswEL43SKwjDcb9Hr9fC2FrC/K/g/wPHVtNmA
-        bbMwZubanExxt9vFUyQwDQXeU4Gjy4f2Tpg5zARmFAbiD17TNA8jZmHeBrj/rHD3UdUGRCzx5nl+GDHb
-        Zu7XRGAeC0hCkg5LloQaj4yo2DYLY2ZJSNJxXXdPSOlKmTlJElDoOA5s264p9fv99kI5QSKWeH3fr++F
-        lJQ2kIglXk6WiJUM2n76BcwXp7Q2CiSoAAAAAElFTkSuQmCCPQIAAIlQTkcNChoKAAAADUlIRFIAAAAQ
-        AAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7BAAAOwQG4
-        kWvtAAAB0klEQVQ4T63S3U9SYRwHcP6SxoVdtMlNelU3OOcFS+embmW0sJkhiJIuyXGSg2lLNzfCI7pk
-        AgPPjm508K2WK8iLOF1EWTfhfJmsQjbndPgCBzj0FbqLucNoPtvv7vl+ft9neySSizqk0yc12+cJk83L
-        EbZZ3mBluEejNKF/7pQW3fE3PMXSbCCEcCSGQ17A180o3Msf0Tk4TavJSXHENMkSr/yfkUhncSwA+yng
-        ZxIIHwmYYj+g1WglRFsYxxnux84uUn+ARA6IZ3JIGojxwPK3CJTdw5woYBj18Ekhi2CfBqs6Jd6p6vCm
-        SY4FRSW2jrNouE/yokD3sIP7svH7n835J2ydAjOfNqC4axBv0PH0JWH3vkc4LmAtDgQPgJU9wBvNgLQx
-        oFw+v2gD1WOLVKkfoS2uRcyHNvE2loY7uA4TRWNgYvbE4loA5VkyiyL1alJae6+PUCh7uOrmh7y8Qcfd
-        7nrm1/RT0JrGoCMp6ElKHDlvQ6O635wbND54gm2mGpG5mqaiH6vwwg1Vr3l1oAKp6BDWHVW5kd8sGfFp
-        ZS1+41Ukfw3hu/U61l5cu1MyMqe63Pa6S4ZEZBCB3nKUDOQDnuYy7cytS1jUXGn/L6AwdAZ8VxswymDS
-        GAAAAABJRU5ErkJggjcCAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCu
-        zhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAcxJREFUOE+tks9LmmEAx/sn
-        ug6D7TDIQ3WJdWmIDFkQ1CDNMTdWcznTGuXCN32tHCsQnHszKZlK9mKFqf0Yu8zWYXs7ZG1dZvSDpM15
-        2aVV+qavfqfvMeINYw88t+fz+X4OT0XF/zqkNyyyuCOE2RlkCOcsa3AEmD4bTejfeEVXbvDwVIgOrcYQ
-        T6SQ4QrY2ktieuULukfe02rSJSwxu0LEQnQD6Wwe5wVgTavEcQ6I/+UwFfqMp0YHIVhhHA8wPw5/83Ca
-        Az7KpfiTBVIssPI9AWXvKCMoMNj8bIbL88slOHKvBvP1VaDFldg/yaOlg2QFBb2jHmZz9xefXVouwUcZ
-        YP8MmFnfheyRQbjgxfAk4Q5+QvyY47P55SIcTOZAOgOgfOGoYIHqlV2k1I/Rdt8SIrE9Pnv66w7MFI2h
-        idlTu28RlH/ZIihpVpOipicDhEz5kpEoetjGFi3Trnsd7TJR0JjfQUtS0JOUsOSyhVa1yVK8aH02iIOA
-        BIk56YMrP9bFB/dV/Za1oTqcJ63Y8dwt3sa2siVhjfhx1FiLzE8rth0N+Pb2zsOyJXOqW50fdGKkEyNY
-        7a9G2YIS4Ffc1MzIb2Cp6/bzawkuQv8AdMYUIEJOXhQAAAAASUVORK5CYIIL
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYyMi4xLCBWZXJzaW9uPTIyLjEu
+        My4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFFT
+        eXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+        a2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAChEZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0
+        cmVhbWVyAgAAAAlJbWFnZVNpemUERGF0YQQHE1N5c3RlbS5EcmF3aW5nLlNpemUDAAAAAgIAAAAF/P//
+        /xNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAwAAABAAAAAQAAAACQUAAAAP
+        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
+        QSa7A3TGFCCb20ilAAAAAElFTkSuQmCCCw==
 </value>
   </data>
+  <data name="&gt;&gt;commandBarItem25.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.1.Extensions, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem24.Name" xml:space="preserve">
+    <value>commandBarItem24</value>
+  </data>
+  <data name="barSubItem8.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem5.Name" xml:space="preserve">
+    <value>commandBarItem5</value>
+  </data>
+  <data name="&gt;&gt;barSubItem10.Name" xml:space="preserve">
+    <value>barSubItem10</value>
+  </data>
+  <data name="&gt;&gt;commandBarItem26.Name" xml:space="preserve">
+    <value>commandBarItem26</value>
+  </data>
+  <data name="commandColorBarItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="commandBarItem44.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <metadata name="xrDesignDockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="xrDesignBarManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>km-KH</value>
+  </metadata>
 </root>

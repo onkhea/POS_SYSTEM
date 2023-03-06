@@ -43,6 +43,16 @@ namespace POS.Reports
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.dgDetail = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UserUpdated = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SecComment = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgMaster = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.ConvCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,12 +65,10 @@ namespace POS.Reports
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMastClone = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMastPaste = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMastExcel = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.bgWork = new System.ComponentModel.BackgroundWorker();
-            this.bgDetails = new System.ComponentModel.BackgroundWorker();
-            this.contextMastExcel = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolNewUnitType = new System.Windows.Forms.ToolStripButton();
             this.toolStripEditUnitType = new System.Windows.Forms.ToolStripButton();
             this.toolStripDeleteUnitType = new System.Windows.Forms.ToolStripButton();
@@ -76,16 +84,8 @@ namespace POS.Reports
             this.toolStripPasteSubUnType = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripExcelSubUnType = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UserUpdated = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SecComment = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bgWork = new System.ComponentModel.BackgroundWorker();
+            this.bgDetails = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -105,13 +105,11 @@ namespace POS.Reports
             // 
             // splitContainer1.Panel1
             // 
-            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
             this.splitContainer1.Panel1.Controls.Add(this.TreeView1);
             this.splitContainer1.Panel1.Controls.Add(this.panel1);
             // 
             // splitContainer1.Panel2
             // 
-            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
             this.splitContainer1.Panel2.Controls.Add(this.dgDetail);
             this.splitContainer1.Panel2.Controls.Add(this.dgMaster);
             this.splitContainer1.Panel2.Controls.Add(this.panel2);
@@ -130,8 +128,8 @@ namespace POS.Reports
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.label1);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // label1
@@ -142,7 +140,6 @@ namespace POS.Reports
             // 
             // dgDetail
             // 
-            resources.ApplyResources(this.dgDetail, "dgDetail");
             this.dgDetail.AllowUserToAddRows = false;
             this.dgDetail.AllowUserToDeleteRows = false;
             this.dgDetail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -174,6 +171,7 @@ namespace POS.Reports
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgDetail.DefaultCellStyle = dataGridViewCellStyle2;
+            resources.ApplyResources(this.dgDetail, "dgDetail");
             this.dgDetail.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgDetail.Name = "dgDetail";
             this.dgDetail.ReadOnly = true;
@@ -188,9 +186,68 @@ namespace POS.Reports
             this.dgDetail.RowHeadersVisible = false;
             this.dgDetail.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn1, "dataGridViewTextBoxColumn1");
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn3, "dataGridViewTextBoxColumn3");
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn4, "dataGridViewTextBoxColumn4");
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn5, "dataGridViewTextBoxColumn5");
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // UserUpdated
+            // 
+            resources.ApplyResources(this.UserUpdated, "UserUpdated");
+            this.UserUpdated.Name = "UserUpdated";
+            this.UserUpdated.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn6, "dataGridViewTextBoxColumn6");
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn7, "dataGridViewTextBoxColumn7");
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn8, "dataGridViewTextBoxColumn8");
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            // 
+            // SecComment
+            // 
+            resources.ApplyResources(this.SecComment, "SecComment");
+            this.SecComment.Name = "SecComment";
+            this.SecComment.ReadOnly = true;
+            // 
             // dgMaster
             // 
-            resources.ApplyResources(this.dgMaster, "dgMaster");
             this.dgMaster.AllowUserToAddRows = false;
             this.dgMaster.AllowUserToDeleteRows = false;
             this.dgMaster.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -221,6 +278,7 @@ namespace POS.Reports
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgMaster.DefaultCellStyle = dataGridViewCellStyle5;
+            resources.ApplyResources(this.dgMaster, "dgMaster");
             this.dgMaster.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgMaster.Name = "dgMaster";
             this.dgMaster.ReadOnly = true;
@@ -285,17 +343,17 @@ namespace POS.Reports
             // 
             // contextMenuStrip1
             // 
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.contextMastClone,
             this.contextMastPaste,
             this.contextMastExcel});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
             // contextMastClone
             // 
-            resources.ApplyResources(this.contextMastClone, "contextMastClone");
             this.contextMastClone.Name = "contextMastClone";
+            resources.ApplyResources(this.contextMastClone, "contextMastClone");
             this.contextMastClone.Click += new System.EventHandler(this.contextMastClone_Click);
             // 
             // contextMastPaste
@@ -303,10 +361,16 @@ namespace POS.Reports
             resources.ApplyResources(this.contextMastPaste, "contextMastPaste");
             this.contextMastPaste.Name = "contextMastPaste";
             // 
+            // contextMastExcel
+            // 
+            resources.ApplyResources(this.contextMastExcel, "contextMastExcel");
+            this.contextMastExcel.Name = "contextMastExcel";
+            this.contextMastExcel.Click += new System.EventHandler(this.contextMastExcel_Click);
+            // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Controls.Add(this.label2);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // label2
@@ -317,7 +381,6 @@ namespace POS.Reports
             // 
             // toolStrip1
             // 
-            resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolNewUnitType,
             this.toolStripEditUnitType,
@@ -328,59 +391,38 @@ namespace POS.Reports
             this.toolStripDeleteUnType,
             this.toolStripToolSubUnType,
             this.toolStripButton7});
+            resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Name = "toolStrip1";
-            // 
-            // bgWork
-            // 
-            this.bgWork.WorkerReportsProgress = true;
-            this.bgWork.WorkerSupportsCancellation = true;
-            this.bgWork.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgWork_DoWork);
-            this.bgWork.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.bgWork_ProgressChanged);
-            this.bgWork.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgWork_RunWorkerCompleted);
-            // 
-            // bgDetails
-            // 
-            this.bgDetails.WorkerReportsProgress = true;
-            this.bgDetails.WorkerSupportsCancellation = true;
-            this.bgDetails.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgDetails_DoWork);
-            this.bgDetails.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.bgDetails_ProgressChanged);
-            this.bgDetails.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgDetails_RunWorkerCompleted);
-            // 
-            // contextMastExcel
-            // 
-            resources.ApplyResources(this.contextMastExcel, "contextMastExcel");
-            this.contextMastExcel.Name = "contextMastExcel";
-            this.contextMastExcel.Click += new System.EventHandler(this.contextMastExcel_Click);
             // 
             // ToolNewUnitType
             // 
-            resources.ApplyResources(this.ToolNewUnitType, "ToolNewUnitType");
             this.ToolNewUnitType.Image = global::POS.Properties.Resources.ico_alpha_FolderOptions_16x16;
+            resources.ApplyResources(this.ToolNewUnitType, "ToolNewUnitType");
             this.ToolNewUnitType.Name = "ToolNewUnitType";
             this.ToolNewUnitType.Click += new System.EventHandler(this.ToolNewUnitType_Click);
             // 
             // toolStripEditUnitType
             // 
-            resources.ApplyResources(this.toolStripEditUnitType, "toolStripEditUnitType");
             this.toolStripEditUnitType.Image = global::POS.Properties.Resources.ico_alpha_Rename_16x16;
+            resources.ApplyResources(this.toolStripEditUnitType, "toolStripEditUnitType");
             this.toolStripEditUnitType.Name = "toolStripEditUnitType";
             this.toolStripEditUnitType.Click += new System.EventHandler(this.toolStripEditUnitType_Click);
             // 
             // toolStripDeleteUnitType
             // 
-            resources.ApplyResources(this.toolStripDeleteUnitType, "toolStripDeleteUnitType");
             this.toolStripDeleteUnitType.Image = global::POS.Properties.Resources.ico_alpha_Delete_16x16;
+            resources.ApplyResources(this.toolStripDeleteUnitType, "toolStripDeleteUnitType");
             this.toolStripDeleteUnitType.Name = "toolStripDeleteUnitType";
             this.toolStripDeleteUnitType.Click += new System.EventHandler(this.toolStripDeleteUnitType_Click);
             // 
             // toolStripToolUnType
             // 
-            resources.ApplyResources(this.toolStripToolUnType, "toolStripToolUnType");
             this.toolStripToolUnType.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripCloneUnType,
             this.toolStripPastUnType,
             this.toolStripExcelUnType});
             this.toolStripToolUnType.Image = global::POS.Properties.Resources.ico_alpha_Nav_Down_24x24;
+            resources.ApplyResources(this.toolStripToolUnType, "toolStripToolUnType");
             this.toolStripToolUnType.Name = "toolStripToolUnType";
             // 
             // toolStripCloneUnType
@@ -403,33 +445,33 @@ namespace POS.Reports
             // 
             // toolStripNewSubUnType
             // 
-            resources.ApplyResources(this.toolStripNewSubUnType, "toolStripNewSubUnType");
             this.toolStripNewSubUnType.Image = global::POS.Properties.Resources.ico_alpha_FolderOptions_16x16;
+            resources.ApplyResources(this.toolStripNewSubUnType, "toolStripNewSubUnType");
             this.toolStripNewSubUnType.Name = "toolStripNewSubUnType";
             this.toolStripNewSubUnType.Click += new System.EventHandler(this.toolStripNewSubUnType_Click);
             // 
             // toolStripEditSubUnType
             // 
-            resources.ApplyResources(this.toolStripEditSubUnType, "toolStripEditSubUnType");
             this.toolStripEditSubUnType.Image = global::POS.Properties.Resources.ico_alpha_Rename_16x16;
+            resources.ApplyResources(this.toolStripEditSubUnType, "toolStripEditSubUnType");
             this.toolStripEditSubUnType.Name = "toolStripEditSubUnType";
             this.toolStripEditSubUnType.Click += new System.EventHandler(this.toolStripEditSubUnType_Click);
             // 
             // toolStripDeleteUnType
             // 
-            resources.ApplyResources(this.toolStripDeleteUnType, "toolStripDeleteUnType");
             this.toolStripDeleteUnType.Image = global::POS.Properties.Resources.ico_alpha_Delete_16x16;
+            resources.ApplyResources(this.toolStripDeleteUnType, "toolStripDeleteUnType");
             this.toolStripDeleteUnType.Name = "toolStripDeleteUnType";
             this.toolStripDeleteUnType.Click += new System.EventHandler(this.toolStripDeleteUnType_Click);
             // 
             // toolStripToolSubUnType
             // 
-            resources.ApplyResources(this.toolStripToolSubUnType, "toolStripToolSubUnType");
             this.toolStripToolSubUnType.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripCloneSubUnType,
             this.toolStripPasteSubUnType,
             this.toolStripExcelSubUnType});
             this.toolStripToolSubUnType.Image = global::POS.Properties.Resources.ico_alpha_Nav_Down_24x24;
+            resources.ApplyResources(this.toolStripToolSubUnType, "toolStripToolSubUnType");
             this.toolStripToolSubUnType.Name = "toolStripToolSubUnType";
             // 
             // toolStripCloneSubUnType
@@ -452,72 +494,28 @@ namespace POS.Reports
             // 
             // toolStripButton7
             // 
-            resources.ApplyResources(this.toolStripButton7, "toolStripButton7");
             this.toolStripButton7.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton7.Image = global::POS.Properties.Resources.Close_64;
+            resources.ApplyResources(this.toolStripButton7, "toolStripButton7");
             this.toolStripButton7.Name = "toolStripButton7";
             this.toolStripButton7.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
-            // dataGridViewTextBoxColumn1
+            // bgWork
             // 
-            resources.ApplyResources(this.dataGridViewTextBoxColumn1, "dataGridViewTextBoxColumn1");
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.bgWork.WorkerReportsProgress = true;
+            this.bgWork.WorkerSupportsCancellation = true;
+            this.bgWork.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgWork_DoWork);
+            this.bgWork.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.bgWork_ProgressChanged);
+            this.bgWork.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgWork_RunWorkerCompleted);
             // 
-            // dataGridViewTextBoxColumn2
+            // bgDetails
             // 
-            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            resources.ApplyResources(this.dataGridViewTextBoxColumn3, "dataGridViewTextBoxColumn3");
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            resources.ApplyResources(this.dataGridViewTextBoxColumn4, "dataGridViewTextBoxColumn4");
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            resources.ApplyResources(this.dataGridViewTextBoxColumn5, "dataGridViewTextBoxColumn5");
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            // 
-            // UserUpdated
-            // 
-            resources.ApplyResources(this.UserUpdated, "UserUpdated");
-            this.UserUpdated.Name = "UserUpdated";
-            this.UserUpdated.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            resources.ApplyResources(this.dataGridViewTextBoxColumn6, "dataGridViewTextBoxColumn6");
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            resources.ApplyResources(this.dataGridViewTextBoxColumn7, "dataGridViewTextBoxColumn7");
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            resources.ApplyResources(this.dataGridViewTextBoxColumn8, "dataGridViewTextBoxColumn8");
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            // 
-            // SecComment
-            // 
-            resources.ApplyResources(this.SecComment, "SecComment");
-            this.SecComment.Name = "SecComment";
-            this.SecComment.ReadOnly = true;
+            this.bgDetails.WorkerReportsProgress = true;
+            this.bgDetails.WorkerSupportsCancellation = true;
+            this.bgDetails.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgDetails_DoWork);
+            this.bgDetails.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.bgDetails_ProgressChanged);
+            this.bgDetails.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgDetails_RunWorkerCompleted);
             // 
             // ReportUnitConversion
             // 

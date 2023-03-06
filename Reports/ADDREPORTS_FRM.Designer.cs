@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddreportsFrm));
             this.cboType = new System.Windows.Forms.ComboBox();
             this.chbInactive = new System.Windows.Forms.CheckBox();
             this.lblRepCode = new System.Windows.Forms.Label();
@@ -43,133 +44,92 @@
             // 
             // cboType
             // 
+            resources.ApplyResources(this.cboType, "cboType");
             this.cboType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboType.FormattingEnabled = true;
             this.cboType.Items.AddRange(new object[] {
-            "Customer Listing",
-            "Inventory Listing Items",
-            "Inventory Listing Location",
-            "Inventory Movement",
-            "Inventory Movement Amount",
-            "Inventory Transfer",
-            "Movement Listing",
-            "POS Print",
-            "Print Barcode",
-            "Print Credit Note Form",
-            "Print Debit Note Form",
-            "Print Invoice Form",
-            "Print Purchase Form",
-            "Print Sale Form",
-            "Purchase Listing",
-            "Sale Listing",
-            "Supplier Listing"});
-            this.cboType.Location = new System.Drawing.Point(107, 78);
+            resources.GetString("cboType.Items"),
+            resources.GetString("cboType.Items1"),
+            resources.GetString("cboType.Items2"),
+            resources.GetString("cboType.Items3"),
+            resources.GetString("cboType.Items4"),
+            resources.GetString("cboType.Items5"),
+            resources.GetString("cboType.Items6"),
+            resources.GetString("cboType.Items7"),
+            resources.GetString("cboType.Items8"),
+            resources.GetString("cboType.Items9"),
+            resources.GetString("cboType.Items10"),
+            resources.GetString("cboType.Items11"),
+            resources.GetString("cboType.Items12"),
+            resources.GetString("cboType.Items13"),
+            resources.GetString("cboType.Items14"),
+            resources.GetString("cboType.Items15"),
+            resources.GetString("cboType.Items16")});
             this.cboType.Name = "cboType";
-            this.cboType.Size = new System.Drawing.Size(274, 21);
             this.cboType.Sorted = true;
-            this.cboType.TabIndex = 2;
             this.cboType.Tag = "Report Type";
             this.cboType.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboType_KeyDown);
             // 
             // chbInactive
             // 
-            this.chbInactive.AutoSize = true;
-            this.chbInactive.Location = new System.Drawing.Point(107, 110);
+            resources.ApplyResources(this.chbInactive, "chbInactive");
             this.chbInactive.Name = "chbInactive";
-            this.chbInactive.Size = new System.Drawing.Size(110, 17);
-            this.chbInactive.TabIndex = 14;
-            this.chbInactive.Text = "Report is disabled";
             this.chbInactive.UseVisualStyleBackColor = true;
             this.chbInactive.KeyDown += new System.Windows.Forms.KeyEventHandler(this.chbInactive_KeyDown);
             // 
             // lblRepCode
             // 
-            this.lblRepCode.AutoSize = true;
-            this.lblRepCode.Location = new System.Drawing.Point(10, 15);
+            resources.ApplyResources(this.lblRepCode, "lblRepCode");
             this.lblRepCode.Name = "lblRepCode";
-            this.lblRepCode.Size = new System.Drawing.Size(67, 13);
-            this.lblRepCode.TabIndex = 8;
-            this.lblRepCode.Text = "Report &Code";
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(221, 129);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(163, 29);
-            this.TableLayoutPanel1.TabIndex = 15;
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(74, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "&OK";
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(85, 3);
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(74, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "&Cancel";
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
             // txtDes
             // 
-            this.txtDes.Location = new System.Drawing.Point(107, 45);
-            this.txtDes.MaxLength = 30;
+            resources.ApplyResources(this.txtDes, "txtDes");
             this.txtDes.Name = "txtDes";
-            this.txtDes.Size = new System.Drawing.Size(274, 20);
-            this.txtDes.TabIndex = 1;
             this.txtDes.Tag = "Description";
             this.txtDes.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDes_KeyDown);
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(107, 12);
-            this.txtCode.MaxLength = 10;
+            resources.ApplyResources(this.txtCode, "txtCode");
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(274, 20);
-            this.txtCode.TabIndex = 0;
             this.txtCode.Tag = "Report Code";
             this.txtCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCode_KeyDown);
             // 
             // lblRep_Type
             // 
-            this.lblRep_Type.AutoSize = true;
-            this.lblRep_Type.Location = new System.Drawing.Point(10, 81);
+            resources.ApplyResources(this.lblRep_Type, "lblRep_Type");
             this.lblRep_Type.Name = "lblRep_Type";
-            this.lblRep_Type.Size = new System.Drawing.Size(66, 13);
-            this.lblRep_Type.TabIndex = 12;
-            this.lblRep_Type.Text = "Report &Type";
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(10, 49);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(60, 13);
-            this.Label3.TabIndex = 10;
-            this.Label3.Text = "&Description";
             // 
             // AddreportsFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 165);
             this.ControlBox = false;
             this.Controls.Add(this.cboType);
             this.Controls.Add(this.chbInactive);
@@ -183,8 +143,6 @@
             this.Name = "AddreportsFrm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add New Report";
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

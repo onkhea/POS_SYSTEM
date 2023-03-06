@@ -49,12 +49,12 @@
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(5, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
+            this.HelpProvider1.SetHelpKeyword(this.OK_Button, resources.GetString("OK_Button.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.OK_Button, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("OK_Button.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.OK_Button, resources.GetString("OK_Button.HelpString"));
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(73, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "OK";
+            this.HelpProvider1.SetShowHelp(this.OK_Button, ((bool)(resources.GetObject("OK_Button.ShowHelp"))));
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             // 
             // ImageList1
@@ -65,123 +65,127 @@
             // 
             // cboIn_item
             // 
+            resources.ApplyResources(this.cboIn_item, "cboIn_item");
             this.cboIn_item.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboIn_item.FormattingEnabled = true;
+            this.HelpProvider1.SetHelpKeyword(this.cboIn_item, resources.GetString("cboIn_item.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.cboIn_item, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("cboIn_item.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.cboIn_item, resources.GetString("cboIn_item.HelpString"));
             this.cboIn_item.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.cboIn_item.Location = new System.Drawing.Point(122, 88);
+            resources.GetString("cboIn_item.Items"),
+            resources.GetString("cboIn_item.Items1")});
             this.cboIn_item.Name = "cboIn_item";
-            this.cboIn_item.Size = new System.Drawing.Size(145, 21);
-            this.cboIn_item.TabIndex = 18;
+            this.HelpProvider1.SetShowHelp(this.cboIn_item, ((bool)(resources.GetObject("cboIn_item.ShowHelp"))));
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(88, 3);
+            this.HelpProvider1.SetHelpKeyword(this.Cancel_Button, resources.GetString("Cancel_Button.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Cancel_Button, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Cancel_Button.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Cancel_Button, resources.GetString("Cancel_Button.HelpString"));
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(73, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "Cancel";
+            this.HelpProvider1.SetShowHelp(this.Cancel_Button, ((bool)(resources.GetObject("Cancel_Button.ShowHelp"))));
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
             // btnRef1
             // 
-            this.btnRef1.ImageKey = "(none)";
+            resources.ApplyResources(this.btnRef1, "btnRef1");
+            this.HelpProvider1.SetHelpKeyword(this.btnRef1, resources.GetString("btnRef1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.btnRef1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("btnRef1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.btnRef1, resources.GetString("btnRef1.HelpString"));
             this.btnRef1.ImageList = this.ImageList1;
-            this.btnRef1.Location = new System.Drawing.Point(244, 55);
             this.btnRef1.Name = "btnRef1";
-            this.HelpProvider1.SetShowHelp(this.btnRef1, true);
-            this.btnRef1.Size = new System.Drawing.Size(24, 20);
-            this.btnRef1.TabIndex = 16;
-            this.btnRef1.Text = "...";
+            this.HelpProvider1.SetShowHelp(this.btnRef1, ((bool)(resources.GetObject("btnRef1.ShowHelp"))));
             this.btnRef1.UseVisualStyleBackColor = true;
             // 
             // txtRef1
             // 
-            this.txtRef1.Location = new System.Drawing.Point(122, 55);
-            this.txtRef1.MaxLength = 10;
+            resources.ApplyResources(this.txtRef1, "txtRef1");
+            this.HelpProvider1.SetHelpKeyword(this.txtRef1, resources.GetString("txtRef1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtRef1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtRef1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtRef1, resources.GetString("txtRef1.HelpString"));
             this.txtRef1.Name = "txtRef1";
-            this.txtRef1.Size = new System.Drawing.Size(123, 20);
-            this.txtRef1.TabIndex = 15;
+            this.HelpProvider1.SetShowHelp(this.txtRef1, ((bool)(resources.GetObject("txtRef1.ShowHelp"))));
             this.txtRef1.Tag = "Sale Order Number: From";
+            // 
+            // HelpProvider1
+            // 
+            resources.ApplyResources(this.HelpProvider1, "HelpProvider1");
             // 
             // txtDesc1
             // 
-            this.txtDesc1.Enabled = false;
-            this.txtDesc1.Location = new System.Drawing.Point(273, 17);
+            resources.ApplyResources(this.txtDesc1, "txtDesc1");
+            this.HelpProvider1.SetHelpKeyword(this.txtDesc1, resources.GetString("txtDesc1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtDesc1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtDesc1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtDesc1, resources.GetString("txtDesc1.HelpString"));
             this.txtDesc1.Name = "txtDesc1";
-            this.txtDesc1.Size = new System.Drawing.Size(207, 20);
-            this.txtDesc1.TabIndex = 13;
+            this.HelpProvider1.SetShowHelp(this.txtDesc1, ((bool)(resources.GetObject("txtDesc1.ShowHelp"))));
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(15, 91);
+            resources.ApplyResources(this.Label2, "Label2");
+            this.HelpProvider1.SetHelpKeyword(this.Label2, resources.GetString("Label2.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label2, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label2.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label2, resources.GetString("Label2.HelpString"));
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(69, 13);
-            this.Label2.TabIndex = 17;
-            this.Label2.Text = "Show Details";
+            this.HelpProvider1.SetShowHelp(this.Label2, ((bool)(resources.GetObject("Label2.ShowHelp"))));
             // 
             // Label5
             // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(15, 58);
+            resources.ApplyResources(this.Label5, "Label5");
+            this.HelpProvider1.SetHelpKeyword(this.Label5, resources.GetString("Label5.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label5, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label5.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label5, resources.GetString("Label5.HelpString"));
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(101, 13);
-            this.Label5.TabIndex = 14;
-            this.Label5.Text = "Purchase Order Ref";
+            this.HelpProvider1.SetShowHelp(this.Label5, ((bool)(resources.GetObject("Label5.ShowHelp"))));
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(15, 20);
+            resources.ApplyResources(this.Label1, "Label1");
+            this.HelpProvider1.SetHelpKeyword(this.Label1, resources.GetString("Label1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.Label1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("Label1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.Label1, resources.GetString("Label1.HelpString"));
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(74, 13);
-            this.Label1.TabIndex = 10;
-            this.Label1.Text = "Report Format";
+            this.HelpProvider1.SetShowHelp(this.Label1, ((bool)(resources.GetObject("Label1.ShowHelp"))));
             // 
             // txtF1
             // 
-            this.txtF1.Location = new System.Drawing.Point(122, 17);
-            this.txtF1.MaxLength = 10;
+            resources.ApplyResources(this.txtF1, "txtF1");
+            this.HelpProvider1.SetHelpKeyword(this.txtF1, resources.GetString("txtF1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.txtF1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("txtF1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.txtF1, resources.GetString("txtF1.HelpString"));
             this.txtF1.Name = "txtF1";
-            this.txtF1.Size = new System.Drawing.Size(123, 20);
-            this.txtF1.TabIndex = 11;
+            this.HelpProvider1.SetShowHelp(this.txtF1, ((bool)(resources.GetObject("txtF1.ShowHelp"))));
             this.txtF1.Tag = "Report Format";
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(315, 105);
+            this.HelpProvider1.SetHelpKeyword(this.TableLayoutPanel1, resources.GetString("TableLayoutPanel1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.TableLayoutPanel1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("TableLayoutPanel1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.TableLayoutPanel1, resources.GetString("TableLayoutPanel1.HelpString"));
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(167, 29);
-            this.TableLayoutPanel1.TabIndex = 19;
+            this.HelpProvider1.SetShowHelp(this.TableLayoutPanel1, ((bool)(resources.GetObject("TableLayoutPanel1.ShowHelp"))));
             // 
             // btnF1
             // 
-            this.btnF1.ImageIndex = 0;
+            resources.ApplyResources(this.btnF1, "btnF1");
+            this.HelpProvider1.SetHelpKeyword(this.btnF1, resources.GetString("btnF1.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this.btnF1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("btnF1.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this.btnF1, resources.GetString("btnF1.HelpString"));
             this.btnF1.ImageList = this.ImageList1;
-            this.btnF1.Location = new System.Drawing.Point(243, 17);
             this.btnF1.Name = "btnF1";
-            this.btnF1.Size = new System.Drawing.Size(24, 20);
-            this.btnF1.TabIndex = 12;
+            this.HelpProvider1.SetShowHelp(this.btnF1, ((bool)(resources.GetObject("btnF1.ShowHelp"))));
             this.btnF1.TabStop = false;
             this.btnF1.UseVisualStyleBackColor = true;
             // 
             // PurchaseorderPrintFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(497, 138);
             this.Controls.Add(this.cboIn_item);
             this.Controls.Add(this.btnRef1);
             this.Controls.Add(this.txtRef1);
@@ -192,11 +196,13 @@
             this.Controls.Add(this.btnF1);
             this.Controls.Add(this.txtF1);
             this.Controls.Add(this.TableLayoutPanel1);
+            this.HelpProvider1.SetHelpKeyword(this, resources.GetString("$this.HelpKeyword"));
+            this.HelpProvider1.SetHelpNavigator(this, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("$this.HelpNavigator"))));
+            this.HelpProvider1.SetHelpString(this, resources.GetString("$this.HelpString"));
             this.Name = "PurchaseorderPrintFrm";
+            this.HelpProvider1.SetShowHelp(this, ((bool)(resources.GetObject("$this.ShowHelp"))));
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Query Purchase Order";
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

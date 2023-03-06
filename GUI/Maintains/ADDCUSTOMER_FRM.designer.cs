@@ -111,8 +111,8 @@
             // 
             // Label17
             // 
-            this.Label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.Label17, "Label17");
+            this.Label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Label17.Name = "Label17";
             // 
             // txtCom2
@@ -291,12 +291,12 @@
             // 
             // cboStatus
             // 
+            resources.ApplyResources(this.cboStatus, "cboStatus");
             this.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboStatus.FormattingEnabled = true;
             this.cboStatus.Items.AddRange(new object[] {
             resources.GetString("cboStatus.Items"),
             resources.GetString("cboStatus.Items1")});
-            resources.ApplyResources(this.cboStatus, "cboStatus");
             this.cboStatus.Name = "cboStatus";
             this.cboStatus.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboStatus_KeyDown);
             // 

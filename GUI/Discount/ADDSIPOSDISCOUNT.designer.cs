@@ -70,358 +70,252 @@
             // 
             // txtUnitofSale
             // 
-            this.txtUnitofSale.Location = new System.Drawing.Point(295, 42);
-            this.txtUnitofSale.MaxLength = 25;
+            resources.ApplyResources(this.txtUnitofSale, "txtUnitofSale");
             this.txtUnitofSale.Name = "txtUnitofSale";
-            this.txtUnitofSale.Size = new System.Drawing.Size(118, 20);
-            this.txtUnitofSale.TabIndex = 33;
             this.txtUnitofSale.Tag = "Unit of Sale";
             this.txtUnitofSale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitofSale_KeyDown);
             // 
             // Label11
             // 
-            this.Label11.AutoSize = true;
-            this.Label11.Location = new System.Drawing.Point(233, 45);
+            resources.ApplyResources(this.Label11, "Label11");
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(62, 13);
-            this.Label11.TabIndex = 32;
-            this.Label11.Text = "Unit of &Sale";
             // 
             // txtUnitofStock
             // 
-            this.txtUnitofStock.Enabled = false;
-            this.txtUnitofStock.Location = new System.Drawing.Point(84, 42);
-            this.txtUnitofStock.MaxLength = 25;
+            resources.ApplyResources(this.txtUnitofStock, "txtUnitofStock");
             this.txtUnitofStock.Name = "txtUnitofStock";
-            this.txtUnitofStock.Size = new System.Drawing.Size(136, 20);
-            this.txtUnitofStock.TabIndex = 31;
             this.txtUnitofStock.Tag = "Product ID";
             this.txtUnitofStock.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitofStock_KeyDown);
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(8, 45);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(69, 13);
-            this.Label3.TabIndex = 30;
-            this.Label3.Text = "Unit of Stock";
             // 
             // Label9
             // 
-            this.Label9.AutoSize = true;
-            this.Label9.Location = new System.Drawing.Point(233, 136);
+            resources.ApplyResources(this.Label9, "Label9");
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(20, 13);
-            this.Label9.TabIndex = 45;
-            this.Label9.Text = "&To";
             // 
             // Label8
             // 
-            this.Label8.AutoSize = true;
-            this.Label8.Location = new System.Drawing.Point(48, 135);
+            resources.ApplyResources(this.Label8, "Label8");
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(30, 13);
-            this.Label8.TabIndex = 43;
-            this.Label8.Text = "&From";
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(85, 3);
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(74, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "&Cancel";
             this.Cancel_Button.UseVisualStyleBackColor = true;
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(74, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "&OK";
             this.OK_Button.UseVisualStyleBackColor = true;
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             this.OK_Button.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OK_Button_KeyDown);
             // 
             // cboTimeF
             // 
+            resources.ApplyResources(this.cboTimeF, "cboTimeF");
             this.cboTimeF.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTimeF.FormattingEnabled = true;
             this.cboTimeF.Items.AddRange(new object[] {
-            "-1",
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23"});
-            this.cboTimeF.Location = new System.Drawing.Point(84, 132);
+            resources.GetString("cboTimeF.Items"),
+            resources.GetString("cboTimeF.Items1"),
+            resources.GetString("cboTimeF.Items2"),
+            resources.GetString("cboTimeF.Items3"),
+            resources.GetString("cboTimeF.Items4"),
+            resources.GetString("cboTimeF.Items5"),
+            resources.GetString("cboTimeF.Items6"),
+            resources.GetString("cboTimeF.Items7"),
+            resources.GetString("cboTimeF.Items8"),
+            resources.GetString("cboTimeF.Items9"),
+            resources.GetString("cboTimeF.Items10"),
+            resources.GetString("cboTimeF.Items11"),
+            resources.GetString("cboTimeF.Items12"),
+            resources.GetString("cboTimeF.Items13"),
+            resources.GetString("cboTimeF.Items14"),
+            resources.GetString("cboTimeF.Items15"),
+            resources.GetString("cboTimeF.Items16"),
+            resources.GetString("cboTimeF.Items17"),
+            resources.GetString("cboTimeF.Items18"),
+            resources.GetString("cboTimeF.Items19"),
+            resources.GetString("cboTimeF.Items20"),
+            resources.GetString("cboTimeF.Items21"),
+            resources.GetString("cboTimeF.Items22"),
+            resources.GetString("cboTimeF.Items23"),
+            resources.GetString("cboTimeF.Items24")});
             this.cboTimeF.Name = "cboTimeF";
-            this.cboTimeF.Size = new System.Drawing.Size(136, 21);
-            this.cboTimeF.TabIndex = 44;
             this.cboTimeF.Tag = "From";
             this.cboTimeF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboTimeF_KeyDown);
             // 
             // Label10
             // 
-            this.Label10.AutoSize = true;
-            this.Label10.Location = new System.Drawing.Point(8, 135);
+            resources.ApplyResources(this.Label10, "Label10");
             this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(38, 13);
-            this.Label10.TabIndex = 42;
-            this.Label10.Text = "Timing";
             // 
             // Label7
             // 
-            this.Label7.AutoSize = true;
-            this.Label7.Location = new System.Drawing.Point(48, 106);
+            resources.ApplyResources(this.Label7, "Label7");
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(30, 13);
-            this.Label7.TabIndex = 38;
-            this.Label7.Text = "&From";
             // 
             // dtpDateT
             // 
+            resources.ApplyResources(this.dtpDateT, "dtpDateT");
             this.dtpDateT.Checked = false;
-            this.dtpDateT.CustomFormat = "MM-dd-yyyy";
             this.dtpDateT.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDateT.Location = new System.Drawing.Point(295, 102);
             this.dtpDateT.Name = "dtpDateT";
             this.dtpDateT.ShowCheckBox = true;
-            this.dtpDateT.Size = new System.Drawing.Size(137, 20);
-            this.dtpDateT.TabIndex = 41;
             this.dtpDateT.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtpDateT_KeyDown);
             // 
             // Label6
             // 
-            this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(233, 106);
+            resources.ApplyResources(this.Label6, "Label6");
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(20, 13);
-            this.Label6.TabIndex = 40;
-            this.Label6.Text = "&To";
             // 
             // cboTimeT
             // 
+            resources.ApplyResources(this.cboTimeT, "cboTimeT");
             this.cboTimeT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTimeT.FormattingEnabled = true;
             this.cboTimeT.Items.AddRange(new object[] {
-            "-1",
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23"});
-            this.cboTimeT.Location = new System.Drawing.Point(295, 132);
+            resources.GetString("cboTimeT.Items"),
+            resources.GetString("cboTimeT.Items1"),
+            resources.GetString("cboTimeT.Items2"),
+            resources.GetString("cboTimeT.Items3"),
+            resources.GetString("cboTimeT.Items4"),
+            resources.GetString("cboTimeT.Items5"),
+            resources.GetString("cboTimeT.Items6"),
+            resources.GetString("cboTimeT.Items7"),
+            resources.GetString("cboTimeT.Items8"),
+            resources.GetString("cboTimeT.Items9"),
+            resources.GetString("cboTimeT.Items10"),
+            resources.GetString("cboTimeT.Items11"),
+            resources.GetString("cboTimeT.Items12"),
+            resources.GetString("cboTimeT.Items13"),
+            resources.GetString("cboTimeT.Items14"),
+            resources.GetString("cboTimeT.Items15"),
+            resources.GetString("cboTimeT.Items16"),
+            resources.GetString("cboTimeT.Items17"),
+            resources.GetString("cboTimeT.Items18"),
+            resources.GetString("cboTimeT.Items19"),
+            resources.GetString("cboTimeT.Items20"),
+            resources.GetString("cboTimeT.Items21"),
+            resources.GetString("cboTimeT.Items22"),
+            resources.GetString("cboTimeT.Items23"),
+            resources.GetString("cboTimeT.Items24")});
             this.cboTimeT.Name = "cboTimeT";
-            this.cboTimeT.Size = new System.Drawing.Size(137, 21);
-            this.cboTimeT.TabIndex = 46;
             this.cboTimeT.Tag = "To";
             this.cboTimeT.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboTimeT_KeyDown);
             // 
             // dtpDateF
             // 
+            resources.ApplyResources(this.dtpDateF, "dtpDateF");
             this.dtpDateF.Checked = false;
-            this.dtpDateF.CustomFormat = "MM-dd-yyyy";
             this.dtpDateF.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDateF.Location = new System.Drawing.Point(84, 102);
             this.dtpDateF.Name = "dtpDateF";
             this.dtpDateF.ShowCheckBox = true;
-            this.dtpDateF.Size = new System.Drawing.Size(136, 20);
-            this.dtpDateF.TabIndex = 39;
             this.dtpDateF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtpDateF_KeyDown);
             // 
             // Label5
             // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(8, 106);
+            resources.ApplyResources(this.Label5, "Label5");
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(30, 13);
-            this.Label5.TabIndex = 37;
-            this.Label5.Text = "Date";
             // 
             // Label4
             // 
-            this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(233, 166);
+            resources.ApplyResources(this.Label4, "Label4");
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(37, 13);
-            this.Label4.TabIndex = 49;
-            this.Label4.Text = "&Status";
             // 
             // cboStatus
             // 
+            resources.ApplyResources(this.cboStatus, "cboStatus");
             this.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboStatus.FormattingEnabled = true;
             this.cboStatus.Items.AddRange(new object[] {
-            "A - Active",
-            "D - Disable"});
-            this.cboStatus.Location = new System.Drawing.Point(295, 163);
+            resources.GetString("cboStatus.Items"),
+            resources.GetString("cboStatus.Items1")});
             this.cboStatus.Name = "cboStatus";
-            this.cboStatus.Size = new System.Drawing.Size(137, 21);
-            this.cboStatus.TabIndex = 50;
             this.cboStatus.Tag = "Status";
             this.cboStatus.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboStatus_KeyDown);
             // 
             // txtDiscount
             // 
-            this.txtDiscount.Location = new System.Drawing.Point(84, 163);
-            this.txtDiscount.MaxLength = 3;
+            resources.ApplyResources(this.txtDiscount, "txtDiscount");
             this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(136, 20);
-            this.txtDiscount.TabIndex = 48;
             this.txtDiscount.Tag = "Discount Rate";
-            this.txtDiscount.Text = "0";
-            this.txtDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDiscount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDiscount_KeyDown);
             this.txtDiscount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDiscount_KeyPress);
             // 
             // txtProID
             // 
-            this.txtProID.Location = new System.Drawing.Point(84, 12);
-            this.txtProID.MaxLength = 25;
+            resources.ApplyResources(this.txtProID, "txtProID");
             this.txtProID.Name = "txtProID";
-            this.txtProID.Size = new System.Drawing.Size(117, 20);
-            this.txtProID.TabIndex = 27;
             this.txtProID.Tag = "Product ID";
             this.txtProID.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtProID_KeyDown);
             // 
             // Label20
             // 
-            this.Label20.AutoSize = true;
-            this.Label20.Location = new System.Drawing.Point(8, 16);
+            resources.ApplyResources(this.Label20, "Label20");
             this.Label20.Name = "Label20";
-            this.Label20.Size = new System.Drawing.Size(55, 13);
-            this.Label20.TabIndex = 26;
-            this.Label20.Text = "Item &Code";
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(273, 195);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(163, 29);
-            this.TableLayoutPanel1.TabIndex = 51;
             // 
             // txtProName
             // 
-            this.txtProName.Enabled = false;
-            this.txtProName.Location = new System.Drawing.Point(226, 12);
-            this.txtProName.MaxLength = 50;
+            resources.ApplyResources(this.txtProName, "txtProName");
             this.txtProName.Name = "txtProName";
-            this.txtProName.Size = new System.Drawing.Size(206, 20);
-            this.txtProName.TabIndex = 29;
             this.txtProName.Tag = "Employee Name";
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(8, 75);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(65, 13);
-            this.Label1.TabIndex = 35;
-            this.Label1.Text = "Selling Price";
             // 
             // txtSellingPrice
             // 
+            resources.ApplyResources(this.txtSellingPrice, "txtSellingPrice");
             this.txtSellingPrice.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtSellingPrice.Enabled = false;
-            this.txtSellingPrice.Location = new System.Drawing.Point(84, 72);
-            this.txtSellingPrice.MaxLength = 15;
             this.txtSellingPrice.Name = "txtSellingPrice";
-            this.txtSellingPrice.Size = new System.Drawing.Size(348, 20);
-            this.txtSellingPrice.TabIndex = 36;
             this.txtSellingPrice.Tag = "Employee ID";
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(8, 166);
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(63, 13);
-            this.Label2.TabIndex = 47;
             this.Label2.Tag = "";
-            this.Label2.Text = "&Discount(%)";
             // 
             // btnUnitofSale
             // 
-            this.btnUnitofSale.ImageIndex = 0;
+            resources.ApplyResources(this.btnUnitofSale, "btnUnitofSale");
             this.btnUnitofSale.ImageList = this.ImageList1;
-            this.btnUnitofSale.Location = new System.Drawing.Point(408, 42);
             this.btnUnitofSale.Name = "btnUnitofSale";
-            this.btnUnitofSale.Size = new System.Drawing.Size(24, 20);
-            this.btnUnitofSale.TabIndex = 34;
             this.btnUnitofSale.TabStop = false;
             this.btnUnitofSale.UseVisualStyleBackColor = true;
             this.btnUnitofSale.Click += new System.EventHandler(this.btnUnitofSale_Click);
             // 
             // btnProID
             // 
-            this.btnProID.ImageIndex = 0;
+            resources.ApplyResources(this.btnProID, "btnProID");
             this.btnProID.ImageList = this.ImageList1;
-            this.btnProID.Location = new System.Drawing.Point(196, 12);
             this.btnProID.Name = "btnProID";
-            this.btnProID.Size = new System.Drawing.Size(24, 20);
-            this.btnProID.TabIndex = 28;
             this.btnProID.TabStop = false;
             this.btnProID.UseVisualStyleBackColor = true;
             this.btnProID.Click += new System.EventHandler(this.btnProID_Click);
             // 
             // ADDSIPOSDISCOUNT
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 227);
             this.Controls.Add(this.btnUnitofSale);
             this.Controls.Add(this.txtUnitofSale);
             this.Controls.Add(this.Label11);
@@ -449,13 +343,10 @@
             this.Controls.Add(this.txtSellingPrice);
             this.Controls.Add(this.Label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ADDSIPOSDISCOUNT";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add Discount";
             this.Load += new System.EventHandler(this.ADDSIPOSDISCOUNT_Load);
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

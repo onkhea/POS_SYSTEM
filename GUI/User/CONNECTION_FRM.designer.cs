@@ -49,37 +49,27 @@
             // 
             // BTN_OK
             // 
+            resources.ApplyResources(this.BTN_OK, "BTN_OK");
             this.BTN_OK.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.BTN_OK.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.BTN_OK.Location = new System.Drawing.Point(224, 197);
             this.BTN_OK.Name = "BTN_OK";
-            this.BTN_OK.Size = new System.Drawing.Size(79, 23);
-            this.BTN_OK.TabIndex = 13;
-            this.BTN_OK.Text = "&OK";
             this.BTN_OK.Click += new System.EventHandler(this.BTN_OK_Click);
             // 
             // CMD_CANCEL
             // 
+            resources.ApplyResources(this.CMD_CANCEL, "CMD_CANCEL");
             this.CMD_CANCEL.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.CMD_CANCEL.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.CMD_CANCEL.Location = new System.Drawing.Point(315, 197);
             this.CMD_CANCEL.Name = "CMD_CANCEL";
-            this.CMD_CANCEL.Size = new System.Drawing.Size(79, 23);
-            this.CMD_CANCEL.TabIndex = 14;
-            this.CMD_CANCEL.Text = "&Cancel";
             this.CMD_CANCEL.Click += new System.EventHandler(this.CMD_CANCEL_Click);
             // 
             // GroupPanel2
             // 
-            this.GroupPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.GroupPanel2, "GroupPanel2");
             this.GroupPanel2.CanvasColor = System.Drawing.SystemColors.Control;
             this.GroupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.GroupPanel2.Controls.Add(this.TXTCON);
-            this.GroupPanel2.Location = new System.Drawing.Point(5, 158);
             this.GroupPanel2.Name = "GroupPanel2";
-            this.GroupPanel2.Size = new System.Drawing.Size(389, 35);
             // 
             // 
             // 
@@ -100,22 +90,19 @@
             this.GroupPanel2.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
             this.GroupPanel2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.GroupPanel2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            this.GroupPanel2.TabIndex = 15;
             // 
             // TXTCON
             // 
+            resources.ApplyResources(this.TXTCON, "TXTCON");
             // 
             // 
             // 
             this.TXTCON.Border.Class = "TextBoxBorder";
-            this.TXTCON.Enabled = false;
-            this.TXTCON.Location = new System.Drawing.Point(13, 6);
             this.TXTCON.Name = "TXTCON";
-            this.TXTCON.Size = new System.Drawing.Size(355, 20);
-            this.TXTCON.TabIndex = 0;
             // 
             // GroupPanel1
             // 
+            resources.ApplyResources(this.GroupPanel1, "GroupPanel1");
             this.GroupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
             this.GroupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.GroupPanel1.Controls.Add(this.LabelX4);
@@ -126,9 +113,7 @@
             this.GroupPanel1.Controls.Add(this.TXTU);
             this.GroupPanel1.Controls.Add(this.TXTD);
             this.GroupPanel1.Controls.Add(this.TXTS);
-            this.GroupPanel1.Location = new System.Drawing.Point(5, 12);
             this.GroupPanel1.Name = "GroupPanel1";
-            this.GroupPanel1.Size = new System.Drawing.Size(389, 124);
             // 
             // 
             // 
@@ -147,114 +132,80 @@
             this.GroupPanel1.Style.CornerDiameter = 4;
             this.GroupPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.GroupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.GroupPanel1.TabIndex = 16;
-            this.GroupPanel1.Text = "Connection";
             // 
             // LabelX4
             // 
-            this.LabelX4.AutoSize = true;
+            resources.ApplyResources(this.LabelX4, "LabelX4");
             this.LabelX4.BackColor = System.Drawing.Color.Transparent;
-            this.LabelX4.Location = new System.Drawing.Point(29, 75);
             this.LabelX4.Name = "LabelX4";
-            this.LabelX4.Size = new System.Drawing.Size(51, 13);
-            this.LabelX4.TabIndex = 6;
-            this.LabelX4.Text = "Password";
             // 
             // LabelX3
             // 
-            this.LabelX3.AutoSize = true;
+            resources.ApplyResources(this.LabelX3, "LabelX3");
             this.LabelX3.BackColor = System.Drawing.Color.Transparent;
-            this.LabelX3.Location = new System.Drawing.Point(29, 51);
             this.LabelX3.Name = "LabelX3";
-            this.LabelX3.Size = new System.Drawing.Size(26, 13);
-            this.LabelX3.TabIndex = 4;
-            this.LabelX3.Text = "User";
             // 
             // LabelX2
             // 
-            this.LabelX2.AutoSize = true;
+            resources.ApplyResources(this.LabelX2, "LabelX2");
             this.LabelX2.BackColor = System.Drawing.Color.Transparent;
-            this.LabelX2.Location = new System.Drawing.Point(20, 27);
             this.LabelX2.Name = "LabelX2";
-            this.LabelX2.Size = new System.Drawing.Size(50, 13);
-            this.LabelX2.TabIndex = 2;
-            this.LabelX2.Text = "Database";
             // 
             // LabelX1
             // 
-            this.LabelX1.AutoSize = true;
+            resources.ApplyResources(this.LabelX1, "LabelX1");
             this.LabelX1.BackColor = System.Drawing.Color.Transparent;
-            this.LabelX1.Location = new System.Drawing.Point(20, 3);
             this.LabelX1.Name = "LabelX1";
-            this.LabelX1.Size = new System.Drawing.Size(35, 13);
-            this.LabelX1.TabIndex = 0;
-            this.LabelX1.Text = "Server";
             // 
             // TXTP
             // 
+            resources.ApplyResources(this.TXTP, "TXTP");
             // 
             // 
             // 
             this.TXTP.Border.Class = "TextBoxBorder";
-            this.TXTP.Location = new System.Drawing.Point(86, 75);
-            this.TXTP.MaxLength = 15;
             this.TXTP.Name = "TXTP";
-            this.TXTP.PasswordChar = '*';
-            this.TXTP.Size = new System.Drawing.Size(282, 20);
-            this.TXTP.TabIndex = 7;
             // 
             // TXTU
             // 
+            resources.ApplyResources(this.TXTU, "TXTU");
             // 
             // 
             // 
             this.TXTU.Border.Class = "TextBoxBorder";
-            this.TXTU.Location = new System.Drawing.Point(86, 51);
             this.TXTU.Name = "TXTU";
-            this.TXTU.Size = new System.Drawing.Size(282, 20);
-            this.TXTU.TabIndex = 5;
-            this.TXTU.Text = "sa";
             // 
             // TXTD
             // 
+            resources.ApplyResources(this.TXTD, "TXTD");
             // 
             // 
             // 
             this.TXTD.Border.Class = "TextBoxBorder";
-            this.TXTD.Location = new System.Drawing.Point(86, 27);
             this.TXTD.Name = "TXTD";
-            this.TXTD.Size = new System.Drawing.Size(282, 20);
-            this.TXTD.TabIndex = 3;
             // 
             // TXTS
             // 
+            resources.ApplyResources(this.TXTS, "TXTS");
             // 
             // 
             // 
             this.TXTS.Border.Class = "TextBoxBorder";
-            this.TXTS.Location = new System.Drawing.Point(86, 3);
             this.TXTS.Name = "TXTS";
-            this.TXTS.Size = new System.Drawing.Size(282, 20);
-            this.TXTS.TabIndex = 1;
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
+            resources.ApplyResources(this.checkBox1, "checkBox1");
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.checkBox1.Location = new System.Drawing.Point(10, 140);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(110, 17);
-            this.checkBox1.TabIndex = 17;
-            this.checkBox1.Text = "Connection String";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // ConnectionFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(406, 223);
             this.ControlBox = false;
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.GroupPanel1);
@@ -262,11 +213,8 @@
             this.Controls.Add(this.CMD_CANCEL);
             this.Controls.Add(this.BTN_OK);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ConnectionFrm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Connection";
             this.Load += new System.EventHandler(this.ConnectionFrm_Load);
             this.GroupPanel2.ResumeLayout(false);
             this.GroupPanel1.ResumeLayout(false);

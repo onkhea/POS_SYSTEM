@@ -68,8 +68,8 @@
             this.DataGridView.TabIndex = 1;
             this.DataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewX1_CellDoubleClick);
             this.DataGridView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridViewX1_KeyDown);
-            this.DataGridView.MouseEnter += new System.EventHandler(this.dataGridViewX1_MouseEnter);
             this.DataGridView.KeyUp += new System.Windows.Forms.KeyEventHandler(this.dataGridViewX1_KeyUp);
+            this.DataGridView.MouseEnter += new System.EventHandler(this.dataGridViewX1_MouseEnter);
             // 
             // DROPLIST_FRM
             // 

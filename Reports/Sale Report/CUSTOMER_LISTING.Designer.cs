@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CUSTOMER_LISTING));
             this.txtFormatDesc = new System.Windows.Forms.TextBox();
             this.txtFormatCode = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -73,387 +74,267 @@
             // 
             // txtFormatDesc
             // 
-            this.txtFormatDesc.Enabled = false;
-            this.txtFormatDesc.Location = new System.Drawing.Point(283, 12);
+            resources.ApplyResources(this.txtFormatDesc, "txtFormatDesc");
             this.txtFormatDesc.Name = "txtFormatDesc";
-            this.txtFormatDesc.Size = new System.Drawing.Size(203, 20);
-            this.txtFormatDesc.TabIndex = 81;
             // 
             // txtFormatCode
             // 
-            this.txtFormatCode.Location = new System.Drawing.Point(123, 11);
+            resources.ApplyResources(this.txtFormatCode, "txtFormatCode");
             this.txtFormatCode.Name = "txtFormatCode";
-            this.txtFormatCode.Size = new System.Drawing.Size(132, 20);
-            this.txtFormatCode.TabIndex = 78;
             this.txtFormatCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFormatCode_KeyDown);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 15);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 79;
-            this.label1.Text = "Report Format";
             // 
             // txtCusDescFrom
             // 
-            this.txtCusDescFrom.Enabled = false;
-            this.txtCusDescFrom.Location = new System.Drawing.Point(283, 40);
+            resources.ApplyResources(this.txtCusDescFrom, "txtCusDescFrom");
             this.txtCusDescFrom.Name = "txtCusDescFrom";
-            this.txtCusDescFrom.Size = new System.Drawing.Size(203, 20);
-            this.txtCusDescFrom.TabIndex = 85;
             // 
             // txtCustomerFrom
             // 
-            this.txtCustomerFrom.Location = new System.Drawing.Point(123, 39);
+            resources.ApplyResources(this.txtCustomerFrom, "txtCustomerFrom");
             this.txtCustomerFrom.Name = "txtCustomerFrom";
-            this.txtCustomerFrom.Size = new System.Drawing.Size(132, 20);
-            this.txtCustomerFrom.TabIndex = 82;
             this.txtCustomerFrom.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCustomerFrom_KeyDown);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 43);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 13);
-            this.label2.TabIndex = 83;
-            this.label2.Text = "Customer";
             // 
             // txtCusDescTo
             // 
-            this.txtCusDescTo.Enabled = false;
-            this.txtCusDescTo.Location = new System.Drawing.Point(283, 68);
+            resources.ApplyResources(this.txtCusDescTo, "txtCusDescTo");
             this.txtCusDescTo.Name = "txtCusDescTo";
-            this.txtCusDescTo.Size = new System.Drawing.Size(203, 20);
-            this.txtCusDescTo.TabIndex = 89;
             // 
             // txtCusTo
             // 
-            this.txtCusTo.Location = new System.Drawing.Point(123, 67);
+            resources.ApplyResources(this.txtCusTo, "txtCusTo");
             this.txtCusTo.Name = "txtCusTo";
-            this.txtCusTo.Size = new System.Drawing.Size(132, 20);
-            this.txtCusTo.TabIndex = 86;
             this.txtCusTo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCusTo_KeyDown);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(90, 71);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(20, 13);
-            this.label3.TabIndex = 87;
-            this.label3.Text = "To";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(91, 43);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 13);
-            this.label4.TabIndex = 90;
-            this.label4.Text = "From";
             // 
             // txtLocDesTo
             // 
-            this.txtLocDesTo.Enabled = false;
-            this.txtLocDesTo.Location = new System.Drawing.Point(283, 121);
+            resources.ApplyResources(this.txtLocDesTo, "txtLocDesTo");
             this.txtLocDesTo.Name = "txtLocDesTo";
-            this.txtLocDesTo.Size = new System.Drawing.Size(203, 20);
-            this.txtLocDesTo.TabIndex = 109;
             // 
             // txtLocDesFrom
             // 
-            this.txtLocDesFrom.Enabled = false;
-            this.txtLocDesFrom.Location = new System.Drawing.Point(283, 95);
+            resources.ApplyResources(this.txtLocDesFrom, "txtLocDesFrom");
             this.txtLocDesFrom.Name = "txtLocDesFrom";
-            this.txtLocDesFrom.Size = new System.Drawing.Size(203, 20);
-            this.txtLocDesFrom.TabIndex = 108;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(95, 124);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(20, 13);
-            this.label5.TabIndex = 107;
-            this.label5.Text = "To";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(85, 100);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(30, 13);
-            this.label6.TabIndex = 106;
-            this.label6.Text = "From";
             // 
             // txtLocationTo
             // 
-            this.txtLocationTo.Location = new System.Drawing.Point(123, 121);
+            resources.ApplyResources(this.txtLocationTo, "txtLocationTo");
             this.txtLocationTo.Name = "txtLocationTo";
-            this.txtLocationTo.Size = new System.Drawing.Size(132, 20);
-            this.txtLocationTo.TabIndex = 102;
             this.txtLocationTo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLocationTo_KeyDown);
             // 
             // txtLocationFrom
             // 
-            this.txtLocationFrom.Location = new System.Drawing.Point(123, 95);
+            resources.ApplyResources(this.txtLocationFrom, "txtLocationFrom");
             this.txtLocationFrom.Name = "txtLocationFrom";
-            this.txtLocationFrom.Size = new System.Drawing.Size(132, 20);
-            this.txtLocationFrom.TabIndex = 101;
             this.txtLocationFrom.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLocationFrom_KeyDown);
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 101);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 13);
-            this.label7.TabIndex = 103;
-            this.label7.Text = "Location";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(286, 154);
+            resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(20, 13);
-            this.label10.TabIndex = 100;
-            this.label10.Text = "To";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(85, 155);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(30, 13);
-            this.label9.TabIndex = 99;
-            this.label9.Text = "From";
             // 
             // txtItemCode1
             // 
-            this.txtItemCode1.Location = new System.Drawing.Point(311, 151);
+            resources.ApplyResources(this.txtItemCode1, "txtItemCode1");
             this.txtItemCode1.Name = "txtItemCode1";
-            this.txtItemCode1.Size = new System.Drawing.Size(148, 20);
-            this.txtItemCode1.TabIndex = 95;
             this.txtItemCode1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtItemCode1_KeyDown);
             // 
             // txtItemCode
             // 
-            this.txtItemCode.Location = new System.Drawing.Point(123, 150);
+            resources.ApplyResources(this.txtItemCode, "txtItemCode");
             this.txtItemCode.Name = "txtItemCode";
-            this.txtItemCode.Size = new System.Drawing.Size(132, 20);
-            this.txtItemCode.TabIndex = 94;
             this.txtItemCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtItemCode_KeyDown);
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(13, 157);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 13);
-            this.label8.TabIndex = 96;
-            this.label8.Text = "Item Code";
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(407, 248);
+            resources.ApplyResources(this.btnClose, "btnClose");
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
-            this.btnClose.TabIndex = 121;
-            this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(326, 248);
+            resources.ApplyResources(this.btnPreview, "btnPreview");
             this.btnPreview.Name = "btnPreview";
-            this.btnPreview.Size = new System.Drawing.Size(75, 23);
-            this.btnPreview.TabIndex = 120;
-            this.btnPreview.Text = "&Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
             this.btnPreview.Click += new System.EventHandler(this.btnPreview_Click);
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(281, 213);
+            resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(57, 13);
-            this.label12.TabIndex = 119;
-            this.label12.Text = "Sale 0/I/C";
             // 
             // cboTransferInOut
             // 
+            resources.ApplyResources(this.cboTransferInOut, "cboTransferInOut");
             this.cboTransferInOut.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTransferInOut.Items.AddRange(new object[] {
-            "O-Sale Order",
-            "I-Sale Invoice",
-            "C-Credit Note"});
-            this.cboTransferInOut.Location = new System.Drawing.Point(367, 209);
+            resources.GetString("cboTransferInOut.Items"),
+            resources.GetString("cboTransferInOut.Items1"),
+            resources.GetString("cboTransferInOut.Items2")});
             this.cboTransferInOut.Name = "cboTransferInOut";
-            this.cboTransferInOut.Size = new System.Drawing.Size(113, 21);
-            this.cboTransferInOut.TabIndex = 118;
             this.cboTransferInOut.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboTransferInOut_KeyDown);
             // 
             // txtUnitReport
             // 
-            this.txtUnitReport.Location = new System.Drawing.Point(123, 209);
+            resources.ApplyResources(this.txtUnitReport, "txtUnitReport");
             this.txtUnitReport.Name = "txtUnitReport";
-            this.txtUnitReport.Size = new System.Drawing.Size(129, 20);
-            this.txtUnitReport.TabIndex = 115;
             this.txtUnitReport.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitReport_KeyDown);
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(8, 212);
+            resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(75, 13);
-            this.label11.TabIndex = 116;
-            this.label11.Text = "Unit Of Report";
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(285, 185);
+            resources.ApplyResources(this.label13, "label13");
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(20, 13);
-            this.label13.TabIndex = 114;
-            this.label13.Text = "To";
             // 
             // dtDateTo
             // 
+            resources.ApplyResources(this.dtDateTo, "dtDateTo");
             this.dtDateTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtDateTo.Location = new System.Drawing.Point(311, 182);
             this.dtDateTo.Name = "dtDateTo";
-            this.dtDateTo.Size = new System.Drawing.Size(171, 20);
-            this.dtDateTo.TabIndex = 113;
             this.dtDateTo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtDateTo_KeyDown);
             // 
             // dtDateFrom
             // 
+            resources.ApplyResources(this.dtDateFrom, "dtDateFrom");
             this.dtDateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtDateFrom.Location = new System.Drawing.Point(124, 181);
             this.dtDateFrom.Name = "dtDateFrom";
-            this.dtDateFrom.Size = new System.Drawing.Size(156, 20);
-            this.dtDateFrom.TabIndex = 112;
             this.dtDateFrom.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtDateFrom_KeyDown);
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(78, 185);
+            resources.ApplyResources(this.label14, "label14");
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(30, 13);
-            this.label14.TabIndex = 111;
-            this.label14.Text = "From";
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(8, 187);
+            resources.ApplyResources(this.label15, "label15");
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(30, 13);
-            this.label15.TabIndex = 110;
-            this.label15.Text = "Date";
             // 
             // btnUnitReport
             // 
+            resources.ApplyResources(this.btnUnitReport, "btnUnitReport");
             this.btnUnitReport.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnUnitReport.Location = new System.Drawing.Point(253, 208);
             this.btnUnitReport.Name = "btnUnitReport";
-            this.btnUnitReport.Size = new System.Drawing.Size(27, 22);
-            this.btnUnitReport.TabIndex = 117;
             this.btnUnitReport.TabStop = false;
             this.btnUnitReport.UseVisualStyleBackColor = true;
             this.btnUnitReport.Click += new System.EventHandler(this.btnUnitReport_Click);
             // 
             // btnLocationTo
             // 
+            resources.ApplyResources(this.btnLocationTo, "btnLocationTo");
             this.btnLocationTo.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnLocationTo.Location = new System.Drawing.Point(255, 120);
             this.btnLocationTo.Name = "btnLocationTo";
-            this.btnLocationTo.Size = new System.Drawing.Size(27, 22);
-            this.btnLocationTo.TabIndex = 105;
             this.btnLocationTo.TabStop = false;
             this.btnLocationTo.UseVisualStyleBackColor = true;
             this.btnLocationTo.Click += new System.EventHandler(this.btnLocationTo_Click);
             // 
             // btnLocationFrom
             // 
+            resources.ApplyResources(this.btnLocationFrom, "btnLocationFrom");
             this.btnLocationFrom.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnLocationFrom.Location = new System.Drawing.Point(255, 94);
             this.btnLocationFrom.Name = "btnLocationFrom";
-            this.btnLocationFrom.Size = new System.Drawing.Size(27, 22);
-            this.btnLocationFrom.TabIndex = 104;
             this.btnLocationFrom.TabStop = false;
             this.btnLocationFrom.UseVisualStyleBackColor = true;
             this.btnLocationFrom.Click += new System.EventHandler(this.btnLocationFrom_Click);
             // 
             // btnItemCode1
             // 
+            resources.ApplyResources(this.btnItemCode1, "btnItemCode1");
             this.btnItemCode1.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnItemCode1.Location = new System.Drawing.Point(460, 150);
             this.btnItemCode1.Name = "btnItemCode1";
-            this.btnItemCode1.Size = new System.Drawing.Size(26, 22);
-            this.btnItemCode1.TabIndex = 98;
             this.btnItemCode1.TabStop = false;
             this.btnItemCode1.UseVisualStyleBackColor = true;
             this.btnItemCode1.Click += new System.EventHandler(this.btnItemCode1_Click);
             // 
             // btnItemCode
             // 
+            resources.ApplyResources(this.btnItemCode, "btnItemCode");
             this.btnItemCode.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnItemCode.Location = new System.Drawing.Point(255, 149);
             this.btnItemCode.Name = "btnItemCode";
-            this.btnItemCode.Size = new System.Drawing.Size(27, 22);
-            this.btnItemCode.TabIndex = 97;
             this.btnItemCode.TabStop = false;
             this.btnItemCode.UseVisualStyleBackColor = true;
             this.btnItemCode.Click += new System.EventHandler(this.btnItemCode_Click);
             // 
             // btnCusTo
             // 
+            resources.ApplyResources(this.btnCusTo, "btnCusTo");
             this.btnCusTo.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnCusTo.Location = new System.Drawing.Point(255, 66);
             this.btnCusTo.Name = "btnCusTo";
-            this.btnCusTo.Size = new System.Drawing.Size(27, 22);
-            this.btnCusTo.TabIndex = 88;
             this.btnCusTo.TabStop = false;
             this.btnCusTo.UseVisualStyleBackColor = true;
             this.btnCusTo.Click += new System.EventHandler(this.btnCusTo_Click);
             // 
             // btnCustFrom
             // 
+            resources.ApplyResources(this.btnCustFrom, "btnCustFrom");
             this.btnCustFrom.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnCustFrom.Location = new System.Drawing.Point(255, 38);
             this.btnCustFrom.Name = "btnCustFrom";
-            this.btnCustFrom.Size = new System.Drawing.Size(27, 22);
-            this.btnCustFrom.TabIndex = 84;
             this.btnCustFrom.TabStop = false;
             this.btnCustFrom.UseVisualStyleBackColor = true;
             this.btnCustFrom.Click += new System.EventHandler(this.btnCustFrom_Click);
             // 
             // btnFormat
             // 
+            resources.ApplyResources(this.btnFormat, "btnFormat");
             this.btnFormat.Image = global::POS.Properties.Resources.ico_alpha_Search_16x16;
-            this.btnFormat.Location = new System.Drawing.Point(255, 10);
             this.btnFormat.Name = "btnFormat";
-            this.btnFormat.Size = new System.Drawing.Size(27, 22);
-            this.btnFormat.TabIndex = 80;
             this.btnFormat.TabStop = false;
             this.btnFormat.UseVisualStyleBackColor = true;
             this.btnFormat.Click += new System.EventHandler(this.btnFormat_Click);
             // 
             // CUSTOMER_LISTING
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(491, 279);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.label12);
@@ -502,8 +383,6 @@
             this.Name = "CUSTOMER_LISTING";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Customer Listing";
             this.Load += new System.EventHandler(this.CUSTOMER_LISTING_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

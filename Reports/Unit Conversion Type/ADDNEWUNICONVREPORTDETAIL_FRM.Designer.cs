@@ -59,191 +59,123 @@
             // 
             // txtUnitofSale
             // 
-            this.txtUnitofSale.Location = new System.Drawing.Point(303, 41);
-            this.txtUnitofSale.MaxLength = 15;
+            resources.ApplyResources(this.txtUnitofSale, "txtUnitofSale");
             this.txtUnitofSale.Name = "txtUnitofSale";
-            this.txtUnitofSale.Size = new System.Drawing.Size(144, 20);
-            this.txtUnitofSale.TabIndex = 23;
             this.txtUnitofSale.Tag = "Unit of Sale";
             this.txtUnitofSale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitofSale_KeyDown);
             // 
             // Label6
             // 
-            this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(236, 45);
+            resources.ApplyResources(this.Label6, "Label6");
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(62, 13);
-            this.Label6.TabIndex = 22;
-            this.Label6.Text = "Unit of Sale";
             // 
             // txtUnitofStock
             // 
-            this.txtUnitofStock.Enabled = false;
-            this.txtUnitofStock.Location = new System.Drawing.Point(87, 41);
-            this.txtUnitofStock.MaxLength = 15;
+            resources.ApplyResources(this.txtUnitofStock, "txtUnitofStock");
             this.txtUnitofStock.Name = "txtUnitofStock";
-            this.txtUnitofStock.Size = new System.Drawing.Size(124, 20);
-            this.txtUnitofStock.TabIndex = 20;
             this.txtUnitofStock.Tag = "Unit of Stock";
             this.txtUnitofStock.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitofStock_KeyDown);
             // 
             // txtItemDescription
             // 
-            this.txtItemDescription.Enabled = false;
-            this.txtItemDescription.Location = new System.Drawing.Point(239, 10);
-            this.txtItemDescription.MaxLength = 50;
+            resources.ApplyResources(this.txtItemDescription, "txtItemDescription");
             this.txtItemDescription.Name = "txtItemDescription";
-            this.txtItemDescription.Size = new System.Drawing.Size(231, 20);
-            this.txtItemDescription.TabIndex = 18;
             this.txtItemDescription.Tag = "Item Description";
             // 
             // txtItemCode
             // 
-            this.txtItemCode.Location = new System.Drawing.Point(87, 10);
-            this.txtItemCode.MaxLength = 15;
+            resources.ApplyResources(this.txtItemCode, "txtItemCode");
             this.txtItemCode.Name = "txtItemCode";
-            this.txtItemCode.Size = new System.Drawing.Size(124, 20);
-            this.txtItemCode.TabIndex = 16;
             this.txtItemCode.Tag = "Item Code";
             this.txtItemCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtItemCode_KeyDown);
             // 
             // Label4
             // 
-            this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(6, 106);
+            resources.ApplyResources(this.Label4, "Label4");
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(78, 13);
-            this.Label4.TabIndex = 27;
-            this.Label4.Text = "Sec Comments";
             // 
             // txtComment2
             // 
-            this.txtComment2.Location = new System.Drawing.Point(87, 103);
-            this.txtComment2.MaxLength = 100;
+            resources.ApplyResources(this.txtComment2, "txtComment2");
             this.txtComment2.Name = "txtComment2";
-            this.txtComment2.Size = new System.Drawing.Size(383, 20);
-            this.txtComment2.TabIndex = 28;
             this.txtComment2.Tag = "Sec Comments";
             this.txtComment2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtComment2_KeyDown);
             // 
             // OK_Button
             // 
-            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OK_Button.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.OK_Button, "OK_Button");
             this.OK_Button.Name = "OK_Button";
-            this.OK_Button.Size = new System.Drawing.Size(67, 23);
-            this.OK_Button.TabIndex = 0;
-            this.OK_Button.Text = "OK";
             this.OK_Button.Click += new System.EventHandler(this.OK_Button_Click);
             this.OK_Button.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OK_Button_KeyDown);
             // 
             // txtComment1
             // 
-            this.txtComment1.Location = new System.Drawing.Point(87, 72);
-            this.txtComment1.MaxLength = 100;
+            resources.ApplyResources(this.txtComment1, "txtComment1");
             this.txtComment1.Name = "txtComment1";
-            this.txtComment1.Size = new System.Drawing.Size(383, 20);
-            this.txtComment1.TabIndex = 26;
             this.txtComment1.Tag = "Comments";
             this.txtComment1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtComment1_KeyDown);
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.Cancel_Button, "Cancel_Button");
             this.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel_Button.Location = new System.Drawing.Point(76, 3);
             this.Cancel_Button.Name = "Cancel_Button";
-            this.Cancel_Button.Size = new System.Drawing.Size(67, 23);
-            this.Cancel_Button.TabIndex = 1;
-            this.Cancel_Button.Text = "Cancel";
             this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(6, 75);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(56, 13);
-            this.Label3.TabIndex = 25;
-            this.Label3.Text = "Comments";
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(6, 45);
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(69, 13);
-            this.Label2.TabIndex = 19;
-            this.Label2.Text = "Unit of Stock";
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(6, 14);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(55, 13);
-            this.Label1.TabIndex = 15;
-            this.Label1.Text = "&Item Code";
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TableLayoutPanel1.ColumnCount = 2;
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            resources.ApplyResources(this.TableLayoutPanel1, "TableLayoutPanel1");
             this.TableLayoutPanel1.Controls.Add(this.OK_Button, 0, 0);
             this.TableLayoutPanel1.Controls.Add(this.Cancel_Button, 1, 0);
-            this.TableLayoutPanel1.Location = new System.Drawing.Point(319, 126);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
-            this.TableLayoutPanel1.RowCount = 1;
-            this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanel1.Size = new System.Drawing.Size(146, 29);
-            this.TableLayoutPanel1.TabIndex = 29;
             // 
             // btnUnitofSale
             // 
-            this.btnUnitofSale.ImageIndex = 0;
+            resources.ApplyResources(this.btnUnitofSale, "btnUnitofSale");
             this.btnUnitofSale.ImageList = this.ImageList1;
-            this.btnUnitofSale.Location = new System.Drawing.Point(447, 41);
             this.btnUnitofSale.Name = "btnUnitofSale";
-            this.btnUnitofSale.Size = new System.Drawing.Size(24, 20);
-            this.btnUnitofSale.TabIndex = 24;
             this.btnUnitofSale.TabStop = false;
             this.btnUnitofSale.UseVisualStyleBackColor = true;
             this.btnUnitofSale.Click += new System.EventHandler(this.btnUnitofSale_Click);
             // 
             // btnUnitofStock
             // 
-            this.btnUnitofStock.Enabled = false;
-            this.btnUnitofStock.ImageIndex = 0;
+            resources.ApplyResources(this.btnUnitofStock, "btnUnitofStock");
             this.btnUnitofStock.ImageList = this.ImageList1;
-            this.btnUnitofStock.Location = new System.Drawing.Point(212, 41);
             this.btnUnitofStock.Name = "btnUnitofStock";
-            this.btnUnitofStock.Size = new System.Drawing.Size(24, 20);
-            this.btnUnitofStock.TabIndex = 21;
             this.btnUnitofStock.TabStop = false;
             this.btnUnitofStock.UseVisualStyleBackColor = true;
-            this.btnUnitofStock.Visible = false;
             this.btnUnitofStock.Click += new System.EventHandler(this.btnUnitofStock_Click);
             // 
             // btnItemCode
             // 
-            this.btnItemCode.ImageIndex = 0;
+            resources.ApplyResources(this.btnItemCode, "btnItemCode");
             this.btnItemCode.ImageList = this.ImageList1;
-            this.btnItemCode.Location = new System.Drawing.Point(212, 10);
             this.btnItemCode.Name = "btnItemCode";
-            this.btnItemCode.Size = new System.Drawing.Size(24, 20);
-            this.btnItemCode.TabIndex = 17;
             this.btnItemCode.TabStop = false;
             this.btnItemCode.UseVisualStyleBackColor = true;
             this.btnItemCode.Click += new System.EventHandler(this.btnItemCode_Click);
             // 
             // ADDNEWUNICONVREPORTDETAIL_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.Cancel_Button;
-            this.ClientSize = new System.Drawing.Size(484, 157);
             this.Controls.Add(this.btnUnitofSale);
             this.Controls.Add(this.txtUnitofSale);
             this.Controls.Add(this.Label6);
@@ -265,8 +197,6 @@
             this.Name = "ADDNEWUNICONVREPORTDETAIL_FRM";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add New Unit Conversion";
             this.Load += new System.EventHandler(this.ADDNEWUNICONVREPORTDETAIL_FRM_Load);
             this.TableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

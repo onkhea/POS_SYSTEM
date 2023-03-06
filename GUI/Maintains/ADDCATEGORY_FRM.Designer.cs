@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ADDCATEGORY_FRM));
             this.Panel2 = new System.Windows.Forms.Panel();
             this.cboStatus = new System.Windows.Forms.ComboBox();
             this.Label1 = new System.Windows.Forms.Label();
@@ -42,98 +43,69 @@
             // 
             // Panel2
             // 
+            resources.ApplyResources(this.Panel2, "Panel2");
             this.Panel2.Controls.Add(this.cboStatus);
             this.Panel2.Controls.Add(this.Label1);
             this.Panel2.Controls.Add(this.txtDes);
             this.Panel2.Controls.Add(this.txtCode);
             this.Panel2.Controls.Add(this.Label2);
             this.Panel2.Controls.Add(this.Label3);
-            this.Panel2.Location = new System.Drawing.Point(4, 8);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(365, 93);
-            this.Panel2.TabIndex = 1;
             // 
             // cboStatus
             // 
+            resources.ApplyResources(this.cboStatus, "cboStatus");
             this.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboStatus.FormattingEnabled = true;
             this.cboStatus.Items.AddRange(new object[] {
-            "A - Active",
-            "D - Disable"});
-            this.cboStatus.Location = new System.Drawing.Point(92, 59);
+            resources.GetString("cboStatus.Items"),
+            resources.GetString("cboStatus.Items1")});
             this.cboStatus.Name = "cboStatus";
-            this.cboStatus.Size = new System.Drawing.Size(258, 21);
-            this.cboStatus.TabIndex = 5;
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(9, 10);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(77, 13);
-            this.Label1.TabIndex = 0;
-            this.Label1.Text = "&Category Code";
             // 
             // txtDes
             // 
-            this.txtDes.Location = new System.Drawing.Point(92, 33);
-            this.txtDes.MaxLength = 50;
+            resources.ApplyResources(this.txtDes, "txtDes");
             this.txtDes.Name = "txtDes";
-            this.txtDes.Size = new System.Drawing.Size(258, 20);
-            this.txtDes.TabIndex = 3;
             // 
             // txtCode
             // 
+            resources.ApplyResources(this.txtCode, "txtCode");
             this.txtCode.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtCode.Location = new System.Drawing.Point(92, 7);
-            this.txtCode.MaxLength = 15;
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(258, 20);
-            this.txtCode.TabIndex = 1;
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(9, 62);
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(37, 13);
-            this.Label2.TabIndex = 4;
-            this.Label2.Text = "&Status";
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(9, 36);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(60, 13);
-            this.Label3.TabIndex = 2;
-            this.Label3.Text = "&Description";
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(213, 107);
+            resources.ApplyResources(this.btnOk, "btnOk");
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 23);
-            this.btnOk.TabIndex = 2;
-            this.btnOk.Text = "&Ok";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(294, 107);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 3;
-            this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // ADDCATEGORY_FRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 139);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.Panel2);
@@ -142,8 +114,6 @@
             this.MinimizeBox = false;
             this.Name = "ADDCATEGORY_FRM";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ADD CATEGORY";
             this.Load += new System.EventHandler(this.ADDCATEGORY_FRM_Load);
             this.Panel2.ResumeLayout(false);
             this.Panel2.PerformLayout();

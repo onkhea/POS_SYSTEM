@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(REPORT_DESIGN));
-            this.xrDesignBarManager1 = new DevExpress.XtraReports.UserDesigner.XRDesignBarManager();
+            this.xrDesignBarManager1 = new DevExpress.XtraReports.UserDesigner.XRDesignBarManager(this.components);
             this.designBar1 = new DevExpress.XtraReports.UserDesigner.DesignBar();
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
             this.commandBarItem31 = new DevExpress.XtraReports.UserDesigner.CommandBarItem();
@@ -109,7 +110,7 @@
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            this.xrDesignDockManager1 = new DevExpress.XtraReports.UserDesigner.XRDesignDockManager();
+            this.xrDesignDockManager1 = new DevExpress.XtraReports.UserDesigner.XRDesignDockManager(this.components);
             this.panelContainer1 = new DevExpress.XtraBars.Docking.DockPanel();
             this.panelContainer2 = new DevExpress.XtraBars.Docking.DockPanel();
             this.reportExplorerDockPanel1 = new DevExpress.XtraReports.UserDesigner.ReportExplorerDockPanel();
@@ -234,6 +235,7 @@
             // 
             // designBar1
             // 
+            resources.ApplyResources(this.designBar1, "designBar1");
             this.designBar1.BarName = "Main Menu";
             this.designBar1.DockCol = 0;
             this.designBar1.DockRow = 0;
@@ -245,12 +247,14 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem6)});
             this.designBar1.OptionsBar.MultiLine = true;
             this.designBar1.OptionsBar.UseWholeRow = true;
-            this.designBar1.Text = "Main Menu";
             // 
             // barSubItem1
             // 
-            this.barSubItem1.Caption = "&File";
+            resources.ApplyResources(this.barSubItem1, "barSubItem1");
             this.barSubItem1.Id = 43;
+            this.barSubItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem1.ImageOptions.ImageIndex")));
+            this.barSubItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem1.ImageOptions.LargeImageIndex")));
+            this.barSubItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem1.ImageOptions.SvgImage")));
             this.barSubItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem31),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem39),
@@ -263,72 +267,87 @@
             // 
             // commandBarItem31
             // 
-            this.commandBarItem31.Caption = "&New";
+            resources.ApplyResources(this.commandBarItem31, "commandBarItem31");
             this.commandBarItem31.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.NewReport;
-            this.commandBarItem31.Hint = "Create a new blank report";
             this.commandBarItem31.Id = 34;
-            this.commandBarItem31.ImageIndex = 9;
+            this.commandBarItem31.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem31.ImageOptions.ImageIndex")));
+            this.commandBarItem31.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem31.ImageOptions.LargeImageIndex")));
+            this.commandBarItem31.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem31.ImageOptions.SvgImage")));
             this.commandBarItem31.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N));
             this.commandBarItem31.Name = "commandBarItem31";
             // 
             // commandBarItem39
             // 
-            this.commandBarItem39.Caption = "New with &Wizard...";
+            resources.ApplyResources(this.commandBarItem39, "commandBarItem39");
             this.commandBarItem39.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.NewReportWizard;
-            this.commandBarItem39.Hint = "Create a new report using the Wizard";
             this.commandBarItem39.Id = 60;
+            this.commandBarItem39.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem39.ImageOptions.ImageIndex")));
+            this.commandBarItem39.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem39.ImageOptions.LargeImageIndex")));
+            this.commandBarItem39.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem39.ImageOptions.SvgImage")));
             this.commandBarItem39.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W));
             this.commandBarItem39.Name = "commandBarItem39";
             // 
             // commandBarItem32
             // 
-            this.commandBarItem32.Caption = "&Open...";
+            resources.ApplyResources(this.commandBarItem32, "commandBarItem32");
             this.commandBarItem32.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.OpenFile;
-            this.commandBarItem32.Hint = "Open a report";
             this.commandBarItem32.Id = 35;
-            this.commandBarItem32.ImageIndex = 10;
+            this.commandBarItem32.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem32.ImageOptions.ImageIndex")));
+            this.commandBarItem32.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem32.ImageOptions.LargeImageIndex")));
+            this.commandBarItem32.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem32.ImageOptions.SvgImage")));
             this.commandBarItem32.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O));
             this.commandBarItem32.Name = "commandBarItem32";
             // 
             // commandBarItem33
             // 
-            this.commandBarItem33.Caption = "&Save";
+            resources.ApplyResources(this.commandBarItem33, "commandBarItem33");
             this.commandBarItem33.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SaveFile;
             this.commandBarItem33.Enabled = false;
-            this.commandBarItem33.Hint = "Save a report";
             this.commandBarItem33.Id = 36;
-            this.commandBarItem33.ImageIndex = 11;
+            this.commandBarItem33.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem33.ImageOptions.ImageIndex")));
+            this.commandBarItem33.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem33.ImageOptions.LargeImageIndex")));
+            this.commandBarItem33.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem33.ImageOptions.SvgImage")));
             this.commandBarItem33.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S));
             this.commandBarItem33.Name = "commandBarItem33";
             // 
             // commandBarItem40
             // 
-            this.commandBarItem40.Caption = "Save &As...";
+            resources.ApplyResources(this.commandBarItem40, "commandBarItem40");
             this.commandBarItem40.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SaveFileAs;
             this.commandBarItem40.Enabled = false;
-            this.commandBarItem40.Hint = "Save a report with a new name";
             this.commandBarItem40.Id = 61;
+            this.commandBarItem40.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem40.ImageOptions.ImageIndex")));
+            this.commandBarItem40.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem40.ImageOptions.LargeImageIndex")));
+            this.commandBarItem40.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem40.ImageOptions.SvgImage")));
             this.commandBarItem40.Name = "commandBarItem40";
             // 
             // commandBarItem41
             // 
-            this.commandBarItem41.Caption = "E&xit";
+            resources.ApplyResources(this.commandBarItem41, "commandBarItem41");
             this.commandBarItem41.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Exit;
-            this.commandBarItem41.Hint = "Close the designer";
             this.commandBarItem41.Id = 62;
+            this.commandBarItem41.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem41.ImageOptions.ImageIndex")));
+            this.commandBarItem41.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem41.ImageOptions.LargeImageIndex")));
+            this.commandBarItem41.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem41.ImageOptions.SvgImage")));
             this.commandBarItem41.Name = "commandBarItem41";
             // 
             // barButtonItem1
             // 
-            this.barButtonItem1.Caption = "Save Report To Database";
+            resources.ApplyResources(this.barButtonItem1, "barButtonItem1");
             this.barButtonItem1.Id = 68;
+            this.barButtonItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("barButtonItem1.ImageOptions.ImageIndex")));
+            this.barButtonItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barButtonItem1.ImageOptions.LargeImageIndex")));
+            this.barButtonItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem1.ImageOptions.SvgImage")));
             this.barButtonItem1.Name = "barButtonItem1";
             this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // barSubItem2
             // 
-            this.barSubItem2.Caption = "&Edit";
+            resources.ApplyResources(this.barSubItem2, "barSubItem2");
             this.barSubItem2.Id = 44;
+            this.barSubItem2.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem2.ImageOptions.ImageIndex")));
+            this.barSubItem2.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem2.ImageOptions.LargeImageIndex")));
+            this.barSubItem2.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem2.ImageOptions.SvgImage")));
             this.barSubItem2.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem37, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem38),
@@ -341,82 +360,94 @@
             // 
             // commandBarItem37
             // 
-            this.commandBarItem37.Caption = "&Undo";
+            resources.ApplyResources(this.commandBarItem37, "commandBarItem37");
             this.commandBarItem37.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Undo;
             this.commandBarItem37.Enabled = false;
-            this.commandBarItem37.Hint = "Undo the last operation";
             this.commandBarItem37.Id = 40;
-            this.commandBarItem37.ImageIndex = 15;
+            this.commandBarItem37.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem37.ImageOptions.ImageIndex")));
+            this.commandBarItem37.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem37.ImageOptions.LargeImageIndex")));
+            this.commandBarItem37.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem37.ImageOptions.SvgImage")));
             this.commandBarItem37.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z));
             this.commandBarItem37.Name = "commandBarItem37";
             // 
             // commandBarItem38
             // 
-            this.commandBarItem38.Caption = "&Redo";
+            resources.ApplyResources(this.commandBarItem38, "commandBarItem38");
             this.commandBarItem38.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Redo;
             this.commandBarItem38.Enabled = false;
-            this.commandBarItem38.Hint = "Redo the last operation";
             this.commandBarItem38.Id = 41;
-            this.commandBarItem38.ImageIndex = 16;
+            this.commandBarItem38.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem38.ImageOptions.ImageIndex")));
+            this.commandBarItem38.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem38.ImageOptions.LargeImageIndex")));
+            this.commandBarItem38.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem38.ImageOptions.SvgImage")));
             this.commandBarItem38.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y));
             this.commandBarItem38.Name = "commandBarItem38";
             // 
             // commandBarItem34
             // 
-            this.commandBarItem34.Caption = "Cu&t";
+            resources.ApplyResources(this.commandBarItem34, "commandBarItem34");
             this.commandBarItem34.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Cut;
             this.commandBarItem34.Enabled = false;
-            this.commandBarItem34.Hint = "Delete the control and copy it to the clipboard";
             this.commandBarItem34.Id = 37;
-            this.commandBarItem34.ImageIndex = 12;
+            this.commandBarItem34.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem34.ImageOptions.ImageIndex")));
+            this.commandBarItem34.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem34.ImageOptions.LargeImageIndex")));
+            this.commandBarItem34.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem34.ImageOptions.SvgImage")));
             this.commandBarItem34.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X));
             this.commandBarItem34.Name = "commandBarItem34";
             // 
             // commandBarItem35
             // 
-            this.commandBarItem35.Caption = "&Copy";
+            resources.ApplyResources(this.commandBarItem35, "commandBarItem35");
             this.commandBarItem35.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Copy;
             this.commandBarItem35.Enabled = false;
-            this.commandBarItem35.Hint = "Copy the control to the clipboard";
             this.commandBarItem35.Id = 38;
-            this.commandBarItem35.ImageIndex = 13;
+            this.commandBarItem35.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem35.ImageOptions.ImageIndex")));
+            this.commandBarItem35.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem35.ImageOptions.LargeImageIndex")));
+            this.commandBarItem35.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem35.ImageOptions.SvgImage")));
             this.commandBarItem35.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C));
             this.commandBarItem35.Name = "commandBarItem35";
             // 
             // commandBarItem36
             // 
-            this.commandBarItem36.Caption = "&Paste";
+            resources.ApplyResources(this.commandBarItem36, "commandBarItem36");
             this.commandBarItem36.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Paste;
             this.commandBarItem36.Enabled = false;
-            this.commandBarItem36.Hint = "Add the control from the clipboard";
             this.commandBarItem36.Id = 39;
-            this.commandBarItem36.ImageIndex = 14;
+            this.commandBarItem36.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem36.ImageOptions.ImageIndex")));
+            this.commandBarItem36.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem36.ImageOptions.LargeImageIndex")));
+            this.commandBarItem36.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem36.ImageOptions.SvgImage")));
             this.commandBarItem36.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V));
             this.commandBarItem36.Name = "commandBarItem36";
             // 
             // commandBarItem42
             // 
-            this.commandBarItem42.Caption = "&Delete";
+            resources.ApplyResources(this.commandBarItem42, "commandBarItem42");
             this.commandBarItem42.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Delete;
             this.commandBarItem42.Enabled = false;
-            this.commandBarItem42.Hint = "Delete the control";
             this.commandBarItem42.Id = 63;
+            this.commandBarItem42.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem42.ImageOptions.ImageIndex")));
+            this.commandBarItem42.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem42.ImageOptions.LargeImageIndex")));
+            this.commandBarItem42.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem42.ImageOptions.SvgImage")));
             this.commandBarItem42.Name = "commandBarItem42";
             // 
             // commandBarItem43
             // 
-            this.commandBarItem43.Caption = "Select &All";
+            resources.ApplyResources(this.commandBarItem43, "commandBarItem43");
             this.commandBarItem43.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SelectAll;
             this.commandBarItem43.Enabled = false;
-            this.commandBarItem43.Hint = "Select all the controls in the document";
             this.commandBarItem43.Id = 64;
+            this.commandBarItem43.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem43.ImageOptions.ImageIndex")));
+            this.commandBarItem43.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem43.ImageOptions.LargeImageIndex")));
+            this.commandBarItem43.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem43.ImageOptions.SvgImage")));
             this.commandBarItem43.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A));
             this.commandBarItem43.Name = "commandBarItem43";
             // 
             // barSubItem3
             // 
-            this.barSubItem3.Caption = "&View";
+            resources.ApplyResources(this.barSubItem3, "barSubItem3");
             this.barSubItem3.Id = 45;
+            this.barSubItem3.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem3.ImageOptions.ImageIndex")));
+            this.barSubItem3.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem3.ImageOptions.LargeImageIndex")));
+            this.barSubItem3.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem3.ImageOptions.SvgImage")));
             this.barSubItem3.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.barReportTabButtonsListItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem4, true),
@@ -425,36 +456,52 @@
             // 
             // barReportTabButtonsListItem1
             // 
-            this.barReportTabButtonsListItem1.Caption = "Tab Buttons";
+            resources.ApplyResources(this.barReportTabButtonsListItem1, "barReportTabButtonsListItem1");
             this.barReportTabButtonsListItem1.Id = 46;
+            this.barReportTabButtonsListItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("barReportTabButtonsListItem1.ImageOptions.ImageIndex")));
+            this.barReportTabButtonsListItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barReportTabButtonsListItem1.ImageOptions.LargeImageIndex")));
+            this.barReportTabButtonsListItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barReportTabButtonsListItem1.ImageOptions.SvgImage")));
             this.barReportTabButtonsListItem1.Name = "barReportTabButtonsListItem1";
             // 
             // barSubItem4
             // 
-            this.barSubItem4.Caption = "&Toolbars";
+            resources.ApplyResources(this.barSubItem4, "barSubItem4");
             this.barSubItem4.Id = 47;
+            this.barSubItem4.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem4.ImageOptions.ImageIndex")));
+            this.barSubItem4.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem4.ImageOptions.LargeImageIndex")));
+            this.barSubItem4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem4.ImageOptions.SvgImage")));
             this.barSubItem4.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.xrBarToolbarsListItem1)});
             this.barSubItem4.Name = "barSubItem4";
             // 
             // xrBarToolbarsListItem1
             // 
-            this.xrBarToolbarsListItem1.Caption = "&Toolbars";
+            resources.ApplyResources(this.xrBarToolbarsListItem1, "xrBarToolbarsListItem1");
             this.xrBarToolbarsListItem1.Id = 48;
+            this.xrBarToolbarsListItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("xrBarToolbarsListItem1.ImageOptions.ImageIndex")));
+            this.xrBarToolbarsListItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("xrBarToolbarsListItem1.ImageOptions.LargeImageIndex")));
+            this.xrBarToolbarsListItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("xrBarToolbarsListItem1.ImageOptions.SvgImage")));
             this.xrBarToolbarsListItem1.Name = "xrBarToolbarsListItem1";
             // 
             // barSubItem5
             // 
-            this.barSubItem5.Caption = "&Windows";
+            resources.ApplyResources(this.barSubItem5, "barSubItem5");
             this.barSubItem5.Id = 49;
+            this.barSubItem5.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem5.ImageOptions.ImageIndex")));
+            this.barSubItem5.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem5.ImageOptions.LargeImageIndex")));
+            this.barSubItem5.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem5.ImageOptions.SvgImage")));
             this.barSubItem5.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.barDockPanelsListItem1)});
             this.barSubItem5.Name = "barSubItem5";
             // 
             // barDockPanelsListItem1
             // 
-            this.barDockPanelsListItem1.Caption = "&Windows";
+            resources.ApplyResources(this.barDockPanelsListItem1, "barDockPanelsListItem1");
+            this.barDockPanelsListItem1.DockManager = null;
             this.barDockPanelsListItem1.Id = 50;
+            this.barDockPanelsListItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("barDockPanelsListItem1.ImageOptions.ImageIndex")));
+            this.barDockPanelsListItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barDockPanelsListItem1.ImageOptions.LargeImageIndex")));
+            this.barDockPanelsListItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barDockPanelsListItem1.ImageOptions.SvgImage")));
             this.barDockPanelsListItem1.Name = "barDockPanelsListItem1";
             this.barDockPanelsListItem1.ShowCustomizationItem = false;
             this.barDockPanelsListItem1.ShowDockPanels = true;
@@ -462,8 +509,11 @@
             // 
             // barSubItem6
             // 
-            this.barSubItem6.Caption = "Fo&rmat";
+            resources.ApplyResources(this.barSubItem6, "barSubItem6");
             this.barSubItem6.Id = 51;
+            this.barSubItem6.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem6.ImageOptions.ImageIndex")));
+            this.barSubItem6.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem6.ImageOptions.LargeImageIndex")));
+            this.barSubItem6.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem6.ImageOptions.SvgImage")));
             this.barSubItem6.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandColorBarItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandColorBarItem2),
@@ -479,30 +529,39 @@
             // 
             // commandColorBarItem1
             // 
+            resources.ApplyResources(this.commandColorBarItem1, "commandColorBarItem1");
             this.commandColorBarItem1.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
-            this.commandColorBarItem1.Caption = "For&eground Color";
+            this.commandColorBarItem1.CloseSubMenuOnClickMode = DevExpress.Utils.DefaultBoolean.False;
             this.commandColorBarItem1.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.ForeColor;
             this.commandColorBarItem1.Enabled = false;
-            this.commandColorBarItem1.Glyph = ((System.Drawing.Image)(resources.GetObject("commandColorBarItem1.Glyph")));
-            this.commandColorBarItem1.Hint = "Set the foreground color of the control";
             this.commandColorBarItem1.Id = 5;
+            this.commandColorBarItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("commandColorBarItem1.ImageOptions.Image")));
+            this.commandColorBarItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandColorBarItem1.ImageOptions.ImageIndex")));
+            this.commandColorBarItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandColorBarItem1.ImageOptions.LargeImageIndex")));
+            this.commandColorBarItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandColorBarItem1.ImageOptions.SvgImage")));
             this.commandColorBarItem1.Name = "commandColorBarItem1";
             // 
             // commandColorBarItem2
             // 
+            resources.ApplyResources(this.commandColorBarItem2, "commandColorBarItem2");
             this.commandColorBarItem2.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
-            this.commandColorBarItem2.Caption = "Bac&kground Color";
+            this.commandColorBarItem2.CloseSubMenuOnClickMode = DevExpress.Utils.DefaultBoolean.False;
             this.commandColorBarItem2.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.BackColor;
             this.commandColorBarItem2.Enabled = false;
-            this.commandColorBarItem2.Glyph = ((System.Drawing.Image)(resources.GetObject("commandColorBarItem2.Glyph")));
-            this.commandColorBarItem2.Hint = "Set the background color of the control";
             this.commandColorBarItem2.Id = 6;
+            this.commandColorBarItem2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("commandColorBarItem2.ImageOptions.Image")));
+            this.commandColorBarItem2.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandColorBarItem2.ImageOptions.ImageIndex")));
+            this.commandColorBarItem2.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandColorBarItem2.ImageOptions.LargeImageIndex")));
+            this.commandColorBarItem2.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandColorBarItem2.ImageOptions.SvgImage")));
             this.commandColorBarItem2.Name = "commandColorBarItem2";
             // 
             // barSubItem7
             // 
-            this.barSubItem7.Caption = "&Font";
+            resources.ApplyResources(this.barSubItem7, "barSubItem7");
             this.barSubItem7.Id = 52;
+            this.barSubItem7.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem7.ImageOptions.ImageIndex")));
+            this.barSubItem7.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem7.ImageOptions.LargeImageIndex")));
+            this.barSubItem7.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem7.ImageOptions.SvgImage")));
             this.barSubItem7.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem1, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem2),
@@ -511,41 +570,47 @@
             // 
             // commandBarItem1
             // 
-            this.commandBarItem1.Caption = "&Bold";
+            resources.ApplyResources(this.commandBarItem1, "commandBarItem1");
             this.commandBarItem1.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.FontBold;
             this.commandBarItem1.Enabled = false;
-            this.commandBarItem1.Hint = "Make the font bold";
             this.commandBarItem1.Id = 2;
-            this.commandBarItem1.ImageIndex = 0;
+            this.commandBarItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem1.ImageOptions.ImageIndex")));
+            this.commandBarItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem1.ImageOptions.LargeImageIndex")));
+            this.commandBarItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem1.ImageOptions.SvgImage")));
             this.commandBarItem1.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B));
             this.commandBarItem1.Name = "commandBarItem1";
             // 
             // commandBarItem2
             // 
-            this.commandBarItem2.Caption = "&Italic";
+            resources.ApplyResources(this.commandBarItem2, "commandBarItem2");
             this.commandBarItem2.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.FontItalic;
             this.commandBarItem2.Enabled = false;
-            this.commandBarItem2.Hint = "Make the font italic";
             this.commandBarItem2.Id = 3;
-            this.commandBarItem2.ImageIndex = 1;
+            this.commandBarItem2.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem2.ImageOptions.ImageIndex")));
+            this.commandBarItem2.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem2.ImageOptions.LargeImageIndex")));
+            this.commandBarItem2.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem2.ImageOptions.SvgImage")));
             this.commandBarItem2.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I));
             this.commandBarItem2.Name = "commandBarItem2";
             // 
             // commandBarItem3
             // 
-            this.commandBarItem3.Caption = "&Underline";
+            resources.ApplyResources(this.commandBarItem3, "commandBarItem3");
             this.commandBarItem3.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.FontUnderline;
             this.commandBarItem3.Enabled = false;
-            this.commandBarItem3.Hint = "Underline the font";
             this.commandBarItem3.Id = 4;
-            this.commandBarItem3.ImageIndex = 2;
+            this.commandBarItem3.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem3.ImageOptions.ImageIndex")));
+            this.commandBarItem3.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem3.ImageOptions.LargeImageIndex")));
+            this.commandBarItem3.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem3.ImageOptions.SvgImage")));
             this.commandBarItem3.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U));
             this.commandBarItem3.Name = "commandBarItem3";
             // 
             // barSubItem8
             // 
-            this.barSubItem8.Caption = "&Justify";
+            resources.ApplyResources(this.barSubItem8, "barSubItem8");
             this.barSubItem8.Id = 53;
+            this.barSubItem8.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem8.ImageOptions.ImageIndex")));
+            this.barSubItem8.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem8.ImageOptions.LargeImageIndex")));
+            this.barSubItem8.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem8.ImageOptions.SvgImage")));
             this.barSubItem8.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem4, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem5),
@@ -555,48 +620,55 @@
             // 
             // commandBarItem4
             // 
-            this.commandBarItem4.Caption = "&Left";
+            resources.ApplyResources(this.commandBarItem4, "commandBarItem4");
             this.commandBarItem4.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.JustifyLeft;
             this.commandBarItem4.Enabled = false;
-            this.commandBarItem4.Hint = "Align the control\'s text to the left";
             this.commandBarItem4.Id = 7;
-            this.commandBarItem4.ImageIndex = 5;
+            this.commandBarItem4.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem4.ImageOptions.ImageIndex")));
+            this.commandBarItem4.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem4.ImageOptions.LargeImageIndex")));
+            this.commandBarItem4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem4.ImageOptions.SvgImage")));
             this.commandBarItem4.Name = "commandBarItem4";
             // 
             // commandBarItem5
             // 
-            this.commandBarItem5.Caption = "&Center";
+            resources.ApplyResources(this.commandBarItem5, "commandBarItem5");
             this.commandBarItem5.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.JustifyCenter;
             this.commandBarItem5.Enabled = false;
-            this.commandBarItem5.Hint = "Align the control\'s text to the center";
             this.commandBarItem5.Id = 8;
-            this.commandBarItem5.ImageIndex = 6;
+            this.commandBarItem5.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem5.ImageOptions.ImageIndex")));
+            this.commandBarItem5.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem5.ImageOptions.LargeImageIndex")));
+            this.commandBarItem5.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem5.ImageOptions.SvgImage")));
             this.commandBarItem5.Name = "commandBarItem5";
             // 
             // commandBarItem6
             // 
-            this.commandBarItem6.Caption = "&Rights";
+            resources.ApplyResources(this.commandBarItem6, "commandBarItem6");
             this.commandBarItem6.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.JustifyRight;
             this.commandBarItem6.Enabled = false;
-            this.commandBarItem6.Hint = "Align the control\'s text to the right";
             this.commandBarItem6.Id = 9;
-            this.commandBarItem6.ImageIndex = 7;
+            this.commandBarItem6.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem6.ImageOptions.ImageIndex")));
+            this.commandBarItem6.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem6.ImageOptions.LargeImageIndex")));
+            this.commandBarItem6.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem6.ImageOptions.SvgImage")));
             this.commandBarItem6.Name = "commandBarItem6";
             // 
             // commandBarItem7
             // 
-            this.commandBarItem7.Caption = "&Justify";
+            resources.ApplyResources(this.commandBarItem7, "commandBarItem7");
             this.commandBarItem7.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.JustifyJustify;
             this.commandBarItem7.Enabled = false;
-            this.commandBarItem7.Hint = "Justify the control\'s text";
             this.commandBarItem7.Id = 10;
-            this.commandBarItem7.ImageIndex = 8;
+            this.commandBarItem7.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem7.ImageOptions.ImageIndex")));
+            this.commandBarItem7.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem7.ImageOptions.LargeImageIndex")));
+            this.commandBarItem7.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem7.ImageOptions.SvgImage")));
             this.commandBarItem7.Name = "commandBarItem7";
             // 
             // barSubItem9
             // 
-            this.barSubItem9.Caption = "&Align";
+            resources.ApplyResources(this.barSubItem9, "barSubItem9");
             this.barSubItem9.Id = 54;
+            this.barSubItem9.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem9.ImageOptions.ImageIndex")));
+            this.barSubItem9.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem9.ImageOptions.LargeImageIndex")));
+            this.barSubItem9.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem9.ImageOptions.SvgImage")));
             this.barSubItem9.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem9, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem10),
@@ -609,78 +681,88 @@
             // 
             // commandBarItem9
             // 
-            this.commandBarItem9.Caption = "&Lefts";
+            resources.ApplyResources(this.commandBarItem9, "commandBarItem9");
             this.commandBarItem9.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignLeft;
             this.commandBarItem9.Enabled = false;
-            this.commandBarItem9.Hint = "Left align the selected controls";
             this.commandBarItem9.Id = 12;
-            this.commandBarItem9.ImageIndex = 18;
+            this.commandBarItem9.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem9.ImageOptions.ImageIndex")));
+            this.commandBarItem9.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem9.ImageOptions.LargeImageIndex")));
+            this.commandBarItem9.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem9.ImageOptions.SvgImage")));
             this.commandBarItem9.Name = "commandBarItem9";
             // 
             // commandBarItem10
             // 
-            this.commandBarItem10.Caption = "&Centers";
+            resources.ApplyResources(this.commandBarItem10, "commandBarItem10");
             this.commandBarItem10.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignVerticalCenters;
             this.commandBarItem10.Enabled = false;
-            this.commandBarItem10.Hint = "Align the centers of the selected controls vertically";
             this.commandBarItem10.Id = 13;
-            this.commandBarItem10.ImageIndex = 19;
+            this.commandBarItem10.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem10.ImageOptions.ImageIndex")));
+            this.commandBarItem10.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem10.ImageOptions.LargeImageIndex")));
+            this.commandBarItem10.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem10.ImageOptions.SvgImage")));
             this.commandBarItem10.Name = "commandBarItem10";
             // 
             // commandBarItem11
             // 
-            this.commandBarItem11.Caption = "&Rights";
+            resources.ApplyResources(this.commandBarItem11, "commandBarItem11");
             this.commandBarItem11.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignRight;
             this.commandBarItem11.Enabled = false;
-            this.commandBarItem11.Hint = "Right align the selected controls";
             this.commandBarItem11.Id = 14;
-            this.commandBarItem11.ImageIndex = 20;
+            this.commandBarItem11.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem11.ImageOptions.ImageIndex")));
+            this.commandBarItem11.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem11.ImageOptions.LargeImageIndex")));
+            this.commandBarItem11.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem11.ImageOptions.SvgImage")));
             this.commandBarItem11.Name = "commandBarItem11";
             // 
             // commandBarItem12
             // 
-            this.commandBarItem12.Caption = "&Tops";
+            resources.ApplyResources(this.commandBarItem12, "commandBarItem12");
             this.commandBarItem12.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignTop;
             this.commandBarItem12.Enabled = false;
-            this.commandBarItem12.Hint = "Align the tops of the selected controls";
             this.commandBarItem12.Id = 15;
-            this.commandBarItem12.ImageIndex = 21;
+            this.commandBarItem12.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem12.ImageOptions.ImageIndex")));
+            this.commandBarItem12.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem12.ImageOptions.LargeImageIndex")));
+            this.commandBarItem12.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem12.ImageOptions.SvgImage")));
             this.commandBarItem12.Name = "commandBarItem12";
             // 
             // commandBarItem13
             // 
-            this.commandBarItem13.Caption = "&Middles";
+            resources.ApplyResources(this.commandBarItem13, "commandBarItem13");
             this.commandBarItem13.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignHorizontalCenters;
             this.commandBarItem13.Enabled = false;
-            this.commandBarItem13.Hint = "Align the centers of the selected controls horizontally";
             this.commandBarItem13.Id = 16;
-            this.commandBarItem13.ImageIndex = 22;
+            this.commandBarItem13.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem13.ImageOptions.ImageIndex")));
+            this.commandBarItem13.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem13.ImageOptions.LargeImageIndex")));
+            this.commandBarItem13.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem13.ImageOptions.SvgImage")));
             this.commandBarItem13.Name = "commandBarItem13";
             // 
             // commandBarItem14
             // 
-            this.commandBarItem14.Caption = "&Bottoms";
+            resources.ApplyResources(this.commandBarItem14, "commandBarItem14");
             this.commandBarItem14.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignBottom;
             this.commandBarItem14.Enabled = false;
-            this.commandBarItem14.Hint = "Align the bottoms of the selected controls";
             this.commandBarItem14.Id = 17;
-            this.commandBarItem14.ImageIndex = 23;
+            this.commandBarItem14.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem14.ImageOptions.ImageIndex")));
+            this.commandBarItem14.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem14.ImageOptions.LargeImageIndex")));
+            this.commandBarItem14.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem14.ImageOptions.SvgImage")));
             this.commandBarItem14.Name = "commandBarItem14";
             // 
             // commandBarItem8
             // 
-            this.commandBarItem8.Caption = "to &Grid";
+            resources.ApplyResources(this.commandBarItem8, "commandBarItem8");
             this.commandBarItem8.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignToGrid;
             this.commandBarItem8.Enabled = false;
-            this.commandBarItem8.Hint = "Align the positions of the selected controls to the grid";
             this.commandBarItem8.Id = 11;
-            this.commandBarItem8.ImageIndex = 17;
+            this.commandBarItem8.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem8.ImageOptions.ImageIndex")));
+            this.commandBarItem8.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem8.ImageOptions.LargeImageIndex")));
+            this.commandBarItem8.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem8.ImageOptions.SvgImage")));
             this.commandBarItem8.Name = "commandBarItem8";
             // 
             // barSubItem10
             // 
-            this.barSubItem10.Caption = "&Make Same Size";
+            resources.ApplyResources(this.barSubItem10, "barSubItem10");
             this.barSubItem10.Id = 55;
+            this.barSubItem10.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem10.ImageOptions.ImageIndex")));
+            this.barSubItem10.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem10.ImageOptions.LargeImageIndex")));
+            this.barSubItem10.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem10.ImageOptions.SvgImage")));
             this.barSubItem10.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem15, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem16),
@@ -690,48 +772,55 @@
             // 
             // commandBarItem15
             // 
-            this.commandBarItem15.Caption = "&Width";
+            resources.ApplyResources(this.commandBarItem15, "commandBarItem15");
             this.commandBarItem15.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SizeToControlWidth;
             this.commandBarItem15.Enabled = false;
-            this.commandBarItem15.Hint = "Make the selected controls have the same width";
             this.commandBarItem15.Id = 18;
-            this.commandBarItem15.ImageIndex = 24;
+            this.commandBarItem15.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem15.ImageOptions.ImageIndex")));
+            this.commandBarItem15.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem15.ImageOptions.LargeImageIndex")));
+            this.commandBarItem15.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem15.ImageOptions.SvgImage")));
             this.commandBarItem15.Name = "commandBarItem15";
             // 
             // commandBarItem16
             // 
-            this.commandBarItem16.Caption = "Size to Gri&d";
+            resources.ApplyResources(this.commandBarItem16, "commandBarItem16");
             this.commandBarItem16.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SizeToGrid;
             this.commandBarItem16.Enabled = false;
-            this.commandBarItem16.Hint = "Size the selected controls to the grid";
             this.commandBarItem16.Id = 19;
-            this.commandBarItem16.ImageIndex = 25;
+            this.commandBarItem16.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem16.ImageOptions.ImageIndex")));
+            this.commandBarItem16.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem16.ImageOptions.LargeImageIndex")));
+            this.commandBarItem16.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem16.ImageOptions.SvgImage")));
             this.commandBarItem16.Name = "commandBarItem16";
             // 
             // commandBarItem17
             // 
-            this.commandBarItem17.Caption = "&Height";
+            resources.ApplyResources(this.commandBarItem17, "commandBarItem17");
             this.commandBarItem17.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SizeToControlHeight;
             this.commandBarItem17.Enabled = false;
-            this.commandBarItem17.Hint = "Make the selected controls have the same height";
             this.commandBarItem17.Id = 20;
-            this.commandBarItem17.ImageIndex = 26;
+            this.commandBarItem17.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem17.ImageOptions.ImageIndex")));
+            this.commandBarItem17.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem17.ImageOptions.LargeImageIndex")));
+            this.commandBarItem17.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem17.ImageOptions.SvgImage")));
             this.commandBarItem17.Name = "commandBarItem17";
             // 
             // commandBarItem18
             // 
-            this.commandBarItem18.Caption = "&Both";
+            resources.ApplyResources(this.commandBarItem18, "commandBarItem18");
             this.commandBarItem18.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SizeToControl;
             this.commandBarItem18.Enabled = false;
-            this.commandBarItem18.Hint = "Make the selected controls the same size";
             this.commandBarItem18.Id = 21;
-            this.commandBarItem18.ImageIndex = 27;
+            this.commandBarItem18.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem18.ImageOptions.ImageIndex")));
+            this.commandBarItem18.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem18.ImageOptions.LargeImageIndex")));
+            this.commandBarItem18.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem18.ImageOptions.SvgImage")));
             this.commandBarItem18.Name = "commandBarItem18";
             // 
             // barSubItem11
             // 
-            this.barSubItem11.Caption = "&Horizontal Spacing";
+            resources.ApplyResources(this.barSubItem11, "barSubItem11");
             this.barSubItem11.Id = 56;
+            this.barSubItem11.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem11.ImageOptions.ImageIndex")));
+            this.barSubItem11.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem11.ImageOptions.LargeImageIndex")));
+            this.barSubItem11.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem11.ImageOptions.SvgImage")));
             this.barSubItem11.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem19, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem20),
@@ -741,48 +830,55 @@
             // 
             // commandBarItem19
             // 
-            this.commandBarItem19.Caption = "Make &Equal";
+            resources.ApplyResources(this.commandBarItem19, "commandBarItem19");
             this.commandBarItem19.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.HorizSpaceMakeEqual;
             this.commandBarItem19.Enabled = false;
-            this.commandBarItem19.Hint = "Make the spacing between the selected controls equal";
             this.commandBarItem19.Id = 22;
-            this.commandBarItem19.ImageIndex = 28;
+            this.commandBarItem19.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem19.ImageOptions.ImageIndex")));
+            this.commandBarItem19.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem19.ImageOptions.LargeImageIndex")));
+            this.commandBarItem19.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem19.ImageOptions.SvgImage")));
             this.commandBarItem19.Name = "commandBarItem19";
             // 
             // commandBarItem20
             // 
-            this.commandBarItem20.Caption = "&Increase";
+            resources.ApplyResources(this.commandBarItem20, "commandBarItem20");
             this.commandBarItem20.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.HorizSpaceIncrease;
             this.commandBarItem20.Enabled = false;
-            this.commandBarItem20.Hint = "Increase the spacing between the selected controls";
             this.commandBarItem20.Id = 23;
-            this.commandBarItem20.ImageIndex = 29;
+            this.commandBarItem20.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem20.ImageOptions.ImageIndex")));
+            this.commandBarItem20.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem20.ImageOptions.LargeImageIndex")));
+            this.commandBarItem20.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem20.ImageOptions.SvgImage")));
             this.commandBarItem20.Name = "commandBarItem20";
             // 
             // commandBarItem21
             // 
-            this.commandBarItem21.Caption = "&Decrease";
+            resources.ApplyResources(this.commandBarItem21, "commandBarItem21");
             this.commandBarItem21.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.HorizSpaceDecrease;
             this.commandBarItem21.Enabled = false;
-            this.commandBarItem21.Hint = "Decrease the spacing between the selected controls";
             this.commandBarItem21.Id = 24;
-            this.commandBarItem21.ImageIndex = 30;
+            this.commandBarItem21.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem21.ImageOptions.ImageIndex")));
+            this.commandBarItem21.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem21.ImageOptions.LargeImageIndex")));
+            this.commandBarItem21.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem21.ImageOptions.SvgImage")));
             this.commandBarItem21.Name = "commandBarItem21";
             // 
             // commandBarItem22
             // 
-            this.commandBarItem22.Caption = "&Remove";
+            resources.ApplyResources(this.commandBarItem22, "commandBarItem22");
             this.commandBarItem22.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.HorizSpaceConcatenate;
             this.commandBarItem22.Enabled = false;
-            this.commandBarItem22.Hint = "Remove the spacing between the selected controls";
             this.commandBarItem22.Id = 25;
-            this.commandBarItem22.ImageIndex = 31;
+            this.commandBarItem22.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem22.ImageOptions.ImageIndex")));
+            this.commandBarItem22.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem22.ImageOptions.LargeImageIndex")));
+            this.commandBarItem22.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem22.ImageOptions.SvgImage")));
             this.commandBarItem22.Name = "commandBarItem22";
             // 
             // barSubItem12
             // 
-            this.barSubItem12.Caption = "&Vertical Spacing";
+            resources.ApplyResources(this.barSubItem12, "barSubItem12");
             this.barSubItem12.Id = 57;
+            this.barSubItem12.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem12.ImageOptions.ImageIndex")));
+            this.barSubItem12.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem12.ImageOptions.LargeImageIndex")));
+            this.barSubItem12.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem12.ImageOptions.SvgImage")));
             this.barSubItem12.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem23, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem24),
@@ -792,48 +888,55 @@
             // 
             // commandBarItem23
             // 
-            this.commandBarItem23.Caption = "Make &Equal";
+            resources.ApplyResources(this.commandBarItem23, "commandBarItem23");
             this.commandBarItem23.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.VertSpaceMakeEqual;
             this.commandBarItem23.Enabled = false;
-            this.commandBarItem23.Hint = "Make the spacing between the selected controls equal";
             this.commandBarItem23.Id = 26;
-            this.commandBarItem23.ImageIndex = 32;
+            this.commandBarItem23.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem23.ImageOptions.ImageIndex")));
+            this.commandBarItem23.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem23.ImageOptions.LargeImageIndex")));
+            this.commandBarItem23.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem23.ImageOptions.SvgImage")));
             this.commandBarItem23.Name = "commandBarItem23";
             // 
             // commandBarItem24
             // 
-            this.commandBarItem24.Caption = "&Increase";
+            resources.ApplyResources(this.commandBarItem24, "commandBarItem24");
             this.commandBarItem24.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.VertSpaceIncrease;
             this.commandBarItem24.Enabled = false;
-            this.commandBarItem24.Hint = "Increase the spacing between the selected controls";
             this.commandBarItem24.Id = 27;
-            this.commandBarItem24.ImageIndex = 33;
+            this.commandBarItem24.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem24.ImageOptions.ImageIndex")));
+            this.commandBarItem24.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem24.ImageOptions.LargeImageIndex")));
+            this.commandBarItem24.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem24.ImageOptions.SvgImage")));
             this.commandBarItem24.Name = "commandBarItem24";
             // 
             // commandBarItem25
             // 
-            this.commandBarItem25.Caption = "&Decrease";
+            resources.ApplyResources(this.commandBarItem25, "commandBarItem25");
             this.commandBarItem25.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.VertSpaceDecrease;
             this.commandBarItem25.Enabled = false;
-            this.commandBarItem25.Hint = "Decrease the spacing between the selected controls";
             this.commandBarItem25.Id = 28;
-            this.commandBarItem25.ImageIndex = 34;
+            this.commandBarItem25.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem25.ImageOptions.ImageIndex")));
+            this.commandBarItem25.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem25.ImageOptions.LargeImageIndex")));
+            this.commandBarItem25.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem25.ImageOptions.SvgImage")));
             this.commandBarItem25.Name = "commandBarItem25";
             // 
             // commandBarItem26
             // 
-            this.commandBarItem26.Caption = "&Remove";
+            resources.ApplyResources(this.commandBarItem26, "commandBarItem26");
             this.commandBarItem26.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.VertSpaceConcatenate;
             this.commandBarItem26.Enabled = false;
-            this.commandBarItem26.Hint = "Remove the spacing between the selected controls";
             this.commandBarItem26.Id = 29;
-            this.commandBarItem26.ImageIndex = 35;
+            this.commandBarItem26.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem26.ImageOptions.ImageIndex")));
+            this.commandBarItem26.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem26.ImageOptions.LargeImageIndex")));
+            this.commandBarItem26.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem26.ImageOptions.SvgImage")));
             this.commandBarItem26.Name = "commandBarItem26";
             // 
             // barSubItem13
             // 
-            this.barSubItem13.Caption = "&Center in Form";
+            resources.ApplyResources(this.barSubItem13, "barSubItem13");
             this.barSubItem13.Id = 58;
+            this.barSubItem13.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem13.ImageOptions.ImageIndex")));
+            this.barSubItem13.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem13.ImageOptions.LargeImageIndex")));
+            this.barSubItem13.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem13.ImageOptions.SvgImage")));
             this.barSubItem13.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem27, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem28)});
@@ -841,28 +944,33 @@
             // 
             // commandBarItem27
             // 
-            this.commandBarItem27.Caption = "&Horizontally";
+            resources.ApplyResources(this.commandBarItem27, "commandBarItem27");
             this.commandBarItem27.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.CenterHorizontally;
             this.commandBarItem27.Enabled = false;
-            this.commandBarItem27.Hint = "Horizontally center the selected controls within a band";
             this.commandBarItem27.Id = 30;
-            this.commandBarItem27.ImageIndex = 36;
+            this.commandBarItem27.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem27.ImageOptions.ImageIndex")));
+            this.commandBarItem27.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem27.ImageOptions.LargeImageIndex")));
+            this.commandBarItem27.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem27.ImageOptions.SvgImage")));
             this.commandBarItem27.Name = "commandBarItem27";
             // 
             // commandBarItem28
             // 
-            this.commandBarItem28.Caption = "&Vertically";
+            resources.ApplyResources(this.commandBarItem28, "commandBarItem28");
             this.commandBarItem28.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.CenterVertically;
             this.commandBarItem28.Enabled = false;
-            this.commandBarItem28.Hint = "Vertically center the selected controls within a band";
             this.commandBarItem28.Id = 31;
-            this.commandBarItem28.ImageIndex = 37;
+            this.commandBarItem28.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem28.ImageOptions.ImageIndex")));
+            this.commandBarItem28.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem28.ImageOptions.LargeImageIndex")));
+            this.commandBarItem28.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem28.ImageOptions.SvgImage")));
             this.commandBarItem28.Name = "commandBarItem28";
             // 
             // barSubItem14
             // 
-            this.barSubItem14.Caption = "&Order";
+            resources.ApplyResources(this.barSubItem14, "barSubItem14");
             this.barSubItem14.Id = 59;
+            this.barSubItem14.ImageOptions.ImageIndex = ((int)(resources.GetObject("barSubItem14.ImageOptions.ImageIndex")));
+            this.barSubItem14.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barSubItem14.ImageOptions.LargeImageIndex")));
+            this.barSubItem14.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem14.ImageOptions.SvgImage")));
             this.barSubItem14.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem29, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem30)});
@@ -870,26 +978,29 @@
             // 
             // commandBarItem29
             // 
-            this.commandBarItem29.Caption = "&Bring to Front";
+            resources.ApplyResources(this.commandBarItem29, "commandBarItem29");
             this.commandBarItem29.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.BringToFront;
             this.commandBarItem29.Enabled = false;
-            this.commandBarItem29.Hint = "Bring the selected controls to the front";
             this.commandBarItem29.Id = 32;
-            this.commandBarItem29.ImageIndex = 38;
+            this.commandBarItem29.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem29.ImageOptions.ImageIndex")));
+            this.commandBarItem29.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem29.ImageOptions.LargeImageIndex")));
+            this.commandBarItem29.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem29.ImageOptions.SvgImage")));
             this.commandBarItem29.Name = "commandBarItem29";
             // 
             // commandBarItem30
             // 
-            this.commandBarItem30.Caption = "&Send to Back";
+            resources.ApplyResources(this.commandBarItem30, "commandBarItem30");
             this.commandBarItem30.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SendToBack;
             this.commandBarItem30.Enabled = false;
-            this.commandBarItem30.Hint = "Move the selected controls to the back";
             this.commandBarItem30.Id = 33;
-            this.commandBarItem30.ImageIndex = 39;
+            this.commandBarItem30.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem30.ImageOptions.ImageIndex")));
+            this.commandBarItem30.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem30.ImageOptions.LargeImageIndex")));
+            this.commandBarItem30.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem30.ImageOptions.SvgImage")));
             this.commandBarItem30.Name = "commandBarItem30";
             // 
             // designBar2
             // 
+            resources.ApplyResources(this.designBar2, "designBar2");
             this.designBar2.BarName = "Toolbar";
             this.designBar2.DockCol = 0;
             this.designBar2.DockRow = 1;
@@ -903,10 +1014,10 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem36),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem37, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem38)});
-            this.designBar2.Text = "Toolbar";
             // 
             // designBar3
             // 
+            resources.ApplyResources(this.designBar3, "designBar3");
             this.designBar3.BarName = "Formatting Toolbar";
             this.designBar3.DockCol = 1;
             this.designBar3.DockRow = 1;
@@ -923,28 +1034,30 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem5),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem6),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem7)});
-            this.designBar3.Text = "Formatting Toolbar";
             // 
             // barEditItem1
             // 
-            this.barEditItem1.Caption = "Font Name";
+            resources.ApplyResources(this.barEditItem1, "barEditItem1");
             this.barEditItem1.Edit = null;
-            this.barEditItem1.Hint = "Font Name";
             this.barEditItem1.Id = 0;
+            this.barEditItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("barEditItem1.ImageOptions.ImageIndex")));
+            this.barEditItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barEditItem1.ImageOptions.LargeImageIndex")));
+            this.barEditItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barEditItem1.ImageOptions.SvgImage")));
             this.barEditItem1.Name = "barEditItem1";
-            this.barEditItem1.Width = 120;
             // 
             // barEditItem2
             // 
-            this.barEditItem2.Caption = "Font Size";
+            resources.ApplyResources(this.barEditItem2, "barEditItem2");
             this.barEditItem2.Edit = null;
-            this.barEditItem2.Hint = "Font Size";
             this.barEditItem2.Id = 1;
+            this.barEditItem2.ImageOptions.ImageIndex = ((int)(resources.GetObject("barEditItem2.ImageOptions.ImageIndex")));
+            this.barEditItem2.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barEditItem2.ImageOptions.LargeImageIndex")));
+            this.barEditItem2.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barEditItem2.ImageOptions.SvgImage")));
             this.barEditItem2.Name = "barEditItem2";
-            this.barEditItem2.Width = 55;
             // 
             // designBar4
             // 
+            resources.ApplyResources(this.designBar4, "designBar4");
             this.designBar4.BarName = "Layout Toolbar";
             this.designBar4.DockCol = 0;
             this.designBar4.DockRow = 2;
@@ -973,10 +1086,10 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem28),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem29, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem30)});
-            this.designBar4.Text = "Layout Toolbar";
             // 
             // designBar5
             // 
+            resources.ApplyResources(this.designBar5, "designBar5");
             this.designBar5.BarName = "Status Bar";
             this.designBar5.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
             this.designBar5.DockCol = 0;
@@ -987,18 +1100,21 @@
             this.designBar5.OptionsBar.AllowQuickCustomization = false;
             this.designBar5.OptionsBar.DrawDragBorder = false;
             this.designBar5.OptionsBar.UseWholeRow = true;
-            this.designBar5.Text = "Status Bar";
             // 
             // barStaticItem1
             // 
+            resources.ApplyResources(this.barStaticItem1, "barStaticItem1");
             this.barStaticItem1.AutoSize = DevExpress.XtraBars.BarStaticItemSize.Spring;
             this.barStaticItem1.Id = 42;
+            this.barStaticItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("barStaticItem1.ImageOptions.ImageIndex")));
+            this.barStaticItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("barStaticItem1.ImageOptions.LargeImageIndex")));
+            this.barStaticItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barStaticItem1.ImageOptions.SvgImage")));
             this.barStaticItem1.Name = "barStaticItem1";
-            this.barStaticItem1.TextAlignment = System.Drawing.StringAlignment.Near;
             this.barStaticItem1.Width = 32;
             // 
             // designBar6
             // 
+            resources.ApplyResources(this.designBar6, "designBar6");
             this.designBar6.BarName = "Zoom Toolbar";
             this.designBar6.DockCol = 1;
             this.designBar6.DockRow = 2;
@@ -1007,44 +1123,71 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem44),
             new DevExpress.XtraBars.LinkPersistInfo(this.xrZoomBarEditItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.commandBarItem45)});
-            this.designBar6.Text = "Zoom Toolbar";
             // 
             // commandBarItem44
             // 
-            this.commandBarItem44.Caption = "Zoom Out";
+            resources.ApplyResources(this.commandBarItem44, "commandBarItem44");
             this.commandBarItem44.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.ZoomOut;
             this.commandBarItem44.Enabled = false;
-            this.commandBarItem44.Hint = "Zoom out the design surface";
             this.commandBarItem44.Id = 65;
-            this.commandBarItem44.ImageIndex = 40;
+            this.commandBarItem44.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem44.ImageOptions.ImageIndex")));
+            this.commandBarItem44.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem44.ImageOptions.LargeImageIndex")));
+            this.commandBarItem44.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem44.ImageOptions.SvgImage")));
             this.commandBarItem44.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Subtract));
             this.commandBarItem44.Name = "commandBarItem44";
             // 
             // xrZoomBarEditItem1
             // 
-            this.xrZoomBarEditItem1.Caption = "Zoom";
+            resources.ApplyResources(this.xrZoomBarEditItem1, "xrZoomBarEditItem1");
             this.xrZoomBarEditItem1.Edit = null;
             this.xrZoomBarEditItem1.Enabled = false;
-            this.xrZoomBarEditItem1.Hint = "Select or input the zoom factor";
             this.xrZoomBarEditItem1.Id = 66;
+            this.xrZoomBarEditItem1.ImageOptions.ImageIndex = ((int)(resources.GetObject("xrZoomBarEditItem1.ImageOptions.ImageIndex")));
+            this.xrZoomBarEditItem1.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("xrZoomBarEditItem1.ImageOptions.LargeImageIndex")));
+            this.xrZoomBarEditItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("xrZoomBarEditItem1.ImageOptions.SvgImage")));
             this.xrZoomBarEditItem1.Name = "xrZoomBarEditItem1";
-            this.xrZoomBarEditItem1.Width = 70;
             // 
             // commandBarItem45
             // 
-            this.commandBarItem45.Caption = "Zoom In";
+            resources.ApplyResources(this.commandBarItem45, "commandBarItem45");
             this.commandBarItem45.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.ZoomIn;
             this.commandBarItem45.Enabled = false;
-            this.commandBarItem45.Hint = "Zoom in the design surface";
             this.commandBarItem45.Id = 67;
-            this.commandBarItem45.ImageIndex = 41;
+            this.commandBarItem45.ImageOptions.ImageIndex = ((int)(resources.GetObject("commandBarItem45.ImageOptions.ImageIndex")));
+            this.commandBarItem45.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("commandBarItem45.ImageOptions.LargeImageIndex")));
+            this.commandBarItem45.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("commandBarItem45.ImageOptions.SvgImage")));
             this.commandBarItem45.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Add));
             this.commandBarItem45.Name = "commandBarItem45";
+            // 
+            // barDockControlTop
+            // 
+            resources.ApplyResources(this.barDockControlTop, "barDockControlTop");
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Manager = this.xrDesignBarManager1;
+            // 
+            // barDockControlBottom
+            // 
+            resources.ApplyResources(this.barDockControlBottom, "barDockControlBottom");
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Manager = this.xrDesignBarManager1;
+            // 
+            // barDockControlLeft
+            // 
+            resources.ApplyResources(this.barDockControlLeft, "barDockControlLeft");
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Manager = this.xrDesignBarManager1;
+            // 
+            // barDockControlRight
+            // 
+            resources.ApplyResources(this.barDockControlRight, "barDockControlRight");
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Manager = this.xrDesignBarManager1;
             // 
             // xrDesignDockManager1
             // 
             this.xrDesignDockManager1.Form = this;
             this.xrDesignDockManager1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("xrDesignDockManager1.ImageStream")));
+            this.xrDesignDockManager1.MenuManager = this.xrDesignBarManager1;
             this.xrDesignDockManager1.RootPanels.AddRange(new DevExpress.XtraBars.Docking.DockPanel[] {
             this.panelContainer1,
             this.toolBoxDockPanel1});
@@ -1052,135 +1195,115 @@
             "DevExpress.XtraBars.BarDockControl",
             "System.Windows.Forms.StatusBar",
             "DevExpress.XtraBars.Ribbon.RibbonStatusBar",
-            "DevExpress.XtraBars.Ribbon.RibbonControl"});
+            "DevExpress.XtraBars.Ribbon.RibbonControl",
+            "DevExpress.XtraReports.UserDesigner.XRToolBoxPanel"});
             this.xrDesignDockManager1.XRDesignPanel = this.xrDesignPanel1;
             // 
             // panelContainer1
             // 
+            resources.ApplyResources(this.panelContainer1, "panelContainer1");
             this.panelContainer1.Controls.Add(this.panelContainer2);
             this.panelContainer1.Controls.Add(this.propertyGridDockPanel1);
             this.panelContainer1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Right;
             this.panelContainer1.ID = new System.Guid("d0c4e160-98e7-404d-9967-437d922d0b14");
-            this.panelContainer1.Location = new System.Drawing.Point(395, 78);
             this.panelContainer1.Name = "panelContainer1";
-            this.panelContainer1.Size = new System.Drawing.Size(250, 383);
-            this.panelContainer1.Text = "panelContainer1";
+            this.panelContainer1.OriginalSize = new System.Drawing.Size(250, 381);
             // 
             // panelContainer2
             // 
+            resources.ApplyResources(this.panelContainer2, "panelContainer2");
             this.panelContainer2.ActiveChild = this.reportExplorerDockPanel1;
             this.panelContainer2.Controls.Add(this.reportExplorerDockPanel1);
             this.panelContainer2.Controls.Add(this.fieldListDockPanel1);
             this.panelContainer2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             this.panelContainer2.ID = new System.Guid("371681bf-768f-4c0e-bbc2-31b1c7c9fe5c");
-            this.panelContainer2.ImageIndex = 2;
-            this.panelContainer2.Location = new System.Drawing.Point(0, 0);
+            this.panelContainer2.ImageOptions.ImageIndex = ((int)(resources.GetObject("panelContainer2.ImageOptions.ImageIndex")));
             this.panelContainer2.Name = "panelContainer2";
-            this.panelContainer2.Size = new System.Drawing.Size(250, 191);
+            this.panelContainer2.OriginalSize = new System.Drawing.Size(250, 191);
             this.panelContainer2.Tabbed = true;
-            this.panelContainer2.Text = "panelContainer2";
             // 
             // reportExplorerDockPanel1
             // 
+            resources.ApplyResources(this.reportExplorerDockPanel1, "reportExplorerDockPanel1");
             this.reportExplorerDockPanel1.Controls.Add(this.reportExplorerDockPanel1_Container);
             this.reportExplorerDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             this.reportExplorerDockPanel1.ID = new System.Guid("fb3ec6cc-3b9b-4b9c-91cf-cff78c1edbf1");
-            this.reportExplorerDockPanel1.ImageIndex = 2;
-            this.reportExplorerDockPanel1.Location = new System.Drawing.Point(3, 25);
+            this.reportExplorerDockPanel1.ImageOptions.ImageIndex = ((int)(resources.GetObject("reportExplorerDockPanel1.ImageOptions.ImageIndex")));
             this.reportExplorerDockPanel1.Name = "reportExplorerDockPanel1";
-            this.reportExplorerDockPanel1.Size = new System.Drawing.Size(244, 140);
-            this.reportExplorerDockPanel1.Text = "Report Explorer";
+            this.reportExplorerDockPanel1.OriginalSize = new System.Drawing.Size(244, 140);
             this.reportExplorerDockPanel1.XRDesignPanel = this.xrDesignPanel1;
             // 
             // reportExplorerDockPanel1_Container
             // 
-            this.reportExplorerDockPanel1_Container.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.reportExplorerDockPanel1_Container, "reportExplorerDockPanel1_Container");
             this.reportExplorerDockPanel1_Container.Name = "reportExplorerDockPanel1_Container";
-            this.reportExplorerDockPanel1_Container.Size = new System.Drawing.Size(244, 140);
-            this.reportExplorerDockPanel1_Container.TabIndex = 0;
             // 
             // xrDesignPanel1
             // 
-            this.xrDesignPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xrDesignPanel1.Location = new System.Drawing.Point(165, 78);
+            resources.ApplyResources(this.xrDesignPanel1, "xrDesignPanel1");
             this.xrDesignPanel1.Name = "xrDesignPanel1";
-            this.xrDesignPanel1.Padding = new System.Windows.Forms.Padding(1);
-            this.xrDesignPanel1.Size = new System.Drawing.Size(230, 383);
-            this.xrDesignPanel1.TabIndex = 4;
             // 
             // fieldListDockPanel1
             // 
+            resources.ApplyResources(this.fieldListDockPanel1, "fieldListDockPanel1");
             this.fieldListDockPanel1.Controls.Add(this.fieldListDockPanel1_Container);
             this.fieldListDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             this.fieldListDockPanel1.ID = new System.Guid("faf69838-a93f-4114-83e8-d0d09cc5ce95");
-            this.fieldListDockPanel1.ImageIndex = 0;
-            this.fieldListDockPanel1.Location = new System.Drawing.Point(3, 25);
+            this.fieldListDockPanel1.ImageOptions.ImageIndex = ((int)(resources.GetObject("fieldListDockPanel1.ImageOptions.ImageIndex")));
             this.fieldListDockPanel1.Name = "fieldListDockPanel1";
-            this.fieldListDockPanel1.Size = new System.Drawing.Size(244, 140);
-            this.fieldListDockPanel1.Text = "Field List";
+            this.fieldListDockPanel1.OriginalSize = new System.Drawing.Size(244, 140);
             this.fieldListDockPanel1.XRDesignPanel = this.xrDesignPanel1;
             // 
             // fieldListDockPanel1_Container
             // 
-            this.fieldListDockPanel1_Container.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.fieldListDockPanel1_Container, "fieldListDockPanel1_Container");
             this.fieldListDockPanel1_Container.Name = "fieldListDockPanel1_Container";
-            this.fieldListDockPanel1_Container.Size = new System.Drawing.Size(244, 140);
-            this.fieldListDockPanel1_Container.TabIndex = 0;
             // 
             // propertyGridDockPanel1
             // 
+            resources.ApplyResources(this.propertyGridDockPanel1, "propertyGridDockPanel1");
             this.propertyGridDockPanel1.Controls.Add(this.propertyGridDockPanel1_Container);
             this.propertyGridDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             this.propertyGridDockPanel1.ID = new System.Guid("b38d12c3-cd06-4dec-b93d-63a0088e495a");
-            this.propertyGridDockPanel1.ImageIndex = 1;
-            this.propertyGridDockPanel1.Location = new System.Drawing.Point(0, 191);
+            this.propertyGridDockPanel1.ImageOptions.ImageIndex = ((int)(resources.GetObject("propertyGridDockPanel1.ImageOptions.ImageIndex")));
             this.propertyGridDockPanel1.Name = "propertyGridDockPanel1";
-            this.propertyGridDockPanel1.Size = new System.Drawing.Size(250, 192);
-            this.propertyGridDockPanel1.Text = "Property Grid";
+            this.propertyGridDockPanel1.OriginalSize = new System.Drawing.Size(250, 192);
             this.propertyGridDockPanel1.XRDesignPanel = this.xrDesignPanel1;
             // 
             // propertyGridDockPanel1_Container
             // 
-            this.propertyGridDockPanel1_Container.Location = new System.Drawing.Point(3, 25);
+            resources.ApplyResources(this.propertyGridDockPanel1_Container, "propertyGridDockPanel1_Container");
             this.propertyGridDockPanel1_Container.Name = "propertyGridDockPanel1_Container";
-            this.propertyGridDockPanel1_Container.Size = new System.Drawing.Size(244, 164);
-            this.propertyGridDockPanel1_Container.TabIndex = 0;
             // 
             // toolBoxDockPanel1
             // 
+            resources.ApplyResources(this.toolBoxDockPanel1, "toolBoxDockPanel1");
             this.toolBoxDockPanel1.Controls.Add(this.toolBoxDockPanel1_Container);
             this.toolBoxDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Left;
             this.toolBoxDockPanel1.ID = new System.Guid("161a5a1a-d9b9-4f06-9ac4-d0c3e507c54f");
-            this.toolBoxDockPanel1.ImageIndex = 3;
-            this.toolBoxDockPanel1.Location = new System.Drawing.Point(0, 78);
+            this.toolBoxDockPanel1.ImageOptions.ImageIndex = ((int)(resources.GetObject("toolBoxDockPanel1.ImageOptions.ImageIndex")));
             this.toolBoxDockPanel1.Name = "toolBoxDockPanel1";
-            this.toolBoxDockPanel1.Size = new System.Drawing.Size(165, 383);
-            this.toolBoxDockPanel1.Text = "Tool Box";
+            this.toolBoxDockPanel1.OriginalSize = new System.Drawing.Size(165, 381);
             this.toolBoxDockPanel1.XRDesignPanel = this.xrDesignPanel1;
             // 
             // toolBoxDockPanel1_Container
             // 
-            this.toolBoxDockPanel1_Container.Location = new System.Drawing.Point(3, 25);
+            resources.ApplyResources(this.toolBoxDockPanel1_Container, "toolBoxDockPanel1_Container");
             this.toolBoxDockPanel1_Container.Name = "toolBoxDockPanel1_Container";
-            this.toolBoxDockPanel1_Container.Size = new System.Drawing.Size(159, 355);
-            this.toolBoxDockPanel1_Container.TabIndex = 0;
             // 
             // REPORT_DESIGN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 486);
             this.Controls.Add(this.xrDesignPanel1);
-            this.Controls.Add(this.toolBoxDockPanel1);
             this.Controls.Add(this.panelContainer1);
+            this.Controls.Add(this.toolBoxDockPanel1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "REPORT_DESIGN";
             this.ShowInTaskbar = false;
-            this.Text = "Report Design";
             ((System.ComponentModel.ISupportInitialize)(this.xrDesignBarManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrDesignDockManager1)).EndInit();
             this.panelContainer1.ResumeLayout(false);
@@ -1191,6 +1314,7 @@
             this.propertyGridDockPanel1.ResumeLayout(false);
             this.toolBoxDockPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
