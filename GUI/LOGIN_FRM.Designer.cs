@@ -44,7 +44,9 @@
             this.labelLanguage = new System.Windows.Forms.Label();
             this.imageComboBoxEdit1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.btnLocation = new System.Windows.Forms.Button();
+            this.checkRememberMe = new DevExpress.XtraEditors.CheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkRememberMe.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // txtLocDesc
@@ -150,10 +152,27 @@
             this.btnLocation.UseVisualStyleBackColor = true;
             this.btnLocation.Click += new System.EventHandler(this.btnLocation_Click);
             // 
+            // checkRememberMe
+            // 
+            resources.ApplyResources(this.checkRememberMe, "checkRememberMe");
+            this.checkRememberMe.EnterMoveNextControl = true;
+            this.checkRememberMe.Name = "checkRememberMe";
+            this.checkRememberMe.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("checkRememberMe.Properties.Appearance.Font")));
+            this.checkRememberMe.Properties.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.checkRememberMe.Properties.Appearance.Options.UseFont = true;
+            this.checkRememberMe.Properties.Appearance.Options.UseForeColor = true;
+            this.checkRememberMe.Properties.Caption = resources.GetString("checkRememberMe.Properties.Caption");
+            this.checkRememberMe.Properties.DisplayValueChecked = resources.GetString("checkRememberMe.Properties.DisplayValueChecked");
+            this.checkRememberMe.Properties.DisplayValueGrayed = resources.GetString("checkRememberMe.Properties.DisplayValueGrayed");
+            this.checkRememberMe.Properties.DisplayValueUnchecked = resources.GetString("checkRememberMe.Properties.DisplayValueUnchecked");
+            this.checkRememberMe.Properties.GlyphAlignment = ((DevExpress.Utils.HorzAlignment)(resources.GetObject("checkRememberMe.Properties.GlyphAlignment")));
+            this.checkRememberMe.Properties.GlyphVerticalAlignment = ((DevExpress.Utils.VertAlignment)(resources.GetObject("checkRememberMe.Properties.GlyphVerticalAlignment")));
+            // 
             // LOGIN_FRM
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.checkRememberMe);
             this.Controls.Add(this.imageComboBoxEdit1);
             this.Controls.Add(this.labelLanguage);
             this.Controls.Add(this.btnLocation);
@@ -175,7 +194,9 @@
             this.Name = "LOGIN_FRM";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LOGIN_FRM_FormClosing);
             this.Load += new System.EventHandler(this.LOGIN_FRM_Load);
+            this.Shown += new System.EventHandler(this.LOGIN_FRM_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkRememberMe.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,5 +219,6 @@
         internal System.Windows.Forms.Button btnLocation;
         internal System.Windows.Forms.Label labelLanguage;
         private DevExpress.XtraEditors.ImageComboBoxEdit imageComboBoxEdit1;
+        private DevExpress.XtraEditors.CheckEdit checkRememberMe;
     }
 }

@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using POS.Connection;
 using POS.DataLayer;
 using POS.GUI.User;
+using POS.Properties;
 using POS.Transaction;
 using POS.Transaction.Maintains;
 using POS.Transaction.Security;
@@ -62,123 +63,112 @@ namespace POS.GUI
 
         private void OK_Click(object sender, EventArgs e)
       {
-//            try
-//            {
-                
-//                SIUser user = new SIUser();
-//                ADDUSER_FRM adduser_FRM = new ADDUSER_FRM();
-//                if (Condition.EmptyControl(txtUserID)) return;
-////                if (_dataManager.Exists("SIPUSERG", "D", "PER_TYPE", "USER_CODE",txtUserID.Text) && txtUserID.Text != "SISA")
-////                {
-////                    MessageBox.Show("This user id cannot access this database!", "Access Deny", MessageBoxButtons.OK,
-////                                    MessageBoxIcon.Information);
-////                    return;
-////                }
+            try
+            {
 
-//                var dtUser = _dataManager.Filter(user.LoadData(), "USER_CODE", txtUserID.Text.Trim());
-//                if (dtUser.Rows.Count > 0)
-//                {
-//                    var dd = dtUser.Rows[0][6].ToString();
-//                    if (System.Text.Encoding.UTF32.GetString((byte[])dtUser.Rows[0][6]).CompareTo(txtPwd.Text) !=0)
-//                    {
-//                        MessageBox.Show("Your password was not recognised. Please check and try again.", "Access Deny",
-//                                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-//                        txtPwd.Focus();
-//                        return;
-//                    }
-//                    if (txtUserID.Text != "SISA")
-//                    {
-//                        var d = dtUser.Rows[0][5].ToString();
-//                        if (System.Text.Encoding.UTF32.GetString((byte[]) dtUser.Rows[0][5]).CompareTo("U") != 0)
-//                        {
-//                            MessageBox.Show(
-//                                "Your id have been loged out. Please log in with another ID or check with admin users.",
-//                                "Log Out", MessageBoxButtons.OK, MessageBoxIcon.Information);
-//                            return;
-//                        }
-//                    }
-//                    if (dtUser.Rows[0][5].ToString().CompareTo("0") == 0 )
-//                    {
-//                        MessageBox.Show("This user id was disabled. Please contact with admin users.","Disable User",MessageBoxButtons.OK,MessageBoxIcon.Warning);
-//                        return;
-//                    }
-////                    ==========  assign value global =============
+                SIUser user = new SIUser();
+                ADDUSER_FRM adduser_FRM = new ADDUSER_FRM();
+                if (Condition.EmptyControl(txtUserID)) return;
+                if (_dataManager.Exists("SIPUSERG", "D", "PER_TYPE", "USER_CODE", txtUserID.Text) && txtUserID.Text != "SISA")
+                {
+                    MessageBox.Show("This user id cannot access this database!", "Access Deny", MessageBoxButtons.OK,
+                                    MessageBoxIcon.Information);
+                    return;
+                }
 
-//                    UserLogOn.Code = null;
-//                    UserLogOn.Name = null;
-//                    UserLogOn.Code = txtUserID.Text;
-//                    UserLogOn.Name = dtUser.Rows[0][1].ToString();
-//                    UserLogOn.Date = Convert.ToDateTime(dtpdate.Value.ToShortDateString());
-//                    SIUser.Code = txtUserID.Text;
+                var dtUser = _dataManager.Filter(user.LoadData(), "USER_CODE", txtUserID.Text.Trim());
+                if (dtUser.Rows.Count > 0)
+                {
+                    var dd = dtUser.Rows[0][6].ToString();
+                    if (System.Text.Encoding.UTF32.GetString((byte[])dtUser.Rows[0][6]).CompareTo(txtPwd.Text) != 0)
+                    {
+                        MessageBox.Show("Your password was not recognised. Please check and try again.", "Access Deny",
+                                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        txtPwd.Focus();
+                        return;
+                    }
+                    if (txtUserID.Text != "SISA")
+                    {
+                        var d = dtUser.Rows[0][5].ToString();
+                        if (System.Text.Encoding.UTF32.GetString((byte[])dtUser.Rows[0][5]).CompareTo("U") != 0)
+                        {
+                            MessageBox.Show(
+                                "Your id have been loged out. Please log in with another ID or check with admin users.",
+                                "Log Out", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            return;
+                        }
+                    }
+                    if (dtUser.Rows[0][5].ToString().CompareTo("0") == 0)
+                    {
+                        MessageBox.Show("This user id was disabled. Please contact with admin users.", "Disable User", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    //                    ==========  assign value global =============
 
-////                    ==============================================
+                    UserLogOn.Code = null;
+                    UserLogOn.Name = null;
+                    UserLogOn.Code = txtUserID.Text;
+                    UserLogOn.Name = dtUser.Rows[0][1].ToString();
+                    UserLogOn.Date = Convert.ToDateTime(dtpdate.Value.ToShortDateString());
+                    SIUser.Code = txtUserID.Text;
 
-//                    if (dtUser.Rows[0][3].ToString().CompareTo("2") == 0)
-//                    {
-//                        adduser_FRM.Text = "Set Password for" + UserLogOn.Name;
-//                        adduser_FRM.txtCode.Text = UserLogOn.Code;
-//                        adduser_FRM.Panel2.Visible = false;
-//                        adduser_FRM.Panel3.Visible = false;
-//                        adduser_FRM.Panel1.Top = 10;
-//                        adduser_FRM.Height = 180;
-//                        if (adduser_FRM.ShowDialog() == DialogResult.OK)
-//                        {
-//                            SIUser.Password = System.Text.Encoding.UTF32.GetBytes(adduser_FRM.txtPass.Text);
-//                            user.UpdateChangePassword(txtUserID.Text);
-//                            MessageBox.Show("The password has been set.", "Change Password", MessageBoxButtons.OK,
-//                                            MessageBoxIcon.Information);
+                    //                    ==============================================
 
-//                        }
-//                        else
-//                        {
-//                            return;
-//                        }
-//                    }
-//                    adduser_FRM.Close();
+                    if (dtUser.Rows[0][3].ToString().CompareTo("2") == 0)
+                    {
+                        adduser_FRM.Text = "Set Password for" + UserLogOn.Name;
+                        adduser_FRM.txtCode.Text = UserLogOn.Code;
+                        adduser_FRM.Panel2.Visible = false;
+                        adduser_FRM.Panel3.Visible = false;
+                        adduser_FRM.Panel1.Top = 10;
+                        adduser_FRM.Height = 180;
+                        RememberMe();
+                        if (adduser_FRM.ShowDialog() == DialogResult.OK)
+                        {
+                            SIUser.Password = System.Text.Encoding.UTF32.GetBytes(adduser_FRM.txtPass.Text);
+                            user.UpdateChangePassword(txtUserID.Text);
+                            MessageBox.Show("The password has been set.", "Change Password", MessageBoxButtons.OK,
+                                            MessageBoxIcon.Information);
 
-//                        SIUser.ULog = System.Text.Encoding.UTF32.GetBytes("L");
-//                        user.UpdateChangeUserLog();
+                        }
+                        else
+                        {
+                            return;
+                        }
+                    }
+                    adduser_FRM.Close();
 
-
-//                        // TODO: This place deal with Group user account check it again when finish group account......
-//                        if (!string.IsNullOrEmpty(txtLocation.Text))
-//                        {
-//                            if (!_dataManager.Exists("SIPLOCA", txtLocation.Text, "LOC_CODE", "LOC_STAT","A"))
-//                            {
-//                                MessageBox.Show("Data '" + txtLocation.Text + "' not found!", "", MessageBoxButtons.OK,
-//                                                MessageBoxIcon.Information);
-//                                txtLocation.SelectAll();
-//                                txtLocation.Focus();
-//                                return;
-//                            }
-//                        }
-//                        UserLogOn.Location = txtLocation.Text;
-////                       ===============  TODO: need to show MDI Form here ===========
-//                    Hide();
-
-//                    #region Language
-//                    string selectedlangeuage = string.Empty;
-
-//                    if (radioButtonEnglish.Checked)
-//                        selectedlangeuage = "en-US";
-//                    if(radioButtonKhmer.Checked)
-//                        selectedlangeuage = "km-KH";
-
-//                    Thread.CurrentThread.CurrentUICulture = new CultureInfo(selectedlangeuage);
+                    SIUser.ULog = System.Text.Encoding.UTF32.GetBytes("L");
+                    user.UpdateChangeUserLog();
 
 
-//                    #endregion
+                    // TODO: This place deal with Group user account check it again when finish group account......
+                    if (!string.IsNullOrEmpty(txtLocation.Text))
+                    {
+                        if (!_dataManager.Exists("SIPLOCA", txtLocation.Text, "LOC_CODE", "LOC_STAT", "A"))
+                        {
+                            MessageBox.Show("Data '" + txtLocation.Text + "' not found!", "", MessageBoxButtons.OK,
+                                            MessageBoxIcon.Information);
+                            txtLocation.SelectAll();
+                            txtLocation.Focus();
+                            return;
+                        }
+                    }
+                    UserLogOn.Location = txtLocation.Text;
+                    //                       ===============  TODO: need to show MDI Form here ===========
+                    Hide();
+
 
                     var main_FRM = new MAIN_FRM_SI();                    
                     main_FRM.ShowDialog();
-                    
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    Cursor = Cursors.Default;
-            //    MessageBox.Show(ex.Message);
-            //}
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Cursor = Cursors.Default;
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnLocation_Click(object sender, EventArgs e)
@@ -293,22 +283,33 @@ namespace POS.GUI
         {
             imageComboBoxEdit1.SelectedIndex = 0;
         }
+        private void RememberMe()
+        {
+            Settings.Default.Name = txtUserID.Text;
+            Settings.Default.Pass= txtPwd.Text;     
+            Settings.Default.Lang= imageComboBoxEdit1.Text;
+        }
         private void imageComboBoxEdit1_SelectedIndexChanged(object sender, EventArgs e)
         {
             var setlanguage = imageComboBoxEdit1.SelectedIndex;
             if (setlanguage == 0)
             {
                 Thread.CurrentThread.CurrentUICulture = new CultureInfo("km-KH");
-                Thread.CurrentThread.CurrentCulture= new CultureInfo("km-KH");
+              //  Thread.CurrentThread.CurrentCulture= new CultureInfo("km-KH");
              
             }
             else
             {
                 Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
-                Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+             //   Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            }         
+        }
+        private void LOGIN_FRM_Shown(object sender, EventArgs e)
+        {
 
-            }
-            
+           // txtUserID.Text = Settings.Default.Name;
+           // txtPwd.Text = Settings.Default.Pass;
+           //imageComboBoxEdit1.Text= Settings.Default.Lang;
         }
     }
 }

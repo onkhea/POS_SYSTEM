@@ -184,6 +184,12 @@
   <data name="SecComment.HeaderText" xml:space="preserve">
     <value>មតិទីពីរ</value>
   </data>
+  <data name="dgDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 67</value>
+  </data>
+  <data name="dgDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 461</value>
+  </data>
   <data name="contextMastExcel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
@@ -666,32 +672,62 @@
         lH4uch48pVP6uch58JRO6eci58FTOqWfi5wHT+mUfh6iX/wfyUFTRR2C4zYAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="dgMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 67</value>
+  </data>
+  <data name="dgMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 461</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9.75pt, style=Bold</value>
+  </data>
   <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 16</value>
+    <value>157, 24</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>បំប្លែងប្រភេទរបាយការណ៍</value>
   </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="ToolNewUnitType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="ToolNewUnitType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 22</value>
+    <value>66, 26</value>
   </data>
   <data name="ToolNewUnitType.Text" xml:space="preserve">
     <value>បង្កើតថ្មី</value>
   </data>
+  <data name="toolStripEditUnitType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="toolStripEditUnitType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 22</value>
+    <value>78, 26</value>
   </data>
   <data name="toolStripEditUnitType.Text" xml:space="preserve">
     <value>កែសម្រួល</value>
   </data>
+  <data name="toolStripDeleteUnitType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="toolStripDeleteUnitType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 22</value>
+    <value>50, 26</value>
   </data>
   <data name="toolStripDeleteUnitType.Text" xml:space="preserve">
     <value>លុប</value>
+  </data>
+  <data name="toolStripNewSubUnType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
+  <data name="toolStripNewSubUnType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 26</value>
+  </data>
+  <data name="toolStripNewSubUnType.Text" xml:space="preserve">
+    <value>បង្កើតថ្មី</value>
   </data>
   <data name="toolStripCloneUnType.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -957,7 +993,7 @@
 </value>
   </data>
   <data name="toolStripCloneUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>180, 26</value>
   </data>
   <data name="toolStripPastUnType.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1168,7 +1204,7 @@
 </value>
   </data>
   <data name="toolStripPastUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>180, 26</value>
   </data>
   <data name="toolStripExcelUnType.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1653,28 +1689,31 @@
 </value>
   </data>
   <data name="toolStripExcelUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>180, 26</value>
+  </data>
+  <data name="toolStripToolUnType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="toolStripToolUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 22</value>
+    <value>86, 26</value>
   </data>
   <data name="toolStripToolUnType.Text" xml:space="preserve">
     <value>ឧបករណ៍</value>
   </data>
-  <data name="toolStripNewSubUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 22</value>
-  </data>
-  <data name="toolStripNewSubUnType.Text" xml:space="preserve">
-    <value>បង្កើតថ្មី</value>
+  <data name="toolStripEditSubUnType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="toolStripEditSubUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 22</value>
+    <value>78, 26</value>
   </data>
   <data name="toolStripEditSubUnType.Text" xml:space="preserve">
     <value>កែសម្រួល</value>
   </data>
+  <data name="toolStripDeleteUnType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
+  </data>
   <data name="toolStripDeleteUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 22</value>
+    <value>50, 26</value>
   </data>
   <data name="toolStripDeleteUnType.Text" xml:space="preserve">
     <value>លុប</value>
@@ -1943,7 +1982,7 @@
 </value>
   </data>
   <data name="toolStripCloneSubUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>180, 26</value>
   </data>
   <data name="toolStripPasteSubUnType.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2154,7 +2193,7 @@
 </value>
   </data>
   <data name="toolStripPasteSubUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>180, 26</value>
   </data>
   <data name="toolStripExcelSubUnType.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2639,15 +2678,21 @@
 </value>
   </data>
   <data name="toolStripExcelSubUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>180, 26</value>
+  </data>
+  <data name="toolStripToolSubUnType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Battambang, 9pt</value>
   </data>
   <data name="toolStripToolSubUnType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 22</value>
+    <value>86, 26</value>
   </data>
   <data name="toolStripToolSubUnType.Text" xml:space="preserve">
     <value>ឧបករណ៍</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="toolStripButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 26</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 29</value>
   </data>
 </root>

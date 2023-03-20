@@ -422,8 +422,6 @@
             this.buttonBarItemItemPromotion.ImageOptions.ImageIndex = ((int)(resources.GetObject("buttonBarItemItemPromotion.ImageOptions.ImageIndex")));
             this.buttonBarItemItemPromotion.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("buttonBarItemItemPromotion.ImageOptions.LargeImageIndex")));
             this.buttonBarItemItemPromotion.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemItemPromotion.ImageOptions.SvgImage")));
-            this.buttonBarItemItemPromotion.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemItemPromotion.ItemAppearance.Normal.Font")));
-            this.buttonBarItemItemPromotion.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemItemPromotion.Name = "buttonBarItemItemPromotion";
             this.buttonBarItemItemPromotion.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.buttonBarItemItemPromotion_ItemClick);
             // 
@@ -645,8 +643,6 @@
             this.buttonBarItemStockAdjustment.ImageOptions.ImageIndex = ((int)(resources.GetObject("buttonBarItemStockAdjustment.ImageOptions.ImageIndex")));
             this.buttonBarItemStockAdjustment.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("buttonBarItemStockAdjustment.ImageOptions.LargeImageIndex")));
             this.buttonBarItemStockAdjustment.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemStockAdjustment.ImageOptions.SvgImage")));
-            this.buttonBarItemStockAdjustment.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemStockAdjustment.ItemAppearance.Normal.Font")));
-            this.buttonBarItemStockAdjustment.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemStockAdjustment.Name = "buttonBarItemStockAdjustment";
             this.buttonBarItemStockAdjustment.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.buttonBarItemStockAdjustment_ItemClick);
             // 
@@ -657,8 +653,6 @@
             this.buttonBarItemInventoryTransfer.ImageOptions.ImageIndex = ((int)(resources.GetObject("buttonBarItemInventoryTransfer.ImageOptions.ImageIndex")));
             this.buttonBarItemInventoryTransfer.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("buttonBarItemInventoryTransfer.ImageOptions.LargeImageIndex")));
             this.buttonBarItemInventoryTransfer.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemInventoryTransfer.ImageOptions.SvgImage")));
-            this.buttonBarItemInventoryTransfer.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemInventoryTransfer.ItemAppearance.Normal.Font")));
-            this.buttonBarItemInventoryTransfer.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemInventoryTransfer.Name = "buttonBarItemInventoryTransfer";
             this.buttonBarItemInventoryTransfer.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
             this.buttonBarItemInventoryTransfer.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.buttonBarItemInventoryTransfer_ItemClick);
@@ -670,8 +664,6 @@
             this.buttonBarItemInventoryBalance.ImageOptions.ImageIndex = ((int)(resources.GetObject("buttonBarItemInventoryBalance.ImageOptions.ImageIndex")));
             this.buttonBarItemInventoryBalance.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("buttonBarItemInventoryBalance.ImageOptions.LargeImageIndex")));
             this.buttonBarItemInventoryBalance.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemInventoryBalance.ImageOptions.SvgImage")));
-            this.buttonBarItemInventoryBalance.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemInventoryBalance.ItemAppearance.Normal.Font")));
-            this.buttonBarItemInventoryBalance.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemInventoryBalance.Name = "buttonBarItemInventoryBalance";
             this.buttonBarItemInventoryBalance.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
             this.buttonBarItemInventoryBalance.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.buttonBarItemInventoryBalance_ItemClick);
@@ -683,8 +675,6 @@
             this.buttonBarItemSalesOrder.ImageOptions.ImageIndex = ((int)(resources.GetObject("buttonBarItemSalesOrder.ImageOptions.ImageIndex")));
             this.buttonBarItemSalesOrder.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("buttonBarItemSalesOrder.ImageOptions.LargeImageIndex")));
             this.buttonBarItemSalesOrder.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemSalesOrder.ImageOptions.SvgImage")));
-            this.buttonBarItemSalesOrder.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemSalesOrder.ItemAppearance.Normal.Font")));
-            this.buttonBarItemSalesOrder.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemSalesOrder.Name = "buttonBarItemSalesOrder";
             this.buttonBarItemSalesOrder.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.buttonBarItemSalesOrder_ItemClick);
             // 
@@ -695,8 +685,6 @@
             this.buttonBarItemCraditNote.ImageOptions.ImageIndex = ((int)(resources.GetObject("buttonBarItemCraditNote.ImageOptions.ImageIndex")));
             this.buttonBarItemCraditNote.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("buttonBarItemCraditNote.ImageOptions.LargeImageIndex")));
             this.buttonBarItemCraditNote.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemCraditNote.ImageOptions.SvgImage")));
-            this.buttonBarItemCraditNote.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemCraditNote.ItemAppearance.Normal.Font")));
-            this.buttonBarItemCraditNote.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemCraditNote.Name = "buttonBarItemCraditNote";
             this.buttonBarItemCraditNote.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.buttonBarItemCraditNote_ItemClick);
             // 
@@ -707,8 +695,6 @@
             this.buttonBarItemBarcodeSales.ImageOptions.ImageIndex = ((int)(resources.GetObject("buttonBarItemBarcodeSales.ImageOptions.ImageIndex")));
             this.buttonBarItemBarcodeSales.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("buttonBarItemBarcodeSales.ImageOptions.LargeImageIndex")));
             this.buttonBarItemBarcodeSales.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemBarcodeSales.ImageOptions.SvgImage")));
-            this.buttonBarItemBarcodeSales.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemBarcodeSales.ItemAppearance.Normal.Font")));
-            this.buttonBarItemBarcodeSales.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemBarcodeSales.Name = "buttonBarItemBarcodeSales";
             this.buttonBarItemBarcodeSales.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.buttonBarItemBarcodeSales_ItemClick);
             // 
@@ -721,8 +707,6 @@
             this.buttonBarItemExchangeRate.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemExchangeRate.ImageOptions.SvgImage")));
             this.buttonBarItemExchangeRate.ItemAppearance.Disabled.Options.UseFont = true;
             this.buttonBarItemExchangeRate.ItemAppearance.Hovered.Options.UseFont = true;
-            this.buttonBarItemExchangeRate.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemExchangeRate.ItemAppearance.Normal.Font")));
-            this.buttonBarItemExchangeRate.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemExchangeRate.ItemAppearance.Pressed.Options.UseFont = true;
             this.buttonBarItemExchangeRate.Name = "buttonBarItemExchangeRate";
             this.buttonBarItemExchangeRate.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
@@ -735,8 +719,6 @@
             this.buttonBarItemSetupCustomerInPOS.ImageOptions.ImageIndex = ((int)(resources.GetObject("buttonBarItemSetupCustomerInPOS.ImageOptions.ImageIndex")));
             this.buttonBarItemSetupCustomerInPOS.ImageOptions.LargeImageIndex = ((int)(resources.GetObject("buttonBarItemSetupCustomerInPOS.ImageOptions.LargeImageIndex")));
             this.buttonBarItemSetupCustomerInPOS.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("buttonBarItemSetupCustomerInPOS.ImageOptions.SvgImage")));
-            this.buttonBarItemSetupCustomerInPOS.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("buttonBarItemSetupCustomerInPOS.ItemAppearance.Normal.Font")));
-            this.buttonBarItemSetupCustomerInPOS.ItemAppearance.Normal.Options.UseFont = true;
             this.buttonBarItemSetupCustomerInPOS.Name = "buttonBarItemSetupCustomerInPOS";
             this.buttonBarItemSetupCustomerInPOS.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
             this.buttonBarItemSetupCustomerInPOS.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.buttonBarItemSetupCustomerInPOS_ItemClick);

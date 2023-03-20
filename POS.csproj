@@ -939,6 +939,9 @@
     <EmbeddedResource Include="GUI\LOGIN_FRM.km-KH.resx">
       <DependentUpon>LOGIN_FRM.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LOGIN_FRM.ks-Arab-IN.resx">
+      <DependentUpon>LOGIN_FRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Maintains\ADDCATEGORY_FRM.km-KH.resx">
       <DependentUpon>ADDCATEGORY_FRM.cs</DependentUpon>
     </EmbeddedResource>
@@ -1511,6 +1514,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include=".editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

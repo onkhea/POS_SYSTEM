@@ -105,11 +105,13 @@ namespace POS.Reports
             // 
             // splitContainer1.Panel1
             // 
+            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
             this.splitContainer1.Panel1.Controls.Add(this.TreeView1);
             this.splitContainer1.Panel1.Controls.Add(this.panel1);
             // 
             // splitContainer1.Panel2
             // 
+            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
             this.splitContainer1.Panel2.Controls.Add(this.dgDetail);
             this.splitContainer1.Panel2.Controls.Add(this.dgMaster);
             this.splitContainer1.Panel2.Controls.Add(this.panel2);
@@ -128,8 +130,8 @@ namespace POS.Reports
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label1);
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Name = "panel1";
             // 
             // label1
@@ -140,6 +142,7 @@ namespace POS.Reports
             // 
             // dgDetail
             // 
+            resources.ApplyResources(this.dgDetail, "dgDetail");
             this.dgDetail.AllowUserToAddRows = false;
             this.dgDetail.AllowUserToDeleteRows = false;
             this.dgDetail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -171,7 +174,6 @@ namespace POS.Reports
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgDetail.DefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(this.dgDetail, "dgDetail");
             this.dgDetail.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgDetail.Name = "dgDetail";
             this.dgDetail.ReadOnly = true;
@@ -248,6 +250,7 @@ namespace POS.Reports
             // 
             // dgMaster
             // 
+            resources.ApplyResources(this.dgMaster, "dgMaster");
             this.dgMaster.AllowUserToAddRows = false;
             this.dgMaster.AllowUserToDeleteRows = false;
             this.dgMaster.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -278,7 +281,6 @@ namespace POS.Reports
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgMaster.DefaultCellStyle = dataGridViewCellStyle5;
-            resources.ApplyResources(this.dgMaster, "dgMaster");
             this.dgMaster.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgMaster.Name = "dgMaster";
             this.dgMaster.ReadOnly = true;
@@ -343,17 +345,17 @@ namespace POS.Reports
             // 
             // contextMenuStrip1
             // 
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.contextMastClone,
             this.contextMastPaste,
             this.contextMastExcel});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
             // contextMastClone
             // 
-            this.contextMastClone.Name = "contextMastClone";
             resources.ApplyResources(this.contextMastClone, "contextMastClone");
+            this.contextMastClone.Name = "contextMastClone";
             this.contextMastClone.Click += new System.EventHandler(this.contextMastClone_Click);
             // 
             // contextMastPaste
@@ -369,8 +371,8 @@ namespace POS.Reports
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label2);
             resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Name = "panel2";
             // 
             // label2
@@ -381,48 +383,48 @@ namespace POS.Reports
             // 
             // toolStrip1
             // 
+            resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolNewUnitType,
             this.toolStripEditUnitType,
             this.toolStripDeleteUnitType,
-            this.toolStripToolUnType,
             this.toolStripNewSubUnType,
+            this.toolStripToolUnType,
             this.toolStripEditSubUnType,
             this.toolStripDeleteUnType,
             this.toolStripToolSubUnType,
             this.toolStripButton7});
-            resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Name = "toolStrip1";
             // 
             // ToolNewUnitType
             // 
-            this.ToolNewUnitType.Image = global::POS.Properties.Resources.ico_alpha_FolderOptions_16x16;
             resources.ApplyResources(this.ToolNewUnitType, "ToolNewUnitType");
+            this.ToolNewUnitType.Image = global::POS.Properties.Resources.ico_alpha_FolderOptions_16x16;
             this.ToolNewUnitType.Name = "ToolNewUnitType";
             this.ToolNewUnitType.Click += new System.EventHandler(this.ToolNewUnitType_Click);
             // 
             // toolStripEditUnitType
             // 
-            this.toolStripEditUnitType.Image = global::POS.Properties.Resources.ico_alpha_Rename_16x16;
             resources.ApplyResources(this.toolStripEditUnitType, "toolStripEditUnitType");
+            this.toolStripEditUnitType.Image = global::POS.Properties.Resources.ico_alpha_Rename_16x16;
             this.toolStripEditUnitType.Name = "toolStripEditUnitType";
             this.toolStripEditUnitType.Click += new System.EventHandler(this.toolStripEditUnitType_Click);
             // 
             // toolStripDeleteUnitType
             // 
-            this.toolStripDeleteUnitType.Image = global::POS.Properties.Resources.ico_alpha_Delete_16x16;
             resources.ApplyResources(this.toolStripDeleteUnitType, "toolStripDeleteUnitType");
+            this.toolStripDeleteUnitType.Image = global::POS.Properties.Resources.ico_alpha_Delete_16x16;
             this.toolStripDeleteUnitType.Name = "toolStripDeleteUnitType";
             this.toolStripDeleteUnitType.Click += new System.EventHandler(this.toolStripDeleteUnitType_Click);
             // 
             // toolStripToolUnType
             // 
+            resources.ApplyResources(this.toolStripToolUnType, "toolStripToolUnType");
             this.toolStripToolUnType.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripCloneUnType,
             this.toolStripPastUnType,
             this.toolStripExcelUnType});
             this.toolStripToolUnType.Image = global::POS.Properties.Resources.ico_alpha_Nav_Down_24x24;
-            resources.ApplyResources(this.toolStripToolUnType, "toolStripToolUnType");
             this.toolStripToolUnType.Name = "toolStripToolUnType";
             // 
             // toolStripCloneUnType
@@ -445,33 +447,33 @@ namespace POS.Reports
             // 
             // toolStripNewSubUnType
             // 
-            this.toolStripNewSubUnType.Image = global::POS.Properties.Resources.ico_alpha_FolderOptions_16x16;
             resources.ApplyResources(this.toolStripNewSubUnType, "toolStripNewSubUnType");
+            this.toolStripNewSubUnType.Image = global::POS.Properties.Resources.ico_alpha_FolderOptions_16x16;
             this.toolStripNewSubUnType.Name = "toolStripNewSubUnType";
             this.toolStripNewSubUnType.Click += new System.EventHandler(this.toolStripNewSubUnType_Click);
             // 
             // toolStripEditSubUnType
             // 
-            this.toolStripEditSubUnType.Image = global::POS.Properties.Resources.ico_alpha_Rename_16x16;
             resources.ApplyResources(this.toolStripEditSubUnType, "toolStripEditSubUnType");
+            this.toolStripEditSubUnType.Image = global::POS.Properties.Resources.ico_alpha_Rename_16x16;
             this.toolStripEditSubUnType.Name = "toolStripEditSubUnType";
             this.toolStripEditSubUnType.Click += new System.EventHandler(this.toolStripEditSubUnType_Click);
             // 
             // toolStripDeleteUnType
             // 
-            this.toolStripDeleteUnType.Image = global::POS.Properties.Resources.ico_alpha_Delete_16x16;
             resources.ApplyResources(this.toolStripDeleteUnType, "toolStripDeleteUnType");
+            this.toolStripDeleteUnType.Image = global::POS.Properties.Resources.ico_alpha_Delete_16x16;
             this.toolStripDeleteUnType.Name = "toolStripDeleteUnType";
             this.toolStripDeleteUnType.Click += new System.EventHandler(this.toolStripDeleteUnType_Click);
             // 
             // toolStripToolSubUnType
             // 
+            resources.ApplyResources(this.toolStripToolSubUnType, "toolStripToolSubUnType");
             this.toolStripToolSubUnType.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripCloneSubUnType,
             this.toolStripPasteSubUnType,
             this.toolStripExcelSubUnType});
             this.toolStripToolSubUnType.Image = global::POS.Properties.Resources.ico_alpha_Nav_Down_24x24;
-            resources.ApplyResources(this.toolStripToolSubUnType, "toolStripToolSubUnType");
             this.toolStripToolSubUnType.Name = "toolStripToolSubUnType";
             // 
             // toolStripCloneSubUnType
@@ -494,10 +496,10 @@ namespace POS.Reports
             // 
             // toolStripButton7
             // 
+            resources.ApplyResources(this.toolStripButton7, "toolStripButton7");
             this.toolStripButton7.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton7.Image = global::POS.Properties.Resources.Close_64;
-            resources.ApplyResources(this.toolStripButton7, "toolStripButton7");
             this.toolStripButton7.Name = "toolStripButton7";
             this.toolStripButton7.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
